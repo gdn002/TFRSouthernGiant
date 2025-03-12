@@ -1,0 +1,86 @@
+defined_text = {
+	name = get_chamber_wing_status_progressives
+	
+	text = {
+		trigger = {
+			BRA = {
+                has_country_flag = BRA_progressive_administration_flag
+			}
+		}
+		localization_key = "chamber_of_deputies_aligned"
+	}
+    text = {
+		trigger = {
+			BRA = {
+                has_country_flag = BRA_centrist_administration_flag
+			}
+		}
+		localization_key = "chamber_of_deputies_progressives_unaligned"
+	}
+    text = {
+		trigger = {
+			BRA = {
+                has_country_flag = BRA_reactionary_administration_flag
+			}
+		}
+		localization_key = "chamber_of_deputies_opposed"
+	}
+}
+
+defined_text = {
+	name = get_chamber_wing_status_centrists
+	
+	text = {
+		trigger = {
+			BRA = {
+                has_country_flag = BRA_progressive_administration_flag
+			}
+		}
+		localization_key = "chamber_of_deputies_centrists_unaligned"
+	}
+    text = {
+		trigger = {
+			BRA = {
+                has_country_flag = BRA_centrist_administration_flag
+			}
+		}
+		localization_key = "chamber_of_deputies_aligned"
+	}
+    text = {
+		trigger = {
+			BRA = {
+                has_country_flag = BRA_reactionary_administration_flag
+			}
+		}
+		localization_key = "chamber_of_deputies_centrists_unaligned"
+	}
+}
+
+defined_text = {
+	name = get_chamber_wing_status_reactionary
+	
+	text = {
+		trigger = {
+			BRA = {
+                has_country_flag = BRA_progressive_administration_flag
+			}
+		}
+		localization_key = "chamber_of_deputies_opposed"
+	}
+    text = {
+		trigger = {
+			BRA = {
+                has_country_flag = BRA_centrist_administration_flag
+			}
+		}
+		localization_key = "chamber_of_deputies_reactionary_unaligned"
+	}
+    text = {
+		trigger = {
+			BRA = {
+                has_country_flag = BRA_reactionary_administration_flag
+			}
+		}
+		localization_key = "chamber_of_deputies_aligned"
+	}
+}

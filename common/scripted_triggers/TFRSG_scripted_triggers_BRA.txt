@@ -1,0 +1,67 @@
+is_brazilian_unifier = {
+	OR = {
+		original_tag = BRA
+		original_tag = BR1
+		original_tag = BR2
+		original_tag = BR3
+		original_tag = BR4
+	}
+}
+
+is_brazilian_breakaway = {
+	OR = {
+		original_tag = BRA
+		original_tag = BR1
+		original_tag = BR2
+		original_tag = BR3
+		original_tag = BR4
+		original_tag = SUL
+		original_tag = SPA
+		original_tag = AMZ
+		original_tag = UNB
+	}
+}
+
+BRA_has_chamber_support_pl = {
+	custom_trigger_tooltip = {
+		tooltip = BRA_has_chamber_support_pl_tooltip
+		check_variable = {
+			var = BRA_chamber_total_support_var
+			value = 257
+			compare = greater_than_or_equals
+		}
+	}
+}
+
+BRA_has_chamber_support_pec = {
+	custom_trigger_tooltip = {
+		tooltip = BRA_has_chamber_support_pec_tooltip
+		check_variable = {
+			var = BRA_chamber_total_support_var
+			value = 308
+			compare = greater_than_or_equals
+		}
+	}
+}
+
+BRA_has_centrao_influence_greater_than_or_equals = {
+	custom_trigger_tooltip = {
+		tooltip = BRA_has_centrao_influence_greater_than_or_equals_tooltip
+		check_variable = {
+			var = BRA_centrao_influence_var
+			value = BRA_centrao_influence_trigger_temp
+			compare = greater_than_or_equals
+		}
+	}
+}
+
+BRA_has_centrao_influence_less_than_or_equals = {
+	custom_trigger_tooltip = {
+		tooltip = BRA_has_centrao_influence_less_than_or_equals_tooltip
+		check_variable = {
+			var = BRA_centrao_influence_var
+			value = BRA_centrao_influence_trigger_temp
+			compare = less_than_or_equals
+		}
+	}
+}

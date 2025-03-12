@@ -1,0 +1,50 @@
+﻿l_english:
+ #Leaders
+ #Focuses
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #Ideas
+ #Decision Categories
+ #Missions
+ #Decisions
+ #Country Flag
+ #Tooltips
+ #Faction
+ #Parties
+ BR4_national_socialist_party: "§ROUTLAWED§!"
+ BR4_national_socialist_party_long: "§ROUTLAWED§!"
+ BR4_fascist_party: "FIB"
+ BR4_fascist_party_long: "Brazilian Integralist Front"
+ BR4_nationalist_party: "UNR"
+ BR4_nationalist_party_long: "National Restoration Union"
+ BR4_authoritarian_democrat_party: "§ROUTLAWED§!"
+ BR4_authoritarian_democrat_party_long: "§ROUTLAWED§!"
+ BR4_conservative_party: "§ROUTLAWED§!"
+ BR4_conservative_party_long: "§ROUTLAWED§!"
+ BR4_market_liberal_party: "§ROUTLAWED§!"
+ BR4_market_liberal_party_long: "§ROUTLAWED§!"
+ BR4_social_liberal_party: "MNPD"
+ BR4_social_liberal_party_long: "National Movement for Democracy" 
+ BR4_social_democrat_party: "§ROUTLAWED§!"
+ BR4_social_democrat_party_long: "§ROUTLAWED§!"
+ BR4_libertarian_socialist_party: "§ROUTLAWED§!"
+ BR4_libertarian_socialist_party_long: "§ROUTLAWED§!"
+ BR4_communist_party: "§ROUTLAWED§!"
+ BR4_communist_party_long: "§ROUTLAWED§!"
+ BR4_totalitarian_socialist_party: "§ROUTLAWED§!"
+ BR4_totalitarian_socialist_party_long: "§ROUTLAWED§!"
+
+ BR4_nationalist_party_monarchist: "House of Orléans-Braganza"
+ BR4_nationalist_party_monarchist_long: "House of Orléans-Braganza"
+ #Country
+ #Summary
+ #Events

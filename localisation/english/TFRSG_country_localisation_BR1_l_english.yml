@@ -1,0 +1,52 @@
+﻿l_english:
+ #Leaders
+ #Focuses
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #Ideas
+ BR1_emergency_government_idea: "Emergency Government"
+ BR1_emergency_government_idea_desc: "With the military authoritarians in total control of the capital and our institutions, we were lucky to have been able to assemble a provisional government this hastily in the former capital. While the essential facilities for a continuation of government duties are there, we still find ourselves in charge of a dilapidated establishment. The remaining senators and deputies are on edge, and traitors could be anywhere."
+ BR1_insecure_command_idea: "Insecure High Command"
+ BR1_insecure_command_idea_desc: "The Brazilian High Command has never been anything to boast about. Many of our generals have sided with the coup ringleaders in Brasília, leaving us with merely a skeleton crew who remain shaky at the idea of facing off their peers. They must be made to abide by their sworn duty to the Brazilian government, for better or worse."
+ #Decision Categories
+ #Missions
+ #Decisions
+ #Country Flag
+ #Tooltips
+ #Faction
+ BR1_sato_faction: "South American Treaty Organization"
+ #Parties
+ BR1_national_socialist_party: "§ROUTLAWED§!"
+ BR1_national_socialist_party_long: "§ROUTLAWED§!"
+ BR1_fascist_party: "§ROUTLAWED§!"
+ BR1_fascist_party_long: "§ROUTLAWED§!"
+ BR1_nationalist_party: "§ROUTLAWED§!"
+ BR1_nationalist_party_long: "§ROUTLAWED§!"
+ BR1_authoritarian_democrat_party: "GOV"
+ BR1_authoritarian_democrat_party_long: "Brazilian Federal Government Authority"
+ BR1_conservative_party: "AVANTE"
+ BR1_conservative_party_long: "Avante" 
+ BR1_market_liberal_party: "PSD"
+ BR1_market_liberal_party_long: "Social Democratic Party" 
+ BR1_social_liberal_party: "PSDB/MDB"
+ BR1_social_liberal_party_long: "Brazilian Social Democracy Party/Brazilian Democratic Movement Party" 
+ BR1_social_democrat_party: "PT" 
+ BR1_social_democrat_party_long: "Worker's Party" 
+ BR1_libertarian_socialist_party: "PSB"
+ BR1_libertarian_socialist_party_long: "Brazilian Socialist Party" 
+ BR1_communist_party: "§ROUTLAWED§!"
+ BR1_communist_party_long: "§ROUTLAWED§!"
+ BR1_totalitarian_socialist_party: "§ROUTLAWED§!"
+ BR1_totalitarian_socialist_party_long: "§ROUTLAWED§!"
+ #Country
+ #Summary
+ #Events

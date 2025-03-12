@@ -1,0 +1,87 @@
+﻿l_english:
+ #Events
+ Brazil.front.1.t: "The Brazilian Popular Front Rises!"
+ Brazil.front.1.d: "The Brazilian Popular Front was formed from the unlikely union of Brazil's many socialist and communist parties under the revolutionary banner of the Popular Unity party. Created as a response to the Bolsonaro administration and encroaching reactionary thought in the country, our movement aimed to present a strong united opposition front from the far-left.\nWhile we initially conceded to the much more popular Worker's Party in backing Lula in the 2022 elections, the collapse of the Brazilian government has led them to show their true colors as they would rather align with the burgeouise elites in trying to uphold a failed establishment rather than take this once-in-a-lifetime opportunity to finally give power back to the Brazilian worker.\nSo the responsibility falls onto us. As the despots and the elites fight over the carcass of the old country, we will unite the Brazilian workers. We will strengthen our vanguard. And when the time is right, we shall liberate Brazil!"
+ Brazil.front.1.d: "O povo, unido, jamais será vencido!"
+ #Focuses
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #Ideas
+ BR3_popular_front_idea: "Popular Front"
+ BR3_popular_front_idea_desc: "While we may have disagreements on the exact method, the many parties and peoples of the Brazilian Popular Front all share the same objective: To depose the corrupt Brazilian burgeouise elites and install a government truly of the people, for the people. While there will be time for political discussion and faction bickering after the dust settles, right now our people are dominated by an uncontested revolutionary fervor that spreads to workers throughout Brazil!\n\n§RNow or never, Brazil will be red!§!"
+ BR3_disorganized_warfare_idea: "Disorganized Warfare"
+ BR3_disorganized_warfare_idea_desc: "Nobody was expecting a revolutionary war to not be messy, but we still should abide by some standards. Our primary forces are currently comprised of poorly organized militias that are barely indistinguishable from organized crime gangs. If we expect to hold our own against the Brazilian army, we will need to establish doctrines and rules of engagement, as well as train our fighters so they're ready for anything."
+ BR3_guerrila_warfare_idea: "Guerrila Warfare"
+ BR3_guerrila_warfare_idea_desc: "Our militias have evolved from a disorganized rabble into a competent fighting force, able to engage and sustain in guerrila warfare. Such tactics enable us to hold the line against the enemy for now, but we will need to establish a semi-professional army if we expect to devise and execute the tactics required to go on the offensive and liberate all of Brazil."
+ BR3_liberation_army_idea: "Brazilian Liberation Army"
+ BR3_liberation_army_idea_desc: "Thanks to extensive training programs and combat experience, our fighters not only are able to counter enemy tactics, but also devise their own. The old Brazilian high command is full of soft old men who landed a cushy job and never had to ever think about the reality of battle. Our Liberation Army has been forged from scratch in fire and fury and has become hardened as a result, now having what it takes to push back against the enemy."
+ BR3_uncontrolled_industrial_output_idea: "Uncontrolled Industrial Output"
+ BR3_uncontrolled_industrial_output_idea_desc: "The labor force in our farms and factories is in chaos. This comes at no surprise, as the capital owners have fled to other parts of the country or abroad, leaving our workers without directions. We must seize the means of production and restart our industrial base, for the first time not with profit in mind, but for the good of the common people!"
+ BR3_redirected_industrial_output_idea: "Redirected Industrial Output"
+ BR3_redirected_industrial_output_idea_desc: "The means of production are finally ours! Without the capital owning class in our way, we've been able to assume direct control of our industrial capabilities, and make it the most efficient it has ever been. Our workers toil no longer for the profit of the few, but for the revolution!"
+ BR3_redirected_industrial_output_mil_idea: "Redirected Industrial Output"
+ BR3_redirected_industrial_output_mil_idea_desc: "$BR3_redirected_industrial_output_idea_desc$"
+ BR3_redirected_industrial_output_civ_idea: "Redirected Industrial Output"
+ BR3_redirected_industrial_output_civ_idea_desc: "$BR3_redirected_industrial_output_idea_desc$"
+ BR3_popular_front_strikes_idea: "Popular Front Strikes"
+ #Decision Categories
+ #Missions
+ #Decisions
+ #Country Flag
+ #Tooltips
+ #Faction
+ BR3_oslan_faction: "Organization of Sovereign Latin American Nations"
+ BR3_ladi_faction: "Latin American Defense Initiative"
+ #Parties
+ BR3_national_socialist_party: "§ROUTLAWED§!"
+ BR3_national_socialist_party_long: "§ROUTLAWED§!"
+ BR3_fascist_party: "§ROUTLAWED§!"
+ BR3_fascist_party_long: "§ROUTLAWED§!"
+ BR3_nationalist_party: "§ROUTLAWED§!"
+ BR3_nationalist_party_long: "§ROUTLAWED§!"
+ BR3_authoritarian_democrat_party: "§ROUTLAWED§!"
+ BR3_authoritarian_democrat_party_long: "§ROUTLAWED§!"
+ BR3_conservative_party: "§ROUTLAWED§!"
+ BR3_conservative_party_long: "§ROUTLAWED§!" 
+ BR3_market_liberal_party: "§ROUTLAWED§!"
+ BR3_market_liberal_party_long: "§ROUTLAWED§!" 
+ BR3_social_liberal_party: "§ROUTLAWED§!"
+ BR3_social_liberal_party_long: "§ROUTLAWED§!" 
+ BR3_social_democrat_party: "PSOL - Moderates" 
+ BR3_social_democrat_party_long: "Socialism and Liberty Party - Moderates" 
+ BR3_libertarian_socialist_party: "PSOL - Radicals"
+ BR3_libertarian_socialist_party_long: "Socialism and Liberty Party - Radicals" 
+ BR3_communist_party: "PCB" 
+ BR3_communist_party_long: "Brazilian Communist Party"
+ BR3_totalitarian_socialist_party: "PCO"
+ BR3_totalitarian_socialist_party_long: "Worker's Cause Party"
+
+ BR3_social_democrat_party_pt: "NPT" 
+ BR3_social_democrat_party_pt_long: "New Worker's Party" 
+ BR3_social_democrat_party_psol: "PSOL" 
+ BR3_social_democrat_party_psol_long: "Socialism and Liberty Party" 
+
+ BR3_libertarian_socialist_party_pcb: "PCB - Libertarians"
+ BR3_libertarian_socialist_party_pcb_long: "Brazilian Communist Party - Libertarians" 
+ BR3_communist_party_pcb: "PCB - Centrists" 
+ BR3_communist_party_pcb_long: "Brazilian Communist Party - Centrists"
+ BR3_totalitarian_socialist_party_pcb: "PCB - Hardliners"
+ BR3_totalitarian_socialist_party_pcb_long: "Brazilian Communist Party - Hardliners"
+
+ BR3_communist_party_pco: "PCO - Libertarians" 
+ BR3_communist_party_pco_long: "Worker's Cause Party - Libertarians"
+ BR3_communist_party_pco: "PCO - Pragmatists" 
+ BR3_communist_party_pco_long: "Worker's Cause Party - Pragmatists"
+ BR3_totalitarian_socialist_party_pco: "PCO - Totalists"
+ BR3_totalitarian_socialist_party_pco_long: "Worker's Cause Party - Totalists"
+ #Country
+ #Summary

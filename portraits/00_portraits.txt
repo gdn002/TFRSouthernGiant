@@ -1,0 +1,4735 @@
+# OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
+# Current version: 1.0.5
+# Changes:
+# - Adds TFRSG generic portrait definitions
+
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	male = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+	female = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+	
+	operative = {
+		male = {
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Jeremy_Elbertson_New.png"
+			"gfx/leaders/AGENT/operative_male_9.png"
+		}
+		female = {
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/Agent.png"
+			"gfx/leaders/AGENT/FrancineSpy.png"
+			"gfx/leaders/AGENT/SarahSpy.png"
+		}
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"gfx/leaders/Europe/general1.png"
+			"gfx/leaders/Europe/general2.png"
+			"gfx/leaders/Europe/general3.png"
+			"gfx/leaders/Europe/general4.png"
+			"gfx/leaders/Europe/general5.png"
+			"gfx/leaders/Europe/general6.png"
+			"gfx/leaders/Europe/general7.png"
+			"gfx/leaders/Europe/general8.png"
+			"gfx/leaders/Europe/general9.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.png"
+			"gfx/leaders/Europe/admiral2.png"
+			"gfx/leaders/Europe/admiral3.png"
+		}
+	}
+	
+	political = {
+		totalitarian_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		communist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		libertarian_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		fascist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		national_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/Beck.png"
+				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician18.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/TFR/Francine.png"
+				"gfx/leaders/TFR/Sarah.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = north_america
+	
+	army = {
+		male = {
+			"gfx/leaders/Europe/general1.png"
+			"gfx/leaders/Europe/general2.png"
+			"gfx/leaders/Europe/general3.png"
+			"gfx/leaders/Europe/general4.png"
+			"gfx/leaders/Europe/general5.png"
+			"gfx/leaders/Europe/general6.png"
+			"gfx/leaders/Europe/general8.png"
+			"gfx/leaders/Europe/general9.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.png"
+			"gfx/leaders/Europe/admiral2.png"
+			"gfx/leaders/Europe/admiral3.png"
+		}
+	}
+	
+	political = {
+		communist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		totalitarian_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		libertarian_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		fascist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		national_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician8.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician19.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"gfx/leaders/Arabia/general.png"
+			"gfx/leaders/Arabia/general1.png"
+			"gfx/leaders/Arabia/general2.png"
+			"gfx/leaders/Arabia/general3.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.png"
+			"gfx/leaders/Europe/admiral2.png"
+			"gfx/leaders/Europe/admiral3.png"
+		}
+	}
+	
+	political = {
+		totalitarian_socialist = {
+			male = { 
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		communist = {
+			male = { 
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		national_socialist = {
+			male = { 
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/general7.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"gfx/leaders/South America/general1.png"
+			"gfx/leaders/Europe/general1.png"
+			"gfx/leaders/Europe/general2.png"
+			"gfx/leaders/Europe/general3.png"
+			"gfx/leaders/Europe/general4.png"
+			"gfx/leaders/Europe/general5.png"
+			"gfx/leaders/Europe/general6.png"
+			"gfx/leaders/Europe/general8.png"
+			"gfx/leaders/Europe/general9.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.png"
+			"gfx/leaders/Europe/admiral2.png"
+			"gfx/leaders/Europe/admiral3.png"
+		}
+	}
+	
+	political = {
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		communist = {
+			male = {
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/South America/general1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/South America/politician1.png"
+				"gfx/leaders/South America/politician2.png"
+				"gfx/leaders/South America/politician3.png"
+				"gfx/leaders/South America/politician4.png"
+				"gfx/leaders/South America/politician5.png"
+				"gfx/leaders/South America/politician6.png"
+				"gfx/leaders/South America/general1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"gfx/leaders/Europe/general1.png"
+			"gfx/leaders/Europe/general2.png"
+			"gfx/leaders/Europe/general3.png"
+			"gfx/leaders/Europe/general4.png"
+			"gfx/leaders/Europe/general5.png"
+			"gfx/leaders/Europe/general6.png"
+			"gfx/leaders/Europe/general7.png"
+			"gfx/leaders/Europe/general8.png"
+			"gfx/leaders/Europe/general9.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.png"
+			"gfx/leaders/Europe/admiral2.png"
+			"gfx/leaders/Europe/admiral3.png"
+		}
+	}
+	
+	political = {
+		totalitarian_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		communist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		libertarian_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		fascist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		national_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician4.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+				"gfx/leaders/Europe/politician20.png"
+				"gfx/leaders/Europe/politician21.png"
+				"gfx/leaders/Europe/politician22.png"
+				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/general1.png"
+				"gfx/leaders/Europe/general4.png"
+				"gfx/leaders/Europe/general7.png"
+				"gfx/leaders/Europe/general8.png"
+				"gfx/leaders/Europe/general9.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female2.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"gfx/leaders/Africa/general1.png"
+			"gfx/leaders/Africa/general2.png"
+			"gfx/leaders/Africa/general3.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Africa/general1.png"
+			"gfx/leaders/Africa/general2.png"
+			"gfx/leaders/Africa/general3.png"
+		}
+	}
+	
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/Africa/politician_nationalist1.png"
+				"gfx/leaders/Africa/politician_nationalist2.png"
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/Africa/politician_nationalist1.png"
+				"gfx/leaders/Africa/politician_nationalist2.png"
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/Africa/general2.png"
+				"gfx/leaders/Africa/general3.png"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/Africa/politician_nationalist1.png"
+				"gfx/leaders/Africa/politician_nationalist2.png"
+				"gfx/leaders/Africa/politician1.png"
+				"gfx/leaders/Africa/politician2.png"
+				"gfx/leaders/Africa/politician3.png"
+				"gfx/leaders/Africa/politician4.png"
+				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/Africa/general2.png"
+				"gfx/leaders/Africa/general3.png"
+			}
+		}
+	}
+}
+
+continent = {
+	name = asia
+	army = {
+		#communist = {
+		#	male = {
+		#		"gfx/leaders/Asia/general3.png"
+		#	}
+		#}
+		#totalitarian_socialist = {
+		#	male = {
+		#		"gfx/leaders/Asia/general3.png"
+		#	}
+		#}
+		#libertarian_socialist = {
+		#	male = {
+		#		"gfx/leaders/Asia/general3.png"
+		#	}
+		#}
+		male = {
+			"gfx/leaders/Asia/general1.png"
+			"gfx/leaders/Asia/general2.png"
+			"gfx/leaders/Asia/general3.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Asia/general1.png"
+			"gfx/leaders/Asia/general2.png"
+		}
+	}
+
+	political = {
+		communist = {
+			male = { 
+				"gfx/leaders/Asia/politician_communist1.png"
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+				"gfx/leaders/Asia/general2.png"
+			}
+		}
+		maoist = {
+			male = { 
+				"gfx/leaders/Asia/politician_communist1.png"
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+				"gfx/leaders/Asia/general2.png"
+			}
+		}
+		totalitarian_socialist = {
+			male = { 
+				"gfx/leaders/Asia/politician_communist1.png"
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+				"gfx/leaders/Asia/general2.png"
+			}
+		}
+		libertarian_socialist = {
+			male = { 
+				"gfx/leaders/Asia/politician_communist1.png"
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+				"gfx/leaders/Asia/general2.png"
+				"gfx/leaders/Asia/general3.png"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+			}
+		}
+		social_liberal = {
+			male = { 
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = { 
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+				"gfx/leaders/Asia/general1.png"
+			}
+			female = {
+				"gfx/leaders/Asia/politician_female1.png"
+			}
+		}
+		fascist = {
+			male = { 
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+				"gfx/leaders/Asia/general1.png"
+			}
+			female = {
+				"gfx/leaders/Asia/politician_female1.png"
+			}
+		}
+		national_socialist = {
+			male = { 
+				"gfx/leaders/Asia/politician1.png"
+				"gfx/leaders/Asia/politician2.png"
+				"gfx/leaders/Asia/politician3.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician4.png"
+				"gfx/leaders/Asia/politician5.png"
+				"gfx/leaders/Asia/politician6.png"
+				"gfx/leaders/Asia/politician7.png"
+				"gfx/leaders/Asia/politician8.png"
+				"gfx/leaders/Asia/politician9.png"
+				"gfx/leaders/Asia/politician10.png"
+				"gfx/leaders/Asia/general1.png"
+			}
+			female = {
+				"gfx/leaders/Asia/politician_female1.png"
+			}
+		}
+	}	
+}
+
+AFG = {
+	army = {
+		male = {
+			"gfx/leaders/Arabia/general.png"
+			"gfx/leaders/Arabia/general1.png"
+			"gfx/leaders/Arabia/general2.png"
+			"gfx/leaders/Arabia/general3.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.png"
+			"gfx/leaders/Europe/admiral2.png"
+			"gfx/leaders/Europe/admiral3.png"
+		}
+	}
+	
+	political = {
+		totalitarian_socialist = {
+			male = { 
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		communist = {
+			male = { 
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		national_socialist = {
+			male = { 
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/general7.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+	}
+
+}
+
+TAL = {
+	army = {
+		male = {
+			"gfx/leaders/Arabia/general.png"
+			"gfx/leaders/Arabia/general1.png"
+			"gfx/leaders/Arabia/general2.png"
+			"gfx/leaders/Arabia/general3.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.png"
+			"gfx/leaders/Europe/admiral2.png"
+			"gfx/leaders/Europe/admiral3.png"
+		}
+	}
+	
+	political = {
+		totalitarian_socialist = {
+			male = { 
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		communist = {
+			male = { 
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician9.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician2.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician7.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician11.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/politician16.png"
+				"gfx/leaders/Europe/politician17.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician16.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician5.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician12.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+		national_socialist = {
+			male = { 
+				"gfx/leaders/Arabia/general.png"
+				"gfx/leaders/Arabia/general3.png"
+				"gfx/leaders/Arabia/politician1.png"
+				"gfx/leaders/Europe/politician3.png"
+				"gfx/leaders/Europe/politician6.png"
+				"gfx/leaders/Europe/politician10.png"
+				"gfx/leaders/Europe/politician13.png"
+				"gfx/leaders/Europe/politician14.png"
+				"gfx/leaders/Europe/politician15.png"
+				"gfx/leaders/Europe/general7.png"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.png"
+				"gfx/leaders/Europe/politician_female3.png"
+			}
+		}
+	}
+
+}
+
+RAJ = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+SAJ = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+			}
+		}
+	}
+}
+
+ULF = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+PAK = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+HUL = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+BAL = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+IRB = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+KHL = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+RJN = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+SLJ = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+AN1 = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+ISK = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+TLP = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+SAJ = {
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		totalitarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		libertarian_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+		national_socialist = {
+			male = {
+				"gfx/leaders/RAJ/politician1.png"
+				"gfx/leaders/RAJ/politician2.png"
+				"gfx/leaders/RAJ/politician3.dds"
+			}
+		}
+	}
+}
+
+TFM = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general1.png"
+			"gfx/leaders/2ACW/general2.png"
+			"gfx/leaders/2ACW/general3.png"
+			"gfx/leaders/2ACW/general4.png"
+			"gfx/leaders/2ACW/general5.png"
+			"gfx/leaders/2ACW/general6.png"
+			"gfx/leaders/2ACW/general7.png"
+			"gfx/leaders/2ACW/general8.png"
+			"gfx/leaders/2ACW/general9.png"
+		}
+	}
+}
+CLM = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general1.png"
+			"gfx/leaders/2ACW/general2.png"
+			"gfx/leaders/2ACW/general3.png"
+			"gfx/leaders/2ACW/general4.png"
+			"gfx/leaders/2ACW/general5.png"
+			"gfx/leaders/2ACW/general6.png"
+			"gfx/leaders/2ACW/general7.png"
+			"gfx/leaders/2ACW/general8.png"
+			"gfx/leaders/2ACW/general9.png"
+		}
+	}
+}
+FLA = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general1.png"
+			"gfx/leaders/2ACW/general2.png"
+			"gfx/leaders/2ACW/general3.png"
+			"gfx/leaders/2ACW/general4.png"
+			"gfx/leaders/2ACW/general5.png"
+			"gfx/leaders/2ACW/general6.png"
+			"gfx/leaders/2ACW/general7.png"
+			"gfx/leaders/2ACW/general8.png"
+			"gfx/leaders/2ACW/general9.png"
+		}
+	}
+}
+FLM = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general1.png"
+			"gfx/leaders/2ACW/general2.png"
+			"gfx/leaders/2ACW/general3.png"
+			"gfx/leaders/2ACW/general4.png"
+			"gfx/leaders/2ACW/general5.png"
+			"gfx/leaders/2ACW/general6.png"
+			"gfx/leaders/2ACW/general7.png"
+			"gfx/leaders/2ACW/general8.png"
+			"gfx/leaders/2ACW/general9.png"
+		}
+	}
+}
+CAL = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general1.png"
+			"gfx/leaders/2ACW/general2.png"
+			"gfx/leaders/2ACW/general3.png"
+			"gfx/leaders/2ACW/general4.png"
+			"gfx/leaders/2ACW/general5.png"
+			"gfx/leaders/2ACW/general6.png"
+			"gfx/leaders/2ACW/general7.png"
+			"gfx/leaders/2ACW/general8.png"
+			"gfx/leaders/2ACW/general9.png"
+		}
+	}
+}
+LOS = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general13.png"
+			"gfx/leaders/2ACW/general15.png"
+		}
+	}
+}
+ATH = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general17.png"
+			"gfx/leaders/2ACW/general18.png"
+		}
+	}
+}
+ATP = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general17.png"
+			"gfx/leaders/2ACW/general18.png"
+		}
+	}
+}
+ATS = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general17.png"
+			"gfx/leaders/2ACW/general18.png"
+		}
+	}
+}
+RGA = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general17.png"
+			"gfx/leaders/2ACW/general18.png"
+		}
+	}
+}
+TRG = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general17.png"
+			"gfx/leaders/2ACW/general18.png"
+		}
+	}
+}
+AAS = {
+	army = {
+		male = {
+			"gfx/leaders/Terrorists/Jihadi_Jon.dds"
+			"gfx/leaders/Terrorists/terror.png"
+		}
+	}
+}
+JAH = {
+	army = {
+		male = {
+			"gfx/leaders/Terrorists/Jihadi_Jon.dds"
+			"gfx/leaders/Terrorists/terror.png"
+		}
+	}
+}
+ISS = {
+	army = {
+		male = {
+			"gfx/leaders/Terrorists/Jihadi_Jon.dds"
+			"gfx/leaders/Terrorists/terror.png"
+		}
+	}
+}
+ATW = {
+	army = {
+		male = {
+			"gfx/leaders/2ACW/general27.png"
+			"gfx/leaders/2ACW/general28.png"
+			"GFX_Portrait_ATW_Generic_land_1"
+			"GFX_Portrait_ATW_Generic_land_2"
+			"GFX_Portrait_ATW_Generic_land_3"
+		}
+	}
+}
+CAC = {
+	army = {
+		male = {
+			"GFX_Portrait_CAC_Generic_land_1"
+			"GFX_Portrait_CAC_Generic_land_2"
+		}
+	}
+}
+
+SOV = {
+	army = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_land_1"
+			"GFX_Portrait_Soviet_Generic_land_2"
+			"GFX_Portrait_Soviet_Generic_land_3"
+			"GFX_Portrait_Soviet_Generic_land_4"
+			"GFX_Portrait_Soviet_Generic_land_5"
+			"GFX_Portrait_Soviet_Generic_land_6"
+			"GFX_Portrait_Soviet_Generic_land_7"
+			"GFX_Portrait_Soviet_Generic_land_8"
+			"GFX_Portrait_Soviet_Generic_land_9"
+			"GFX_Portrait_Soviet_Generic_land_10"
+			"GFX_Portrait_Soviet_Generic_land_11"
+			"GFX_Portrait_Soviet_Generic_land_12"
+			"GFX_Portrait_Soviet_Generic_land_13"
+			"GFX_Portrait_Soviet_Generic_land_14"
+			"GFX_Portrait_Soviet_Generic_land_15"
+			"GFX_Portrait_Soviet_Generic_land_16"
+			"GFX_Portrait_Soviet_Generic_land_17"
+			"GFX_Portrait_Soviet_Generic_land_18"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_navy_1"
+			"GFX_Portrait_Soviet_Generic_navy_2"
+			"GFX_Portrait_Soviet_Generic_navy_3"
+		}
+	}
+}
+FRA = {
+	army = {
+		male = {
+			"GFX_Portrait_FRA_generic_general_5"
+			"GFX_Portrait_FRA_generic_general_4"
+			"GFX_Portrait_FRA_generic_general_3"
+			"GFX_Portrait_FRA_generic_general_2"
+			"GFX_Portrait_FRA_generic_general_1"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_navy_1"
+			"GFX_Portrait_Soviet_Generic_navy_2"
+			"GFX_Portrait_Soviet_Generic_navy_3"
+		}
+	}
+}
+FAF = {
+	army = {
+		male = {
+			"GFX_Portrait_FRA_generic_general_5"
+			"GFX_Portrait_FRA_generic_general_4"
+			"GFX_Portrait_FRA_generic_general_3"
+			"GFX_Portrait_FRA_generic_general_2"
+			"GFX_Portrait_FRA_generic_general_1"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_navy_1"
+			"GFX_Portrait_Soviet_Generic_navy_2"
+			"GFX_Portrait_Soviet_Generic_navy_3"
+		}
+	}
+}
+FPR = {
+	army = {
+		male = {
+			"GFX_Portrait_FRA_generic_general_5"
+			"GFX_Portrait_FRA_generic_general_4"
+			"GFX_Portrait_FRA_generic_general_3"
+			"GFX_Portrait_FRA_generic_general_2"
+			"GFX_Portrait_FRA_generic_general_1"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_navy_1"
+			"GFX_Portrait_Soviet_Generic_navy_2"
+			"GFX_Portrait_Soviet_Generic_navy_3"
+		}
+	}
+}
+PRC = {
+	army = {
+		male = {
+			"GFX_Portrait_PRC_Generic_general_1"
+			"GFX_Portrait_PRC_Generic_general_2"
+			"GFX_Portrait_PRC_Generic_general_4"
+			"GFX_Portrait_PRC_Generic_general_5"
+			"GFX_Portrait_PRC_Generic_general_6"
+			"GFX_Portrait_PRC_Generic_general_7"
+			"GFX_Portrait_PRC_Generic_general_8"
+		}
+		female = {
+			"GFX_Portrait_PRC_Generic_general_3"
+			"GFX_Portrait_PRC_Generic_general_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_PRC_Generic_admiral_1"
+		}
+	}
+}
+PRC_military_administration = {
+	army = {
+		male = {
+			"GFX_Portrait_PRC_Generic_general_1"
+			"GFX_Portrait_PRC_Generic_general_2"
+			"GFX_Portrait_PRC_Generic_general_4"
+			"GFX_Portrait_PRC_Generic_general_5"
+			"GFX_Portrait_PRC_Generic_general_6"
+			"GFX_Portrait_PRC_Generic_general_7"
+			"GFX_Portrait_PRC_Generic_general_8"
+		}
+		female = {
+			"GFX_Portrait_PRC_Generic_general_3"
+			"GFX_Portrait_PRC_Generic_general_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_PRC_Generic_admiral_1"
+		}
+	}
+	
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_PRC_Generic_general_1"
+				"GFX_Portrait_PRC_Generic_general_2"
+				"GFX_Portrait_PRC_Generic_general_4"
+				"GFX_Portrait_PRC_Generic_general_5"
+				"GFX_Portrait_PRC_Generic_general_6"
+				"GFX_Portrait_PRC_Generic_general_7"
+				"GFX_Portrait_PRC_Generic_general_8"
+			}
+			female = {
+				"GFX_Portrait_PRC_Generic_general_3"
+				"GFX_Portrait_PRC_Generic_general_9"
+			}
+		}
+	}
+}
+PRJ = {
+	army = {
+		male = {
+			"GFX_Portrait_PRC_Generic_general_1"
+			"GFX_Portrait_PRC_Generic_general_2"
+			"GFX_Portrait_PRC_Generic_general_4"
+			"GFX_Portrait_PRC_Generic_general_5"
+		}
+		female = {
+			"GFX_Portrait_PRC_Generic_general_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_PRC_Generic_admiral_1"
+		}
+	}
+}
+JAP = {
+	army = {
+		male = {
+			"GFX_Portrait_JGSDF_Generic_1"
+			"GFX_Portrait_JGSDF_Generic_2"
+			"GFX_Portrait_JGSDF_Generic_3"
+			"GFX_Portrait_JGSDF_Generic_4"
+			"GFX_Portrait_JGSDF_Generic_5"
+			"GFX_Portrait_JGSDF_Generic_6"
+		}
+	}
+}
+
+NSM = {
+	army = {
+		male = {
+			"GFX_Portrait_NSM_Generic_land_1"
+			"GFX_Portrait_NSM_Generic_land_2"
+			"GFX_Portrait_NSM_Generic_land_3"
+			"GFX_Portrait_NSM_Generic_land_4"
+			"GFX_Portrait_NSM_Generic_land_5"
+			"GFX_Portrait_NSM_Generic_land_6"
+		}
+	}
+}
+
+APA = {
+	army = {
+		male = {
+			"GFX_Portrait_APA_Generic_land_1"
+			"GFX_Portrait_APA_Generic_land_3"
+			"GFX_Portrait_APA_Generic_land_4"
+			"GFX_Portrait_APA_Generic_land_9"
+			"GFX_Portrait_APA_Generic_land_10"
+		}
+		female = {
+			"GFX_Portrait_APA_Generic_land_11"
+			"GFX_Portrait_APA_Generic_land_12"
+			"GFX_Portrait_APA_Generic_land_15"
+			"GFX_Portrait_APA_Generic_land_16"
+			"GFX_Portrait_APA_Generic_land_17"
+			"GFX_Portrait_APA_Generic_land_18"
+		}
+	}
+}
+
+PTF = {
+	army = {
+		male = {
+			"GFX_Portrait_PTF_Generic_land_1"
+			"GFX_Portrait_PTF_Generic_land_2"
+			"GFX_Portrait_PTF_Generic_land_3"
+			"GFX_Portrait_PTF_Generic_land_4"
+			"GFX_Portrait_PTF_Generic_land_5"
+			"GFX_Portrait_PTF_Generic_land_6"
+		}
+	}
+}
+
+GER = {
+	army = {
+		male = {
+			"GFX_Portrait_Germany_Generic_land_1"
+			"GFX_Portrait_Germany_Generic_land_2"
+			"GFX_Portrait_Germany_Generic_land_3"
+			"GFX_Portrait_Germany_Generic_land_4"
+			"GFX_Portrait_Germany_Generic_land_5"
+			"GFX_Portrait_Germany_Generic_land_6"
+			"GFX_Portrait_Germany_Generic_land_7"
+			"GFX_Portrait_Germany_Generic_land_8"
+			"gfx/leaders/GER/generic/general1.png"
+			"gfx/leaders/GER/generic/general2.png"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Germany_Generic_navy_1"
+			"GFX_Portrait_Germany_Generic_navy_2"
+			"GFX_Portrait_Germany_Generic_navy_3"
+		}
+	}
+}
+SOV_military_administration = {
+	political = {
+		totalitarian_socialist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_2 = {
+	political = {
+		totalitarian_socialist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_3 = {
+	political = {
+		totalitarian_socialist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_4 = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_5 = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_6 = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_7 = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_8 = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_9 = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_10 = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_11 = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+SOV_military_administration_12 = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Soviet_Generic_land_1"
+				"GFX_Portrait_Soviet_Generic_land_2"
+				"GFX_Portrait_Soviet_Generic_land_3"
+				"GFX_Portrait_Soviet_Generic_land_4"
+				"GFX_Portrait_Soviet_Generic_land_5"
+				"GFX_Portrait_Soviet_Generic_land_6"
+				"GFX_Portrait_Soviet_Generic_land_7"
+				"GFX_Portrait_Soviet_Generic_land_8"
+				"GFX_Portrait_Soviet_Generic_land_9"
+				"GFX_Portrait_Soviet_Generic_land_10"
+				"GFX_Portrait_Soviet_Generic_land_11"
+				"GFX_Portrait_Soviet_Generic_land_12"
+				"GFX_Portrait_Soviet_Generic_land_13"
+				"GFX_Portrait_Soviet_Generic_land_14"
+				"GFX_Portrait_Soviet_Generic_land_15"
+				"GFX_Portrait_Soviet_Generic_land_16"
+				"GFX_Portrait_Soviet_Generic_land_17"
+				"GFX_Portrait_Soviet_Generic_land_18"
+				"GFX_Portrait_Soviet_Generic_land_19"
+			}
+		}
+	}
+}
+
+# TFRSG
+BRA = {
+	navy = {
+		male = {
+		}
+		female = {
+		}
+	}
+	
+	army = {
+		male = {
+			"GFX_Portrait_Brazil_Generic_land_1"
+			"GFX_Portrait_Brazil_Generic_land_2"
+			"GFX_Portrait_Brazil_Generic_land_3"
+			"GFX_Portrait_Brazil_Generic_land_4"
+			"GFX_Portrait_Brazil_Generic_land_5"
+			"GFX_Portrait_Brazil_Generic_land_6"
+			"GFX_Portrait_Brazil_Generic_land_7"
+			"GFX_Portrait_Brazil_Generic_land_8"
+		}
+		female = {
+			"GFX_Portrait_Brazil_Generic_land_female_1"
+			"GFX_Portrait_Brazil_Generic_land_female_2"
+		}
+	}
+}
+
+BR1 = {
+	navy = {
+		male = {
+		}
+		female = {
+		}
+	}
+	
+	army = {
+		male = {
+			"GFX_Portrait_Brazil_Generic_land_1"
+			"GFX_Portrait_Brazil_Generic_land_2"
+			"GFX_Portrait_Brazil_Generic_land_3"
+			"GFX_Portrait_Brazil_Generic_land_4"
+			"GFX_Portrait_Brazil_Generic_land_5"
+			"GFX_Portrait_Brazil_Generic_land_6"
+			"GFX_Portrait_Brazil_Generic_land_7"
+			"GFX_Portrait_Brazil_Generic_land_8"
+		}
+		female = {
+			"GFX_Portrait_Brazil_Generic_land_female_1"
+			"GFX_Portrait_Brazil_Generic_land_female_2"
+		}
+	}
+}
+
+BR2 = {
+	navy = {
+		male = {
+		}
+		female = {
+		}
+	}
+	
+	army = {
+		male = {
+			"GFX_Portrait_Brazil_Generic_land_1"
+			"GFX_Portrait_Brazil_Generic_land_2"
+			"GFX_Portrait_Brazil_Generic_land_3"
+			"GFX_Portrait_Brazil_Generic_land_4"
+			"GFX_Portrait_Brazil_Generic_land_5"
+			"GFX_Portrait_Brazil_Generic_land_6"
+			"GFX_Portrait_Brazil_Generic_land_7"
+			"GFX_Portrait_Brazil_Generic_land_8"
+		}
+		female = {
+			"GFX_Portrait_Brazil_Generic_land_female_1"
+			"GFX_Portrait_Brazil_Generic_land_female_2"
+		}
+	}
+}
+
+BR3 = {
+	navy = {
+		male = {
+		}
+		female = {
+		}
+	}
+	
+	army = {
+		male = {
+			"GFX_Portrait_Brazil_Generic_soldier_1"
+			"GFX_Portrait_Brazil_Generic_soldier_2"
+			"GFX_Portrait_Brazil_Generic_soldier_3"
+			"GFX_Portrait_Brazil_Generic_soldier_4"
+			"GFX_Portrait_Brazil_Generic_soldier_5"
+			"GFX_Portrait_Brazil_Generic_soldier_6"
+			"GFX_Portrait_Brazil_Generic_soldier_7"
+			"GFX_Portrait_Brazil_Generic_soldier_8"
+			"GFX_Portrait_Brazil_Generic_soldier_9"
+			"GFX_Portrait_Brazil_Generic_soldier_10"
+			"GFX_Portrait_Brazil_Generic_soldier_11"
+			"GFX_Portrait_Brazil_Generic_land_5"
+			"GFX_Portrait_Brazil_Generic_land_8"
+		}
+		female = {
+			"GFX_Portrait_Brazil_Generic_land_female_1"
+			"GFX_Portrait_Brazil_Generic_land_female_2"
+		}
+	}
+}
+
+BR4 = {
+	navy = {
+		male = {
+		}
+		female = {
+		}
+	}
+	
+	army = {
+		male = {
+			"GFX_Portrait_Brazil_Generic_soldier_1"
+			"GFX_Portrait_Brazil_Generic_soldier_2"
+			"GFX_Portrait_Brazil_Generic_soldier_3"
+			"GFX_Portrait_Brazil_Generic_soldier_4"
+			"GFX_Portrait_Brazil_Generic_soldier_5"
+			"GFX_Portrait_Brazil_Generic_soldier_6"
+			"GFX_Portrait_Brazil_Generic_soldier_7"
+			"GFX_Portrait_Brazil_Generic_soldier_8"
+			"GFX_Portrait_Brazil_Generic_soldier_9"
+			"GFX_Portrait_Brazil_Generic_soldier_10"
+			"GFX_Portrait_Brazil_Generic_soldier_11"
+		}
+		female = {
+			"GFX_Portrait_Brazil_Generic_land_female_1"
+			"GFX_Portrait_Brazil_Generic_land_female_2"
+		}
+	}
+}
+
+BRA_occupation_generic = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Brazil_Generic_soldier_1"
+				"GFX_Portrait_Brazil_Generic_soldier_2"
+				"GFX_Portrait_Brazil_Generic_soldier_3"
+				"GFX_Portrait_Brazil_Generic_soldier_4"
+				"GFX_Portrait_Brazil_Generic_soldier_5"
+				"GFX_Portrait_Brazil_Generic_soldier_6"
+				"GFX_Portrait_Brazil_Generic_soldier_7"
+				"GFX_Portrait_Brazil_Generic_soldier_8"
+				"GFX_Portrait_Brazil_Generic_soldier_9"
+				"GFX_Portrait_Brazil_Generic_soldier_10"
+				"GFX_Portrait_Brazil_Generic_soldier_11"
+			}
+		}
+	}
+}
+
+BRA_occupation_military = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Brazil_Generic_soldier_1"
+				"GFX_Portrait_Brazil_Generic_soldier_2"
+				"GFX_Portrait_Brazil_Generic_soldier_3"
+				"GFX_Portrait_Brazil_Generic_soldier_4"
+				"GFX_Portrait_Brazil_Generic_soldier_5"
+				"GFX_Portrait_Brazil_Generic_soldier_6"
+				"GFX_Portrait_Brazil_Generic_soldier_7"
+				"GFX_Portrait_Brazil_Generic_soldier_8"
+				"GFX_Portrait_Brazil_Generic_soldier_9"
+				"GFX_Portrait_Brazil_Generic_soldier_10"
+				"GFX_Portrait_Brazil_Generic_soldier_11"
+			}
+		}
+	}
+}
+
+BRA_occupation_democratic = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Brazil_Generic_soldier_1"
+				"GFX_Portrait_Brazil_Generic_soldier_2"
+				"GFX_Portrait_Brazil_Generic_soldier_3"
+				"GFX_Portrait_Brazil_Generic_soldier_4"
+				"GFX_Portrait_Brazil_Generic_soldier_5"
+				"GFX_Portrait_Brazil_Generic_soldier_6"
+				"GFX_Portrait_Brazil_Generic_soldier_7"
+				"GFX_Portrait_Brazil_Generic_soldier_8"
+				"GFX_Portrait_Brazil_Generic_soldier_9"
+				"GFX_Portrait_Brazil_Generic_soldier_10"
+				"GFX_Portrait_Brazil_Generic_soldier_11"
+			}
+		}
+	}
+}
+
+BRA_occupation_socialist = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Brazil_Generic_soldier_1"
+				"GFX_Portrait_Brazil_Generic_soldier_2"
+				"GFX_Portrait_Brazil_Generic_soldier_3"
+				"GFX_Portrait_Brazil_Generic_soldier_4"
+				"GFX_Portrait_Brazil_Generic_soldier_5"
+				"GFX_Portrait_Brazil_Generic_soldier_6"
+				"GFX_Portrait_Brazil_Generic_soldier_7"
+				"GFX_Portrait_Brazil_Generic_soldier_8"
+				"GFX_Portrait_Brazil_Generic_soldier_9"
+				"GFX_Portrait_Brazil_Generic_soldier_10"
+				"GFX_Portrait_Brazil_Generic_soldier_11"
+			}
+		}
+	}
+}
+
+BRA_occupation_integralist = {
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_Brazil_Generic_soldier_1"
+				"GFX_Portrait_Brazil_Generic_soldier_2"
+				"GFX_Portrait_Brazil_Generic_soldier_3"
+				"GFX_Portrait_Brazil_Generic_soldier_4"
+				"GFX_Portrait_Brazil_Generic_soldier_5"
+				"GFX_Portrait_Brazil_Generic_soldier_6"
+				"GFX_Portrait_Brazil_Generic_soldier_7"
+				"GFX_Portrait_Brazil_Generic_soldier_8"
+				"GFX_Portrait_Brazil_Generic_soldier_9"
+				"GFX_Portrait_Brazil_Generic_soldier_10"
+				"GFX_Portrait_Brazil_Generic_soldier_11"
+			}
+		}
+	}
+}

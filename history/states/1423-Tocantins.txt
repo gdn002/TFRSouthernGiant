@@ -1,0 +1,22 @@
+state={
+	id=1423
+	name="STATE_1423"
+	provinces={
+		2168 5151 14949 14950 14951 14953 
+	}
+	manpower=1560000
+	buildings_max_level_factor=1.000
+	state_category=village
+	local_supplies=0.000
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = { 2168 1 }
+		victory_points = { 14951 5 }
+	}
+}

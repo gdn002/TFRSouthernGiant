@@ -1,0 +1,123 @@
+######################################################
+# Federal Government of Brazil Focus Tree
+# By gdn001
+######################################################
+
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = BR1_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = BR1
+		}
+	}
+
+    # ------------------------------------------------------------ CIVIL WAR FOCUSES ------------------------------------------------------------
+	# Intended duration: Until the civil war is done
+    focus = {
+		id = BR1_cw_secure_rio
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		x = 0
+		y = 0
+		cost = 1
+		allow_branch = {
+			has_global_flag = BRA_civil_war_started
+			NOT = {
+				has_global_flag = BRA_civil_war_ended
+			}
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# Emergency government secured in Rio
+		}
+	}
+
+    focus = {
+		id = BR1_cw_reassemble_house_of_deputies
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR1_cw_secure_rio
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR1_cw_secure_rio
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# We reassemble a provisional house of deputies in Rio, albeit many of the elected officials are missing...
+		}
+	}
+
+    focus = {
+		id = BR1_cw_recover_brazilian_core
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR1_cw_reassemble_house_of_deputies
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR1_cw_reassemble_house_of_deputies
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# Reassert our control over the core southeastern states      
+		}
+	}
+
+    focus = {
+		id = BR1_cw_prepare_for_the_inevitable
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR1_cw_recover_brazilian_core
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR1_cw_recover_brazilian_core
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# We'll have to choose our strategy for the impending civil war    
+		}
+	}
+}

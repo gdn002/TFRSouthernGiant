@@ -1,0 +1,220 @@
+# DECISIONS SHARED BETWEEN ALL BRAZILIAN UNIFIERS (BRA, BR1, BR2, BR3, AMZ, SPA, SUL, UNB)
+
+# AMAZONIAN JUNGLE ACTIONS
+BRA_amazonian_jungle_category = {
+
+    # Police intervention
+	BRA_police_intervention_in_amazon_decision = {
+        days_re_enable = 120
+        days_remove = 90
+		cost = 50
+		visible = {
+            check_variable = {
+                modifier@amazonian_preservation_monthly < 0
+            }
+		}
+        available = {
+            NOT = {
+                has_country_flag = BRA_amazonian_intervention_ongoing
+            }
+        }
+		ai_will_do = {
+			base = 1
+		}
+        complete_effect = {
+            hidden_effect = { 
+                set_country_flag = BRA_amazonian_intervention_ongoing
+            }
+        }
+        modifier = { 
+            amazonian_preservation_monthly = 0.05
+            command_power_gain = -0.05
+        }
+        remove_effect = { 
+            hidden_effect = { 
+                clr_country_flag = BRA_amazonian_intervention_ongoing
+            }
+        }
+	}
+
+    # Military intervention
+	BRA_military_intervention_in_amazon_decision = {
+        days_re_enable = 150
+        days_remove = 120
+        custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		visible = {
+            check_variable = {
+                modifier@amazonian_preservation_monthly < 0
+            }
+		}
+        available = {
+            NOT = {
+                has_country_flag = BRA_amazonian_intervention_ongoing
+            }
+        }
+		ai_will_do = {
+			base = 1
+		}
+        complete_effect = {
+            hidden_effect = { 
+                add_command_power = -10 
+                set_country_flag = BRA_amazonian_intervention_ongoing
+            }
+        }
+        modifier = { 
+            amazonian_preservation_monthly = 0.15
+            command_power_gain = -0.1
+        }
+        remove_effect = { 
+            hidden_effect = { 
+                clr_country_flag = BRA_amazonian_intervention_ongoing
+            }
+        }
+	}
+
+    # Small preserve
+	BRA_amazonian_jungle_small_preserve = {    
+        days_re_enable = 120
+        days_remove = 90
+        custom_cost_trigger = {
+			has_political_power > 50
+		}
+        custom_cost_text = dx_more_than_5B_and_50pp
+        ai_hint_pp_cost = 50
+		visible = {
+            check_variable = {
+                BRA_amazonian_preservation_var < 100
+            }
+		}
+        available = {
+            NOT = {
+                has_country_flag = BRA_amazonian_intervention_ongoing
+            }
+        }
+		ai_will_do = {
+			base = 1
+		}
+        complete_effect = {
+            hidden_effect = { 
+                add_political_power = -50             	
+                set_country_flag = BRA_amazonian_intervention_ongoing
+            }
+            set_temp_variable = { debt_var_temp = 5 }
+			add_debt = yes
+        }
+        remove_effect = { 
+            hidden_effect = { 
+                clr_country_flag = BRA_amazonian_intervention_ongoing
+            }
+            set_temp_variable = { BRA_amazonian_preservation_var_temp = 0.5 }
+            BRA_add_amazonian_preservation = yes
+        }
+	}
+
+    BRA_amazonian_jungle_large_preserve = {    
+        days_re_enable = 160
+        days_remove = 120
+        custom_cost_trigger = {
+			has_political_power > 50
+		}
+        custom_cost_text = dx_more_than_10B_and_50pp
+        ai_hint_pp_cost = 50
+		visible = {
+            check_variable = {
+                BRA_amazonian_preservation_var < 100
+            }
+		}
+        available = {
+            NOT = {
+                has_country_flag = BRA_amazonian_intervention_ongoing
+            }
+        }
+		ai_will_do = {
+			base = 1
+		}
+        complete_effect = {
+            hidden_effect = { 
+                add_political_power = -50             	
+                set_country_flag = BRA_amazonian_intervention_ongoing
+            }
+            set_temp_variable = { debt_var_temp = 10 }
+			add_debt = yes
+        }
+        remove_effect = { 
+            hidden_effect = { 
+                clr_country_flag = BRA_amazonian_intervention_ongoing
+            }
+            set_temp_variable = { BRA_amazonian_preservation_var_temp = 1 }
+            BRA_add_amazonian_preservation = yes
+        }
+	}
+}
+
+# CIVIL WAR DECISIONS
+BRA_civil_war_category = {
+    BRA_integralist_uprising_mission = {
+		priority = 10
+		available = {
+            always = no
+		}
+		days_mission_timeout = 150
+		activation = {
+			always = no
+		}
+		visible = {
+		}
+		fire_only_once = no
+		cancel_if_not_visible = yes
+		is_good = no
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+		}
+	}
+
+    BRA_monarchist_uprising_mission = {
+		priority = 10
+		available = {
+            always = no
+		}
+		days_mission_timeout = 150
+		activation = {
+			always = no
+		}
+		visible = {
+		}
+		fire_only_once = no
+		cancel_if_not_visible = yes
+		is_good = no
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+		}
+	}
+
+    BRA_counter_coup_uprising_mission = {
+		priority = 10
+		available = {
+            always = no
+		}
+		days_mission_timeout = 150
+		activation = {
+			always = no
+		}
+		visible = {
+		}
+		fire_only_once = no
+		cancel_if_not_visible = yes
+		is_good = no
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+		}
+	}
+}

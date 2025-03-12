@@ -1,0 +1,94 @@
+characters = {		
+	## MILITARY JUNTA
+	BR2_jair_bolsonaro_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_jair_bolsonaro.png"
+			}
+		}
+		country_leader = {
+			ideology = ultra_conservatism
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = right_populism
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BR2_augusto_heleno_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BR2/BR2_augusto_heleno.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BR2_braga_netto_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BR2/BR2_braga_netto.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BR2_hamilton_mourao_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BR2/BR2_Hamilton_Mourao_civilwar.png"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}		
+	BR2_moises_lima_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BR4/BR4_Moises_Lima.png"
+			}
+		}
+		country_leader = {
+			ideology = integralism
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BR2_national_restoration_comitee_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BR4/BR4_National_Restoration_Comitee.png"
+			}
+		}
+		country_leader = {
+			ideology = radical_nationalism
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}	
+}

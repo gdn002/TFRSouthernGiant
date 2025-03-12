@@ -1,0 +1,123 @@
+######################################################
+# Brazilian Military Junta Focus Tree
+# By gdn001
+######################################################
+
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = BR2_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = BR2
+		}
+	}
+
+    # ------------------------------------------------------------ CIVIL WAR FOCUSES ------------------------------------------------------------
+	# Intended duration: Until the civil war is done
+    focus = {
+		id = BR2_cw_crackdown_in_brasilia
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		x = 0
+		y = 0
+		cost = 1
+		allow_branch = {
+			has_global_flag = BRA_civil_war_started
+			NOT = {
+				has_global_flag = BRA_civil_war_ended
+			}
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# The military secures Brasilia
+		}
+	}
+
+    focus = {
+		id = BR2_cw_setup_military_administration
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_crackdown_in_brasilia
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR2_cw_crackdown_in_brasilia
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# We setup a provisional military government
+		}
+	}
+
+    focus = {
+		id = BR2_cw_assert_control_over_central_brazil
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_setup_military_administration
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR2_cw_setup_military_administration
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# Assert our control over the central brazilian states      
+		}
+	}
+
+    focus = {
+		id = BR2_cw_the_fire_rises_in_brazil
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_assert_control_over_central_brazil
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR2_cw_assert_control_over_central_brazil
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# We'll have to choose our strategy for the impending civil war    
+		}
+	}
+}

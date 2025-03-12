@@ -1,0 +1,83 @@
+ideas = {
+	## NATIONAL SPIRITS ##
+	country = {			
+		BR3_popular_front_idea = {
+			allowed = {
+				original_tag = BR3
+			}
+			modifier = {
+				# General CW political modifier
+			}
+		}	
+
+		BR3_disorganized_warfare_idea = {
+			allowed = {
+				original_tag = BR3
+			}
+			modifier = {
+				# Initial CW modifier, severe debuffs and needs to be adressed ASAP
+			}
+		}
+
+		BR3_guerrila_warfare_idea = {
+			allowed = {
+				original_tag = BR3
+			}
+			modifier = {
+				# Standby CW modifier, boosts defense and allows the BPF to hold the line
+			}
+		}
+
+		BR3_liberation_army_idea = {
+			allowed = {
+				original_tag = BR3
+			}
+			modifier = {
+				# Lategame CW modifier, enables the BPF to go on the offensive
+			}
+		}
+
+		BR3_uncontrolled_industrial_output_idea = {
+			allowed = {
+				original_tag = BR3
+			}
+			modifier = {
+				# Initial CW modifier, severe debuffs and needs to be adressed ASAP
+			}
+		}
+
+		BR3_redirected_industrial_output_idea = {
+			allowed = {
+				original_tag = BR3
+			}
+			modifier = {
+				# Boosts industrial output during the CW, can be upgraded
+			}
+		}
+		BR3_redirected_industrial_output_mil_idea = {
+			allowed = {
+				original_tag = BR3
+			}
+			modifier = {
+				# Boosts industrial output during the CW with a focus on military production
+			}
+		}
+		BR3_redirected_industrial_output_civ_idea = {
+			allowed = {
+				original_tag = BR3
+			}
+			modifier = {
+				# Boosts industrial output during the CW with a focus on civilian production
+			}
+		}
+
+		BR3_popular_front_strikes_idea = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				# Debuff applied to enemies during the CW
+			}
+		}
+	}
+}	

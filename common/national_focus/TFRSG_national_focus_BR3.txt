@@ -1,0 +1,123 @@
+######################################################
+# Brazilian Popular Front Focus Tree
+# By gdn001
+######################################################
+
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = BR3_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = BR3
+		}
+	}
+
+    # ------------------------------------------------------------ CIVIL WAR FOCUSES ------------------------------------------------------------
+	# Intended duration: Until the civil war is done
+    focus = {
+		id = BR3_cw_popular_front_rises
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		x = 0
+		y = 0
+		cost = 1
+		allow_branch = {
+			has_global_flag = BRA_civil_war_started
+			NOT = {
+				has_global_flag = BRA_civil_war_ended
+			}
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# The popular front has risen up!
+		}
+	}
+
+    focus = {
+		id = BR3_cw_mount_a_workers_council
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_cw_popular_front_rises
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR3_cw_popular_front_rises
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# We set up a provisional popular government
+		}
+	}
+
+    focus = {
+		id = BR3_cw_link_up_with_pf_cells
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_cw_mount_a_workers_council
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR3_cw_mount_a_workers_council
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# Link up with other popular front cells in northeastern states     
+		}
+	}
+
+    focus = {
+		id = BR3_cw_revolution_is_imminent
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_cw_link_up_with_pf_cells
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR3_cw_link_up_with_pf_cells
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			# We'll have to choose our strategy for the impending civil war
+		}
+	}
+}

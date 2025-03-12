@@ -1,0 +1,14 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_BRA_jair_bolsonaro_mask"  
+		texturefile = "gfx/leaders/BRA/BRA_Jair_Bolsonaro_mask.png" 
+	}
+	spriteType = {
+		name = "GFX_BRA_jair_bolsonaro_sad"  
+		texturefile = "gfx/leaders/BRA/BRA_Jair_Bolsonaro_sad.png" 
+	}
+	spriteType = {
+		name = "GFX_BRA_Jair_Bolsonaro_reelection"  
+		texturefile = "gfx/leaders/BRA/BRA_Jair_Bolsonaro_reelection.png" 
+	}
+}

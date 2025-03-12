@@ -1,0 +1,289 @@
+######################################################
+# Federative Republic of Brazil Focus Tree
+# Shared focuses post 2022 elections
+# By gdn001
+######################################################
+
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+# ------------------------------------------------------------ Military ------------------------------------------------------------
+shared_focus = {
+	id = BRA_begin_military_reforms
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	x = 0
+	y = 0
+	cost = 5
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_revoke_amnesty_law
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_begin_military_reforms
+	x = 1
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_begin_military_reforms
+	}
+	mutually_exclusive = {
+		focus = BRA_military_maintain_status_quo
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+		# The military will be rebellious for a while, but as the reforms take place it will eventually become much stronger
+	}
+}
+
+shared_focus = {
+	id = BRA_military_maintain_status_quo
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_begin_military_reforms
+	x = -1
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_begin_military_reforms
+	}
+	mutually_exclusive = {
+		focus = BRA_revoke_amnesty_law
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+		# Quickly gets rid of the Self Indulgent Military spirit, but merely replaces it with a slightly better spirit
+	}
+}
+
+shared_focus = {
+	id = BRA_restart_osorio_project
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_begin_military_reforms
+	x = -3
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_begin_military_reforms
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+		NOT = {
+			has_idea = BRA_self_indulgent_military_idea
+		}
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_navy_revitalization
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_begin_military_reforms
+	x = -5
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_begin_military_reforms
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+		NOT = {
+			has_idea = BRA_self_indulgent_military_idea
+		}
+	}
+	completion_reward = {
+
+	}
+}
+
+# ------------------------------------------------------------ Foreign Policy ------------------------------------------------------------
+
+shared_focus = {
+	id = BRA_brazilian_foreign_policy
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	x = 10
+	y = 0
+	cost = 1
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_bear_the_torch_of_liberty
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_brazilian_foreign_policy
+	x = -3
+	y = 1
+	cost = 2
+	prerequisite = {
+		focus = BRA_brazilian_foreign_policy
+	}
+	mutually_exclusive = {
+		focus = BRA_maintain_strategic_neutrality
+		focus = BRA_embrace_multipolarity
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_maintain_strategic_neutrality
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_brazilian_foreign_policy
+	x = 0
+	y = 1
+	cost = 2
+	prerequisite = {
+		focus = BRA_brazilian_foreign_policy	
+	}
+	mutually_exclusive = {
+		focus = BRA_bear_the_torch_of_liberty
+		focus = BRA_embrace_multipolarity
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_the_international_mediator
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_maintain_strategic_neutrality
+	x = -1
+	y = 1
+	cost = 2
+	prerequisite = {
+		focus = BRA_maintain_strategic_neutrality
+	}
+	mutually_exclusive = {
+		focus = BRA_era_of_brazilian_isolationism
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_era_of_brazilian_isolationism
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_maintain_strategic_neutrality
+	x = 1
+	y = 1
+	cost = 2
+	prerequisite = {
+		focus = BRA_maintain_strategic_neutrality
+	}
+	mutually_exclusive = {
+		focus = BRA_the_international_mediator
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_embrace_multipolarity
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_brazilian_foreign_policy
+	x = 3
+	y = 1
+	cost = 2
+	prerequisite = {
+		focus = BRA_brazilian_foreign_policy
+	}
+	mutually_exclusive = {
+		focus = BRA_bear_the_torch_of_liberty
+		focus = BRA_maintain_strategic_neutrality
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
