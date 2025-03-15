@@ -1,0 +1,120 @@
+## Civil War BOP between Lula and Alckmin ##
+BR1_federal_gov_balance_of_power = {
+	initial_value = 0
+	left_side = BR1_lula_side
+	right_side = BR1_alckmin_side
+	decision_category = BR1_federal_gov_balance_of_power_category
+
+	# Center
+	range = {
+		id = BR1_equilibrium_range
+		min = -0.15
+		max = 0.15
+		modifier = {
+		}
+		on_activate = {
+		}
+		on_deactivate = {
+		}
+	}
+
+	# Lula Side
+	side = {
+		id = BR1_lula_side
+		icon = GFX_bop_BR1_lula
+		range = {
+			id = BR1_lula_dominant_range
+			min = -1
+			max = -0.8
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR1_lula_strong_range
+			min = -0.8
+			max = -0.6
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR1_lula_bias_range
+			min = -0.6
+			max = -0.3
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR1_lula_lean_range
+			min = -0.3
+			max = -0.15
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+	}
+
+	# Alckmin Side
+	side = {
+		id = BR1_alckmin_side
+		icon = GFX_bop_BR1_alckmin
+		range = {
+			id = BR1_alckmin_lean_range
+			min = 0.15
+			max = 0.3
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR1_alckmin_bias_range
+			min = 0.3
+			max = 0.6
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR1_alckmin_strong_range
+			min = 0.6
+			max = 0.8
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR1_alckmin_dominant_range
+			min = 0.8
+			max = 1
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+	}
+}

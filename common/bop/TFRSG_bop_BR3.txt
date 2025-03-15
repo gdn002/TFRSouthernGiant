@@ -1,0 +1,98 @@
+## Socialist Brazil Faction BOP ##
+BR3_internal_faction_balance = {
+	initial_value = 0
+	left_side = BR3_hardliner_side
+	right_side = BR3_libertarian_side
+	decision_category = BR3_internal_faction_balance_category
+
+	# Center
+	range = {
+		id = BR3_centrist_majority_range
+		min = -0.2
+		max = 0.2
+		modifier = {
+		}
+		on_activate = {
+		}
+		on_deactivate = {
+		}
+	}
+
+	# Hardliner Side
+	side = {
+		id = BR3_hardliner_side
+		icon = GFX_bop_BR3_hardliner
+		range = {
+			id = BR3_hardliner_majority
+			min = -1
+			max = -0.7
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR3_hardliner_weak_majority
+			min = -0.7
+			max = -0.4
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR3_centrist_hardliner_coalition
+			min = -0.4
+			max = -0.2
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+	}
+
+	# Libertarian Side
+	side = {
+		id = BR3_libertarian_side
+		icon = GFX_bop_BR3_libertarian
+		range = {
+			id = BR3_centrist_libertarian_coalition
+			min = 0.2
+			max = 0.4
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR3_libertarian_weak_majority
+			min = 0.4
+			max = 0.7
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR3_libertarian_majority
+			min = 0.7
+			max = 1
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+	}
+}

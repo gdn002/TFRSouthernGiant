@@ -30,6 +30,15 @@
  #Decision Categories
  #Missions
  #Decisions
+ #BOP
+ BR2_junta_power_struggle: "The President-Military Struggle For Power"
+ BR2_president_side: "The President"
+ BR2_military_side: "The Military"
+ BR2_total_president_control_range: "Total Presidential Control"
+ BR2_partial_president_control_range: "Partial Presidential Control"
+ BR2_unclear_control_range: "Unclear Control"
+ BR2_partial_military_control_range: "Partial Military Control"
+ BR2_total_military_control_range: "Total Military Control"
  #Country Flag
  #Tooltips
  #Faction

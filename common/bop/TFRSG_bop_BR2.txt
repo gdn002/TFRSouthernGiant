@@ -1,0 +1,76 @@
+## Civil War BOP between The President and The Military ##
+BR2_junta_power_struggle = {
+	initial_value = 0
+	left_side = BR2_president_side
+	right_side = BR2_military_side
+	decision_category = BR2_junta_power_struggle_category
+
+	# Center
+	range = {
+		id = BR2_unclear_control_range
+		min = -0.25
+		max = 0.25
+		modifier = {
+		}
+		on_activate = {
+		}
+		on_deactivate = {
+		}
+	}
+
+	# President Side
+	side = {
+		id = BR2_president_side
+		icon = GFX_bop_BR2_president
+		range = {
+			id = BR2_total_president_control_range
+			min = -1
+			max = -0.75
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR2_partial_president_control_range
+			min = -0.75
+			max = -0.25
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+	}
+
+	# Military Side
+	side = {
+		id = BR2_military_side
+		icon = GFX_bop_BR2_military
+		range = {
+			id = BR2_partial_military_control_range
+			min = 0.25
+			max = 0.75
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR2_total_military_control_range
+			min = 0.75
+			max = 1
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+	}
+}

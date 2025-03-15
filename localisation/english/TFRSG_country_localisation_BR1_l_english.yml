@@ -20,6 +20,19 @@
  #Decision Categories
  #Missions
  #Decisions
+ #BOP
+ BR1_federal_gov_power_struggle: "The Lula-Alckmin Balance of Power"
+ BR1_lula_side: "Lula da Silva"
+ BR1_alckmin_side: "Geraldo Alckmin"
+ BR1_lula_dominant_range: "Lula Dominant"
+ BR1_lula_strong_range: "Strong Lula Bias"
+ BR1_lula_bias_range: "Lula Bias"
+ BR1_lula_lean_range: "Slight Lula Lean"
+ BR1_equilibrium_range: "Lula-Alckmin Equilibrium"
+ BR1_alckmin_lean_range: "Slight Alckmin Lean"
+ BR1_alckmin_bias_range: "Alckmin Bias"
+ BR1_alckmin_strong_range: "Strong Alckmin Bias"
+ BR1_alckmin_dominant_range: "Alckmin Dominant"
  #Country Flag
  #Tooltips
  #Faction

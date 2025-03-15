@@ -72,6 +72,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			# We reassemble a provisional house of deputies in Rio, albeit many of the elected officials are missing...
+			# TODO: This BOP initial value should be contextual
+			set_power_balance = {
+				id = BR1_federal_gov_balance_of_power
+				left_side = BR1_lula_side
+				right_side = BR1_alckmin_side
+				set_value = 0
+			}
 		}
 	}
 

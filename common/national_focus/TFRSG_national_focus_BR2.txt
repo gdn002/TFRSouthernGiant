@@ -72,6 +72,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			# We setup a provisional military government
+			# TODO: This BOP initial value should be contextual
+			set_power_balance = {
+				id = BR2_junta_power_struggle
+				left_side = BR2_president_side
+				right_side = BR2_military_side
+				set_value = 0
+			}
 		}
 	}
 

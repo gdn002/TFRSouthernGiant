@@ -44,6 +44,17 @@
  #Decision Categories
  #Missions
  #Decisions
+ #BOP
+ BR3_internal_faction_balance: "Internal Factions Balance"
+ BR3_hardliner_side: "Hardliners"
+ BR3_libertarian_side: "Libertarians"
+ BR3_hardliner_majority: "Hardliner Majority"
+ BR3_hardliner_weak_majority: "Weak Hardliner Majority"
+ BR3_centrist_hardliner_coalition: "Hardliner-Centrist Coalition"
+ BR3_centrist_majority_range: "Centrist Majority"
+ BR3_centrist_libertarian_coalition: "Centrist-Libertarian Coalition"
+ BR3_libertarian_weak_majority: "Weak Libertarian Majority"
+ BR3_libertarian_majority: "Libertarian Majority"
  #Country Flag
  #Tooltips
  #Faction
