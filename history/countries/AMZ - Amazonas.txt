@@ -1,6 +1,4 @@
 	capital = 1436
-	
-	#recruit_character = BRA_jair_bolsonaro_char
 
 	set_research_slots = 3
 	set_convoys = 10
@@ -37,10 +35,10 @@
 	}
 
 	set_politics = {
-		ruling_party = conservative
+		ruling_party = libertarian_socialist
 		last_election = "2018.10.26"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 	
 	set_popularities = {

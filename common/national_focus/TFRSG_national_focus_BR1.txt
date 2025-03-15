@@ -30,11 +30,10 @@ focus_tree = {
 		}
 		x = 0
 		y = 0
-		cost = 1
-		allow_branch = {
-			has_global_flag = BRA_civil_war_started
+		cost = 2
+		allow_branch = {		
 			NOT = {
-				has_global_flag = BRA_civil_war_ended
+				has_global_flag = BRA_civil_war_ended_flag
 			}
 		}
 		available_if_capitulated = no
@@ -43,6 +42,9 @@ focus_tree = {
 			base = 1
 		}
 		available = {
+			hidden_trigger = {
+				has_global_flag = BRA_civil_war_started_flag
+			}
 		}
 		completion_reward = {
 			# Emergency government secured in Rio
@@ -93,7 +95,12 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-			# Reassert our control over the core southeastern states      
+			transfer_state = 496
+			transfer_state = 500
+			transfer_state = 1434
+			add_state_core = 496
+			add_state_core = 500
+			add_state_core = 1434    
 		}
 	}
 

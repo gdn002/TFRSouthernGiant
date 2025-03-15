@@ -762,3 +762,160 @@ BRA_decrease_oil_crisis = {
 		remove_ideas = BRA_oil_crisis_idea2
 	}
 }
+
+## CIVIL WAR
+BRA_civil_war_setup = {
+	hidden_effect = {
+		set_global_flag = BRA_civil_war_started_flag
+		# Federal Gov
+		BR1 = {
+			inherit_technology = BRA
+		}
+		# Military Junta
+		BR2 = {
+			inherit_technology = BRA
+		}
+		# Popular Front
+		BR3 = {
+			inherit_technology = BRA
+		}
+		# Junta Breakaways
+		BR4 = {
+			inherit_technology = BRA
+		}
+	}
+}
+
+BRA_civil_war_end = {
+	hidden_effect = {
+		set_global_flag = BRA_civil_war_ended_flag
+		clr_global_flag = BRA_civil_war_ongoing_flag	
+
+		set_country_flag = BRA_amazonian_preservation_mechanic_enabled	
+	}
+
+	add_ideas = {
+		BRA_amazonian_jungle_idea
+	}
+}
+
+BRA_civil_war_add_claims = {
+	custom_effect_tooltip = BRA_civil_war_add_claims_tt
+	hidden_effect = {
+		BRA = {
+			every_core_state = {
+				limit = {
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+				add_claim_by = ROOT
+			}
+		}
+	}
+}
+
+BRA_civil_war_get_state_recruitment_value = {
+	if = {
+		# Small States (2 units)
+        limit = {
+            OR = {
+				state = 495
+				state = 498
+				state = 504
+				state = 905
+				state = 906
+				state = 908
+				state = 1424
+				state = 1426
+				state = 1427
+				state = 1430
+				state = 1431
+				state = 1432
+				state = 1434
+				state = 1436
+				state = 1438
+            }
+        }
+		set_temp_variable = { BRA_civil_war_recruit_value_temp = 2 }
+    }
+	else if = {
+		# Medium States (3 units)
+        limit = {
+            OR = {
+				state = 280
+				state = 497
+				state = 500			
+				state = 503
+				state = 505
+				state = 1422
+				state = 1423
+				state = 1425
+				state = 1428
+				state = 1429
+				state = 1433
+				state = 1435				
+            }
+        }
+		set_temp_variable = { BRA_civil_war_recruit_value_temp = 3 }
+    }
+	else if = {
+		# Large States (4 units)
+        limit = {
+            OR = {
+				state = 496
+				state = 499
+				state = 501
+				state = 502
+				state = 1437
+				state = 1439
+				state = 1440
+            }
+        }
+		set_temp_variable = { BRA_civil_war_recruit_value_temp = 4 }
+    }
+	else = {
+		# Fallback
+		set_temp_variable = { BRA_civil_war_recruit_value_temp = 1 }
+	}
+}
+
+BRA_civil_war_recruitment_scripted_effect = {
+	# Relay to appropriate recruitment effect
+	if = {
+		limit = {
+			ROOT = { original_tag = BR1 }
+		}
+		BR1_civil_war_recruitment_scripted_effect = yes
+	}
+	else if = {
+		limit = {
+			ROOT = { original_tag = BR2 }
+		}
+		BR2_civil_war_recruitment_scripted_effect = yes
+	}
+	else if = {
+		limit = {
+			ROOT = { original_tag = BR3 }
+		}
+		BR3_civil_war_recruitment_scripted_effect = yes
+	}
+	else if = {
+		limit = {
+			ROOT = { original_tag = BR4 }
+		}
+		BR4_civil_war_recruitment_scripted_effect = yes
+	}
+	else = {
+		# Generic recruitment effect for breakaways
+		FROM = {
+        	BRA_civil_war_get_state_recruitment_value = yes
+        	create_unit = {
+				division = "name = \"Militia\" division_template = \"Militia\"  start_experience_factor = 0.0"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+        	    count = BRA_civil_war_recruit_value_temp
+			}
+    	}
+	}
+}

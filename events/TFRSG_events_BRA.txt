@@ -3494,7 +3494,6 @@ country_event = {
 		effect_tooltip = {
 			BR2 = {
 				transfer_state = 1422
-				add_state_core = 1422
 			}
 		}
 	}
@@ -3532,7 +3531,6 @@ country_event = {
 		effect_tooltip = {
 			BR1 = {
 				transfer_state = 1437
-				add_state_core = 1437
 			}
 		}
 	}
@@ -3570,7 +3568,6 @@ country_event = {
 		effect_tooltip = {
 			BR1 = {
 				transfer_state = 1437
-				add_state_core = 1437
 			}
 		}
 	}
@@ -3710,7 +3707,6 @@ country_event = {
 		effect_tooltip = {
 			BR3 = {
 				transfer_state = 1439
-				add_state_core = 1439
 			}
 		}
 	}
@@ -3793,8 +3789,44 @@ country_event = {
 		tag = BRA
 	}
 
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = Brazil.civilwar.14
+				days = 12
+			}
+			AMZ = {
+				transfer_state = 495
+				transfer_state = 905
+				transfer_state = 906
+				transfer_state = 1424
+				transfer_state = 1425
+				transfer_state = 1426
+				transfer_state = 1427
+				add_state_core = 495
+				add_state_core = 905
+				add_state_core = 906
+				add_state_core = 1424
+				add_state_core = 1425
+				add_state_core = 1426
+				add_state_core = 1427
+			}
+		}
+	}
+
 	option = {
 		name = Brazil.civilwar.13.a
+		effect_tooltip = {
+			AMZ = {
+				transfer_state = 495
+				transfer_state = 905
+				transfer_state = 906
+				transfer_state = 1424
+				transfer_state = 1425
+				transfer_state = 1426
+				transfer_state = 1427
+			}
+		}
 	}
 }
 
@@ -3809,6 +3841,15 @@ country_event = {
 	
 	trigger = {
 		tag = BRA
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = Brazil.civilwar.15
+				days = 9
+			}
+		}
 	}
 
 	option = {
@@ -3835,7 +3876,7 @@ country_event = {
 		hidden_effect = {
 			name = Brazil.civilwar.15.a
 			BR1 = { change_tag_from = BRA }
-			set_global_flag = BRA_civil_war_started
+			BRA_civil_war_setup = yes
 		}
 	}
 	# Play as MILITARY JUNTA
@@ -3843,8 +3884,8 @@ country_event = {
 		custom_effect_tooltip = BRA_civil_war_pick_junta_tt		
 		hidden_effect = {
 			name = Brazil.civilwar.15.b
-			BR2 = { change_tag_from = BRA }
-			set_global_flag = BRA_civil_war_started
+			BR2 = { change_tag_from = BRA }	
+			BRA_civil_war_setup = yes	
 		}
 	}
 	# Play as POPULAR FRONT
@@ -3853,7 +3894,7 @@ country_event = {
 		hidden_effect = {
 			name = Brazil.civilwar.15.c
 			BR3 = { change_tag_from = BRA }
-			set_global_flag = BRA_civil_war_started
+			BRA_civil_war_setup = yes
 		}
 	}
 }

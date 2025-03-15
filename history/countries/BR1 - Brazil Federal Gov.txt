@@ -1,5 +1,7 @@
 	capital = 1437
 	
+	oob = "BR1_2020"
+
 	recruit_character = BR1_lula_da_silva_char
 
 	set_research_slots = 3
@@ -17,6 +19,14 @@
 
 	add_ideas = {
 		# National Spirits
+		BRA_not_world_power_idea
+		BRA_systemic_corruption_idea
+		BRA_mass_homicide_idea
+		BRA_disjointed_geography_idea
+		BRA_agricultural_society_idea
+		BRA_the_centrao_idea
+		BRA_rise_of_evangelism_idea
+		BRA_informalized_economy_idea
 
 		# Ministers
 

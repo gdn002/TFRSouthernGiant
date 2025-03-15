@@ -1,0 +1,12 @@
+## CIVIL WAR
+BR3_civil_war_recruitment_scripted_effect = {
+    FROM = {
+        BRA_civil_war_get_state_recruitment_value = yes
+        create_unit = {
+			division = "name = \"Milícia Revolucionária\" division_template = \"Milícia Revolucionária\"  start_experience_factor = 0.0"
+			allow_spawning_on_enemy_provs = yes
+			owner = ROOT
+            count = BRA_civil_war_recruit_value_temp
+		}
+    }
+}

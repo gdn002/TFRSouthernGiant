@@ -3,12 +3,7 @@ BRA_amazonian_jungle_category = {
 	visible_when_empty = yes
 	priority = 2
 	allowed = {
-		OR = {
-			original_tag = BRA
-			original_tag = BR1
-			original_tag = BR2
-			original_tag = BR3
-		}
+		is_brazilian_unifier = yes
 	}
 
 	visible = {
@@ -19,9 +14,7 @@ BRA_amazonian_jungle_category = {
 BRA_civil_war_category = {
 	priority = 10
 	allowed = {
-		original_tag = BR1
-		original_tag = BR2
-		original_tag = BR3
+		is_brazilian_unifier = yes
 	}
 
 	visible = {

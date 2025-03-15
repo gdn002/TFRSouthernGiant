@@ -1,57 +1,22 @@
 	capital = 1422
-
-	oob = "BRA_2020"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "BRA_2000_naval_mtg"
-		else = {
-			set_naval_oob = "BRA_2000_naval_legacy"
-		}
-	}
 	
-	# Leaders
-	recruit_character = BRA_jair_bolsonaro_char
-	recruit_character = BRA_lula_da_silva_char
-	recruit_character = BRA_geraldo_alckmin_char
-	recruit_character = BRA_guilherme_boulos_char
-	recruit_character = BRA_marco_freire_gomes_char
-	recruit_character = BRA_soraya_thronicke_char
-	recruit_character = BRA_sofia_manzano_char
-	recruit_character = BRA_rui_costa_pimenta_char
-	recruit_character = BRA_hamilton_mourao_char
-	recruit_character = BRA_arthur_lira_char
+	oob = "BR4_2020"
 
-	# Generals/Admirals
-	recruit_character = BRA_hertz_pires_char
-	recruit_character = BRA_tomas_ribeiro_paiva_char
-	recruit_character = BRA_augusto_costa_neves_char
-	recruit_character = BRA_vendramin_nunes_char
-	recruit_character = BRA_miranda_netto_char
-	recruit_character = BRA_luiz_estorilho_char
-	recruit_character = BRA_kleber_nunes_char
-	recruit_character = BRA_guido_naves_char
-	recruit_character = BRA_andre_miranda_char
-	recruit_character = BRA_guilherme_cabral_char
-	recruit_character = BRA_julio_cesar_arruda_char
-	recruit_character = BRA_richard_fernandez_char
-	recruit_character = BRA_almir_garnier_santos_char
-	recruit_character = BRA_marcos_sampaio_olsen_char
+	recruit_character = BR4_moises_lima_char
+	recruit_character = BR4_national_restoration_comitee_char
 
 	set_research_slots = 3
-	set_convoys = 150
-	set_stability = 0.55
-	set_war_support = 0.3
+	set_convoys = 0
+	set_stability = 0.5
 
 	set_country_flag = country_language_portuguese
-	set_country_flag = BRA_reactionary_administration_flag
-	set_country_flag = BRA_2022_elections_cat_enabled
 
-	set_variable = { Russian_Influence = 0.05 }
-	set_variable = { Chinese_Influence = 0.15 }
-	set_variable = { American_Influence = 0.25 }
-	set_variable = { European_Influence = 0.10 }
-	set_variable = { PDO_Influence = 0.05 }
-	set_variable = { Sovereign_Influence = 0.40 }
+	set_variable = { Russian_Influence = 0.2 }
+	set_variable = { Chinese_Influence = 0.0 }
+	set_variable = { American_Influence = 0.10 }
+	set_variable = { European_Influence = 0.15 }
+	set_variable = { PDO_Influence = 0.00 }
+	set_variable = { Sovereign_Influence = 0.55 }
 
 	add_ideas = {
 		# National Spirits
@@ -60,20 +25,10 @@
 		BRA_mass_homicide_idea
 		BRA_disjointed_geography_idea
 		BRA_agricultural_society_idea
-		BRA_the_centrao_idea
 		BRA_rise_of_evangelism_idea
-		BRA_progressive_opposition_idea
-		BRA_self_indulgent_military_idea
 		BRA_informalized_economy_idea
-		BRA_amazonian_jungle_idea
 
 		# Ministers
-		BRA_hamilton_mourao_hog
-		BRA_ernesto_araujo_for
-		BRA_paulo_guedes_eco
-		BRA_tereza_cristina_sec
-		BRA_sergio_moro_int
-		BRA_fernando_azevedo_theorist
 
 		# Laws
 		civilian_mobilization
@@ -88,91 +43,21 @@
 		low_military
 		low_society
 
+		ZZZ_chaostic_economy
 		i_dont_wanna_fight
 	}
 
 	set_politics = {
-		ruling_party = conservative
+		ruling_party = fascist
 		last_election = "2018.10.26"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 	
 	set_popularities = {
-		authoritarian_democrat = 3
-		conservative = 37
-		social_democrat = 29
-		social_liberal = 9
-		market_liberal = 12
-		libertarian_socialist = 7
-		communist = 3
-	}
-	
-	set_power_balance = {
-		id = BRA_political_radicalization_balance
-		left_side = BRA_radicalization_side
-		right_side = BRA_stabilization_side
-		set_value = -0.15
-	}
-
-	# EVENTS
-
-	# 2022 relay event
-	country_event = {
-		id = Brazil.timeline.1
-		days = 730
-	}
-
-	# New decade for Brazil
-	country_event = {		
-		id = Brazil.1
-		days = 1
-	}	
-
-	# Brazilians repatriated from Wuhan
-	country_event = {
-		id = Brazil.3
-		days = 45
-	}
-
-	# Oil crisis hits Brazil
-	country_event = {
-		id = Brazil.16
-		days = 70
-	}
-
-	# PIX launch
-	country_event = {
-		id = Brazil.44
-		days = 320
-	}
-
-	# Call for covid CPI 
-	country_event = {
-		id = Brazil.18
-		days = 427
-	}
-
-	# Lula's acquittal
-	news_event = {
-		id = Brazilnews.1
-		days = 432
-	}
-
-	# Popular Front forms
-	country_event = {
-		id = Brazil.26
-		days = 590
-	}
-
-	# 2022 Elections race
-	country_event = {
-		id = Brazil.40
-		days = 943
-	}
-	country_event = {
-		id = Brazil.45
-		days = 943
+		fascist = 40
+		nationalist = 40
+		conservative = 20
 	}
 
 	# STARTING TECHS
@@ -346,13 +231,6 @@
 			basic_naval_mines = 1
 			submarine_mine_laying = 1
 		}
-	}
-
-	if = {
-		limit = {
-			has_dlc = "La Resistance"
-		}
-		create_intelligence_agency = yes
 	}
 
 	### VARIANTS ###

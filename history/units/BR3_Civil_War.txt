@@ -1,0 +1,38 @@
+﻿units = {
+	division = {
+		name = "1o Grupo de Combate Popular"
+		location = 14998
+		division_template = "Milícia Revolucionária"
+		start_experience_factor = 0.2		
+	}
+	division = {
+		name = "2o Grupo de Combate Popular"
+		location = 14998
+		division_template = "Milícia Revolucionária"
+		start_experience_factor = 0.2		
+	}
+	division = {
+		name = "3o Grupo de Combate Popular"
+		location = 14998
+		division_template = "Milícia Revolucionária"
+		start_experience_factor = 0.2		
+	}
+	division = {
+		name = "4o Grupo de Combate Popular"
+		location = 14998
+		division_template = "Milícia Revolucionária"
+		start_experience_factor = 0.2		
+	}
+	division = {
+		name = "5o Grupo de Combate Popular"
+		location = 14998
+		division_template = "Milícia Revolucionária"
+		start_experience_factor = 0.2		
+	}
+	division = {
+		name = "6o Grupo de Combate Popular"
+		location = 14998
+		division_template = "Milícia Revolucionária"
+		start_experience_factor = 0.2		
+	}
+}

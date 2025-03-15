@@ -434,7 +434,7 @@
  BRA_2022_propaganda_overdrive: "Propaganda Overdrive"
  BRA_2022_cruzade_for_brazil: "Cruzade For Brazil"
  BRA_2022_moderated_tone: "Moderated Tone"
- BRA_2022_no_holding_back: "No Holding Back"
+ BRA_2022_no_holding_back: "No Holds Barred"
  BRA_2022_social_media_campaign: "Social Media Campaigning"
  BRA_2022_the_last_stretch: "The Last Stretch"
  #-Election Aftermath
@@ -630,10 +630,11 @@
  BRA_2022_elections_lula_won_flag: "§tLula da Silva§! won the 2022 Elections"
  BRA_2022_elections_alckmin_won_flag: "§2Geraldo Alckmin§! won the 2022 Elections"
  BRA_2022_elections_bolsonaro_won_flag: "§7Bolsonaro§! won the 2022 Elections"
- BRA_civil_war_started_flag: "The Brazilian civil war has started!"
  BRA_bolsonaro_banned_from_politics_flag: "Bolsonaro has been banned from holding political office"
  BRA_is_campaigning_flag: "A campaigning action is already under effect"
- BRA_civil_war_ongoing: "The §RBrazilian Civil War§! is ongoing!"
+ BRA_civil_war_started_flag: "The §RBrazilian Civil War§! has started!"
+ BRA_civil_war_ongoing_flag: "The §RBrazilian Civil War§! is ongoing!"
+ BRA_civil_war_ended_flag: "The §RBrazilian Civil War§! is over!"
  #Parties
  BRA_national_socialist_party: "§ROUTLAWED§!"
  BRA_national_socialist_party_long: "§ROUTLAWED§!"
@@ -710,6 +711,9 @@
  BRA_civil_war_pick_government_tt: "§YPick this option to play as The§! §GFEDERAL GOVERNMENT OF BRAZIL§!§Y.§!"
  BRA_civil_war_pick_junta_tt: "§YPick this option to play as The§! §nBRAZILIAN MILITARY JUNTA§!§Y.§!"
  BRA_civil_war_pick_front_tt: "§YPick this option to play as The§! §RBRAZILIAN POPULAR FRONT§!§Y.§!"
+ BRA_civil_war_add_claims_tt: "We will get claims on all Brazilian states!"
+ BRA_civil_war_unifiers_defeated_tt: "All other Brazilian unifiers have been §Ydefeated§!."
+ BRA_civil_war_breakaways_defeated_tt: "All other Brazilian breakaway states have been §Ydefeated§!."
 
  #Scripted Locs
  chamber_of_deputies_aligned: "§GALIGNED§!"

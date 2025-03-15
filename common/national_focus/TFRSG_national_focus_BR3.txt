@@ -28,13 +28,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		x = 0
+		x = 5
 		y = 0
-		cost = 1
+		cost = 2
 		allow_branch = {
-			has_global_flag = BRA_civil_war_started
 			NOT = {
-				has_global_flag = BRA_civil_war_ended
+				has_global_flag = BRA_civil_war_ended_flag
 			}
 		}
 		available_if_capitulated = no
@@ -43,6 +42,9 @@ focus_tree = {
 			base = 1
 		}
 		available = {
+			hidden_trigger = {
+				has_global_flag = BRA_civil_war_started_flag
+			}
 		}
 		completion_reward = {
 			# The popular front has risen up!
@@ -93,7 +95,22 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-			# Link up with other popular front cells in northeastern states     
+			transfer_state = 497
+			transfer_state = 498
+			transfer_state = 1428
+			transfer_state = 1429
+			transfer_state = 1430
+			transfer_state = 1431
+			transfer_state = 1432
+			transfer_state = 1433
+			add_state_core = 497
+			add_state_core = 498
+			add_state_core = 1428
+			add_state_core = 1429
+			add_state_core = 1430
+			add_state_core = 1431
+			add_state_core = 1432
+			add_state_core = 1433
 		}
 	}
 
@@ -118,6 +135,542 @@ focus_tree = {
 		}
 		completion_reward = {
 			# We'll have to choose our strategy for the impending civil war
+		}
+	}
+
+	# MILITARY MINI-BRANCH
+	# Improves the combat spirit and expands recruitment options
+	focus = {
+		id = BR3_raise_revolutionary_militias
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_cw_revolution_is_imminent
+		x = -3
+		y = 1
+		cost = 3
+		allow_branch = {
+			has_global_flag = BRA_civil_war_ongoing_flag
+		}
+		prerequisite = {
+			focus = BR3_cw_revolution_is_imminent
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Enable raising of additional militias
+		}
+	}	
+
+	focus = {
+		id = BR3_engage_guerrila_warfare
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_raise_revolutionary_militias
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_raise_revolutionary_militias
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Remove the chaos in the militias and engage in guerilla warfare
+			swap_ideas = {
+				remove_idea = BR3_disorganized_warfare_idea
+				add_idea = BR3_guerrila_warfare_idea
+			}
+		}
+	}
+
+	focus = {
+		id = BR3_raid_military_bases
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_engage_guerrila_warfare
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_engage_guerrila_warfare
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Raid military bases for military gear
+		}
+	}
+
+	focus = {
+		id = BR3_the_convict_question
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_engage_guerrila_warfare
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_engage_guerrila_warfare
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Get the option to free convicts and use them for labor or combat
+		}
+	}
+
+	focus = {
+		id = BR3_sway_the_soldier
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_raid_military_bases
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_raid_military_bases
+		}
+		prerequisite = {
+			focus = BR3_the_convict_question
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Get a proper military division and general
+		}
+	}
+
+	# POLITICAL MINI-BRANCH
+	# Boosts political power and unlocks civil war decisions
+	focus = {
+		id = BR3_social_assistance_programs
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_cw_revolution_is_imminent
+		x = 0
+		y = 1
+		cost = 3
+		allow_branch = {
+			has_global_flag = BRA_civil_war_ongoing_flag
+		}
+		prerequisite = {
+			focus = BR3_cw_revolution_is_imminent
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Provide humanitarian aid to Brazilians displaced by the civil war
+		}
+	}
+
+	focus = {
+		id = BR3_fan_up_class_consciousness
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_social_assistance_programs
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_social_assistance_programs
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Raise class consciousness and political participation in the people
+		}
+	}
+
+	focus = {
+		id = BR3_guerrila_media
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_fan_up_class_consciousness
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_fan_up_class_consciousness
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Use alternative/independent media to spread the revolution
+		}
+	}
+
+	focus = {
+		id = BR3_brazilian_vanguard
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_guerrila_media
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_guerrila_media
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Consolidate the Popular Front as a legitimate vanguard party
+			remove_ideas = {
+				BRA_systemic_corruption_idea
+			}
+			BRA_civil_war_add_claims = yes
+		}
+	}
+
+	# INDUSTRIAL MINI-BRANCH
+	# Improves productive capacities
+	focus = {
+		id = BR3_seize_the_means_of_production
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_cw_revolution_is_imminent
+		x = 3
+		y = 1
+		cost = 3
+		allow_branch = {
+			has_global_flag = BRA_civil_war_ongoing_flag
+		}
+		prerequisite = {
+			focus = BR3_cw_revolution_is_imminent
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Seize property for the cause
+			remove_ideas = {
+				BRA_informalized_economy_idea
+			}
+		}
+	}
+
+	focus = {
+		id = BR3_rally_the_workers
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_seize_the_means_of_production
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_seize_the_means_of_production
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Rally workers for the cause
+		}
+	}
+
+	focus = {
+		id = BR3_civilian_industry
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_rally_the_workers
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_rally_the_workers
+		}
+		mutually_exclusive = {
+			focus = BR3_revolutionary_industry
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Focus on civilian production
+		}
+	}
+
+	focus = {
+		id = BR3_revolutionary_industry
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_rally_the_workers
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_rally_the_workers
+		}
+		mutually_exclusive = {
+			focus = BR3_civilian_industry
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Focus on military production
+		}
+	}
+
+	focus = {
+		id = BR3_workers_of_brazil_rise
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_civilian_industry
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_civilian_industry
+			focus = BR3_revolutionary_industry
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Enables worker strikes against other factions
+		}
+	}
+
+	focus = {
+		id = BR3_establish_the_pla
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_brazilian_vanguard
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = BR3_sway_the_soldier
+		}
+		prerequisite = {
+			focus = BR3_brazilian_vanguard
+		}
+		prerequisite = {
+			focus = BR3_workers_of_brazil_rise
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Awards the powerful PLA idea and unlocks training of professional divisions
+			country_lock_all_division_template = no
+			swap_ideas = {
+				remove_idea = BR3_guerrila_warfare_idea
+				add_idea = BR3_liberation_army_idea
+			}
+		}
+	}
+
+	focus = {
+		id = BR3_reintegrate_the_nation
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_establish_the_pla
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = BR3_establish_the_pla
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = BRA_civil_war_unifiers_defeated_tt
+				NOT = {
+					country_exists = BR1
+					country_exists = BR2
+					country_exists = BR4
+					country_exists = UNB
+				}
+			}
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Enables reintegration of Brazilian states
+			mark_focus_tree_layout_dirty = yes
+			set_country_flag = BRA_civil_war_reintegration_allowed_flag
+		}
+	}
+
+	focus = {
+		id = BR3_bring_the_north_into_harbor
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_reintegrate_the_nation
+		x = -2
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_completed_focus = BR3_reintegrate_the_nation
+		}
+		prerequisite = {
+			focus = BR3_reintegrate_the_nation
+		}	
+		bypass = {
+			NOT = { country_exists = AMZ }
+		}	
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Amazon breakaway ultimatum
+		}
+	}
+
+	focus = {
+		id = BR3_sao_paulo_ultimatum
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_reintegrate_the_nation
+		x = 0
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_completed_focus = BR3_reintegrate_the_nation
+		}
+		prerequisite = {
+			focus = BR3_reintegrate_the_nation
+		}
+		bypass = {
+			NOT = { country_exists = SPA }
+		}		
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# São Paulo breakaway ultimatum
+		}
+	}
+
+	focus = {
+		id = BR3_crush_sul_separatists
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_reintegrate_the_nation
+		x = 2
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_completed_focus = BR3_reintegrate_the_nation
+		}
+		prerequisite = {
+			focus = BR3_reintegrate_the_nation
+		}	
+		bypass = {
+			NOT = { country_exists = SUL }
+		}		
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Sul breakaway ultimatum
+		}
+	}
+
+	focus = {
+		id = BR3_peoples_victory
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR3_sao_paulo_ultimatum
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR3_bring_the_north_into_harbor
+		}	
+		prerequisite = {
+			focus = BR3_sao_paulo_ultimatum
+		}
+		prerequisite = {
+			focus = BR3_crush_sul_separatists
+		}
+		available = {
+			has_war = no
+			custom_trigger_tooltip = {
+				tooltip = BRA_civil_war_breakaways_defeated_tt
+				NOT = {
+					country_exists = AMZ
+					country_exists = SPA
+					country_exists = SUL
+				}
+			}
+		}		
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# The civil war will be over!
+			BRA_civil_war_end = yes
 		}
 	}
 }

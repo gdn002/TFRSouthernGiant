@@ -218,3 +218,87 @@ BRA_civil_war_category = {
 		}
 	}
 }
+
+# CIVIL WAR DECISIONS
+BRA_civil_war_category = {
+    BRA_recruit_targeted_decision = {
+		icon = USA_recruit_militia
+		cost = 25
+		days_remove = 15
+		fire_only_once = yes
+		target_array = BRA.core_states
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		allowed = {
+			is_brazilian_unifier = yes
+		}
+		target_trigger = {
+			FROM = {
+				OR = {
+					is_claimed_by = ROOT
+					is_core_of = ROOT
+				}
+				is_controlled_by = ROOT
+			}
+		}
+		visible = {
+			has_country_flag = BRA_civil_war_recruitment_allowed_flag
+		}
+		available = {
+			NOT = {
+				has_country_flag = BRA_civil_war_recruiting_flag
+			}
+		}
+		complete_effect = {
+			set_country_flag = BRA_civil_war_recruiting_flag
+		}
+		remove_effect = {
+			clr_country_flag = BRA_civil_war_recruiting_flag
+			BRA_civil_war_recruitment_scripted_effect = yes
+		}
+		cancel_effect = {
+			clr_country_flag = BRA_civil_war_recruiting_flag
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+    BRA_reintegrate_targeted_decision = {
+		icon = USA_core_state
+		cost = 15
+		days_remove = 30
+		fire_only_once = no
+		target_array = BRA.core_states
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		allowed = {
+			is_brazilian_unifier = yes
+		}
+		target_trigger = {
+			FROM = {
+				is_controlled_by = ROOT
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		available = {
+			FROM = {
+                resistance < 10
+                compliance > 20
+            }
+		}
+		visible = {
+			has_country_flag = BRA_civil_war_reintegration_allowed_flag
+		}
+		remove_effect = {
+			FROM = {
+                add_core_of = ROOT
+			    remove_claim_by = ROOT
+            }
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+}

@@ -12,7 +12,7 @@ BRA_engesa = {
 		FROM = {
 			controls_state = 1440
 			has_completed_focus = BRA_restart_osorio_project
-			NOT = { has_country_flag = BRA_civil_war_ongoing }
+			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
 }
@@ -30,7 +30,7 @@ BRA_arsenal_de_marinha = {
 	available = {
 		FROM = {
 			controls_state = 1437
-			NOT = { has_country_flag = BRA_civil_war_ongoing }
+			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
 }
@@ -45,7 +45,7 @@ BRA_base_submarinos_ilha_da_madeira = {
 	available = {
 		FROM = {
 			controls_state = 500
-			NOT = { has_country_flag = BRA_civil_war_ongoing }
+			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
 }
@@ -63,7 +63,7 @@ BRA_embraer = {
 	available = {
 		FROM = {
 			controls_state = 501
-			NOT = { has_country_flag = BRA_civil_war_ongoing }
+			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
 }
@@ -81,7 +81,7 @@ BRA_avibras = {
 	available = {
 		FROM = {
 			controls_state = 501
-			NOT = { has_country_flag = BRA_civil_war_ongoing }
+			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
 }
@@ -99,7 +99,7 @@ BRA_xmobots = {
 	available = {
 		FROM = {
 			controls_state = 501
-			NOT = { has_country_flag = BRA_civil_war_ongoing }
+			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
 }
@@ -114,7 +114,7 @@ BRA_imbel = {
 	available = {
 		FROM = {
 			controls_state = 1422
-			NOT = { has_country_flag = BRA_civil_war_ongoing }
+			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
 }
@@ -129,7 +129,7 @@ BRA_companhia_brasileira_cartuchos = {
 	available = {
 		FROM = {
 			controls_state = 1440
-			NOT = { has_country_flag = BRA_civil_war_ongoing }
+			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
 }
@@ -147,7 +147,7 @@ BRA_agrale = {
 	available = {
 		FROM = {
 			controls_state = 502
-			NOT = { has_country_flag = BRA_civil_war_ongoing }
+			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
 }
