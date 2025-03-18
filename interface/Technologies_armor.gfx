@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.5
+# Current version: 1.0.6
 # Changes:
 # - Overrides/adds Brazilian equipment sprites
 
@@ -399,7 +399,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_GER_light_tank4_medium"
-		texturefile = "gfx/interface/technologies/armor/GER_light_tank4.dds"
+		texturefile = "gfx/interface/technologies/armor/GER_light_tank4.png"
 	
 	}
 	SpriteType = {

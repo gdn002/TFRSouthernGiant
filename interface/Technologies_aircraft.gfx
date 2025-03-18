@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.5
+# Current version: 1.0.6
 # Changes:
 # - Overrides/adds Brazilian equipment sprites
 
@@ -298,6 +298,71 @@ spriteTypes = {
 		name = "GFX_FRA_CAS3_medium"
 		texturefile = "gfx/interface/technologies/aircraft/FRA_cas3.png"
 	}
+	SpriteType = {
+		name = "GFX_FRA_eridan_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_eridan_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_destienne_dorves_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_destienne_dorves_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_georges_leygues_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_georges_leygues_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_amiral_ronarch_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_amiral_ronarch_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_aquitaine_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_aquitaine_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_clemenceau_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_clemenceau_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_colbert_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_colbert_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_confiance_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_confiance_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cassard_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_cassard_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_la_fayette_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_la_fayette_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_horizon_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_horizon_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_de_gaulle_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_de_gaulle_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_mistral_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_mistral_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_suffren_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_suffren_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_rubis_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_rubis_class.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_triomphant_class"
+		texturefile = "gfx/interface/technologies/ships/FRA/FRA_triomphant_class.png"
+	}
+	
 	
 	## GERMANY ##
 	# Helicopters #
@@ -622,6 +687,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_PRC_dark_sword_eq"
 		texturefile = "gfx/interface/technologies/aircraft/PRC_dark_sword.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_j_36_eq2"
+		texturefile = "gfx/interface/technologies/aircraft/PRC_j_362.png"
 	}
 	#ships
 	SpriteType = {

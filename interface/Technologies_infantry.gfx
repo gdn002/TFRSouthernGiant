@@ -1,9 +1,7 @@
 # OVERRIDES FROM BASE TFR - KEEP UPDATED!
-# Current Version: 1.0.5
+# Current Version: 1.0.6
 # Changes:
 # - Adds custom graphics for Brazilian techs
-
-# TFRSG_Technologies_infantry.gfx
 
 spriteTypes = {	
 	
@@ -1224,41 +1222,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_JAP_infantry_weapons6_medium"
 		texturefile = "gfx/interface/technologies/infantry/JAP_infantry6.png"
-	}	
-	
-	SpriteType = {
-		name = "GFX_BRA_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/infantry/BRA_infantry1.dds"
-	}			
-
-	SpriteType = {
-		name = "GFX_BRA_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/infantry/BRA_infantry1.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_BRA_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/infantry/BRA_infantry2.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_BRA_infantry_weapons3_medium"
-		texturefile = "gfx/interface/technologies/infantry/BRA_infantry3.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_BRA_infantry_weapons4_medium"
-		texturefile = "gfx/interface/technologies/infantry/BRA_infantry4.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_BRA_infantry_weapons5_medium"
-		texturefile = "gfx/interface/technologies/infantry/BRA_infantry5.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_BRA_infantry_weapons6_medium"
-		texturefile = "gfx/interface/technologies/infantry/BRA_infantry6.dds"
 	}	
 	
 	SpriteType = {
@@ -3938,4 +3901,39 @@ spriteTypes = {
 		name = "GFX_BRA_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/infantry/BRA_moto1.dds"
 	}
-} ##
+
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry_equipment_0.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons6_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry6.dds"
+	}
+}

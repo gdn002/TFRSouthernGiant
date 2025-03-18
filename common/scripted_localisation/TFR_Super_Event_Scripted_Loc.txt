@@ -1,8 +1,10 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.5
+# Current version: 1.0.6
 # Changes:
 # - Adds scripted loc entries for TFRSG Super Events
-	
+
+	###### TITLE #######
+
 	defined_text = {
 		name = get_super_event_title
 		text = { 
@@ -231,6 +233,49 @@
 		
 		text = {
 			trigger = {
+				has_country_flag = GER_third_european_war_super
+			}
+			localization_key = "GER_third_european_war_super"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_monarchist_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_monarchist"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_benedetti_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_benedetti"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_bardella_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_bardella"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_napoleon_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_napoleon"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_republic_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_republic"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_junta_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_junta"
+		}
+		
+		text = {
+			trigger = {
 				has_country_flag = ATW_the_final_solution_super
 			}
 			localization_key = "ATW_the_final_solution_super"
@@ -398,6 +443,18 @@
 				has_country_flag = JAP_pdto_victory_super_event_flag
 			}
 			localization_key = "JAP_pdto_victory_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = USB_third_american_civil_war_super_event_flag
+			}
+			localization_key = "USB_third_american_civil_war_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_flag
+			}
+			localization_key = "FAF_third_european_war_super_event"
 		}
 
 		# TFRSG TITLES
@@ -675,6 +732,49 @@
 		
 		text = {
 			trigger = {
+				has_country_flag = GER_third_european_war_super
+			}
+			localization_key = "GER_third_european_war_super_text"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_monarchist_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_monarchist_text"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_benedetti_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_benedetti_text"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_bardella_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_bardella_text"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_napoleon_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_napoleon_text"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_republic_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_republic_text"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_junta_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_junta_text"
+		}
+		
+		text = {
+			trigger = {
 				has_country_flag = ATW_the_final_solution_super
 			}
 			localization_key = "ATW_the_final_solution_super_text"
@@ -842,6 +942,18 @@
 				has_country_flag = JAP_pdto_victory_super_event_flag
 			}
 			localization_key = "JAP_pdto_victory_super_text"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = USB_third_american_civil_war_super_event_flag
+			}
+			localization_key = "USB_third_american_civil_war_super_text"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_flag
+			}
+			localization_key = "FAF_third_european_war_super_text"
 		}
 
 		# TFRSG QUOTES
@@ -1119,6 +1231,49 @@
 		
 		text = {
 			trigger = {
+				has_country_flag = GER_third_european_war_super
+			}
+			localization_key = "GER_third_european_war_super_button"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_monarchist_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_monarchist_button"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_benedetti_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_benedetti_button"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_bardella_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_bardella_button"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_napoleon_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_napoleon_button"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_republic_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_republic_button"
+		}
+		text = {
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_junta_flag
+			}
+			localization_key = "FAF_third_european_war_super_event_junta_button"
+		}
+		
+		text = {
+			trigger = {
 				has_country_flag = ATW_the_final_solution_super
 			}
 			localization_key = "ATW_the_final_solution_super_button"
@@ -1286,6 +1441,18 @@
 				has_country_flag = JAP_pdto_victory_super_event_flag
 			}
 			localization_key = "JAP_pdto_victory_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = USB_third_american_civil_war_super_event_flag
+			}
+			localization_key = "USB_third_american_civil_war_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = FAF_third_european_war_super_event_flag
+			}
+			localization_key = "FAF_third_european_war_super_button"
 		}
 
 		# TFRSG BUTTONS

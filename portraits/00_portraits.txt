@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.5
+# Current version: 1.0.6
 # Changes:
 # - Adds TFRSG generic portrait definitions
 
@@ -29,10 +29,12 @@ default = {
 		male = {
 			"gfx/leaders/AGENT/Agent.png"
 			"gfx/leaders/AGENT/Agent.png"
-			"gfx/leaders/AGENT/Agent.png"
-			"gfx/leaders/AGENT/Agent.png"
 			"gfx/leaders/AGENT/Jeremy_Elbertson_New.png"
-			"gfx/leaders/AGENT/operative_male_9.png"
+			"gfx/leaders/Europe/operative_male_9.png"
+			"gfx/leaders/Europe/operative_male_10.png"
+			"gfx/leaders/Europe/operative_male_11.png"
+			"gfx/leaders/Europe/operative_male_12.png"
+			"gfx/leaders/Europe/operative_male_13.png"
 		}
 		female = {
 			"gfx/leaders/AGENT/Agent.png"
@@ -78,8 +80,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -98,6 +99,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/TFR/Francine.png"
@@ -113,8 +116,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -133,6 +135,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/TFR/Francine.png"
@@ -148,8 +152,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -168,6 +171,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/TFR/Francine.png"
@@ -183,8 +188,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -203,6 +207,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/TFR/Francine.png"
@@ -218,8 +224,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -238,6 +243,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/TFR/Francine.png"
@@ -253,8 +260,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -273,6 +279,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/TFR/Francine.png"
@@ -288,8 +296,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -308,6 +315,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/TFR/Francine.png"
@@ -323,8 +332,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -343,6 +351,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 				"gfx/leaders/Europe/general1.png"
 				"gfx/leaders/Europe/general4.png"
 				"gfx/leaders/Europe/general7.png"
@@ -363,8 +373,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -383,6 +392,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 				"gfx/leaders/Europe/general1.png"
 				"gfx/leaders/Europe/general4.png"
 				"gfx/leaders/Europe/general7.png"
@@ -403,8 +414,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -423,6 +433,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 				"gfx/leaders/Europe/general1.png"
 				"gfx/leaders/Europe/general4.png"
 				"gfx/leaders/Europe/general7.png"
@@ -443,8 +455,7 @@ continent = {
 				"gfx/leaders/Europe/politician4.png"
 				"gfx/leaders/Europe/politician5.png"
 				"gfx/leaders/Europe/politician6.png"
-				"gfx/leaders/Europe/Beck.png"
-				"gfx/leaders/Europe/Stephen.png"
+				"gfx/leaders/TFR/Beck.png"
 				"gfx/leaders/Europe/politician9.png"
 				"gfx/leaders/Europe/politician10.png"
 				"gfx/leaders/Europe/politician11.png"
@@ -463,6 +474,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 				"gfx/leaders/Europe/general1.png"
 				"gfx/leaders/Europe/general4.png"
 				"gfx/leaders/Europe/general7.png"
@@ -528,6 +541,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -562,6 +577,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -596,6 +613,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -630,6 +649,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -664,6 +685,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -698,6 +721,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -732,6 +757,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -766,6 +793,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -799,6 +828,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 				"gfx/leaders/Europe/general1.png"
 				"gfx/leaders/Europe/general4.png"
 				"gfx/leaders/Europe/general7.png"
@@ -837,6 +868,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 				"gfx/leaders/Europe/general1.png"
 				"gfx/leaders/Europe/general4.png"
 				"gfx/leaders/Europe/general7.png"
@@ -875,6 +908,8 @@ continent = {
 				"gfx/leaders/Europe/politician24.png"
 				"gfx/leaders/Europe/politician25.png"
 				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 				"gfx/leaders/Europe/general1.png"
 				"gfx/leaders/Europe/general4.png"
 				"gfx/leaders/Europe/general7.png"
@@ -1524,6 +1559,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -1549,6 +1589,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -1574,6 +1619,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -1597,6 +1647,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -1623,6 +1678,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -1649,6 +1709,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -1675,6 +1740,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -1703,6 +1773,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -1730,6 +1805,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 			}
 			female = {
 				"gfx/leaders/Europe/politician_female1.png"
@@ -1757,6 +1837,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 				"gfx/leaders/Europe/general1.png"
 				"gfx/leaders/Europe/general4.png"
 				"gfx/leaders/Europe/general7.png"
@@ -1789,6 +1874,11 @@ continent = {
 				"gfx/leaders/Europe/politician21.png"
 				"gfx/leaders/Europe/politician22.png"
 				"gfx/leaders/Europe/politician23.png"
+				"gfx/leaders/Europe/politician24.png"
+				"gfx/leaders/Europe/politician25.png"
+				"gfx/leaders/Europe/politician26.png"
+				"gfx/leaders/Europe/politician27.png"
+				"gfx/leaders/Europe/politician28.png"
 				"gfx/leaders/Europe/general1.png"
 				"gfx/leaders/Europe/general4.png"
 				"gfx/leaders/Europe/general7.png"
@@ -1831,6 +1921,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 			}
 		}
 		totalitarian_socialist = {
@@ -1840,6 +1932,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 			}
 		}
 		libertarian_socialist = {
@@ -1849,6 +1943,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 			}
 		}
 		social_democrat = {
@@ -1858,6 +1954,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 			}
 		}
 		social_liberal = {
@@ -1867,6 +1965,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 			}
 		}
 		market_liberal = {
@@ -1876,6 +1976,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 			}
 		}
 		conservative = {
@@ -1885,6 +1987,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 			}
 		}
 		authoritarian_democrat = {
@@ -1894,6 +1998,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 			}
 		}
 		nationalist = {
@@ -1905,6 +2011,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 			}
 		}
 		fascist = {
@@ -1916,6 +2024,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 				"gfx/leaders/Africa/general2.png"
 				"gfx/leaders/Africa/general3.png"
 			}
@@ -1929,6 +2039,8 @@ continent = {
 				"gfx/leaders/Africa/politician3.png"
 				"gfx/leaders/Africa/politician4.png"
 				"gfx/leaders/Africa/politician5.png"
+				"gfx/leaders/TFR/Peter.png"
+				"gfx/leaders/TFR/Ben.png"
 				"gfx/leaders/Africa/general2.png"
 				"gfx/leaders/Africa/general3.png"
 			}
@@ -2617,77 +2729,66 @@ RAJ = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -2770,77 +2871,66 @@ ULF = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -2852,77 +2942,66 @@ PAK = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -2934,77 +3013,66 @@ HUL = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -3016,77 +3084,66 @@ BAL = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -3098,77 +3155,66 @@ IRB = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -3180,77 +3226,66 @@ KHL = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -3262,77 +3297,66 @@ RJN = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -3344,77 +3368,66 @@ SLJ = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -3426,77 +3439,66 @@ AN1 = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -3508,77 +3510,66 @@ ISK = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -3590,77 +3581,66 @@ TLP = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -3672,77 +3652,66 @@ SAJ = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		totalitarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		libertarian_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		social_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		market_liberal = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		conservative = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		authoritarian_democrat = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		nationalist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		fascist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 		national_socialist = {
 			male = {
 				"gfx/leaders/RAJ/politician1.png"
 				"gfx/leaders/RAJ/politician2.png"
-				"gfx/leaders/RAJ/politician3.dds"
 			}
 		}
 	}
@@ -4495,7 +4464,37 @@ SOV_military_administration_12 = {
 	}
 }
 
-# TFRSG
+USB_caligula_puppet = {
+	army = {
+		male = {
+			"GFX_Portrait_AI_Biden"
+			"GFX_Portrait_AI_Biden_juliet"
+			"GFX_Portrait_AI_Biden_whiskey"
+			"GFX_Portrait_AI_Biden_yankee"
+			"GFX_Portrait_AI_Biden_echo"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_PRC_Generic_admiral_1"
+		}
+	}
+	
+	political = {
+		nationalist = {
+			male = {
+				"GFX_Portrait_AI_Biden"
+				"GFX_Portrait_AI_Biden_juliet"
+				"GFX_Portrait_AI_Biden_whiskey"
+				"GFX_Portrait_AI_Biden_yankee"
+				"GFX_Portrait_AI_Biden_echo"
+			}
+		}
+	}
+}
+
+## TFRSG
 BRA = {
 	navy = {
 		male = {

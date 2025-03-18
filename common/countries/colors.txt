@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.5
+# Current version: 1.0.6
 # Changes:
 # - Adds TFRSG tags
 # - Why do we have to override this whole file every time man
@@ -21,8 +21,8 @@ SWE = {
 	color_ui = rgb { 65 96 159 }
 }
 FRA = {
-	color = rgb { 51 68 118 }
-	color_ui = rgb { 51 68 118 }
+	color = rgb { 59 80 140 }
+	color_ui = rgb { 59 80 140 }
 }
 FAF = {
 	color = rgb { 2 32 122 }
@@ -938,10 +938,6 @@ BAS = {
 	color = rgb { 64 76 52 }
 	color_ui = rgb { 64 76 52 }
 }
-DMN = {
-	color = rgb { 0 200 10 }
-	color_ui = rgb { 0 200 10 }
-}
 BRU = {
 	color = rgb { 250 210 0 }
 	color_ui = rgb { 230 190 0 }
@@ -1327,10 +1323,6 @@ ROC = {
 	color = rgb { 37 82 37 }
 	color_ui = rgb { 37 82 37 }
 }
-DES = {
-	color = rgb { 58 105 32 }
-	color_ui = rgb { 58 105 32 }
-}
 GMA = {
 	color = rgb { 19 124 54 }
 	color_ui = rgb { 19 124 54 }
@@ -1342,10 +1334,6 @@ BOA = {
 PTF = {
 	color = rgb { 8 3 73 }
 	color_ui = rgb { 8 3 73 }
-}
-ALF = {
-	color = rgb { 104  152  83 }
-	color_ui = rgb { 104  152  83 }
 }
 LRA = {
 	color = rgb { 217 154 98 }
@@ -1541,8 +1529,8 @@ IMA = {
 	color_ui = rgb { 95 173 92 }
 }
 INM = {
-	color = rgb { 107 103 128 }
-	color_ui = rgb { 107 103 128 }
+	color = rgb { 179 66 96 }
+	color_ui = rgb { 179 66 96 }
 }
 NCM = {
 	color = rgb { 234 196 82 }
@@ -1584,10 +1572,6 @@ CAG = {
 	color = rgb { 70 116 179 }
 	color_ui = rgb { 70 116 179 }
 }
-LAH = {
-	color = rgb { 199 136 93 }
-	color_ui = rgb { 199 136 93 }
-}
 ZHU = {
 	color = rgb { 120 129 116 }
 	color_ui = rgb { 120 129 116 }
@@ -1608,7 +1592,65 @@ NLM = {
 	color = rgb { 179 66 96 }
 	color_ui = rgb { 179 66 96 }
 }
+BDG = {
+	color = rgb { 84 114 69 }
+	color_ui = rgb { 84 114 69 }
+}
+BDG = {
+	color = rgb { 170 98 52 }
+	color_ui = rgb { 170 98 52 }
+}
+TND = {
+	color = rgb { 78 49 23 }
+	color_ui = rgb { 78 49 23 }
+}
+HNJ = {
+	color = rgb { 98 97 177 }
+	color_ui = rgb { 98 97 177 }
+}
+UYY = {
+	color = rgb { 52 145 145 }
+	color_ui = rgb { 52 145 145 }
+}
+JIA = {
+	color = rgb { 192 202 57 }
+	color_ui = rgb { 192 202 57 }
+}
+
+#MILITARY
 CNT = {
+	color = rgb { 107 103 128 }
+	color_ui = rgb { 107 103 128 }
+}
+NTT = {
+	color = rgb { 107 103 128 }
+	color_ui = rgb { 107 103 128 }
+}
+ESF = {
+	color = rgb { 107 103 128 }
+	color_ui = rgb { 107 103 128 }
+}
+A74 = {
+	color = rgb { 107 103 128 }
+	color_ui = rgb { 107 103 128 }
+}
+A75 = {
+	color = rgb { 107 103 128 }
+	color_ui = rgb { 107 103 128 }
+}
+A77 = {
+	color = rgb { 107 103 128 }
+	color_ui = rgb { 107 103 128 }
+}
+A78 = {
+	color = rgb { 107 103 128 }
+	color_ui = rgb { 107 103 128 }
+}
+A81 = {
+	color = rgb { 107 103 128 }
+	color_ui = rgb { 107 103 128 }
+}
+A83 = {
 	color = rgb { 107 103 128 }
 	color_ui = rgb { 107 103 128 }
 }
@@ -1624,8 +1666,13 @@ RGT = {
 }
 
 PST = {
-	color = rgb { 84 114 69 }
-	color_ui = rgb { 84 114 69 }
+	color = rgb { 105 202 57 }
+	color_ui = rgb { 105 202 57 }
+}
+
+XSM = {
+	color = rgb { 255 128 0 }
+	color_ui = rgb { 255 128 0 }
 }
 
 PD1 = {
@@ -1845,14 +1892,6 @@ ATF = {
 MOG = {
 	color = rgb { 118 31 0 }
 	color_ui = rgb { 118 31 0 }
-}
-NEV = {
-	color = rgb { 51 77 106 }
-	color_ui = rgb { 51 77 106 }
-}
-UTA = {
-	color = rgb { 51 77 106 }
-	color_ui = rgb { 51 77 106 }
 }
 NCA = {
 	color = rgb { 0 100 175 }

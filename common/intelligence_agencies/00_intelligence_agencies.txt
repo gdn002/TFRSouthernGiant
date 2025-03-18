@@ -1,7 +1,7 @@
 	# OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-	# Current version: 1.0.5
+	# Current version: 1.0.6
 	# Changes:
-	# - Enables bespoke Brazilian Intelligence Agency already in vanilla TFR
+	# - Currently unchanged from TFR, but being kept for future Intelligence Agency additions
 
 	# List of names and logos for intelligence agencies
 	# available trigger will determine if the logo is in the list of available logos or not
@@ -10,7 +10,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_usa
-		names = { "Central Intelligence Agency" }
+		names = { "IA_Central_Intelligence_Agency" }
 		
 		default = { tag = USA }
 		available = { original_tag = USA }
@@ -19,7 +19,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_usa
-		names = { "Central Intelligence Agency" }
+		names = { "IA_Central_Intelligence_Agency" }
 		
 		default = { tag = USB }
 		available = { original_tag = USB }
@@ -28,7 +28,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_uk
-		names = { "Secret Intelligence Service" }
+		names = { "IA_Secret_Intelligence_Service" }
 		
 		default = { tag = ENG }
 		available = { original_tag = ENG }
@@ -37,7 +37,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_sov
-		names = { "Foreign Intelligence Service" }
+		names = { "IA_Foreign_Intelligence_Service" }
 		
 		default = { tag = SOV }
 		available = { original_tag = SOV }
@@ -46,7 +46,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_fra
-		names = { "DGSE/DGSI" }
+		names = { "IA_DGSE_DGSI" }
 		
 		default = { tag = FRA }
 		available = { original_tag = FRA }
@@ -55,7 +55,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_ger
-		names = { "Federal Intelligence Service" }
+		names = { "IA_Federal_Intelligence_Service" }
 		
 		default = { tag = GER }
 		available = { original_tag = GER }
@@ -64,7 +64,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_jap
-		names = { "Cabinet Intelligence and Research Office" }
+		names = { "IA_Cabinet_Intelligence_and_Research_Office" }
 		
 		default = { tag = JAP }
 		available = { original_tag = JAP }
@@ -73,7 +73,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_ita
-		names = { "Military Intelligence and Security Service" }
+		names = { "IA_Military_Intelligence_and_Security_Service" }
 		
 		default = { tag = ITA date < "2007.8.28" }
 		available = { original_tag = ITA date < "2007.8.28" }
@@ -82,7 +82,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_ita2007
-		names = { "External Intelligence and Security Agency" }
+		names = { "IA_External_Intelligence_and_Security_Agency" }
 		
 		default = { tag = ITA date > "2007.8.27" }
 		available = { original_tag = ITA date > "2007.8.27" }
@@ -91,7 +91,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_swe
-		names = { "Military Intelligence and Security Service" }
+		names = { "IA_Military_Intelligence_and_Security_Service" }
 		
 		default = { tag = SWE }
 		available = { original_tag = SWE }
@@ -100,7 +100,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_8
-		names = { "Ministry of Intelligence" }
+		names = { "IA_Ministry_of_Intelligence" }
 		
 		default = { tag = PER }
 		available = { original_tag = PER }
@@ -109,7 +109,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_6
-		names = { "Mossad" }
+		names = { "IA_Mossad" }
 		
 		default = { tag = ISR }
 		available = { original_tag = ISR }
@@ -118,7 +118,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_nor
-	#	names = { "E-tjenesten" }
+	#	names = { "IA_NOR_E_tjenesten" }
 	#	
 	#	default = { tag = NOR }
 	#	available = { original_tag = NOR }
@@ -127,7 +127,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_bel
-	#	names = { "ADIV" "SGRS" }
+	#	names = { "IA_BEL_ADIV" "IA_BEL_SGRS" }
 	#	
 	#	default = { tag = BEL }
 	#	available = { original_tag = BEL }
@@ -136,7 +136,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_hol
-	#	names = { "Bureau Inlichtingen" }
+	#	names = { "IA_HOL_Bureau_Inlichtingen" }
 	#	
 	#	default = { tag = HOL }
 	#	available = { original_tag = HOL}
@@ -145,7 +145,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_rom
-	#	names = { "Serviciul Special de Informatii" }
+	#	names = { "IA_ROM_Serviciul_Special_de_Informatii" }
 	#	
 	#	available = { always = yes }
 	#	
@@ -156,7 +156,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_prc
-		names = { "Ministry of Information" }
+		names = { "IA_Ministry_of_Information" }
 		
 		available = { always = yes }
 		
@@ -167,7 +167,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_prc
-		names = { "Ministry Of Patriotism" }
+		names = { "IA_Ministry_Of_Patriotism" }
 		
 		available = { always = yes }
 		
@@ -178,7 +178,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_prc
-		names = { "Ministry Of Intelligence" }
+		names = { "IA_Ministry_Of_Intelligence" }
 		
 		available = { always = yes }
 		
@@ -189,7 +189,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_prc
-		names = { "Ministry of State Security" }
+		names = { "IA_Ministry_of_State_Security" }
 		
 		available = { always = yes }
 		
@@ -200,7 +200,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_chi
-		names = { "National Security Bureau" }
+		names = { "IA_National_Security_Bureau" }
 		
 		available = { always = yes }
 		
@@ -211,7 +211,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_yug
-	#	names = { "OZNA" }
+	#	names = { "IA_YUG_OZNA" }
 	#	
 	#	available = { always = yes }
 	#	
@@ -222,7 +222,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_spr
-		names = { "National Intelligence Centre" }
+		names = { "IA_National_Intelligence_Centre" }
 		
 		available = { always = yes }
 		
@@ -233,7 +233,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_spa
-	#	names = { "SIPM" }
+	#	names = { "IA_SIPM" }
 	#	
 	#	available = { always = yes }
 	#	
@@ -244,7 +244,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_pol
-	#	names = { "Dwojka" }
+	#	names = { "IA_Dwojka" }
 	#	
 	#	available = { always = yes }
 	#	
@@ -255,7 +255,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_man
-	#	names = { "Hoankyoku" }
+	#	names = { "IA_Hoankyoku" }
 	#	
 	#	available = { always = yes }
 	#	
@@ -266,7 +266,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_por
-	#	names = { "PIDE" }
+	#	names = { "IA_PIDE" }
 	#	
 	#	available = { always = yes }
 	#	
@@ -277,7 +277,7 @@
 	#intelligence_agency = {
 	#	
 	#	picture = GFX_intelligence_agency_logo_fin
-	#	names = { "PE TIEDOS" }
+	#	names = { "IA_PE_TIEDOS" }
 	#	
 	#	default = { tag = FIN }
 	#	available = { always = yes }
@@ -287,7 +287,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_raj
-		names = { "Research and Analysis Wing" }
+		names = { "IA_Research_and_Analysis_Wing" }
 		
 		default = { tag = RAJ }
 		available = { original_tag = RAJ }
@@ -296,7 +296,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_bra
-		names = { "Brazilian Intelligence Agency" }
+		names = { "IA_Brazilian_Intelligence_Agency" }
 		
 		default = { tag = BRA }
 		available = { original_tag = BRA }
@@ -305,7 +305,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_mex
-		names = { "National Intelligence Centre" }
+		names = { "IA_National_Intelligence_Centre" }
 		
 		default = { tag = MEX }
 		available = { original_tag = MEX }
@@ -314,7 +314,7 @@
 	intelligence_agency = {
 
 		picture = GFX_intelligence_agency_logo_tur
-		names = { "National Intelligence Organization" }
+		names = { "IA_National_Intelligence_Organization" }
 		
 		default = { tag = TUR }
 		available = { original_tag = TUR }
@@ -324,7 +324,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_1
-		names = { "Rooke" }
+		names = { "IA_Rooke" }
 		
 		available = { always = yes }
 		
@@ -333,7 +333,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_2
-		names = { "Tower" }
+		names = { "IA_Tower" }
 		
 		available = { always = yes }
 		
@@ -342,7 +342,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_3
-		names = { "Snake" }
+		names = { "IA_Snake" }
 		
 		available = { always = yes }
 		
@@ -351,7 +351,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_4
-		names = { "Stag" }
+		names = { "IA_Stag" }
 		
 		available = { always = yes }
 		
@@ -360,7 +360,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_5
-		names = { "Golden Lion" }
+		names = { "IA_Golden_Lion" }
 		
 		available = { always = yes }
 		
@@ -369,7 +369,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_6
-		names = { "Arrow" }
+		names = { "IA_Arrow" }
 		
 		available = { always = yes }
 		
@@ -378,7 +378,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_7
-		names = { "Lion Head" }
+		names = { "IA_Lion_Head" }
 		
 		available = { always = yes }
 		
@@ -387,7 +387,7 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_8
-		names = { "Golden Eagle" }
+		names = { "IA_Golden_Eagle" }
 		
 		available = { always = yes }
 		
@@ -396,28 +396,18 @@
 	intelligence_agency = {
 		
 		picture = GFX_intelligence_agency_logo_generic_9
-		names = { "Hammer and Sickle" }
-		
-		available = { 
-			has_government = communist #NVX#
-		}
-		
-		default = { always = yes } 
-	}
-	intelligence_agency = {
-		
-		picture = GFX_intelligence_agency_logo_oros
-		names = { "OROS" }
+		names = { "IA_Hammer_and_Sickle" }
 		
 		available = { always = yes }
 		
 		default = { always = yes } 
 	}
 	intelligence_agency = {
-
-		picture = GFX_intelligence_agency_logo_bra
-		names = { "Brazilian Intelligence Agency" }
 		
-		default = { tag = BRA }
-		available = { original_tag = BRA }
+		picture = GFX_intelligence_agency_logo_oros
+		names = { "IA_OROS" }
+		
+		available = { always = yes }
+		
+		default = { always = yes } 
 	}

@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.5
+# Current version: 1.0.6
 # Changes:
 # - Adds Integralism as a fascist sub-ideology
 
@@ -166,6 +166,14 @@ ideologies = {
 					200
 					44
 					36
+				}
+			}
+			confucian_socialism = {
+				can_be_randomly_selected = no
+				color = {
+					237
+					178
+					155
 				}
 			}
 		}
@@ -769,6 +777,22 @@ ideologies = {
 				#Ascended Man
 				can_be_randomly_selected = no
 			}
+			right_wing_accelerationist = {
+				can_be_randomly_selected = no
+				color = {
+					63
+					242
+					161
+				}
+			}
+			putinism_despot = {
+				can_be_randomly_selected = no
+				color = {
+					84
+					84
+					84
+				}
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_NATIONALIST_1"
@@ -815,6 +839,9 @@ ideologies = {
 			classical_fascism = {
 			}
 			clerical_fascism = {
+			}	
+			blackhundredism = {
+				can_be_randomly_selected = no
 			}
 			ecofascism = {
 				can_be_randomly_selected = no
@@ -832,6 +859,22 @@ ideologies = {
 					137
 					110
 					49
+				}
+			}	
+			vladimir_zhirinovsky_thought_post_war = {
+				can_be_randomly_selected = no
+				color = {
+					137
+					110
+					49
+				}
+			}	
+			vladimir_zhirinovsky_thought_militarist = {
+				can_be_randomly_selected = no
+				color = {
+					104
+					91
+					62
 				}
 			}
 			chinese_exceptionalism = {

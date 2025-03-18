@@ -2580,7 +2580,7 @@
  AST_light_mechanized_equipment_6_short: "Boxer MRAV"
  AST_light_mechanized_equipment_6_desc: "The Boxer is an eight-wheeled multirole vehicle, easily dwarfing most contemporary vehicles with its size. At 33 ton combat weight, it is also about 10 tons heavier than many other contemporary vehicles within the same role. It is designed to carry out a variety of utility missions with maximum flexibility; this is achieved via several different "mission modules" specialized for various tasks which are available separately from the vehicle. Australian MRAVs incorporate a personell carrying module, armed with the FLW-200 remote weapons system with either a 40mm AGL or .50 cal M2."
  ### BRAZIL ###
-  ## MOTORIZED ##
+ ## MOTORIZED ##
  BRA_motorized_equipment_1: "Agrale AM-41"
  BRA_motorized_equipment_1_short: "Agrale AM-41"
  BRA_motorized_equipment_1_desc: "Agrale AM-41"
@@ -2647,7 +2647,6 @@
  BRA_mechanized_equipment_5: "EE-10 Jararaca MX-2"
  BRA_mechanized_equipment_5_short: "EE-10 Jararaca MX-2"
  BRA_mechanized_equipment_5_desc: "EE-10 Jararaca MX-2"
-
  BRA_amphibious_mechanized_equipment_1: "CBTP Charrua"
  BRA_amphibious_mechanized_equipment_1_short: "CBTP Charrua"
  BRA_amphibious_mechanized_equipment_1_desc: "CBTP Charrua"
@@ -2673,7 +2672,7 @@
  BRA_light_mechanized_equipment_6: "EE-21 Cotiara"
  BRA_light_mechanized_equipment_6_short: "EE-21 Cotiara"
  BRA_light_mechanized_equipment_6_desc: "EE-21 Cotiara"
-## ARTILLERY ##
+ ## ARTILLERY ##
  BRA_rocket_artillery: "Astros II"
  BRA_rocket_artillery_short: "Astros II"
  BRA_rocket_artillery_desc: "Astros II"
@@ -2683,7 +2682,6 @@
  BRA_motorized_rocket_equipment_2: "Astros 2020"
  BRA_motorized_rocket_equipment_2_short: "Astros 2020"
  BRA_motorized_rocket_equipment_2_desc: "Astros 2020"
-
  ### UNITED KINGDOM ###
  ## LIGHT TANKS ##
  ENG_light_tank_equipment_1: "FV Scorpion 101"

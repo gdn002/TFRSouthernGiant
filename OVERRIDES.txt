@@ -25,3 +25,15 @@ localisation\english\replace\TFR_replace_strategic_region_names_l_english.yml
 localisation\english\replace\TFR_replace_victory_points_l_english.yml
 
 map (the whole folder)
+
+PROVINCE REARRANGING REQUIRED!!! 
+Shift existing provinces by 19 units - Provinces 14943 to 15000
+Find and replace can be used to make this process easier
+Update province reference IDs in folders/files:
+- history/states
+- history/units
+- localisation (vp files)
+- adjacencies.csv
+- railways.txt
+- supply_nodes.txt
+- map/strategicregions

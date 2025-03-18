@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.5
+# Current version: 1.0.6
 # Changes:
 # - Trump/Biden certification events fire their respective responses in Brazil
 # - Congress Refuses Diplomacy event fires a response in Brazil
@@ -6223,11 +6223,14 @@ country_event = {
 	id = usa.225
 	title = usa.225.t
 	desc = usa.225.desc
-	picture = GFX_money
+	picture = GFX_USA_money
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
 		USA_is_civil_war_faction = yes
+		NOT = {
+			has_completed_focus = USB_rebirth
+		}
 	}
 	immediate = {
 		hidden_effect = {

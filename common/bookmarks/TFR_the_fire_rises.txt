@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.4a
+# Current version: 1.0.6
 # Changes:
 # - Adds Brazil bookmark entry
 
@@ -142,6 +142,7 @@ bookmarks = {
 		#}
 		
 		"BRA" = {
+			minor = yes
 			history = "BRA_GATHERING_STORM_DESC"
 			ideology = conservative
 			ideas = {
