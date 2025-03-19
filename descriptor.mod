@@ -7,7 +7,7 @@ tags={
 }
 name="The Fire Rises - Southern Giant"
 path="mod/TFRSouthernGiant"
-supported_version="1.15.*"
+supported_version="1.16.*"
 dependencies={
 	"The Fire Rises"
 }

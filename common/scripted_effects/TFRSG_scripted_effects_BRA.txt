@@ -663,6 +663,7 @@ BRA_covid_trials_events = {
 	}
 }
 
+# TODO: CHANGE COVID TRIALS OUTCOME TO BE MORE DIRECTLY BASED OFF COVID PERFORMANCE
 # COVID TRIALS OUTCOMES REFERENCE - The outcome depends on decisions made on the starting focus tree
 # 1. Bolsonaro Impeached: Reshuffle Cabinet AND Fire Mandetta - Mourão will take over and Bolsonaro will be barred from running again
 # 2. Bolsonaro Exonerated: Either Work With Centrão OR Heed Mandetta (but not both) - Bolsonaro will have the option to hand over presidency to Mourão, or continue with debuffs
@@ -826,15 +827,15 @@ BRA_civil_war_get_state_recruitment_value = {
 				state = 905
 				state = 906
 				state = 908
-				state = 1424
-				state = 1426
-				state = 1427
-				state = 1430
-				state = 1431
-				state = 1432
-				state = 1434
-				state = 1436
-				state = 1438
+				state = 1437
+				state = 1439
+				state = 1440
+				state = 1443
+				state = 1444
+				state = 1445
+				state = 1447
+				state = 1449
+				state = 1451
             }
         }
 		set_temp_variable = { BRA_civil_war_recruit_value_temp = 2 }
@@ -848,13 +849,13 @@ BRA_civil_war_get_state_recruitment_value = {
 				state = 500			
 				state = 503
 				state = 505
-				state = 1422
-				state = 1423
-				state = 1425
-				state = 1428
-				state = 1429
-				state = 1433
-				state = 1435				
+				state = 1435
+				state = 1436
+				state = 1438
+				state = 1441
+				state = 1442
+				state = 1446
+				state = 1448				
             }
         }
 		set_temp_variable = { BRA_civil_war_recruit_value_temp = 3 }
@@ -867,9 +868,9 @@ BRA_civil_war_get_state_recruitment_value = {
 				state = 499
 				state = 501
 				state = 502
-				state = 1437
-				state = 1439
-				state = 1440
+				state = 1450
+				state = 1452
+				state = 1453
             }
         }
 		set_temp_variable = { BRA_civil_war_recruit_value_temp = 4 }

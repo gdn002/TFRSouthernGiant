@@ -2341,7 +2341,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			1422 = { set_demilitarized_zone = yes }
+			1435 = { set_demilitarized_zone = yes }
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = -0.075
@@ -2390,7 +2390,7 @@ country_event = {
     			value = -0.075
    	 			tooltip_side = BRA_radicalization_side
 			}
-			1422 = { set_demilitarized_zone = yes }
+			1435 = { set_demilitarized_zone = yes }
 		}
 	}
 }
@@ -2619,7 +2619,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			1422 = { set_demilitarized_zone = yes }
+			1435 = { set_demilitarized_zone = yes }
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = -0.05
@@ -2668,7 +2668,7 @@ country_event = {
     			value = -0.05
    	 			tooltip_side = BRA_radicalization_side
 			}
-			1422 = { set_demilitarized_zone = yes }
+			1435 = { set_demilitarized_zone = yes }
 		}
 	}
 }
@@ -3481,10 +3481,10 @@ country_event = {
 				}
 			}		
 			# SPAWN MILITARY JUNTA IN DF
-			1422 = { set_demilitarized_zone = no }
+			1435 = { set_demilitarized_zone = no }
 			BR2 = {
-				transfer_state = 1422
-				add_state_core = 1422
+				transfer_state = 1435
+				add_state_core = 1435
 			}
 		}
 	}
@@ -3493,7 +3493,7 @@ country_event = {
 		name = Brazil.civilwar.4.a
 		effect_tooltip = {
 			BR2 = {
-				transfer_state = 1422
+				transfer_state = 1435
 			}
 		}
 	}
@@ -3516,8 +3516,8 @@ country_event = {
 		# SPAWN FED GOVT IN RIO
 		hidden_effect = {
 			BR1 = {
-				transfer_state = 1437
-				add_state_core = 1437
+				transfer_state = 1450
+				add_state_core = 1450
 			}
 			country_event = {
 				id = Brazil.civilwar.7
@@ -3530,7 +3530,7 @@ country_event = {
 		name = Brazil.civilwar.5.a
 		effect_tooltip = {
 			BR1 = {
-				transfer_state = 1437
+				transfer_state = 1450
 			}
 		}
 	}
@@ -3553,8 +3553,8 @@ country_event = {
 		# SPAWN FED GOVT IN RIO
 		hidden_effect = {
 			BR1 = {
-				transfer_state = 1437
-				add_state_core = 1437
+				transfer_state = 1450
+				add_state_core = 1450
 			}
 			country_event = {
 				id = Brazil.civilwar.7
@@ -3567,7 +3567,7 @@ country_event = {
 		name = Brazil.civilwar.6.a
 		effect_tooltip = {
 			BR1 = {
-				transfer_state = 1437
+				transfer_state = 1450
 			}
 		}
 	}
@@ -3692,8 +3692,8 @@ country_event = {
 		# SPAWN POPULAR FRONT IN SALVADOR
 		hidden_effect = {
 			BR3 = {
-				transfer_state = 1439
-				add_state_core = 1439
+				transfer_state = 1452
+				add_state_core = 1452
 			}
 			country_event = {
 				id = Brazil.civilwar.11
@@ -3706,7 +3706,7 @@ country_event = {
 		name = Brazil.civilwar.10.a
 		effect_tooltip = {
 			BR3 = {
-				transfer_state = 1439
+				transfer_state = 1452
 			}
 		}
 	}
@@ -3756,7 +3756,7 @@ country_event = {
 		hidden_effect = {
 			SPA = {
 				transfer_state = 501
-				transfer_state = 1440
+				transfer_state = 1453
 			}
 			country_event = {
 				id = Brazil.civilwar.13
@@ -3770,7 +3770,7 @@ country_event = {
 		effect_tooltip = {
 			SPA = {
 				transfer_state = 501
-				transfer_state = 1440
+				transfer_state = 1453
 			}
 		}
 	}
@@ -3799,17 +3799,17 @@ country_event = {
 				transfer_state = 495
 				transfer_state = 905
 				transfer_state = 906
-				transfer_state = 1424
-				transfer_state = 1425
-				transfer_state = 1426
-				transfer_state = 1427
+				transfer_state = 1437
+				transfer_state = 1438
+				transfer_state = 1439
+				transfer_state = 1440
 				add_state_core = 495
 				add_state_core = 905
 				add_state_core = 906
-				add_state_core = 1424
-				add_state_core = 1425
-				add_state_core = 1426
-				add_state_core = 1427
+				add_state_core = 1437
+				add_state_core = 1438
+				add_state_core = 1439
+				add_state_core = 1440
 			}
 		}
 	}
@@ -3821,10 +3821,10 @@ country_event = {
 				transfer_state = 495
 				transfer_state = 905
 				transfer_state = 906
-				transfer_state = 1424
-				transfer_state = 1425
-				transfer_state = 1426
-				transfer_state = 1427
+				transfer_state = 1437
+				transfer_state = 1438
+				transfer_state = 1439
+				transfer_state = 1440
 			}
 		}
 	}

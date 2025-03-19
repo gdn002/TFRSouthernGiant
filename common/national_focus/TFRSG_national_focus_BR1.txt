@@ -104,10 +104,10 @@ focus_tree = {
 		completion_reward = {
 			transfer_state = 496
 			transfer_state = 500
-			transfer_state = 1434
+			transfer_state = 1447
 			add_state_core = 496
 			add_state_core = 500
-			add_state_core = 1434    
+			add_state_core = 1447    
 		}
 	}
 

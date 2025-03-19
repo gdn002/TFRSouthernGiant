@@ -212,13 +212,13 @@ units = {
 	# COMANDO MILITAR
 	division = {
 		name = "Com. Mil. Amazonia"
-		location = 14998
+		location = 15017
 		division_template = "Comando Militar"
 		start_experience_factor = 0.5		
 	}
 	division = {
 		name = "Com. Mil. Leste"
-		location = 14979
+		location = 14998
 		division_template = "Comando Militar"
 		start_experience_factor = 0.5		
 	}
@@ -242,13 +242,13 @@ units = {
 	}
 	division = {
 		name = "Com. Mil. Planalto"
-		location = 14946
+		location = 14965
 		division_template = "Comando Militar"
 		start_experience_factor = 0.5		
 	}
 	division = {
 		name = "Com. Mil. Sudeste"
-		location = 14975
+		location = 14994
 		division_template = "Comando Militar"
 		start_experience_factor = 0.5		
 	}
@@ -274,19 +274,19 @@ units = {
 	}
 	division = {
 		name = "16a Bda Inf Sl"
-		location = 14993
+		location = 15012
 		division_template = "Brigada de Infantaria de Selva"
 		start_experience_factor = 0.6		
 	}
 	division = {
 		name = "17a Bda Inf Sl"
-		location = 14954
+		location = 14973
 		division_template = "Brigada de Infantaria de Selva"
 		start_experience_factor = 0.6		
 	}
 	division = {
 		name = "22a Bda Inf Sl"
-		location = 14964
+		location = 14983
 		division_template = "Brigada de Infantaria de Selva"
 		start_experience_factor = 0.6		
 	}
@@ -318,7 +318,7 @@ units = {
 	}
 	division = {
 		name = "9a Bda Inf Mtz"
-		location = 14979
+		location = 14998
 		division_template = "Brigada de Infantaria Motorizada"
 		start_experience_factor = 0.5		
 	}
@@ -368,7 +368,7 @@ units = {
 	# BRIGADA DE INFANTARIA LEVEL AEROMOVEL
 	division = {
 		name = "12a Bda Inf L Amv"
-		location = 14978
+		location = 14997
 		division_template = "Brigada de Infantaria Leve (Aeromovel)"
 		start_experience_factor = 0.5		
 	}
@@ -423,7 +423,7 @@ units = {
 
 	division = {
 		name = "Corpo de Fuzileiros Navais"
-		location = 14979
+		location = 14998
 		division_template = "Corpo de Fuzileiros Navais"
 		start_experience_factor = 0.6		
 	}

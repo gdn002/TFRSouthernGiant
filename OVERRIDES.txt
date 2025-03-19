@@ -8,6 +8,7 @@ common\intelligence_agencies\00_intelligence_agencies.txt
 common\military_industrial_organization\organizations\TFR_organizations_ZZZ_generic.txt
 common\scripted_localisation\TFR_FBI_Scripted_Loc.txt
 common\scripted_localisation\TFR_Super_Event_Scripted_Loc.txt
+common\scripted_triggers\TFR_scripted_triggers_ZZZ_generic.txt
 
 events\TFR_events_USA.txt
 
@@ -18,22 +19,6 @@ interface\Technologies_infantry.gfx
 
 portraits\00_portraits.txt
 
-localisation\english\replace\TFR_replace_bookmarks_l_english.yml
-localisation\english\replace\TFR_replace_equipment_l_english.yml
-localisation\english\replace\TFR_replace_state_names_l_english.yml
-localisation\english\replace\TFR_replace_strategic_region_names_l_english.yml
-localisation\english\replace\TFR_replace_victory_points_l_english.yml
+localisation\english\replace (the whole folder)
 
 map (the whole folder)
-
-PROVINCE REARRANGING REQUIRED!!! 
-Shift existing provinces by 19 units - Provinces 14943 to 15000
-Find and replace can be used to make this process easier
-Update province reference IDs in folders/files:
-- history/states
-- history/units
-- localisation (vp files)
-- adjacencies.csv
-- railways.txt
-- supply_nodes.txt
-- map/strategicregions

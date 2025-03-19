@@ -22,3 +22,7 @@
  LATAM_battle_hardened_idea: "Battle-Hardened Military"
  LATAM_battle_hardened_idea_desc: "Deep in the mountains, the jungles and deserts of South America, our armies fought valiantly. We were thrust into the fire with zero experience on 21st century warfare, and we had to pay a hefty price for it. And yet, through sheer willpower and sense of patriotic duty, our soldiers held the line, adapted, prevailed over the enemy. With each engagement, we took notes. After every battle, we revised our doctrines. And after finally achieving victory, we have forged a respectable military force that could hold its own against the major powers of the world.\n\n§YSi vis pacem, para bellum.§!"
  LATAM_unrecognized_state: "Unrecognized State"
+ #Events
+ latin_america.23.t: "The Headless Rooster"
+ latin_america.23.d: "French Guiana declares independence"
+ latin_america.23.a: "Au Revoir Frenchie!"

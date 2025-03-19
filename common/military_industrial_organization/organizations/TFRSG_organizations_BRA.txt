@@ -10,7 +10,7 @@ BRA_engesa = {
 	}
 	available = {
 		FROM = {
-			controls_state = 1440
+			controls_state = 1453
 			has_completed_focus = BRA_restart_osorio_project
 			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
@@ -29,7 +29,7 @@ BRA_arsenal_de_marinha = {
 	}
 	available = {
 		FROM = {
-			controls_state = 1437
+			controls_state = 1450
 			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
@@ -113,7 +113,7 @@ BRA_imbel = {
 	}
 	available = {
 		FROM = {
-			controls_state = 1422
+			controls_state = 1435
 			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}
@@ -128,7 +128,7 @@ BRA_companhia_brasileira_cartuchos = {
 	}
 	available = {
 		FROM = {
-			controls_state = 1440
+			controls_state = 1453
 			NOT = { has_country_flag = BRA_civil_war_ongoing_flag }
 		}
 	}

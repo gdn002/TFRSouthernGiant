@@ -103,20 +103,20 @@ focus_tree = {
 		completion_reward = {
 			transfer_state = 497
 			transfer_state = 498
-			transfer_state = 1428
-			transfer_state = 1429
-			transfer_state = 1430
-			transfer_state = 1431
-			transfer_state = 1432
-			transfer_state = 1433
+			transfer_state = 1441
+			transfer_state = 1442
+			transfer_state = 1443
+			transfer_state = 1444
+			transfer_state = 1445
+			transfer_state = 1446
 			add_state_core = 497
 			add_state_core = 498
-			add_state_core = 1428
-			add_state_core = 1429
-			add_state_core = 1430
-			add_state_core = 1431
-			add_state_core = 1432
-			add_state_core = 1433
+			add_state_core = 1441
+			add_state_core = 1442
+			add_state_core = 1443
+			add_state_core = 1444
+			add_state_core = 1445
+			add_state_core = 1446
 		}
 	}
 

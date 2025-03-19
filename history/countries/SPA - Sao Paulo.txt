@@ -1,4 +1,4 @@
-	capital = 1440
+	capital = 1453
 	
 	recruit_character = SPA_tarcisio_freitas_char
 

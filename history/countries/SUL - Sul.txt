@@ -1,4 +1,4 @@
-	capital = 1435
+	capital = 1448
 	
 	recruit_character = SUL_ivan_feloniuk_char
 	recruit_character = SUL_decio_lima_char

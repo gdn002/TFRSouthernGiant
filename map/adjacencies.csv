@@ -148,17 +148,17 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12825;13083;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
 5083;14445;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
 5083;14446;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
-5317;14963;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
-8050;14963;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
-10849;14963;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
+5317;14982;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
+8050;14982;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
+10849;14982;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
 4980;4934;impassable;-1;-1;-1;-1;-1;;Brazil-France Border
 5008;8107;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
 5214;8107;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
 5214;8107;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
 1928;4980;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
 1928;5008;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
-5008;14966;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
-5214;14966;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
+5008;14985;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
+5214;14985;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
 13583;1485;impassable;-1;-1;-1;-1;-1;;Ashevill-Oconee
 13583;4653;impassable;-1;-1;-1;-1;-1;;Ashevill-Oconee
 7643;13585;impassable;-1;-1;-1;-1;-1;;Ashevill-Oconee
