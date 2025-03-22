@@ -389,12 +389,12 @@ country_event = {
 		name = Brazil.13.a
 		add_timed_idea =  {
 			idea = BRA_emergency_covid_welfare_fund1
-			months = 6
+			months = 3
 		}
 		hidden_effect = {
 			country_event = {
 				id = Brazil.14
-				days = 150
+				days = 80
 			}
 		}
 	}
@@ -416,6 +416,9 @@ country_event = {
 	# Extend the welfare period
 	option = {
 		name = Brazil.14.a
+		add_political_power = -25
+		set_temp_variable = { BRA_election_approval_rating_pl_var_temp = 0.025 }
+		BRA_add_election_approval_rating_pl = yes;
 		modify_timed_idea = {
 			idea = BRA_emergency_covid_welfare_fund1
 			months = 4
@@ -436,6 +439,7 @@ country_event = {
 	# No extension
 	option = {
 		name = Brazil.14.c
+		add_political_power = 50
 	}
 }
 
@@ -507,7 +511,7 @@ country_event = {
 
 			news_event = {
 				id = Brazil.13
-				days = 18
+				days = 20
 			}
 		}
 	}
@@ -965,6 +969,8 @@ country_event = {
 
 	option = {
 		add_political_power = 50
+		set_temp_variable = { BRA_election_approval_rating_psdb_var_temp = 0.1 }
+		BRA_add_election_approval_rating_psdb = yes;
 		name = Brazil.33.a
 	}
 }

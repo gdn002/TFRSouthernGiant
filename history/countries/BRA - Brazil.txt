@@ -132,7 +132,7 @@
 	# Brazilians repatriated from Wuhan
 	country_event = {
 		id = Brazil.3
-		days = 45
+		days = 40
 	}
 
 	# Oil crisis hits Brazil
