@@ -1,0 +1,3 @@
+TFRSG_amazonian_jungle_dynamic = {
+    ## TODO
+}

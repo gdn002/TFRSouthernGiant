@@ -5,23 +5,39 @@ BRA_add_amazonian_preservation = {
 		var = global.BRA_amazonian_preservation_var
 		value = BRA_amazonian_preservation_var_temp
 	}
-	multiply_temp_variable = {
-		var = BRA_amazonian_preservation_var_temp
-		value = 0.001
-	}
-	add_to_variable = {
-		var = BRA_amazonian_preservation_dynamic_var
-		value = BRA_amazonian_preservation_var_temp
-	}
 	clamp_variable = {
 		var = global.BRA_amazonian_preservation_var
 		min = 0
 		max = 100
 	}
+	
+	BRA_recalculate_amazonian_preservation_dynamic_vars = yes
+}
+
+BRA_recalculate_amazonian_preservation_dynamic_vars = {
+	# Dynamic var interpolates between 70 and 90
+	set_temp_variable = { amazonian_preservation_lerp = global.BRA_amazonian_preservation_var }
+	subtract_from_temp_variable = { amazonian_preservation_lerp = 80 }
+	clamp_temp_variable = {
+		var = amazonian_preservation_lerp
+		min = -10
+		max = 10
+	}
+	divide_temp_variable = { amazonian_preservation_lerp = 10 }
+	
+	set_variable = { global.BRA_amazonian_preservation_dynamic_var = amazonian_preservation_lerp }
+	set_variable = { global.BRA_amazonian_preservation_pos_dynamic_var = amazonian_preservation_lerp }
+	set_variable = { global.BRA_amazonian_preservation_neg_dynamic_var = amazonian_preservation_lerp }
+
 	clamp_variable = {
-		var = BRA_amazonian_preservation_dynamic_var
+		var = BRA_amazonian_preservation_pos_dynamic_var
 		min = 0
 		max = 1
+	}
+	clamp_variable = {
+		var = BRA_amazonian_preservation_neg_dynamic_var
+		min = -1
+		max = 0
 	}
 }
 

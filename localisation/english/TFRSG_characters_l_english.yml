@@ -10,6 +10,7 @@
  BRA_sofia_manzano_char: "Sofia Manzano"
  BRA_rui_costa_pimenta_char: "Rui Costa Pimenta"
  BRA_hamilton_mourao_char: "Hamilton Mourão"
+ BRA_arthur_lira_char: "Arthur Lira"
  BRA_flavio_bolsonaro_char: "Flávio Bolsonaro"
  BRA_carlos_bolsonaro_char: "Carlos Bolsonaro"
  BRA_eduardo_bolsonaro_char: "Eduardo Bolsonaro"
@@ -60,6 +61,10 @@
  BR3_guilherme_boulos_char: "Guilherme Boulos"
  BR3_rui_costa_pimenta_char: "Rui Costa Pimenta"
  BR3_sofia_manzano_char: "Sofia Manzano"
+ # BR3 - Generals
+ BR3_leonel_radde_char: "Leonel Radde"
+ BR3_paulo_galo_char: "Paulo Galo"
+ BR3_pedro_che_char: "Pedro Che"
  # SPA - Leaders
  SPA_tarcisio_freitas_char: "Tarcísio Freitas"
  # SUL - Leaders

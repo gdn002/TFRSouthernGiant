@@ -30,7 +30,7 @@ focus_tree = {
 		}
 		x = 5
 		y = 0
-		cost = 2
+		cost = 3
 		allow_branch = {
 			NOT = {
 				has_global_flag = BRA_civil_war_ended_flag
@@ -47,7 +47,14 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.05
 			# The popular front has risen up!
+			country_event = {
+				id = Brazil.commie.1
+				hours = 12
+			}
 		}
 	}
 
@@ -72,11 +79,17 @@ focus_tree = {
 		}
 		completion_reward = {
 			# We set up a provisional popular government
+			add_political_power = 100
+			add_stability = 0.05
 			set_power_balance = {
 				id = BR3_internal_faction_balance
 				left_side = BR3_hardliner_side
 				right_side = BR3_libertarian_side
 				set_value = 0
+			}
+			country_event = {
+				id = Brazil.commie.2
+				hours = 12
 			}
 		}
 	}
@@ -101,22 +114,27 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-			transfer_state = 497
-			transfer_state = 498
-			transfer_state = 1441
-			transfer_state = 1442
-			transfer_state = 1443
-			transfer_state = 1444
-			transfer_state = 1445
-			transfer_state = 1446
-			add_state_core = 497
-			add_state_core = 498
-			add_state_core = 1441
-			add_state_core = 1442
-			add_state_core = 1443
-			add_state_core = 1444
-			add_state_core = 1445
-			add_state_core = 1446
+			custom_effect_tooltip = BR3_cw_link_up_with_pf_cells_tt
+			hidden_effect = {
+				transfer_state = 497
+				transfer_state = 498
+				transfer_state = 499
+				transfer_state = 1441
+				transfer_state = 1442
+				transfer_state = 1443
+				transfer_state = 1444
+				transfer_state = 1445
+				transfer_state = 1446
+				add_state_core = 497
+				add_state_core = 498
+				add_state_core = 499
+				add_state_core = 1441
+				add_state_core = 1442
+				add_state_core = 1443
+				add_state_core = 1444
+				add_state_core = 1445
+				add_state_core = 1446
+			}
 		}
 	}
 
@@ -140,7 +158,15 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-			# We'll have to choose our strategy for the impending civil war
+			add_war_support = 0.1
+			custom_effect_tooltip = BRA_civil_war_militias_spawn_tt			
+			country_event = {
+				id = Brazil.commie.3
+				hours = 6
+			}
+			hidden_effect = {
+				load_oob = "BR3_Civil_War"
+			}
 		}
 	}
 
@@ -167,7 +193,33 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			# Enable raising of additional militias
+			add_war_support = 0.05
+			set_country_flag = BRA_civil_war_recruitment_allowed_flag
+			custom_effect_tooltip = BR3_civil_war_militias_spawn_tt
+			add_corps_commander_role = {
+			    Character = BR3_leonel_radde_char
+			    skill = 1
+			    attack_skill = 1
+			    defense_skill = 1
+			    planning_skill = 2
+			    logistics_skill = 1
+			}
+			add_corps_commander_role = {
+			    Character = BR3_paulo_galo_char
+			    skill = 1
+			    attack_skill = 2
+			    defense_skill = 1
+			    planning_skill = 1
+			    logistics_skill = 1
+			}
+			add_corps_commander_role = {
+			    Character = BR3_pedro_che_char
+			    skill = 1
+			    attack_skill = 1
+			    defense_skill = 2
+			    planning_skill = 1
+			    logistics_skill = 1
+			}
 		}
 	}	
 
@@ -189,7 +241,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			# Remove the chaos in the militias and engage in guerilla warfare
+			add_war_support = 0.05
 			swap_ideas = {
 				remove_idea = BR3_disorganized_warfare_idea
 				add_idea = BR3_guerrila_warfare_idea
@@ -215,7 +267,23 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			# Raid military bases for military gear
+			add_war_support = 0.1
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment_2
+    			amount = 5000
+			}
+			add_equipment_to_stockpile = {
+    			type = support_equipment_1
+    			amount = 800
+			}
+			add_equipment_to_stockpile = {
+    			type = motorized_equipment_1
+    			amount = 400
+			}
+			add_equipment_to_stockpile = {
+    			type = artillery_equipment_1
+    			amount = 200
+			}		
 		}
 	}
 
@@ -238,6 +306,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Get the option to free convicts and use them for labor or combat
+			country_event = {
+				id = Brazil.commie.4
+				hours = 12
+			}
 		}
 	}
 
@@ -262,7 +334,12 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			add_war_support = 0.15
 			# Get a proper military division and general
+			country_event = {
+				id = Brazil.commie.5
+				days = 3
+			}
 		}
 	}
 
@@ -411,7 +488,10 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			# Rally workers for the cause
+			swap_ideas = {
+				remove_idea = BR3_uncontrolled_industrial_output_idea
+				add_idea = BR3_redirected_industrial_output_idea
+			}
 		}
 	}
 
@@ -436,7 +516,43 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			# Focus on civilian production
+			swap_ideas = {
+				remove_idea = BR3_redirected_industrial_output_idea
+				add_idea = BR3_redirected_industrial_output_civ_idea
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -461,7 +577,43 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			# Focus on military production
+			swap_ideas = {
+				remove_idea = BR3_redirected_industrial_output_idea
+				add_idea = BR3_redirected_industrial_output_mil_idea
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 

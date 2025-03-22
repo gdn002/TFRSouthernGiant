@@ -11,6 +11,10 @@ BR3_internal_faction_balance = {
 		min = -0.2
 		max = 0.2
 		modifier = {
+			stability_factor = 0.05
+			political_power_factor = 0.25
+			communist_drift = 0.02
+			custom_modifier_tooltip = BR3_centrist_majority_tt
 		}
 		on_activate = {
 		}
@@ -27,6 +31,11 @@ BR3_internal_faction_balance = {
 			min = -1
 			max = -0.7
 			modifier = {
+				stability_factor = -0.15
+				war_support_factor = 0.15
+				political_power_factor = 0.05
+				totalitarian_socialist_drift = 0.02
+				custom_modifier_tooltip = BR3_hardliner_majority_tt
 			}
 			on_activate = {
 			}
@@ -38,6 +47,11 @@ BR3_internal_faction_balance = {
 			min = -0.7
 			max = -0.4
 			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.1
+				communist_drift = 0.01
+				totalitarian_socialist_drift = 0.01
+				custom_modifier_tooltip = BR3_hardliner_majority_tt
 			}
 			on_activate = {
 			}
@@ -49,6 +63,11 @@ BR3_internal_faction_balance = {
 			min = -0.4
 			max = -0.2
 			modifier = {
+				war_support_factor = 0.05
+				political_power_factor = 0.1
+				communist_drift = 0.01
+				totalitarian_socialist_drift = 0.01
+				custom_modifier_tooltip = BR3_centrist_majority_tt
 			}
 			on_activate = {
 			}
@@ -66,6 +85,12 @@ BR3_internal_faction_balance = {
 			min = 0.2
 			max = 0.4
 			modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.05
+				political_power_factor = 0.1
+				communist_drift = 0.01
+				libertarian_socialist_drift = 0.01
+				custom_modifier_tooltip = BR3_centrist_majority_tt
 			}
 			on_activate = {
 			}
@@ -77,6 +102,11 @@ BR3_internal_faction_balance = {
 			min = 0.4
 			max = 0.7
 			modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.1
+				communist_drift = 0.01
+				libertarian_socialist_drift = 0.01
+				custom_modifier_tooltip = BR3_libertarian_majority_tt
 			}
 			on_activate = {
 			}
@@ -88,6 +118,11 @@ BR3_internal_faction_balance = {
 			min = 0.7
 			max = 1
 			modifier = {
+				stability_factor = 0.25
+				war_support_factor = -0.15
+				political_power_factor = 0.05
+				libertarian_socialist_drift = 0.02
+				custom_modifier_tooltip = BR3_libertarian_majority_tt
 			}
 			on_activate = {
 			}

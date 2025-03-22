@@ -3594,14 +3594,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			add_country_leader_role = {
-			    character = BRA_arthur_lira_char
-			    promote_leader = yes
-			    country_leader = {
-			        ideology = hybrid_regime
-			        expire = "1.1.1.1"
-			    }
-			}
+			promote_character = BRA_arthur_lira_char
 			set_politics = {
     			ruling_party = authoritarian_democrat
     			long_name = BRA_authoritarian_democrat_party_interim_long
@@ -3617,6 +3610,7 @@ country_event = {
 	option = {
 		name = Brazil.civilwar.7.a
 		effect_tooltip = {
+			promote_character = BRA_arthur_lira_char
 			set_politics = {
     			ruling_party = authoritarian_democrat
     			long_name = BRA_authoritarian_democrat_party_interim_long
@@ -3809,6 +3803,7 @@ country_event = {
 				transfer_state = 1438
 				transfer_state = 1439
 				transfer_state = 1440
+				transfer_state = 1449
 				add_state_core = 495
 				add_state_core = 905
 				add_state_core = 906
@@ -3816,6 +3811,7 @@ country_event = {
 				add_state_core = 1438
 				add_state_core = 1439
 				add_state_core = 1440
+				add_state_core = 1449
 			}
 		}
 	}
@@ -3831,6 +3827,7 @@ country_event = {
 				transfer_state = 1438
 				transfer_state = 1439
 				transfer_state = 1440
+				transfer_state = 1449
 			}
 		}
 	}
@@ -3855,11 +3852,23 @@ country_event = {
 				id = Brazil.civilwar.15
 				days = 9
 			}
+			SUL = {
+				transfer_state = 502
+				transfer_state = 503
+				transfer_state = 1448
+			}
 		}
 	}
 
 	option = {
 		name = Brazil.civilwar.14.a
+		effect_tooltip = {
+			SUL = {
+				transfer_state = 502
+				transfer_state = 503
+				transfer_state = 1448
+			}
+		}
 	}
 }
 
@@ -3878,27 +3887,27 @@ country_event = {
 
 	# Play as FEDERAL GOVERNMENT
 	option = {
+		name = Brazil.civilwar.15.a
 		custom_effect_tooltip = BRA_civil_war_pick_government_tt		
-		hidden_effect = {
-			name = Brazil.civilwar.15.a
+		hidden_effect = {		
 			BR1 = { change_tag_from = BRA }
 			BRA_civil_war_setup = yes
 		}
 	}
 	# Play as MILITARY JUNTA
 	option = {
+		name = Brazil.civilwar.15.b
 		custom_effect_tooltip = BRA_civil_war_pick_junta_tt		
-		hidden_effect = {
-			name = Brazil.civilwar.15.b
+		hidden_effect = {		
 			BR2 = { change_tag_from = BRA }	
 			BRA_civil_war_setup = yes	
 		}
 	}
 	# Play as POPULAR FRONT
 	option = {		
+		name = Brazil.civilwar.15.c
 		custom_effect_tooltip = BRA_civil_war_pick_front_tt
-		hidden_effect = {
-			name = Brazil.civilwar.15.c
+		hidden_effect = {		
 			BR3 = { change_tag_from = BRA }
 			BRA_civil_war_setup = yes
 		}

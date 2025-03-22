@@ -41,6 +41,8 @@
  BR2_total_military_control_range: "Total Military Control"
  #Country Flag
  #Tooltips
+ BR2_cw_assert_control_over_central_brazil_tt: "§YWe will gain control over Central Brazil.§!"
+ BR2_cw_army_reporting_tt: "We will raise §Ypatriotic militias§! and §Ymilitary brigades§! to fight the imminent civil war!"
  #Faction
  BR2_sasp_faction: "South American Security Pact"
  #Parties
@@ -78,3 +80,15 @@
  #Country
  #Summary
  #Events
+ Brazil.junta.1.t: "Brasilia Secured"
+ Brazil.junta.1.d: ""
+ Brazil.junta.1.a: "We must act swiftly."
+ Brazil.junta.2.t: "Conflicts of Interest"
+ Brazil.junta.2.d: ""
+ Brazil.junta.2.a: "Focus on the mission."
+ Brazil.junta.3.t: "The Opening Act"
+ Brazil.junta.3.d: ""
+ Brazil.junta.3.a: "Eyes on the prize. The illegitimate government must come down."
+ Brazil.junta.3.b: "The commies are weak and disorganized. They shall be our first target."
+ Brazil.junta.3.c: "The jungle dwellers won't pose any resistance."
+ Brazil.junta.3.e: "Why give anyone the chance to prepare? We strike on all fronts!"

@@ -46,6 +46,7 @@ on_actions = {
 
 			# Global variables
 			set_variable = { global.BRA_amazonian_preservation_var = 80.4 }
+			BRA_recalculate_amazonian_preservation_dynamic_vars = yes
 		}
 	}
 

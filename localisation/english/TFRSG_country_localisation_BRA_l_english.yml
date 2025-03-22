@@ -369,7 +369,7 @@
  BRA_work_with_centrao: "Work With The \"Centrão\""
  BRA_work_with_centrao_desc: "There is no point in fighting the Centrão. Dilma tried, and she's gotten impeached for it. Politics is ultimately a game of compromise and extracting the most benefit from the establishment, so although it may seem like a betrayal of our cause, we must abide by its rules for now."
  BRA_purge_federal_police: "Purge The Federal Police"
- BRA_purge_federal_police_desc: "The pesky Federal Police has been breathing down our necks, ready to strike as soon as they smell anything that could be considered \"corruption\". How can we expect to run a government under such pressures! Fortunately, our power enables us to do something about it, by replacing key positions with more sensible people we can trust. We should expect some backlash, but doing so is a critical step in securing our administration against personal interests."
+ BRA_purge_federal_police_desc: "The pesky Federal Police has been breathing down our necks, ready to strike as soon as they smell anything that could be considered \"corruption\". How can we expect to run a government under such pressure? Fortunately, our power enables us to do something about it, by replacing key positions with more sensible people we can trust. We should expect some backlash, but doing so is a critical step in securing our administration against personal interests."
  BRA_rally_followers: "Rally Our Followers"
  BRA_rally_followers_desc: "We can't forget the patriotic voters who were responsible for electing us into power back in 2018. The people love their new leader and crave for a rally, so let's give them one they won't forget!"
  BRA_ministries_for_support: "Offer Ministries For Support"
@@ -580,6 +580,10 @@
  BRA_2022_elections_countdown_mission: "2022 Elections Countdown"
  BRA_2022_elections_opponents_mission: "Opponents Campaigning..."
  BRA_2022_elections_protests_pacification_mission: "Pacifying Protests"
+ BRA_operation_ustra_mission: "Preparing Operação §GUSTRA§!"
+ BRA_operation_angico_mission: "Preparing Operação §GANGICO§!"
+ BRA_operation_selva_mission: "Preparing Operação §GSELVA§!"
+ BRA_operation_apocalipse_mission: "Preparing Operação §GAPOCALIPSE§!"
  #Decisions
  BRA_patriotic_marches: "Patriotic Marches"
  BRA_pro_democracy_marches: "Pro-Democracy Marches"
@@ -742,6 +746,7 @@
  BRA_civil_war_add_claims_tt: "We will get claims on all Brazilian states!"
  BRA_civil_war_unifiers_defeated_tt: "All other Brazilian unifiers have been §Ydefeated§!."
  BRA_civil_war_breakaways_defeated_tt: "All other Brazilian breakaway states have been §Ydefeated§!."
+ BRA_civil_war_recruitment_unlocked_tt: "We will be able to §Yraise militias§! in controlled Brazilian states!" 
 
  #Scripted Locs
  chamber_of_deputies_aligned: "§GALIGNED§!"

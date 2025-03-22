@@ -13,11 +13,11 @@ BRA_amazonian_jungle_category = {
 
 BRA_civil_war_category = {
 	priority = 10
+	visible_when_empty = yes
 	allowed = {
 		is_brazilian_unifier = yes
 	}
-
 	visible = {
-		has_country_flag = BRA_civil_war_started_flag
+		has_global_flag = BRA_civil_war_started_flag
 	}
 }

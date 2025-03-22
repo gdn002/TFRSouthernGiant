@@ -65,33 +65,38 @@ characters = {
 			id = -1
 		}
 	}
-	# JUNTA BREAKAWAYS
-	BR4_moises_lima_char = {
+
+	# BR3 - GENERALS
+	BR3_leonel_radde_char = {
 		portraits = {
-			civilian = {
-				large = "gfx/leaders/BR4/BR4_Moises_Lima.png"
+			army = {
+				small = "gfx/interface/ideas/SOV/advisors/Sergey Shoygu.png"
 			}
-		}
-		country_leader = {
-			ideology = integralism
-			traits = {
+			army = {
+				large = "gfx/leaders/BR3/generals/BR3_Leonel_Radde.png"
 			}
-			expire = "1.1.1.1"
-			id = -1
-		}
-	}
-	BR4_national_restoration_comitee_char = {
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BR4/BR4_National_Restoration_Comitee.png"
-			}
-		}
-		country_leader = {
-			ideology = radical_nationalism
-			traits = {
-			}
-			expire = "1.1.1.1"
-			id = -1
-		}
+		}	
 	}	
+
+	BR3_paulo_galo_char = {
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/SOV/advisors/Sergey Shoygu.png"
+			}
+			army = {
+				large = "gfx/leaders/BR3/generals/BR3_Paulo_Galo.png"
+			}
+		}	
+	}	
+
+	BR3_pedro_che_char = {
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/SOV/advisors/Sergey Shoygu.png"
+			}
+			army = {
+				large = "gfx/leaders/BR3/generals/BR3_Pedro_Che.png"
+			}
+		}	
+	}
 }

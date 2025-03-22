@@ -1,6 +1,7 @@
 	capital = 1435
 
 	oob = "BRA_2020"
+
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 			set_naval_oob = "BRA_2000_naval_mtg"
@@ -87,6 +88,10 @@
 		medium_poverty
 		low_military
 		low_society
+
+		# Economy/Government
+		ZZZ_capitalist_economy
+ 		ZZZ_presidential_republic
 
 		i_dont_wanna_fight
 	}

@@ -1,13 +1,18 @@
 	capital = 1453
-	
+
+	oob = "BRA_Unifier_2020"
+
 	recruit_character = SPA_tarcisio_freitas_char
 
 	set_research_slots = 3
 	set_convoys = 10
 	set_stability = 0.6
+	set_war_support = 0.2
 
 	set_country_flag = country_language_portuguese
 	set_cosmetic_tag = SPA_state
+
+	country_lock_all_division_template = yes
 
 	set_variable = { Russian_Influence = 0.05 }
 	set_variable = { Chinese_Influence = 0.25 }
@@ -33,6 +38,10 @@
 		medium_poverty
 		low_military
 		low_society
+
+		# Economy/Government
+		ZZZ_capitalist_economy
+ 		ZZZ_provisional_government
 
 		i_dont_wanna_fight
 	}
@@ -221,169 +230,5 @@
 			mtg_transport = 1
 			basic_naval_mines = 1
 			submarine_mine_laying = 1
-		}
-	}
-
-	### VARIANTS ###
-	# 2000 Start #
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		## Corvettes ##
-		create_equipment_variant = { #Corvette 1
-			name = "Imperial Marinheiro class"
-			type = ship_hull_light_1
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				mid_1_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_depth_charge_1
-			}
-			obsolete = yes
-		}
-		create_equipment_variant = { #Corvette 2
-			name = "Inhaúma class"
-			type = ship_hull_light_2
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_2
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				mid_1_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_depth_charge_1
-			}
-		}
-		## Frigates ##
-		create_equipment_variant = { #Frigate 1
-			name = "Niterói class Frigate"
-			type = ship_hull_cruiser_1
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_1
-				fixed_ship_armor_slot = ship_armor_cruiser_1
-				fixed_ship_secondaries_slot = ship_secondaries_1
-				mid_1_custom_slot = ship_airplane_launcher_1
-				mid_2_custom_slot = ship_anti_air_1
-				rear_1_custom_slot = empty
-			}
-		}
-		## Destroyers ##
-		create_equipment_variant = { #Destroyer 1
-			name = "Pará class Destroyer"
-			type = ship_hull_cruiser_1
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = ship_radar_1
-				fixed_ship_engine_slot = cruiser_ship_engine_1
-				fixed_ship_armor_slot = ship_armor_cruiser_1
-				mid_1_custom_slot = ship_airplane_launcher_1
-				mid_2_custom_slot = ship_anti_air_1
-				rear_1_custom_slot = ship_medium_battery_1
-			}
-		}
-		## Carriers ##
-		create_equipment_variant = { #Carrier 1 #Not needed for variant, just use type
-			name = "Colossus-class"
-			type = ship_hull_carrier_conversion_bb
-			parent_version = 0
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_1
-				fixed_ship_secondaries_slot = empty
-				
-			}
-			obsolete = yes
-		}
-		create_equipment_variant = { #Carrier 2
-			name = "Clemenceau class"
-			type = ship_hull_carrier_1
-			parent_version = 0
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_1
-				fixed_ship_secondaries_slot = empty
-				front_1_custom_slot = ship_deck_space
-				
-			}
-		}
-		## Submarines ##
-		create_equipment_variant = { #Diesel Sub 1
-			name = "Tupi class"
-			type = ship_hull_submarine_1
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_1
-				fixed_ship_engine_slot = sub_ship_engine_1
-				rear_1_custom_slot = empty
-			}
-		}
-	}
-	
-	if = {
-		limit = {
-			has_dlc = "By Blood Alone"
-		}
-		
-		create_equipment_variant = {
-			name = "F-5E"
-			type = small_plane_airframe_1
-			modules = {
-				fixed_main_weapon_slot = heavy_mg_4x
-				fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
-				fixed_auxiliary_weapon_slot_2 = light_mg_4x
-				engine_type_slot = engine_2_1x
-				special_type_slot_1 = hmg_defense_turret
-			}
-			icon = "GFX_fighter4_medium"
-		}
-		create_equipment_variant = {
-			name = "AMX"
-			type = small_plane_cas_airframe_1
-			modules = {
-				fixed_main_weapon_slot = small_bomb_bay
-				fixed_auxiliary_weapon_slot_1 = small_bomb_bay
-				fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
-				fixed_auxiliary_weapon_slot_3 = heavy_mg_4x
-				engine_type_slot = engine_2_1x
-				special_type_slot_1 = hmg_defense_turret
-				special_type_slot_2 = hmg_defense_turret
-			}
-			icon = "GFX_CAS3_medium"
-		}
-		create_equipment_variant = {
-			name = "P-3 Orion"
-			type = small_plane_naval_bomber_airframe_1
-			modules = {
-				fixed_main_weapon_slot = torpedo_mounting
-				fixed_auxiliary_weapon_slot_1 = empty
-				engine_type_slot = engine_2_1x
-				special_type_slot_1 = empty
-				special_type_slot_2 = empty	
-			}
-			icon = "GFX_naval_bomber5_medium"
 		}
 	}

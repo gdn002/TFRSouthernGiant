@@ -1,0 +1,16 @@
+ideas = {
+	## NATIONAL SPIRITS ##
+	country = {			
+		AMZ_jungle_warriors_idea = {
+			allowed = {
+				original_tag = AMZ
+			}
+			modifier = {
+				army_core_defence_factor = 0.05
+				max_dig_in = 10
+				cas_damage_reduction = 0.25
+				terrain_penalty_reduction = 0.5
+			}
+		}
+	}
+}	
