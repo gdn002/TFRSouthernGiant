@@ -1,38 +1,38 @@
 ﻿units = {
 	division = {
-		name = "1o Grupo de Combate Popular"
+		name = "1a Milícia Popular"
 		location = 15017
-		division_template = "Milícia Revolucionária"
+		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "2o Grupo de Combate Popular"
+		name = "2a Milícia Popular"
 		location = 15017
-		division_template = "Milícia Revolucionária"
+		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "3o Grupo de Combate Popular"
+		name = "3a Milícia Popular"
 		location = 15017
-		division_template = "Milícia Revolucionária"
+		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "4o Grupo de Combate Popular"
+		name = "4a Milícia Popular"
 		location = 15017
-		division_template = "Milícia Revolucionária"
+		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "5o Grupo de Combate Popular"
+		name = "5a Milícia Popular"
 		location = 15017
-		division_template = "Milícia Revolucionária"
+		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "6o Grupo de Combate Popular"
+		name = "6a Milícia Popular"
 		location = 15017
-		division_template = "Milícia Revolucionária"
+		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 }

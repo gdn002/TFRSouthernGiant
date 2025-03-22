@@ -882,41 +882,13 @@ BRA_civil_war_get_state_recruitment_value = {
 }
 
 BRA_civil_war_recruitment_scripted_effect = {
-	# Relay to appropriate recruitment effect
-	if = {
-		limit = {
-			ROOT = { original_tag = BR1 }
+	FROM = {
+        BRA_civil_war_get_state_recruitment_value = yes
+        create_unit = {
+			division = "name = \"Militia\" division_template = \"Brazilian Militia\"  start_experience_factor = 0.0"
+			allow_spawning_on_enemy_provs = yes
+			owner = ROOT
+            count = BRA_civil_war_recruit_value_temp
 		}
-		BR1_civil_war_recruitment_scripted_effect = yes
-	}
-	else if = {
-		limit = {
-			ROOT = { original_tag = BR2 }
-		}
-		BR2_civil_war_recruitment_scripted_effect = yes
-	}
-	else if = {
-		limit = {
-			ROOT = { original_tag = BR3 }
-		}
-		BR3_civil_war_recruitment_scripted_effect = yes
-	}
-	else if = {
-		limit = {
-			ROOT = { original_tag = BR4 }
-		}
-		BR4_civil_war_recruitment_scripted_effect = yes
-	}
-	else = {
-		# Generic recruitment effect for breakaways
-		FROM = {
-        	BRA_civil_war_get_state_recruitment_value = yes
-        	create_unit = {
-				division = "name = \"Militia\" division_template = \"Militia\"  start_experience_factor = 0.0"
-				allow_spawning_on_enemy_provs = yes
-				owner = ROOT
-        	    count = BRA_civil_war_recruit_value_temp
-			}
-    	}
-	}
+    }
 }

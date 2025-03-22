@@ -10,6 +10,8 @@
 
 	set_country_flag = country_language_portuguese
 
+	country_lock_all_division_template = yes
+	
 	set_variable = { Russian_Influence = 0.15 }
 	set_variable = { Chinese_Influence = 0.05 }
 	set_variable = { American_Influence = 0.15 }
