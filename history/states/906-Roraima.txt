@@ -17,5 +17,7 @@ state={
 		}
 
 		victory_points = { 5214 5 }
+
+		add_dynamic_modifier = { modifier = BRA_amazonian_jungle_state_dynamic }
 	}
 }

@@ -34,6 +34,11 @@ on_actions = {
 				set_variable = { BRA_chamber_total_support_var = 203 }
 				set_variable = { BRA_centrao_influence_var = 0.65 }
 
+				# AMAZONIAN JUNGLE
+				set_variable = { global.BRA_amazonian_preservation_var = 80.4 }
+				set_variable = { BRA_amazon_preservation_drift_dyn_var = -0.1 }							
+				BRA_recalculate_amazonian_preservation_dynamic_vars = yes
+
 				# COUNTRY FLAGS		
 				set_country_flag = BRA_reactionary_administration_flag
 
@@ -42,11 +47,7 @@ on_actions = {
 				add_to_coalition = yes
 				set_temp_variable = { coalition_partner_var_temp = token:nationalist }
 				add_to_coalition = yes
-			}
-
-			# Global variables
-			set_variable = { global.BRA_amazonian_preservation_var = 80.4 }
-			BRA_recalculate_amazonian_preservation_dynamic_vars = yes
+			}			
 		}
 	}
 

@@ -21,7 +21,6 @@
 	add_ideas = {
 		# National Spirits
 		AMZ_jungle_warriors_idea
-		BRA_amazonian_jungle_idea
 
 		# Ministers
 
@@ -44,6 +43,8 @@
 
 		i_dont_wanna_fight
 	}
+
+	add_dynamic_modifier = { modifier = BRA_amazonian_jungle_dynamic }
 
 	set_politics = {
 		ruling_party = libertarian_socialist

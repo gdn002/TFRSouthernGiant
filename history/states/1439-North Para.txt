@@ -18,5 +18,7 @@ state={
 		add_core_of = BRA
 		buildings = {
 		}
+
+		add_dynamic_modifier = { modifier = BRA_amazonian_jungle_state_dynamic }
 	}
 }

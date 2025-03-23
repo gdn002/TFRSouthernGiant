@@ -25,20 +25,52 @@ BRA_recalculate_amazonian_preservation_dynamic_vars = {
 	}
 	divide_temp_variable = { amazonian_preservation_lerp = 10 }
 	
-	set_variable = { global.BRA_amazonian_preservation_dynamic_var = amazonian_preservation_lerp }
-	set_variable = { global.BRA_amazonian_preservation_pos_dynamic_var = amazonian_preservation_lerp }
-	set_variable = { global.BRA_amazonian_preservation_neg_dynamic_var = amazonian_preservation_lerp }
+	log = "TFRSG Amazonian preservation lerp value - [?amazonian_preservation_lerp]"
+
+	set_variable = { global.BRA_amazonian_preservation_dyn_var = amazonian_preservation_lerp }
+	set_variable = { global.BRA_amazonian_preservation_pos_dyn_var = amazonian_preservation_lerp }
+	set_variable = { global.BRA_amazonian_preservation_neg_dyn_var = amazonian_preservation_lerp }
 
 	clamp_variable = {
-		var = BRA_amazonian_preservation_pos_dynamic_var
+		var = BRA_amazonian_preservation_pos_dyn_var
 		min = 0
 		max = 1
 	}
 	clamp_variable = {
-		var = BRA_amazonian_preservation_neg_dynamic_var
+		var = BRA_amazonian_preservation_neg_dyn_var
 		min = -1
 		max = 0
 	}
+
+	# Set dynamic modifier vars
+	set_variable = { global.BRA_amazon_stability_factor_dyn_var = 0.2 }
+    set_variable = { global.BRA_amazon_pp_factor_dyn_var = 0.3 }
+    set_variable = { global.BRA_amazon_research_speed_dyn_var = 0.15 }
+    set_variable = { global.BRA_amazon_society_development_dyn_var = 0.025 }
+    set_variable = { global.BRA_amazon_academic_development_dyn_var = 0.01 }
+	set_variable = { global.BRA_amazon_production_speed_infra_dyn_var = -1.5 }
+    set_variable = { global.BRA_amazon_production_speed_rail_dyn_var = -2 }
+	set_variable = { global.BRA_amazon_production_speed_hub_dyn_var = -1.5 }
+    set_variable = { global.BRA_amazon_local_build_slots_dyn_var = -0.25 }
+    set_variable = { global.BRA_amazon_local_resources_dyn_var = -0.3 }
+    set_variable = { global.BRA_amazon_local_supplies_dyn_var = -0.5 }
+
+	log = "TFRSG Amazonian preservation raw infra var - [?global.BRA_amazon_production_speed_infra_dyn_var]"
+
+	# Calculate dynamic vars based on factors
+    multiply_variable = { global.BRA_amazon_stability_factor_dyn_var = global.BRA_amazonian_preservation_dyn_var }
+    multiply_variable = { global.BRA_amazon_pp_factor_dyn_var = global.BRA_amazonian_preservation_dyn_var }
+    multiply_variable = { global.BRA_amazon_research_speed_dyn_var = global.BRA_amazonian_preservation_pos_dyn_var }
+    multiply_variable = { global.BRA_amazon_society_development_dyn_var = global.BRA_amazonian_preservation_dyn_var }
+    multiply_variable = { global.BRA_amazon_academic_development_dyn_var = global.BRA_amazonian_preservation_pos_dyn_var }
+	multiply_variable = { global.BRA_amazon_production_speed_infra_dyn_var = global.BRA_amazonian_preservation_pos_dyn_var }
+    multiply_variable = { global.BRA_amazon_production_speed_rail_dyn_var = global.BRA_amazonian_preservation_pos_dyn_var }
+	multiply_variable = { global.BRA_amazon_production_speed_hub_dyn_var = global.BRA_amazonian_preservation_pos_dyn_var }
+    multiply_variable = { global.BRA_amazon_local_build_slots_dyn_var = global.BRA_amazonian_preservation_dyn_var }
+    multiply_variable = { global.BRA_amazon_local_resources_dyn_var = global.BRA_amazonian_preservation_dyn_var }
+    multiply_variable = { global.BRA_amazon_local_supplies_dyn_var = global.BRA_amazonian_preservation_pos_dyn_var }
+
+	log = "TFRSG Amazonian preservation calculated infra var - [?global.BRA_amazon_production_speed_infra_dyn_var]"
 }
 
 ## CHAMBER OF DEPUTIES MECHANIC
@@ -840,8 +872,13 @@ BRA_civil_war_end = {
 		set_country_flag = BRA_amazonian_preservation_mechanic_enabled	
 	}
 
-	add_ideas = {
-		BRA_amazonian_jungle_idea
+	if = {
+		limit = {
+			NOT = {
+				has_dynamic_modifier = { modifier = BRA_amazonian_jungle_dynamic }
+			}
+		}
+		add_dynamic_modifier = { modifier = BRA_amazonian_jungle_dynamic }
 	}
 
 	BRA_civil_war_core_all = yes
@@ -898,7 +935,7 @@ BRA_civil_war_get_state_recruitment_value = {
         }
 		set_temp_variable = { BRA_civil_war_recruit_value_temp = 2 }
     }
-	else if = {
+	else_if = {
 		# Medium States (3 units)
         limit = {
             OR = {
@@ -918,7 +955,7 @@ BRA_civil_war_get_state_recruitment_value = {
         }
 		set_temp_variable = { BRA_civil_war_recruit_value_temp = 3 }
     }
-	else if = {
+	else_if = {
 		# Large States (4 units)
         limit = {
             OR = {

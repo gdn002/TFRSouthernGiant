@@ -465,16 +465,26 @@ country = {
 		}
 	}
 
-	BRA_amazonian_jungle_idea = {
-		picture = BRA_amazonian_jungle
-	
-		allowed = { 
-			is_brazilian_unifier = yes
-		}
+	# Dummy idea for tooltips, use the dynamic modifier instead
+	BRA_amazonian_jungle_dummy_idea = {
+		name = BRA_amazonian_jungle_dynamic
 		
 		modifier = {
-			# TODO: Convert this into a dynamic modifier that applies buffs/debuffs based on the amount of preserved jungle
-			# See reference over the people's constitution idea definition
+		}
+	}
+
+	BRA_amazonian_jungle_raise_drift_dummy_idea = {
+		name = BRA_amazonian_jungle_dynamic
+		
+		modifier = {
+			amazonian_preservation_monthly = 0.1
+		}
+	}
+
+	BRA_amazonian_jungle_lower_drift_dummy_idea = {
+		name = BRA_amazonian_jungle_dynamic
+		
+		modifier = {
 			amazonian_preservation_monthly = -0.1
 		}
 	}

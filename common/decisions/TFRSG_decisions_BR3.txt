@@ -193,8 +193,8 @@ BRA_civil_war_category = {
 			remove_campaign_slot = yes
 		}
 		remove_effect = {
-			set_temp_variable = { industry_development_var_temp = 0.05 }
-			add_industry_development = yes
+			set_temp_variable = { industrial_development_var_temp = 0.05 }
+			add_industrial_development = yes
 			add_campaign_slot = yes
 		}
 	}

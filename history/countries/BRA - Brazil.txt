@@ -66,7 +66,6 @@
 		BRA_progressive_opposition_idea
 		BRA_self_indulgent_military_idea
 		BRA_informalized_economy_idea
-		BRA_amazonian_jungle_idea
 
 		# Ministers
 		BRA_hamilton_mourao_hog
@@ -95,6 +94,8 @@
 
 		i_dont_wanna_fight
 	}
+
+	add_dynamic_modifier = { modifier = BRA_amazonian_jungle_dynamic }
 
 	set_politics = {
 		ruling_party = conservative
