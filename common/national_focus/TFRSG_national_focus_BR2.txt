@@ -181,12 +181,29 @@ focus_tree = {
 		prerequisite = {
 			focus = BR2_cw_the_fire_rises_in_brazil
 		}
+		available = {
+			is_power_balance_in_range = {
+    			id = BR2_junta_power_struggle
+    			range < BR2_partial_military_control_range
+			}
+		}
 		available_if_capitulated = no
 		cancelable = yes
 		ai_will_do = {
 			base = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.05
+			add_days_mission_timeout = {
+    			mission = BR2_counter_coup_uprising_mission
+    			days = 20
+			}
+			add_power_balance_value = {
+			    id = BR2_junta_power_struggle
+			    value = -0.075
+			    tooltip_side = BR2_president_side
+			}
 		}
 	}
 
@@ -202,12 +219,23 @@ focus_tree = {
 		prerequisite = {
 			focus = BR2_cw_the_presidential_mandate
 		}
+		available = {
+			is_power_balance_in_range = {
+    			id = BR2_junta_power_struggle
+    			range < BR2_unclear_control_range
+			}
+		}
 		available_if_capitulated = no
 		cancelable = yes
 		ai_will_do = {
 			base = 1
 		}
 		completion_reward = {
+			add_power_balance_value = {
+			    id = BR2_junta_power_struggle
+			    value = -0.15
+			    tooltip_side = BR2_president_side
+			}
 		}
 	}
 
@@ -223,12 +251,23 @@ focus_tree = {
 		prerequisite = {
 			focus = BR2_cw_the_presidential_mandate
 		}
+		available = {
+			is_power_balance_in_range = {
+    			id = BR2_junta_power_struggle
+    			range < BR2_unclear_control_range
+			}
+		}
 		available_if_capitulated = no
 		cancelable = yes
 		ai_will_do = {
 			base = 1
 		}
 		completion_reward = {
+			add_power_balance_value = {
+			    id = BR2_junta_power_struggle
+			    value = -0.15
+			    tooltip_side = BR2_president_side
+			}
 		}
 	}
 
@@ -248,12 +287,23 @@ focus_tree = {
 		mutually_exclusive = { 
 			focus = BR2_cw_military_in_command 
 		}
+		available = {
+			is_power_balance_in_range = {
+    			id = BR2_junta_power_struggle
+    			range < BR2_partial_president_control_range
+			}
+		}
 		available_if_capitulated = no
 		cancelable = yes
 		ai_will_do = {
 			base = 1
 		}
 		completion_reward = {
+			add_power_balance_value = {
+			    id = BR2_junta_power_struggle
+			    value = -0.3
+			    tooltip_side = BR2_president_side
+			}
 		}
 	}
 
@@ -274,12 +324,33 @@ focus_tree = {
 		prerequisite = {
 			focus = BR2_cw_the_fire_rises_in_brazil
 		}
+		available = {
+			is_power_balance_in_range = {
+    			id = BR2_junta_power_struggle
+    			range > BR2_partial_president_control_range
+			}
+		}
 		available_if_capitulated = no
 		cancelable = yes
 		ai_will_do = {
 			base = 1
 		}
 		completion_reward = {
+			add_command_power = 50
+			add_war_support = 0.05
+			add_days_mission_timeout = {
+    			mission = BR2_integralist_uprising_mission
+    			days = 20
+			}
+			add_days_mission_timeout = {
+    			mission = BR2_monarchist_uprising_mission
+    			days = 20
+			}
+			add_power_balance_value = {
+			    id = BR2_junta_power_struggle
+			    value = 0.075
+			    tooltip_side = BR2_military_side
+			}
 		}
 	}
 
@@ -294,6 +365,12 @@ focus_tree = {
 		cost = 2
 		prerequisite = {
 			focus = BR2_cw_the_army_plan
+		}
+		available = {
+			is_power_balance_in_range = {
+    			id = BR2_junta_power_struggle
+    			range > BR2_unclear_control_range
+			}
 		}
 		available_if_capitulated = no
 		cancelable = yes
@@ -315,6 +392,12 @@ focus_tree = {
 		cost = 2
 		prerequisite = {
 			focus = BR2_cw_the_army_plan
+		}
+		available = {
+			is_power_balance_in_range = {
+    			id = BR2_junta_power_struggle
+    			range > BR2_unclear_control_range
+			}
 		}
 		available_if_capitulated = no
 		cancelable = yes
@@ -340,6 +423,12 @@ focus_tree = {
 		}
 		mutually_exclusive = { 
 			focus = BR2_cw_within_the_four_lines 
+		}
+		available = {
+			is_power_balance_in_range = {
+    			id = BR2_junta_power_struggle
+    			range > BR2_partial_military_control_range
+			}
 		}
 		available_if_capitulated = no
 		cancelable = yes
