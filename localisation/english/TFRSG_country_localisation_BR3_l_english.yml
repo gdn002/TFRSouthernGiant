@@ -20,6 +20,10 @@
  Brazil.commie.5.t: "Army Brigades Join Our Cause!"
  Brazil.commie.5.d: "Great news for the revolution today, as two major army headquarters have revolted against the Brazilian high command and joined our cause. The 7th and 10th motorized brigades had initially entrenched themselves in their respective headquarters and refused to comply with orders to break their encirclement and link up with the rest of the Brazilian Army. Last night, a mutiny was spearheaded by the soldiers, leading to the purging of pro-Junta officers and the complete cutting of communications with the central command. Today, the two brigades have contacted the revolutionary command and expressed their desire to fight on our side.\nThe message has been delivered by general Miranda Netto, whom has sided with the mutiny. According to the general, the revolutionary messages of the Popular Front have reverberated amongst the grunts, combined with a sense of Northeastern patriotism which has led to the mutiny. The general has expressed a desire to reform the Popular Front's guerrilas into a semi-professional army with the help of his army expertise.\nWhile many celebrate this as a turning point in the Brazilian revolution, some remain skeptical about bringing in former members of the Brazilian Army into our forces, afraid that Miranda Netto could be secretly plotting against our movement."
  Brazil.commie.5.a: "A surprise to be sure, but a welcome one!"
+ Brazil.commie.6.t: "The Amazonian Commune Calls For Our Aid!"
+ Brazil.commie.6.d: "With the recent enemy incursions into the Northern territories, representatives of the native insurgency have contacted the leaders of the Popular Front offering a joint effort to combat the opposing forces. The insurgency is sympathetic to the revolutionary ideals of the front, and has shown willingness to fight by our side in order to defeat the fascists and oligarchs to our South.\nOur strategic command has discussed the potential advantages and disadvantages of this alliance. On one side, it would give us a major ally and allow us to catch our enemies off-guard as they're currently bogged down in the jungle. On the other side, concerns about the Popular Front's fighting forces possibly not being prepared for a massive counter-offensive have been raised. Ultimately, a consensus has been made:"
+ Brazil.commie.6.a: "The revolution has a duty to protect the native peoples of Brazil."
+ Brazil.commie.6.b: "This move would jeopardize the movement right now."
  #Focuses
  BR3_cw_popular_front_rises: "The Brazilian Popular Front Rises!"
  BR3_cw_mount_a_workers_council: "Assemble a Worker's Council"
@@ -35,11 +39,12 @@
  BR3_guerrila_media: "Guerrila Media Tactics"
  BR3_brazilian_vanguard: "The Brazilian Vanguard"
  BR3_establish_the_pla: "Establish The Brazilian People's Liberation Army"
- BR3_reintegrate_the_nation: "Brazilian Reunification"
+ BR3_reclaim_our_country: "Reclaim Our Country"
+ BR3_proclaim_peoples_mandate: "Proclaim The People's Mandate"
  BR3_bring_the_north_into_harbor: "Bring The North Into Home Harbor"
  BR3_sao_paulo_ultimatum: "The São Paulo Ultimatum"
  BR3_crush_sul_separatists: "Crush The Sulista Separatist Movement"
- BR3_peoples_victory: "§RA People's Victory!§!"
+ BR3_end_of_brazilian_humiliation: "§REnd of The Brazilian Humiliation§!"
  #Ideas
  BR3_popular_front_idea: "Popular Front"
  BR3_popular_front_idea_desc: "While we may have disagreements on the exact method, the many parties and peoples of the Brazilian Popular Front all share the same objective: To depose the corrupt Brazilian burgeouise elites and install a government truly of the people, for the people. While there will be time for political discussion and faction bickering after the dust settles, right now our people are dominated by an uncontested revolutionary fervor that spreads to workers throughout Brazil!\n\n§RNow or never, Brazil will be red!§!"
@@ -58,12 +63,14 @@
  BR3_redirected_industrial_output_civ_idea: "Redirected Industrial Output"
  BR3_redirected_industrial_output_civ_idea_desc: "$BR3_redirected_industrial_output_idea_desc$"
  BR3_popular_front_strikes_idea: "Popular Front Strikes"
+ BR3_peoples_constitution_idea: "Brazilian People's Constitution"
+ BR3_peoples_constitution_dynamic: "Brazilian People's Constitution"
  #Decision Categories
  #Missions
  #Decisions
  BR3_cw_call_amazonian_commune: "Ally With The Amazonian Commune"
- BR3_cw_attack_government: "Liberate the Federal Government"
- BR3_cw_attack_junta: "Liberate the Military Junta"
+ BR3_cw_attack_government: "Liberate The Federal Government"
+ BR3_cw_attack_junta: "Liberate The Military Junta"
  BR3_cw_raid_armories: "Raid Military Armories"
  BR3_cw_distribute_humanitarian_aid: "Distribute Humanitarian Aid"
  BR3_cw_socialist_education_campaigns: "Socialist Education Campaigns"

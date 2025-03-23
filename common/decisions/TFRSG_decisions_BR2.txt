@@ -188,4 +188,143 @@ BRA_civil_war_category = {
 		timeout_effect = {
 		}
 	}
+
+	BR2_cw_attack_government = {
+		allowed = {
+			tag = BR2
+		}
+		visible = {
+			has_completed_focus = BR2_cw_reclaiming_our_nation
+			country_exists = BR1
+			NOT = { has_war_with = BR1 }
+		}
+		custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		days_remove = 20
+		fire_only_once = yes
+		war_with_on_remove = BR1
+		remove_effect = {
+			declare_war_on = {
+    			target = BR1
+    			type = annex_everything
+			}
+		}
+	}
+
+	BR2_cw_attack_front = {
+		allowed = {
+			tag = BR2
+		}
+		visible = {
+			has_completed_focus = BR2_cw_reclaiming_our_nation
+			country_exists = BR3
+			NOT = { has_war_with = BR3 }
+		}
+		custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		days_remove = 20
+		fire_only_once = yes
+		war_with_on_remove = BR3
+		remove_effect = {
+			declare_war_on = {
+    			target = BR3
+    			type = annex_everything
+			}
+		}
+	}
+
+	BR2_cw_attack_amazon = {
+		allowed = {
+			tag = BR2
+		}
+		visible = {
+			has_completed_focus = BR2_cw_reclaiming_our_nation
+			country_exists = AMZ
+			NOT = { has_war_with = AMZ }
+		}
+		custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		days_remove = 20
+		fire_only_once = yes
+		war_with_on_remove = AMZ
+		remove_effect = {
+			declare_war_on = {
+    			target = AMZ
+    			type = annex_everything
+			}
+		}
+	}
+
+	BR2_cw_negotiate_paraguay_access = {
+		allowed = {
+			tag = BR2
+		}
+		visible = {
+			has_completed_focus = BR2_cw_the_fire_rises_in_brazil
+			NOT = { has_country_flag = developed_country }
+		}
+		available = {
+			has_opinion = {
+    			target = PAR
+    			value > 50
+			}
+		}
+		cost = 100
+		days_remove = 50
+		fire_only_once = yes
+		modifier = {
+			political_power_cost = 0.01
+		}
+		remove_effect = {
+			custom_effect_tooltip = BR2_cw_unlock_arms_market_tt
+			set_country_flag = developed_country
+		}
+	}
+
+	BR2_cw_establish_sea_access = {
+		allowed = {
+			tag = BR2
+		}
+		visible = {
+			has_completed_focus = BR2_cw_the_fire_rises_in_brazil
+			NOT = { has_country_flag = developed_country }
+		}
+		available = {
+			any_controlled_state = {
+				any_province_building_level = {
+					building = naval_base
+    				level > 1
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					any_province_building_level = {
+						building = naval_base
+    					level > 1
+					}
+				}
+			}
+		}
+		custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		days_remove = 10
+		fire_only_once = no
+		modifier = {
+			political_power_cost = 0.01
+		}
+		remove_effect = {
+			custom_effect_tooltip = BR2_cw_unlock_arms_market_tt
+			set_country_flag = developed_country
+		}
+	}
 }

@@ -11,6 +11,9 @@ ideas = {
 				industrial_capacity_factory = -0.2
 				industrial_capacity_dockyard = -0.2
 			}
+			cancel = {
+    			num_of_factories > 20
+			}
 		}
 
 		BR2_martial_law_idea = {

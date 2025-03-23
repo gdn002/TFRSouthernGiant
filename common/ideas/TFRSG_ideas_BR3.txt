@@ -79,5 +79,21 @@ ideas = {
 				# Debuff applied to enemies during the CW
 			}
 		}
+
+		## PEOPLE'S CONSTITUTION DYNAMIC IDEA ##
+		# Notes on how the dynamic idea magic is done for reference
+		# Modifiers are actually applied via a dynamic modifier by tweaking its variables to change the effects
+		# In order to get the "modify idea" tooltip, a series of dummy ideas are made with the effective changes as their modifier block
+		# Then, effect_tooltip can be used to spoof the tooltip by fake swapping the blank dummy idea with the respective dummy change idea
+		# This is my first proper HOI4 mod project and I figured this shit out, kudos me
+		BR3_peoples_constitution_dummy_idea = {
+			name = BR3_peoples_constitution_idea
+			allowed = {
+				always = no
+			}
+			modifier = {
+				# Just for tooltip, uses dynamic modifier
+			}
+		}
 	}
 }	

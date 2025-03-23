@@ -20,7 +20,10 @@ BRA_civil_war_category = {
     			target = AMZ
     			end_wars = no
 			}
-			AMZ = { restore_previous_government_type = yes }
+			AMZ = { 
+				restore_previous_government_type = yes 
+				ROOT_inherit_current_scope_wars_effect = yes
+			}
 		}
 	}
 

@@ -202,7 +202,7 @@ BRA_civil_war_category = {
 	}
     BRA_reintegrate_targeted_decision = {
 		icon = USA_core_state
-		cost = 15
+		cost = 30
 		days_remove = 30
 		fire_only_once = no
 		target_array = BRA.core_states
@@ -236,6 +236,33 @@ BRA_civil_war_category = {
 		}
 		ai_will_do = {
 			base = 100
+		}
+	}
+
+    AMZ_cw_call_popular_front = {
+		allowed = {
+			tag = AMZ
+		}
+		available = {
+            has_war = yes
+			country_exists = BR3
+		}
+        cancel_trigger = {
+            has_capitulated = yes
+            NOT = { country_exists = BR3 }
+        }
+		cost = 50
+		days_remove = 20
+		fire_only_once = yes
+		remove_effect = {
+			BR3 = {
+                country_event = {
+                    id = Brazil.commie.6                   
+                }
+            }
+		}
+        ai_will_do = {
+			base = 1000
 		}
 	}
 }

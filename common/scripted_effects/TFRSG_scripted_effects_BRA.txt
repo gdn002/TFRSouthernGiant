@@ -806,20 +806,30 @@ BRA_civil_war_setup = {
 BRA_civil_war_kickoff = {
 	hidden_effect = {
 		set_global_flag = BRA_civil_war_ongoing_flag
-	}
 
-	BR1 = {
-		mark_focus_tree_layout_dirty = yes
-	}
-	BR2 = {
-		mark_focus_tree_layout_dirty = yes
-	}
-	BR3 = {
-		mark_focus_tree_layout_dirty = yes
-	}
+		BR1 = {
+			mark_focus_tree_layout_dirty = yes
+		}
+		BR2 = {
+			mark_focus_tree_layout_dirty = yes
+		}
+		BR3 = {
+			mark_focus_tree_layout_dirty = yes
+		}
+		SUL = {
+			load_oob = "SUL_Civil_War"
+		}
+		SPA = {
+			load_oob = "SPA_Civil_War"
+		}
+		AMZ = {
+			load_oob = "AMZ_Civil_War"
+		}
+	}	
 }
 
 BRA_civil_war_end = {
+	custom_effect_tooltip = BRA_civil_war_end_tt
 	hidden_effect = {
 		set_global_flag = BRA_civil_war_ended_flag
 		clr_global_flag = BRA_civil_war_ongoing_flag	

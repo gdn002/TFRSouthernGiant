@@ -464,6 +464,7 @@ country = {
 			poverty_development_monthly = -0.01
 		}
 	}
+
 	BRA_amazonian_jungle_idea = {
 		picture = BRA_amazonian_jungle
 	
@@ -472,9 +473,12 @@ country = {
 		}
 		
 		modifier = {
+			# TODO: Convert this into a dynamic modifier that applies buffs/debuffs based on the amount of preserved jungle
+			# See reference over the people's constitution idea definition
 			amazonian_preservation_monthly = -0.1
 		}
 	}
+
 	BRA_heavy_sanctions = {
 		picture = SOV_heavy_sanctions
 		allowed = {

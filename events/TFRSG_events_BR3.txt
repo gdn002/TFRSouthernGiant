@@ -176,3 +176,40 @@ country_event = {
 		}
 	}
 }
+
+# Amazon commune calls for help
+country_event = {
+	id = Brazil.commie.6
+	title = Brazil.commie.6.t
+	desc = Brazil.commie.6.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR3
+	}
+
+	# Accept
+	option = {
+		name = Brazil.commie.6.a
+		AMZ = { get_current_government_type = yes }
+		puppet = {
+    		target = AMZ
+    		end_wars = no
+		}
+		AMZ = { 
+			restore_previous_government_type = yes 
+			ROOT_inherit_current_scope_wars_effect = yes
+		}
+	}
+
+	# Refuse
+	option = {
+		name = Brazil.commie.6.b
+		add_war_support = -0.1
+		ai_chance = { 
+			base = 0
+		}
+	}
+}

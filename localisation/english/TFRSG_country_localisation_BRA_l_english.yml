@@ -739,12 +739,12 @@
  BRA_civil_war_pick_government_tt: "§YPick this option to play as The§! §GFEDERAL GOVERNMENT OF BRAZIL§!§Y.§!"
  BRA_civil_war_pick_junta_tt: "§YPick this option to play as The§! §nBRAZILIAN MILITARY JUNTA§!§Y.§!"
  BRA_civil_war_pick_front_tt: "§YPick this option to play as The§! §RBRAZILIAN POPULAR FRONT§!§Y.§!"
- BRA_civil_war_add_claims_tt: "We will get claims on all Brazilian states!"
- BRA_civil_war_core_all_tt: "We will core all Brazilian states!"
+ BRA_civil_war_add_claims_tt: "We will get claims on all §YBrazilian states§!!"
+ BRA_civil_war_core_all_tt: "We will core all §YBrazilian states§!!"
  BRA_civil_war_unifiers_defeated_tt: "All other Brazilian unifiers have been §Ydefeated§!."
  BRA_civil_war_breakaways_defeated_tt: "All other Brazilian breakaway states have been §Ydefeated§!."
  BRA_civil_war_recruitment_unlocked_tt: "We will be able to §Yraise militias§! in controlled Brazilian states!" 
-
+ BRA_civil_war_end_tt: "The §YBrazilian Civil War§! will be §Gover§!!"
  #Scripted Locs
  chamber_of_deputies_aligned: "§GALIGNED§!"
  chamber_of_deputies_opposed: "§ROPPOSITION§!"

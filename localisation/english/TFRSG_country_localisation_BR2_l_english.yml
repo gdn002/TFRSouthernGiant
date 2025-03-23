@@ -1,17 +1,25 @@
 ﻿l_english:
  #Leaders
  #Focuses
- #_desc: ""
- #: ""
- #_desc: ""
- #: ""
- #_desc: ""
- #: ""
- #_desc: ""
- #: ""
- #_desc: ""
- #: ""
- #_desc: ""
+ BR2_cw_crackdown_in_brasilia: "Crackdown In Brasília"
+ BR2_cw_setup_military_administration: "Set up a Military Administration"
+ BR2_cw_assert_control_over_central_brazil: "Assert Our Control Over Central Brazil"
+ BR2_cw_the_fire_rises_in_brazil: "§nThe Fire Rises in Brazil§!"
+ BR2_cw_the_presidential_mandate: "The President's Mandate"
+ BR2_cw_adress_constitutional_crisis: "Adressing The Constitutional Crisis"
+ BR2_cw_bolsonarismo_forever: "Bolsonarismo Forever!"
+ BR2_cw_within_the_four_lines: "Within The Four Lines"
+ BR2_cw_reclaiming_our_nation: "Guarantee Law and Order"
+ BR2_cw_armored_cavalry: "The Armored Cavalry Arrives!"
+ BR2_cw_the_army_plan: "The Army's Plan"
+ BR2_cw_militarize_society: "Militarize Brazilian Society"
+ BR2_cw_purge_extremist_cells: "Purge Extremist Cells"
+ BR2_cw_military_in_command: "Military In Command"
+ BR2_cw_shock_and_awe: "Shock and Awe"
+ BR2_the_dust_settles: "The Dust Settles"
+ BR2_reintegrate_sao_paulo: "Reintegrate São Paulo"
+ BR2_end_the_sul_experiment: "End The Sulista Experiment"
+ BR2_patriotic_victory: "§nGrand Patriotic Victory!§!"
  #Ideas
  BR2_rural_economy_idea: "The Agrarian Heartland"
  BR2_rural_economy_idea_desc: "While we are fortunate to control parts of Brazil that are very aligned to our ideology and willing to fulfill their patriotic duty, the lands of central Brazil are mostly agrarian with few industrial centers under our command. We must act fast and secure the manufacturing hubs of Brazil, or risk being starved out!"
@@ -37,6 +45,9 @@
  BR2_monarchist_uprising_mission: "Monarchist Sentiment on The Rise"
  BR2_counter_coup_uprising_mission: "Pro-Democratic Conspiracy"
  #Decisions
+ BR2_cw_attack_government: "Crush The Federal Government"
+ BR2_cw_attack_front: "Crush The Popular Front"
+ BR2_cw_attack_amazon: "Crush The Amazonian Uprising"
  #BOP
  BR2_junta_power_struggle: "The President-Military Struggle For Power"
  BR2_president_side: "The President"
@@ -51,6 +62,8 @@
  BR2_cw_assert_control_over_central_brazil_tt: "§YWe will gain control over Central Brazil.§!"
  BR2_cw_army_reporting_tt: "We will raise §Ypatriotic militias§! and §Ymilitary brigades§! to fight the imminent civil war!"
  BR2_cw_armored_cavalry_tt: "Several §Yarmored cavalry§! units will join our side!"
+ BR2_cw_unlock_arms_market_tt: "We will gain access to the §YInternational Arms Market§!!"
+ BR2_rural_economy_idea_removal_tt: "§YThis spirit will be removed once we have more than 20 factories.§!"
  #Faction
  BR2_sasp_faction: "South American Security Pact"
  #Parties
