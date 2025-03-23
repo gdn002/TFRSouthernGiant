@@ -163,4 +163,397 @@ focus_tree = {
 			}
 		}
 	}
+
+	# PRESIDENTIAL MINI-BRANCH
+	# Favor the president for political bonuses and quelling conspiracies
+	focus = {
+		id = BR2_cw_the_presidential_mandate
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_the_fire_rises_in_brazil
+		x = -3
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_global_flag = BRA_civil_war_ongoing_flag
+		}
+		prerequisite = {
+			focus = BR2_cw_the_fire_rises_in_brazil
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BR2_cw_adress_constitutional_crisis
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_the_presidential_mandate
+		x = -1
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR2_cw_the_presidential_mandate
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BR2_cw_bolsonarismo_forever
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_the_presidential_mandate
+		x = 1
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR2_cw_the_presidential_mandate
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BR2_cw_within_the_four_lines
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_bolsonarismo_forever
+		x = -1
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR2_cw_adress_constitutional_crisis
+			focus = BR2_cw_bolsonarismo_forever
+		}
+		mutually_exclusive = { 
+			focus = BR2_cw_military_in_command 
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	# ARMY MINI-BRANCH
+	# Favor the army for military bonuses and quelling extremism
+	focus = {
+		id = BR2_cw_the_army_plan
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_the_fire_rises_in_brazil
+		x = 3
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_global_flag = BRA_civil_war_ongoing_flag
+		}
+		prerequisite = {
+			focus = BR2_cw_the_fire_rises_in_brazil
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BR2_cw_purge_extremist_cells
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_the_army_plan
+		x = 1
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR2_cw_the_army_plan
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BR2_cw_militarize_society
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_the_army_plan
+		x = -1
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR2_cw_the_army_plan
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BR2_cw_military_in_command
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_militarize_society
+		x = 1
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR2_cw_purge_extremist_cells
+			focus = BR2_cw_militarize_society
+		}
+		mutually_exclusive = { 
+			focus = BR2_cw_within_the_four_lines 
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	# SHARED MINI-BRANCH
+	focus = {
+		id = BR2_cw_reclaiming_our_nation
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_the_fire_rises_in_brazil
+		x = 0
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_global_flag = BRA_civil_war_ongoing_flag
+		}
+		prerequisite = {
+			focus = BR2_cw_the_fire_rises_in_brazil
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			BRA_civil_war_add_claims = yes
+			set_country_flag = BRA_civil_war_reintegration_allowed_flag
+		}
+	}
+
+	focus = {
+		id = BR2_cw_armored_cavalry
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_reclaiming_our_nation
+		x = 0
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR2_cw_reclaiming_our_nation
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = BR2_cw_armored_cavalry_tt
+			hidden_effect = {
+				load_oob = "BR2_Backup"
+			}
+		}
+	}
+
+	focus = {
+		id = BR2_cw_shock_and_awe
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_armored_cavalry
+		x = 0
+		y = 2
+		cost = 2
+		prerequisite = {
+			focus = BR2_cw_armored_cavalry
+		}
+		prerequisite = {
+			focus = BR2_cw_within_the_four_lines
+			focus = BR2_cw_military_in_command
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = BR2_brazilian_army_unleashed_idea
+    			days = 30
+			}
+		}
+	}
+
+	focus = {
+		id = BR2_the_dust_settles
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_cw_shock_and_awe
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = BR2_cw_shock_and_awe
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = BRA_civil_war_unifiers_defeated_tt
+				NOT = {
+					country_exists = BR1
+					country_exists = BR3
+					country_exists = BR4
+					country_exists = UNB
+				}
+			}
+		}
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			delayed_mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+	focus = {
+		id = BR2_reintegrate_sao_paulo
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_the_dust_settles
+		x = -1
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_completed_focus = BR2_the_dust_settles
+		}
+		prerequisite = {
+			focus = BR2_the_dust_settles
+		}
+		bypass = {
+			NOT = { country_exists = SPA }
+		}		
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# São Paulo breakaway ultimatum
+		}
+	}
+
+	focus = {
+		id = BR2_end_the_sul_experiment
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_the_dust_settles
+		x = 1
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_completed_focus = BR2_the_dust_settles
+		}
+		prerequisite = {
+			focus = BR2_the_dust_settles
+		}	
+		bypass = {
+			NOT = { country_exists = SUL }
+		}		
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Sul breakaway ultimatum
+		}
+	}
+
+	focus = {
+		id = BR2_patriotic_victory
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR2_reintegrate_sao_paulo
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR2_reintegrate_sao_paulo
+		}
+		prerequisite = {
+			focus = BR2_end_the_sul_experiment
+		}
+		available = {
+			has_war = no
+			custom_trigger_tooltip = {
+				tooltip = BRA_civil_war_breakaways_defeated_tt
+				NOT = {
+					country_exists = AMZ
+					country_exists = SPA
+					country_exists = SUL
+				}
+			}
+		}		
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# The civil war will be over!
+			BRA_civil_war_end = yes
+		}
+	}
 }

@@ -1,0 +1,191 @@
+
+# CIVIL WAR DECISIONS
+BRA_civil_war_category = {
+	BR2_operation_ustra_mission = {
+		available = {
+            always = no
+		}
+		war_with_on_timeout = BR1
+		days_mission_timeout = 15
+		activation = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+		is_good = yes
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+			add_timed_idea = {
+   	 			idea = BR2_operation_ustra_idea
+    			days = 30
+			}
+			declare_war_on = {
+    			target = BR1
+    			type = annex_everything
+			}
+			set_global_flag = BRA_civil_war_ongoing_flag
+		}
+	}
+
+	BR2_operation_angico_mission = {
+		available = {
+            always = no
+		}
+		war_with_on_timeout = BR3
+		days_mission_timeout = 15
+		activation = {
+			always = no
+		}
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+		is_good = yes
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+			add_timed_idea = {
+   	 			idea = BR2_operation_angico_idea
+    			days = 30
+			}
+			declare_war_on = {
+    			target = BR3
+    			type = annex_everything
+			}
+			set_global_flag = BRA_civil_war_ongoing_flag
+		}
+	}
+
+	BR2_operation_selva_mission = {
+		available = {
+            always = no
+		}
+		war_with_on_timeout = AMZ
+		days_mission_timeout = 15
+		activation = {
+			always = no
+		}
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+		is_good = yes
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+			add_timed_idea = {
+   	 			idea = BR2_operation_selva_idea
+    			days = 30
+			}
+			declare_war_on = {
+    			target = AMZ
+    			type = annex_everything
+			}
+			set_global_flag = BRA_civil_war_ongoing_flag
+		}
+	}
+
+	BR2_operation_apocalipse_mission = {
+		available = {
+            always = no
+		}
+		war_with_on_timeout = BR1
+		war_with_on_timeout = BR3
+		war_with_on_timeout = AMZ
+		days_mission_timeout = 15
+		activation = {
+			always = no
+		}
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+		is_good = yes
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+			add_timed_idea = {
+   	 			idea = BR2_operation_apocalipse_idea
+    			days = 30
+			}
+			declare_war_on = {
+    			target = BR1
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = BR3
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = AMZ
+    			type = annex_everything
+			}
+			set_global_flag = BRA_civil_war_ongoing_flag
+		}
+	}
+	
+    BR2_integralist_uprising_mission = {
+		priority = 10
+		available = {
+            always = no
+		}
+		days_mission_timeout = 150
+		activation = {
+			always = no
+		}
+		visible = {
+		}
+		fire_only_once = no
+		cancel_if_not_visible = yes
+		is_good = no
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+		}
+	}
+
+    BR2_monarchist_uprising_mission = {
+		priority = 10
+		available = {
+            always = no
+		}
+		days_mission_timeout = 150
+		activation = {
+			always = no
+		}
+		visible = {
+		}
+		fire_only_once = no
+		cancel_if_not_visible = yes
+		is_good = no
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+		}
+	}
+
+    BR2_counter_coup_uprising_mission = {
+		priority = 10
+		available = {
+            always = no
+		}
+		days_mission_timeout = 150
+		activation = {
+			always = no
+		}
+		visible = {
+		}
+		fire_only_once = no
+		cancel_if_not_visible = yes
+		is_good = no
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+		}
+	}
+}

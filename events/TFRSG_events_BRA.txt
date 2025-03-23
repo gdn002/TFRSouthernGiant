@@ -3855,7 +3855,12 @@ country_event = {
 			SUL = {
 				transfer_state = 502
 				transfer_state = 503
-				transfer_state = 1448
+				transfer_state = 1448	
+
+				country_event = {
+					id = Sul.1
+					days = 20
+				}			
 			}
 		}
 	}

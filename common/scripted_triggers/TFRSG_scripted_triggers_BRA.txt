@@ -8,7 +8,7 @@ is_brazilian_unifier = {
 	}
 }
 
-is_brazilian_breakaway = {
+is_brazilian_civilwar_faction = {
 	OR = {
 		original_tag = BRA
 		original_tag = BR1

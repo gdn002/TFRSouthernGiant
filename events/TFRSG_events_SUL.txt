@@ -66,6 +66,7 @@ country_event = {
         country_event = {
 			id = Sul.4
 			days = 30
+            random_days = 30
 		}
 	}
 }
@@ -286,9 +287,7 @@ news_event = {
     show_major = {
         OR = {
             tag = SUL
-            tag = BR1
-            tag = BR2
-            tag = BR3
+            is_brazilian_unifier = yes
         }
     }
 
@@ -308,7 +307,10 @@ news_event = {
 
     option = {
         trigger = {
-            tag = BR2
+            OR = {
+                tag = BR2
+                tag = BR4
+            }
         }
 		name = Sulnews.1.c
 	}
@@ -338,9 +340,7 @@ news_event = {
     show_major = {
         OR = {
             tag = SUL
-            tag = BR1
-            tag = BR2
-            tag = BR3
+            is_brazilian_unifier = yes
         }
     }
 
@@ -360,7 +360,10 @@ news_event = {
 
     option = {
         trigger = {
-            tag = BR2
+            OR = {
+                tag = BR2
+                tag = BR4
+            }
         }
 		name = Sulnews.2.c
 	}
@@ -390,9 +393,7 @@ news_event = {
     show_major = {
         OR = {
             tag = SUL
-            tag = BR1
-            tag = BR2
-            tag = BR3
+            is_brazilian_unifier = yes
         }
     }
 
@@ -412,7 +413,10 @@ news_event = {
 
     option = {
         trigger = {
-            tag = BR2
+            OR = {
+                tag = BR2
+                tag = BR4
+            }
         }
 		name = Sulnews.3.c
 	}
@@ -442,9 +446,7 @@ news_event = {
     show_major = {
         OR = {
             tag = SUL
-            tag = BR1
-            tag = BR2
-            tag = BR3
+            is_brazilian_unifier = yes
         }
     }
 
@@ -464,7 +466,10 @@ news_event = {
 
     option = {
         trigger = {
-            tag = BR2
+            OR = {
+                tag = BR2
+                tag = BR4
+            }
         }
 		name = Sulnews.4.c
 	}
@@ -494,9 +499,7 @@ news_event = {
     show_major = {
         OR = {
             tag = SUL
-            tag = BR1
-            tag = BR2
-            tag = BR3
+            is_brazilian_unifier = yes
         }
     }
 
@@ -516,7 +519,10 @@ news_event = {
 
     option = {
         trigger = {
-            tag = BR2
+            OR = {
+                tag = BR2
+                tag = BR4
+            }
         }
 		name = Sulnews.5.c
 	}
@@ -546,9 +552,7 @@ news_event = {
     show_major = {
         OR = {
             tag = SUL
-            tag = BR1
-            tag = BR2
-            tag = BR3
+            is_brazilian_unifier = yes
         }
     }
 
@@ -568,7 +572,10 @@ news_event = {
 
     option = {
         trigger = {
-            tag = BR2
+            OR = {
+                tag = BR2
+                tag = BR4
+            }
         }
 		name = Sulnews.6.c
 	}
@@ -598,9 +605,7 @@ news_event = {
     show_major = {
         OR = {
             tag = SUL
-            tag = BR1
-            tag = BR2
-            tag = BR3
+            is_brazilian_unifier = yes
         }
     }
 
@@ -620,7 +625,10 @@ news_event = {
 
     option = {
         trigger = {
-            tag = BR2
+            OR = {
+                tag = BR2
+                tag = BR4
+            }
         }
 		name = Sulnews.7.c
 	}

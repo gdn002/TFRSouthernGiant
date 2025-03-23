@@ -10,6 +10,7 @@
 	set_stability = 0.5
 
 	set_country_flag = country_language_portuguese
+	set_country_flag = shithole_country
 
 	country_lock_all_division_template = yes
 

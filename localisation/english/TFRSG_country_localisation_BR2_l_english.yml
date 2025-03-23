@@ -29,6 +29,13 @@
  BR2_brazilian_army_unleashed_idea_desc: "Now or never, the might of the Brazilian army will be put to the test! Our soldiers have been trained, our high command has put in the work in devising plans and strategies, all that's left is to put it to the test. §GSELVA!§!"
  #Decision Categories
  #Missions
+ BRA_operation_ustra_mission: "Preparing Operação §GUSTRA§!"
+ BRA_operation_angico_mission: "Preparing Operação §GANGICO§!"
+ BRA_operation_selva_mission: "Preparing Operação §GSELVA§!"
+ BRA_operation_apocalipse_mission: "Preparing Operação §GAPOCALIPSE§!"
+ BR2_integralist_uprising_mission: "Integralist Uprising Forming"
+ BR2_monarchist_uprising_mission: "Monarchist Sentiment on The Rise"
+ BR2_counter_coup_uprising_mission: "Pro-Democratic Conspiracy"
  #Decisions
  #BOP
  BR2_junta_power_struggle: "The President-Military Struggle For Power"
@@ -43,6 +50,7 @@
  #Tooltips
  BR2_cw_assert_control_over_central_brazil_tt: "§YWe will gain control over Central Brazil.§!"
  BR2_cw_army_reporting_tt: "We will raise §Ypatriotic militias§! and §Ymilitary brigades§! to fight the imminent civil war!"
+ BR2_cw_armored_cavalry_tt: "Several §Yarmored cavalry§! units will join our side!"
  #Faction
  BR2_sasp_faction: "South American Security Pact"
  #Parties

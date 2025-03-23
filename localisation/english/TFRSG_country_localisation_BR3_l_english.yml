@@ -61,6 +61,16 @@
  #Decision Categories
  #Missions
  #Decisions
+ BR3_cw_call_amazonian_commune: "Ally With The Amazonian Commune"
+ BR3_cw_attack_government: "Liberate the Federal Government"
+ BR3_cw_attack_junta: "Liberate the Military Junta"
+ BR3_cw_raid_armories: "Raid Military Armories"
+ BR3_cw_distribute_humanitarian_aid: "Distribute Humanitarian Aid"
+ BR3_cw_socialist_education_campaigns: "Socialist Education Campaigns"
+ BR3_cw_rally_revolutionary_labor: "Rally The Revolutionary Labor Force"
+ BR3_cw_boost_revolutionary_morale: "Boost Revolutionary Morale"
+ BR3_cw_call_for_strikes_government: "Call For Strikes in The Federal Government"
+ BR3_cw_call_for_strikes_junta: "Call For Strikes in The Military Junta"
  #BOP
  BR3_internal_faction_balance: "Internal Factions Balance"
  BR3_hardliner_side: "Hardliners"
@@ -73,6 +83,7 @@
  BR3_libertarian_weak_majority: "Weak Libertarian Majority"
  BR3_libertarian_majority: "Libertarian Majority"
  #Country Flag
+ BR3_civil_war_raiding_flag: "A raid operation is in progress."
  #Tooltips
  BR3_cw_link_up_with_pf_cells_tt: "§YWe will gain control over Northeastern Brazil.§!"
  BR3_libertarian_majority_tt: "Our government type will be §tLibertarian§!"

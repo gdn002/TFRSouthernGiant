@@ -580,10 +580,6 @@
  BRA_2022_elections_countdown_mission: "2022 Elections Countdown"
  BRA_2022_elections_opponents_mission: "Opponents Campaigning..."
  BRA_2022_elections_protests_pacification_mission: "Pacifying Protests"
- BRA_operation_ustra_mission: "Preparing Operação §GUSTRA§!"
- BRA_operation_angico_mission: "Preparing Operação §GANGICO§!"
- BRA_operation_selva_mission: "Preparing Operação §GSELVA§!"
- BRA_operation_apocalipse_mission: "Preparing Operação §GAPOCALIPSE§!"
  #Decisions
  BRA_patriotic_marches: "Patriotic Marches"
  BRA_pro_democracy_marches: "Pro-Democracy Marches"
@@ -744,6 +740,7 @@
  BRA_civil_war_pick_junta_tt: "§YPick this option to play as The§! §nBRAZILIAN MILITARY JUNTA§!§Y.§!"
  BRA_civil_war_pick_front_tt: "§YPick this option to play as The§! §RBRAZILIAN POPULAR FRONT§!§Y.§!"
  BRA_civil_war_add_claims_tt: "We will get claims on all Brazilian states!"
+ BRA_civil_war_core_all_tt: "We will core all Brazilian states!"
  BRA_civil_war_unifiers_defeated_tt: "All other Brazilian unifiers have been §Ydefeated§!."
  BRA_civil_war_breakaways_defeated_tt: "All other Brazilian breakaway states have been §Ydefeated§!."
  BRA_civil_war_recruitment_unlocked_tt: "We will be able to §Yraise militias§! in controlled Brazilian states!" 

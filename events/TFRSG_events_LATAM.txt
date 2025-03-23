@@ -1000,3 +1000,19 @@ country_event = {
 		name = latin_america.23.a
 	}
 }
+
+# Focus tree refresh hidden event
+country_event = {
+	id = latin_america.24
+	is_triggered_only = yes
+	fire_only_once = no
+	hidden = yes
+	
+	immediate = {
+		mark_focus_tree_layout_dirty = yes
+	}
+
+	option = {
+		name = latin_america.23.a
+	}
+}

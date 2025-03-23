@@ -56,25 +56,25 @@ country_event = {
 	# Attack federal gov
 	option = {
 		name = Brazil.junta.3.a
-		activate_mission = BRA_operation_ustra_mission
+		activate_mission = BR2_operation_ustra_mission
 	}
 
 	# Attack popular front
 	option = {
 		name = Brazil.junta.3.b
-		activate_mission = BRA_operation_angico_mission
+		activate_mission = BR2_operation_angico_mission
 	}
 
 	# Attack amazon commune
 	option = {
 		name = Brazil.junta.3.c
-		activate_mission = BRA_operation_selva_mission
+		activate_mission = BR2_operation_selva_mission
 	}
 
 	# Attack everyone
 	option = {
 		name = Brazil.junta.3.e
-		activate_mission = BRA_operation_apocalipse_mission
+		activate_mission = BR2_operation_apocalipse_mission
 	}
 }
 

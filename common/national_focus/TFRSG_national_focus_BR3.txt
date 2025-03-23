@@ -411,6 +411,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Use alternative/independent media to spread the revolution
+			add_campaign_slot = yes
 		}
 	}
 
@@ -703,7 +704,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Enables reintegration of Brazilian states
-			mark_focus_tree_layout_dirty = yes
+			delayed_mark_focus_tree_layout_dirty = yes
 			set_country_flag = BRA_civil_war_reintegration_allowed_flag
 		}
 	}

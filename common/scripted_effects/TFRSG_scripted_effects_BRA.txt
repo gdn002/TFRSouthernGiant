@@ -803,10 +803,29 @@ BRA_civil_war_setup = {
 	}
 }
 
+BRA_civil_war_kickoff = {
+	hidden_effect = {
+		set_global_flag = BRA_civil_war_ongoing_flag
+	}
+
+	BR1 = {
+		mark_focus_tree_layout_dirty = yes
+	}
+	BR2 = {
+		mark_focus_tree_layout_dirty = yes
+	}
+	BR3 = {
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
 BRA_civil_war_end = {
 	hidden_effect = {
 		set_global_flag = BRA_civil_war_ended_flag
 		clr_global_flag = BRA_civil_war_ongoing_flag	
+
+		clr_country_flag = developed_country
+		clr_country_flag = shithole_country
 
 		set_country_flag = BRA_amazonian_preservation_mechanic_enabled	
 	}
@@ -814,6 +833,8 @@ BRA_civil_war_end = {
 	add_ideas = {
 		BRA_amazonian_jungle_idea
 	}
+
+	BRA_civil_war_core_all = yes
 }
 
 BRA_civil_war_add_claims = {
@@ -827,6 +848,17 @@ BRA_civil_war_add_claims = {
 					}
 				}
 				add_claim_by = ROOT
+			}
+		}
+	}
+}
+
+BRA_civil_war_core_all = {
+	custom_effect_tooltip = BRA_civil_war_core_all_tt
+	hidden_effect = {
+		BRA = {
+			every_core_state = {
+				add_core_of = ROOT
 			}
 		}
 	}
@@ -891,14 +923,11 @@ BRA_civil_war_get_state_recruitment_value = {
         }
 		set_temp_variable = { BRA_civil_war_recruit_value_temp = 4 }
     }
-	else = {
-		# Fallback
-		set_temp_variable = { BRA_civil_war_recruit_value_temp = 1 }
-	}
 }
 
 BRA_civil_war_recruitment_scripted_effect = {
 	FROM = {
+		set_temp_variable = { BRA_civil_war_recruit_value_temp = 1 }
         BRA_civil_war_get_state_recruitment_value = yes
         create_unit = {
 			division = "name = \"Militia\" division_template = \"Brazilian Militia\"  start_experience_factor = 0.0"
@@ -907,4 +936,12 @@ BRA_civil_war_recruitment_scripted_effect = {
             count = BRA_civil_war_recruit_value_temp
 		}
     }
+}
+
+delayed_mark_focus_tree_layout_dirty = {
+	hidden_effect = {
+		country_event = {
+			id = latin_america.24
+		}
+	}
 }

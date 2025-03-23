@@ -10,6 +10,7 @@
 	set_war_support = 0.15
 
 	set_country_flag = country_language_portuguese
+	set_country_flag = developed_country
 
 	country_lock_all_division_template = yes
 	
