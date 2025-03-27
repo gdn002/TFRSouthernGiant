@@ -367,6 +367,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Provide humanitarian aid to Brazilians displaced by the civil war
+			add_stability = 0.05
+			add_political_power = 50
+			set_temp_variable = { poverty_development_var_temp = 0.25 }
+			add_poverty_development = yes
 		}
 	}
 
@@ -389,6 +393,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Raise class consciousness and political participation in the people
+			add_war_support = 0.05
+			set_temp_variable = { society_development_var_temp = 0.25 }
+			add_society_development = yes
 		}
 	}
 
@@ -411,6 +418,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Use alternative/independent media to spread the revolution
+			add_political_power = 100
 			add_campaign_slot = yes
 		}
 	}
@@ -468,6 +476,28 @@ focus_tree = {
 			remove_ideas = {
 				BRA_informalized_economy_idea
 			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -489,6 +519,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			add_political_power = -50
 			swap_ideas = {
 				remove_idea = BR3_uncontrolled_industrial_output_idea
 				add_idea = BR3_redirected_industrial_output_idea
@@ -638,6 +669,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Enables worker strikes against other factions
+			custom_effect_tooltip = BR3_workers_of_brazil_rise_tt
+			set_temp_variable = { industrial_development_var_temp = 0.25 }
+			add_industrial_development = yes
 		}
 	}
 
@@ -666,11 +700,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Awards the powerful PLA idea and unlocks training of professional divisions
+			add_command_power = 50
 			country_lock_all_division_template = no
 			swap_ideas = {
 				remove_idea = BR3_guerrila_warfare_idea
 				add_idea = BR3_liberation_army_idea
 			}
+			set_temp_variable = { military_development_var_temp = 0.25 }
+			add_military_development = yes
 		}
 	}
 
@@ -691,9 +728,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 1
 		}
-		completion_reward = {
-			add_political_power = 200
-			add_stability = 0.15
+		completion_reward = {			
 			add_war_support = 0.05
 			# Enables reintegration of Brazilian states
 			set_country_flag = BRA_civil_war_reintegration_allowed_flag
@@ -729,7 +764,8 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			# Enables reintegration of Brazilian states
+			add_political_power = 200
+			add_stability = 0.15
 			delayed_mark_focus_tree_layout_dirty = yes
 		}
 	}

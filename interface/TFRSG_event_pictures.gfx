@@ -98,6 +98,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/BRA_elections_slip_n_slide.png"
 	}
 	SpriteType = {
+		name = "GFX_BRA_integralist_terrorists"
+		texturefile = "gfx/event_pictures/BRA_integralist_terrorists.png"
+	}
+	SpriteType = {
 		name = "GFX_BRA_lula_election_campaign"
 		texturefile = "gfx/event_pictures/BRA_lula_election_campaign.png"
 	}
@@ -132,6 +136,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BRA_popular_front_supports_lula"
 		texturefile = "gfx/event_pictures/BRA_popular_front_supports_lula.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_porta_dos_fundos_attack"
+		texturefile = "gfx/event_pictures/BRA_porta_dos_fundos_attack.png"
 	}
 
 	#### NEWS ####

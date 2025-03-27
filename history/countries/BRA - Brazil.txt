@@ -129,11 +129,29 @@
 		days = 730
 	}
 
+	# Yearly carnaval event (Feb 25th)
+	country_event = {
+		id = Brazil.timeline.6
+		days = 56
+	}
+
+	# Yearly independence day event (Sep 7th)
+	country_event = {
+		id = Brazil.timeline.7
+		days = 251
+	}
+
 	# New decade for Brazil
 	country_event = {		
 		id = Brazil.1
 		days = 1
 	}	
+
+	# Integralist linked to firebomb attack
+	country_event = {		
+		id = Brazil.90
+		days = 14
+	}
 
 	# Brazilians repatriated from Wuhan
 	country_event = {

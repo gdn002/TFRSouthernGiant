@@ -17,7 +17,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = BRA
+		is_brazilian_unifier = yes
 	}
 
 	immediate = {
@@ -47,7 +47,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = BRA
+		is_brazilian_unifier = yes
 	}
 
 	immediate = {
@@ -71,7 +71,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = BRA
+		is_brazilian_unifier = yes
 	}
 
 	immediate = {
@@ -80,6 +80,102 @@ country_event = {
 
 	option = {
 		name = Brazil.timeline.3.a
+	}
+}
+
+# 2028
+country_event = {
+	id = Brazil.timeline.4
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	trigger = {
+		is_brazilian_unifier = yes
+	}
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = Brazil.timeline.4.a
+	}
+}
+
+# 2030
+country_event = {
+	id = Brazil.timeline.5
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	trigger = {
+		is_brazilian_unifier = yes
+	}
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = Brazil.timeline.5.a
+	}
+}
+
+# Carnaval yearly event
+country_event = {
+	id = Brazil.timeline.6
+	title = Brazil.timeline.6.t
+	desc = Brazil.timeline.6.d
+
+	is_triggered_only = yes
+	
+	trigger = {
+		is_brazilian_unifier = yes
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = Brazil.timeline.6
+				days = 365
+			}
+		}
+	}
+
+	option = {
+		name = Brazil.timeline.6.a
+		add_stability = 0.01
+	}
+}
+
+# Independence day yearly event
+country_event = {
+	id = Brazil.timeline.7
+	title = Brazil.timeline.7.t
+	desc = Brazil.timeline.7.d
+
+	is_triggered_only = yes
+	
+	trigger = {
+		is_brazilian_unifier = yes
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = Brazil.timeline.7
+				days = 365
+			}
+		}
+	}
+
+	option = {
+		name = Brazil.timeline.7.a
+		add_war_support = 0.01
 	}
 }
 
@@ -3217,6 +3313,71 @@ country_event = {
 	}
 }
 
+# Integralists intro
+country_event = {
+	id = Brazil.90
+	title = Brazil.90.t
+	desc = Brazil.90.d
+	picture = GFX_BRA_porta_dos_fundos_attack
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRA
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = Brazil.91
+				days = 400
+				random_days = 60
+			}
+		}
+	}
+
+	option = {
+		name = Brazil.90.a
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.025
+		}
+		add_power_balance_value = {
+    		id = BRA_political_radicalization_balance
+    		value = -0.015
+   	 		tooltip_side = BRA_radicalization_side
+		}
+	}
+}
+
+# Monarchists intro
+country_event = {
+	id = Brazil.91
+	title = Brazil.91.t
+	desc = Brazil.91.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRA
+	}
+
+	option = {
+		name = Brazil.91.a
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.025
+		}
+		add_power_balance_value = {
+    		id = BRA_political_radicalization_balance
+    		value = -0.015
+   	 		tooltip_side = BRA_radicalization_side
+		}
+	}
+}
+
 ###########################
 # Brazil News
 ###########################
@@ -3368,6 +3529,25 @@ news_event = {
 
 	option = {
 		name = Brazilnews.7.a
+	}
+}
+
+# Brazilian civil war news
+news_event = {
+	id = Brazilnews.8
+	title = Brazilnews.8.t
+	desc = Brazilnews.8.d
+	major = yes
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRA
+	}
+
+	option = {
+		name = Brazilnews.8.a
 	}
 }
 
