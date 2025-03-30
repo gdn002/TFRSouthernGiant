@@ -122,6 +122,7 @@ BRA_civil_war_category = {
 		custom_cost_trigger = {
             command_power > 10
         }
+		icon = GFX_decision_generic_industry
         custom_cost_text = 10cp_cost
 		days_remove = 15
 		fire_only_once = yes

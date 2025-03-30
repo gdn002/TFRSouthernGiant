@@ -270,6 +270,7 @@ country_event = {
                 id = Sulnews.2
                 days = 1
             }
+            set_cosmetic_tag = SUL_commie_coup
         }
 	}
 
@@ -300,6 +301,8 @@ country_event = {
                 id = Sulnews.3
                 days = 1
             }
+
+            set_cosmetic_tag = SUL_nazi_coup
         }
 	}
 }

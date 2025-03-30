@@ -201,7 +201,7 @@ BRA_civil_war_category = {
 		}
 	}
     BRA_reintegrate_targeted_decision = {
-		icon = USA_core_state
+		icon = GFX_decision_generic_recore
 		cost = 20
 		days_remove = 30
 		fire_only_once = no
