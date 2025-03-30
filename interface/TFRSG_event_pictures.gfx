@@ -141,6 +141,26 @@ spriteTypes = {
 		name = "GFX_BRA_porta_dos_fundos_attack"
 		texturefile = "gfx/event_pictures/BRA_porta_dos_fundos_attack.png"
 	}
+	SpriteType = {
+		name = "GFX_BRA_sunset_brasilia"
+		texturefile = "gfx/event_pictures/BRA_sunset_brasilia.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_sunset_military"
+		texturefile = "gfx/event_pictures/BRA_sunset_military.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_sunset_republic"
+		texturefile = "gfx/event_pictures/BRA_sunset_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_sunset_rio"
+		texturefile = "gfx/event_pictures/BRA_sunset_rio.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_sunset_soccer"
+		texturefile = "gfx/event_pictures/BRA_sunset_soccer.png"
+	}
 
 	#### NEWS ####
 	#SpriteType = {

@@ -213,3 +213,71 @@ country_event = {
 		}
 	}
 }
+
+# Civil war unifiers defeated
+country_event = {
+	id = Brazil.commie.7
+	title = Brazil.commie.7.t
+	desc = Brazil.commie.7.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR3
+	}
+
+	option = {
+		name = Brazil.commie.7.a
+		mark_focus_tree_layout_dirty = yes
+		focus_unlock = yes
+	}
+}
+
+# Civil war unifiers defeated
+country_event = {
+	id = Brazil.commie.7
+	title = Brazil.commie.7.t
+	desc = Brazil.commie.7.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR3
+	}
+
+	option = {
+		name = Brazil.commie.7.a
+		swap_ruler_traits = { 
+			remove = hos_revolutioanry_spirit
+			add = hos_revolutionary_fervor
+		}
+		mark_focus_tree_layout_dirty = yes
+		focus_unlock = yes
+	}
+}
+
+# Amazon ultimatum
+country_event = {
+	id = Brazil.commie.8
+	title = Brazil.commie.8.t
+	desc = Brazil.commie.8.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = AMZ
+	}
+
+	# Accept
+	option = {
+		name = Brazil.commie.8.a		
+	}
+
+	# Decline
+	option = {
+		
+	}
+}

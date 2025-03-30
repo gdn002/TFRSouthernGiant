@@ -44,6 +44,9 @@ country_event = {
     # Hold elections
 	option = {
 		name = Sul.2.a
+        ai_will_do = {
+            base = 10
+        }
 
         change_government_type_presidential_republic = yes
 
@@ -56,6 +59,9 @@ country_event = {
     # Suspend elections
     option = {
 		name = Sul.2.b
+        ai_will_do = {
+            base = 10
+        }
 
         hidden_effect = {
             news_event = {
@@ -87,6 +93,9 @@ country_event = {
     # Socdem victory
 	option = {
 		name = Sul.3.a
+        ai_will_do = {
+            base = 2
+        }
 
         set_politics = {
             ruling_party = social_democrat
@@ -111,6 +120,9 @@ country_event = {
     # Soclib victory
     option = {
 		name = Sul.3.b
+        ai_will_do = {
+            base = 8
+        }
 
         set_politics = {
             ruling_party = social_liberal
@@ -133,6 +145,9 @@ country_event = {
     # Conservative victory
     option = {
 		name = Sul.3.c
+        ai_will_do = {
+            base = 10
+        }
 
         set_politics = {
             ruling_party = conservative
@@ -155,6 +170,9 @@ country_event = {
     # Marketlib victory
     option = {
 		name = Sul.3.e
+        ai_will_do = {
+            base = 4
+        }
 
         set_politics = {
             ruling_party = market_liberal
@@ -193,11 +211,24 @@ country_event = {
     # Status quo
 	option = {
 		name = Sul.4.a
+        ai_will_do = {
+            base = 3
+        }
+
+        hidden_effect = {
+            news_event = {
+                id = Sulnews.1
+                days = 1
+            }
+        }
 	}
 
     # Communist coup
     option = {
 		name = Sul.4.b
+        ai_will_do = {
+            base = 3
+        }
 
         set_politics = {
             ruling_party = communist
@@ -245,6 +276,9 @@ country_event = {
     # Nazi coup
     option = {
 		name = Sul.4.c
+        ai_will_do = {
+            base = 4
+        }
 
         set_politics = {
             ruling_party = national_socialist
@@ -274,9 +308,8 @@ country_event = {
 news_event = {
 	id = Sulnews.1
 	title = Sulnews.1.t
-	desc = Sulnews.1.d
-	
-	fire_only_once = yes
+	desc = Sulnews.1.d	
+
 	is_triggered_only = yes
 	major = yes
 
@@ -328,8 +361,7 @@ news_event = {
 	id = Sulnews.2
 	title = Sulnews.2.t
 	desc = Sulnews.2.d
-	
-	fire_only_once = yes
+
 	is_triggered_only = yes
 	major = yes
 
@@ -382,7 +414,6 @@ news_event = {
 	title = Sulnews.3.t
 	desc = Sulnews.3.d
 	
-	fire_only_once = yes
 	is_triggered_only = yes
     major = yes
 	
@@ -435,7 +466,6 @@ news_event = {
 	title = Sulnews.4.t
 	desc = Sulnews.4.d
 	
-	fire_only_once = yes
 	is_triggered_only = yes
     major = yes
 	
@@ -488,7 +518,6 @@ news_event = {
 	title = Sulnews.5.t
 	desc = Sulnews.5.d
 	
-	fire_only_once = yes
 	is_triggered_only = yes
     major = yes
 	
@@ -541,7 +570,6 @@ news_event = {
 	title = Sulnews.6.t
 	desc = Sulnews.6.d
 	
-	fire_only_once = yes
 	is_triggered_only = yes
     major = yes
 	
@@ -594,7 +622,6 @@ news_event = {
 	title = Sulnews.7.t
 	desc = Sulnews.7.d
 	
-	fire_only_once = yes
 	is_triggered_only = yes
     major = yes
 	

@@ -21,7 +21,9 @@ ideas = {
 				original_tag = BR2
 			}
 			modifier = {
-
+				political_power_factor = 0.25
+				offensive_war_stability_factor = -0.25
+				drift_defence_factor = 0.5
 			}
 		}
 
@@ -30,7 +32,8 @@ ideas = {
 				original_tag = BR2
 			}
 			modifier = {
-
+				political_power_cost = 0.05
+				stability_weekly = -0.001
 			}
 		}	
 
@@ -39,13 +42,21 @@ ideas = {
 				original_tag = BR2
 			}
 			modifier = {
-
+				army_attack_factor = 0.15
+				army_attack_speed_factor = 0.05
+				army_defence_factor = -0.05
+				experience_loss_factor = 0.1
 			}
 		}
 
 		BR2_operation_ustra_idea = {
 			allowed = {
 				original_tag = BR2
+			}
+			targeted_modifier = {
+				tag = BR1
+				breakthrough_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			}
 			modifier = {
 
@@ -56,6 +67,11 @@ ideas = {
 			allowed = {
 				original_tag = BR2
 			}
+			targeted_modifier = {
+				tag = BR3
+				attack_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+			}
 			modifier = {
 
 			}
@@ -64,6 +80,11 @@ ideas = {
 		BR2_operation_selva_idea = {
 			allowed = {
 				original_tag = BR2
+			}
+			targeted_modifier = {
+				tag = AMZ
+				attack_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
 			}
 			modifier = {
 
@@ -75,7 +96,9 @@ ideas = {
 				original_tag = BR2
 			}
 			modifier = {
-
+				attack_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			}
 		}
 
@@ -84,7 +107,7 @@ ideas = {
 				original_tag = BR2
 			}
 			modifier = {
-
+				
 			}
 		}	
 	}

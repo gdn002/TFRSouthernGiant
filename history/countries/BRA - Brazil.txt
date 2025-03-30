@@ -78,7 +78,7 @@
 		# Laws
 		civilian_mobilization
 		high_taxes
-		low_conscription
+		lower_conscription
 		medium_female_service
 		general_exemptions
 
@@ -132,13 +132,13 @@
 	# Yearly carnaval event (Feb 25th)
 	country_event = {
 		id = Brazil.timeline.6
-		days = 56
+		days = 55
 	}
 
 	# Yearly independence day event (Sep 7th)
 	country_event = {
 		id = Brazil.timeline.7
-		days = 251
+		days = 250
 	}
 
 	# New decade for Brazil

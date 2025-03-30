@@ -59,24 +59,36 @@ country_event = {
 	# Attack federal gov
 	option = {
 		name = Brazil.junta.3.a
+		ai_will_do = {
+            base = 10
+        }
 		activate_mission = BR2_operation_ustra_mission
 	}
 
 	# Attack popular front
 	option = {
 		name = Brazil.junta.3.b
+		ai_will_do = {
+            base = 5
+        }
 		activate_mission = BR2_operation_angico_mission
 	}
 
 	# Attack amazon commune
 	option = {
 		name = Brazil.junta.3.c
+		ai_will_do = {
+            base = 5
+        }
 		activate_mission = BR2_operation_selva_mission
 	}
 
 	# Attack everyone
 	option = {
 		name = Brazil.junta.3.e
+		ai_will_do = {
+            base = 5
+        }
 		activate_mission = BR2_operation_apocalipse_mission
 	}
 }
@@ -102,5 +114,25 @@ country_event = {
 		hidden_effect = {
 			load_oob = "BR2_Civil_War"
 		}
+	}
+}
+
+# Civil war unifiers defeated
+country_event = {
+	id = Brazil.junta.5
+	title = Brazil.junta.5.t
+	desc = Brazil.junta.5.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR2
+	}
+
+	option = {
+		name = Brazil.junta.5.a
+		mark_focus_tree_layout_dirty = yes
+		focus_unlock = yes
 	}
 }

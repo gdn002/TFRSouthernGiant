@@ -80,12 +80,12 @@ focus_tree = {
 		completion_reward = {
 			# We set up a provisional popular government
 			add_political_power = 100
-			add_stability = 0.05
+			add_stability = 0.1
 			set_power_balance = {
 				id = BR3_internal_faction_balance
 				left_side = BR3_hardliner_side
 				right_side = BR3_libertarian_side
-				set_value = 0
+				set_value = 0.25
 			}
 			country_event = {
 				id = Brazil.commie.2
@@ -310,6 +310,10 @@ focus_tree = {
 				id = Brazil.commie.4
 				hours = 12
 			}
+			swap_ideas = {
+				add_idea = high_prison
+				remove_idea = low_prison
+			}
 		}
 	}
 
@@ -367,10 +371,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Provide humanitarian aid to Brazilians displaced by the civil war
-			add_stability = 0.05
+			add_stability = 0.15
 			add_political_power = 50
 			set_temp_variable = { poverty_development_var_temp = 0.25 }
 			add_poverty_development = yes
+			swap_ideas = {
+				add_idea = low_welfare
+				remove_idea = lower_welfare
+			}
 		}
 	}
 
@@ -706,6 +714,13 @@ focus_tree = {
 				remove_idea = BR3_guerrila_warfare_idea
 				add_idea = BR3_liberation_army_idea
 			}
+			set_party_name = {
+			    ideology = nationalist
+			    name = BR3_nationalist_party_pla
+			    long_name = BR3_nationalist_party_pla_long
+			}
+			set_temp_variable = { coalition_partner_var_temp = token:nationalist }
+			add_to_coalition = yes
 			set_temp_variable = { military_development_var_temp = 0.25 }
 			add_military_development = yes
 		}
@@ -765,8 +780,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 200
-			add_stability = 0.15
-			delayed_mark_focus_tree_layout_dirty = yes
+			add_stability = 0.25
+			country_event = {
+				id = Brazil.commie.7
+				days = 2
+			}			
 		}
 	}
 

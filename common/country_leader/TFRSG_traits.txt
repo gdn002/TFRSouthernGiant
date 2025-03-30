@@ -61,4 +61,12 @@ leader_traits = {
 		random = no
 		political_power_gain = 0.08
 	}
+
+	hos_revolutionary_fervor = {
+		random = no
+		political_power_gain = 0.3
+		libertarian_socialist_drift = 0.02
+		communist_drift = 0.02
+		totalitarian_socialist_drift = 0.02
+	}
 }

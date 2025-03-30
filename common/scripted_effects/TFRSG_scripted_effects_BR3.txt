@@ -1,6 +1,9 @@
 BR3_civil_war_raid_scripted_effect = {
     set_temp_variable = { BRA_civil_war_recruit_value_temp = 1 }
-    BRA_civil_war_get_state_recruitment_value = yes
+    FROM = {        
+        BRA_civil_war_get_state_recruitment_value = yes
+    }
+    log = "TFRSG Popular Front raid value - [?BRA_civil_war_recruit_value_temp]"
 
     set_temp_variable = { inf_equip_var = 250 }
     set_temp_variable = { sup_equip_var = 50 }

@@ -33,6 +33,7 @@
 		BRA_rise_of_evangelism_idea
 		BRA_informalized_economy_idea
 		BR3_popular_front_idea
+		BR3_counter_revolution_idea
 		BR3_disorganized_warfare_idea
 		BR3_uncontrolled_industrial_output_idea
 
@@ -40,9 +41,12 @@
 
 		# Laws
 		civilian_mobilization
-		high_taxes
-		low_conscription
-		medium_female_service
+		low_trade
+		medium_taxes
+		lower_welfare
+		lower_conscription
+		higher_female_service
+		higher_racial_integration
 		general_exemptions
 
 		# Development
@@ -66,10 +70,14 @@
 	}
 	
 	set_popularities = {
-		totalitarian_socialist = 18
-		communist = 27
-		libertarian_socialist = 35
-		social_democrat = 20
+		totalitarian_socialist = 12
+		communist = 21
+		libertarian_socialist = 26
+		social_democrat = 14
+		social_liberal = 5
+		market_liberal = 3
+		conservative = 12
+		authoritarian_democrat = 7
 	}
 
 	# STARTING TECHS

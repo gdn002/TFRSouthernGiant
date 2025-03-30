@@ -33,11 +33,15 @@
 		# Ministers
 
 		# Laws
-		civilian_mobilization
+		early_mobilization
+		low_trade
 		high_taxes
-		low_conscription
-		medium_female_service
+		lower_welfare
+		lower_conscription
+		low_female_service
+		high_racial_integration
 		general_exemptions
+		high_police
 
 		# Development
 		high_farming

@@ -125,7 +125,7 @@ country_event = {
 	}
 }
 
-# Carnaval yearly event
+# Carnaval yearly event (Feb 25)
 country_event = {
 	id = Brazil.timeline.6
 	title = Brazil.timeline.6.t
@@ -152,7 +152,7 @@ country_event = {
 	}
 }
 
-# Independence day yearly event
+# Independence day yearly event (Sep 7)
 country_event = {
 	id = Brazil.timeline.7
 	title = Brazil.timeline.7.t
@@ -176,6 +176,204 @@ country_event = {
 	option = {
 		name = Brazil.timeline.7.a
 		add_war_support = 0.01
+	}
+}
+
+# Proclamation of Republic day yearly event (Nov 15)
+country_event = {
+	id = Brazil.timeline.8
+	title = Brazil.timeline.8.t
+	desc = Brazil.timeline.8.d
+
+	is_triggered_only = yes
+	
+	trigger = {
+		is_brazilian_unifier = yes
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = Brazil.timeline.8
+				days = 365
+			}
+		}
+	}
+
+	option = {
+		name = Brazil.timeline.7.a
+		add_political_power = 25
+	}
+}
+
+# Content end (Progressives)
+country_event = {
+	id = Brazil.timeline.9
+	title = Brazil.timeline.9.t
+	desc = Brazil.timeline.9.d
+	picture = GFX_BRA_sunset_republic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRA
+	}
+
+	option = {
+		name = Brazil.timeline.9.a
+		custom_effect_tooltip = BRA_progressive_end_tt
+	}
+}
+
+# Content end (Centrists)
+country_event = {
+	id = Brazil.timeline.10
+	title = Brazil.timeline.10.t
+	desc = Brazil.timeline.10.d
+	picture = GFX_BRA_sunset_republic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRA
+	}
+
+	option = {
+		name = Brazil.timeline.10.a
+		custom_effect_tooltip = BRA_centrist_end_tt
+	}
+}
+
+# Content end (Reactionaries)
+country_event = {
+	id = Brazil.timeline.11
+	title = Brazil.timeline.11.t
+	desc = Brazil.timeline.11.d
+	picture = GFX_BRA_sunset_republic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRA
+	}
+
+	option = {
+		name = Brazil.timeline.11.a
+		custom_effect_tooltip = BRA_reactionary_end_tt
+	}
+}
+
+# Content end (Military)
+country_event = {
+	id = Brazil.timeline.12
+	title = Brazil.timeline.12.t
+	desc = Brazil.timeline.12.d
+	picture = GFX_BRA_sunset_military
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRA
+	}
+
+	option = {
+		name = Brazil.timeline.12.a
+		custom_effect_tooltip = BRA_military_end_tt
+	}
+}
+
+# Content end (Federal Gov)
+country_event = {
+	id = Brazil.timeline.13
+	title = Brazil.timeline.13.t
+	desc = Brazil.timeline.13.d
+	picture = GFX_BRA_sunset_brasilia
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazil.timeline.13.a
+		custom_effect_tooltip = BR1_democratic_end_tt
+	}
+}
+
+# Content end (Military Junta)
+country_event = {
+	id = Brazil.timeline.14
+	title = Brazil.timeline.14.t
+	desc = Brazil.timeline.14.d
+	picture = GFX_BRA_sunset_military
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR2
+	}
+
+	option = {
+		name = Brazil.timeline.14.a
+		custom_effect_tooltip = BR2_junta_end_tt
+	}
+}
+
+# Content end (Popular Front)
+country_event = {
+	id = Brazil.timeline.15
+	title = Brazil.timeline.15.t
+	desc = Brazil.timeline.15.d
+	picture = GFX_BRA_sunset_soccer
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR3
+	}
+
+	option = {
+		name = Brazil.timeline.15.a
+		custom_effect_tooltip = BR3_commie_end_tt
+	}
+}
+
+# Content end (Integralist Front)
+country_event = {
+	id = Brazil.timeline.16
+	title = Brazil.timeline.16.t
+	desc = Brazil.timeline.16.d
+	picture = GFX_BRA_sunset_rio
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR4
+	}
+
+	option = {
+		name = Brazil.timeline.16.a
+		custom_effect_tooltip = BR4_integralist_end_tt
+	}
+}
+
+# Content end (Monarchists)
+country_event = {
+	id = Brazil.timeline.17
+	title = Brazil.timeline.17.t
+	desc = Brazil.timeline.17.d
+	picture = GFX_BRA_sunset_rio
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR4
+	}
+
+	option = {
+		name = Brazil.timeline.17.a
+		custom_effect_tooltip = BR4_monarchist_end_tt
 	}
 }
 
@@ -3390,7 +3588,6 @@ news_event = {
 	picture = GFX_TFRSG_news_lula_relieved
 	major = yes
 
-	fire_only_once = yes
 	is_triggered_only = yes
 
 	immediate = {
@@ -3420,7 +3617,6 @@ news_event = {
 	picture = GFX_TFRSG_news_covid_mass_graves
 	major = yes
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	trigger = {
@@ -3440,7 +3636,6 @@ news_event = {
 	picture = GFX_TFRSG_news_covid_trials
 	major = yes
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	trigger = {
@@ -3460,7 +3655,6 @@ news_event = {
 	picture = GFX_TFRSG_news_lula_victory
 	major = yes
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	trigger = {
@@ -3480,7 +3674,6 @@ news_event = {
 	picture = GFX_TFRSG_news_alckmin_victory
 	major = yes
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	trigger = {
@@ -3500,7 +3693,6 @@ news_event = {
 	picture = GFX_TFRSG_news_bolsonaro_victory
 	major = yes
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	trigger = {
@@ -3520,7 +3712,6 @@ news_event = {
 	picture = GFX_TFRSG_news_patriotic_marches
 	major = yes
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	trigger = {
@@ -3539,7 +3730,6 @@ news_event = {
 	desc = Brazilnews.8.d
 	major = yes
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	trigger = {
@@ -3671,6 +3861,7 @@ country_event = {
 			BR2 = {
 				transfer_state = 1435
 				add_state_core = 1435
+				load_oob = "BRA_Unifier_2020"
 			}
 		}
 	}
@@ -3704,6 +3895,7 @@ country_event = {
 			BR1 = {
 				transfer_state = 1450
 				add_state_core = 1450
+				load_oob = "BRA_Unifier_2020"
 			}
 			country_event = {
 				id = Brazil.civilwar.7
@@ -3874,6 +4066,7 @@ country_event = {
 			BR3 = {
 				transfer_state = 1452
 				add_state_core = 1452
+				load_oob = "BRA_Unifier_2020"
 			}
 			country_event = {
 				id = Brazil.civilwar.11
@@ -4106,6 +4299,7 @@ news_event = {
 	id = Brazil.super.1
 	title = Brazil.super.1.t
 	desc = Brazil.super.1.d
+
 	is_triggered_only = yes
 	major = yes
 	option = {
@@ -4128,6 +4322,7 @@ news_event = {
 	id = Brazil.super.2
 	title = Brazil.super.2.t
 	desc = Brazil.super.2.d
+
 	is_triggered_only = yes
 	major = yes
 	option = {
@@ -4150,6 +4345,7 @@ news_event = {
 	id = Brazil.super.3
 	title = Brazil.super.3.t
 	desc = Brazil.super.3.d
+
 	is_triggered_only = yes
 	major = yes
 	option = {

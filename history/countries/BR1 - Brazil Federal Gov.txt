@@ -37,7 +37,7 @@
 		# Laws
 		civilian_mobilization
 		high_taxes
-		low_conscription
+		lower_conscription
 		medium_female_service
 		general_exemptions
 

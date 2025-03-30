@@ -970,6 +970,8 @@ BRA_civil_war_get_state_recruitment_value = {
         }
 		set_temp_variable = { BRA_civil_war_recruit_value_temp = 4 }
     }
+
+	log = "TFRSG Popular Front state value - [?BRA_civil_war_recruit_value_temp]"
 }
 
 BRA_civil_war_recruitment_scripted_effect = {
@@ -977,18 +979,10 @@ BRA_civil_war_recruitment_scripted_effect = {
 		set_temp_variable = { BRA_civil_war_recruit_value_temp = 1 }
         BRA_civil_war_get_state_recruitment_value = yes
         create_unit = {
-			division = "name = \"Militia\" division_template = \"Brazilian Militia\"  start_experience_factor = 0.0"
+			division = "name = \"Milícia\" division_template = \"Brazilian Militia\"  start_experience_factor = 0.0"
 			allow_spawning_on_enemy_provs = yes
 			owner = ROOT
             count = BRA_civil_war_recruit_value_temp
 		}
     }
-}
-
-delayed_mark_focus_tree_layout_dirty = {
-	hidden_effect = {
-		country_event = {
-			id = latin_america.24
-		}
-	}
 }
