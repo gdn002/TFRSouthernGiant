@@ -44,6 +44,11 @@
  BR3_fan_up_class_consciousness: "Fan Up Class Consciousness"
  BR3_guerrila_media: "Guerrila Media Tactics"
  BR3_brazilian_vanguard: "The Brazilian Vanguard"
+ BR3_seize_the_means_of_production: "Seize The Means of Production!"
+ BR3_rally_the_workers: "Rally The Workers"
+ BR3_civilian_industry: "Focus On Civilian Production"
+ BR3_revolutionary_industry: "Fire Up The Revolutionary Industry"
+ BR3_workers_of_brazil_rise: "Workers Of Brazil, Rise!"
  BR3_establish_the_pla: "Establish The Brazilian People's Liberation Army"
  BR3_reclaim_our_country: "Reclaim Our Country"
  BR3_proclaim_peoples_mandate: "Proclaim The People's Mandate"
@@ -160,9 +165,9 @@
 
  BR3_communist_party_pco: "PCO - Libertarians" 
  BR3_communist_party_pco_long: "Worker's Cause Party - Libertarians"
- BR3_communist_party_pco: "PCO - Pragmatists" 
- BR3_communist_party_pco_long: "Worker's Cause Party - Pragmatists"
- BR3_totalitarian_socialist_party_pco: "PCO - Totalists"
- BR3_totalitarian_socialist_party_pco_long: "Worker's Cause Party - Totalists"
+ BR3_communist_party_pco: "PCO - Centrists" 
+ BR3_communist_party_pco_long: "Worker's Cause Party - Centrists"
+ BR3_totalitarian_socialist_party_pco: "PCO - Hardliners"
+ BR3_totalitarian_socialist_party_pco_long: "Worker's Cause Party - Hardliners"
  #Country
  #Summary

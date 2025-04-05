@@ -51,7 +51,8 @@ shared_focus = {
 		base = 1
 	}
 	available = {
-
+		# This branch should have some requirements so that it makes sense narratively and isn't just a gimme
+		# Perhaps the far-right riots should happen in 2023 and trigger a sequence of events that lead to Bolsonaro's arrest and makes this branch available
 	}
 	completion_reward = {
 		# The military will be rebellious for a while, but as the reforms take place it will eventually become much stronger

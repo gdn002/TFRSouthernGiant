@@ -16,6 +16,7 @@
 	recruit_character = BRA_geraldo_alckmin_char
 	recruit_character = BRA_guilherme_boulos_char
 	recruit_character = BRA_marco_freire_gomes_char
+	recruit_character = BRA_moises_lima_char
 	recruit_character = BRA_soraya_thronicke_char
 	recruit_character = BRA_sofia_manzano_char
 	recruit_character = BRA_rui_costa_pimenta_char

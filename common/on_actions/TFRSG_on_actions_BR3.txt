@@ -18,7 +18,6 @@ on_actions = {
 				set_variable = { BRA_amazon_preservation_drift_dyn_var = -0.1 }
 
 				# COUNTRY FLAGS		
-				set_country_flag = BRA_reactionary_administration_flag
 
 				# COALITION
 				set_temp_variable = { coalition_partner_var_temp = token:totalitarian_socialist }

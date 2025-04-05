@@ -556,6 +556,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			add_stability = 0.15
 			swap_ideas = {
 				remove_idea = BR3_redirected_industrial_output_idea
 				add_idea = BR3_redirected_industrial_output_civ_idea

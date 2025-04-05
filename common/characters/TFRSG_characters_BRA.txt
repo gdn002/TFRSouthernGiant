@@ -122,6 +122,20 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	BRA_moises_lima_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BR4/BR4_Moises_Lima.png"
+			}
+		}
+		country_leader = {
+			ideology = integralism
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
 	BRA_soraya_thronicke_char = {
 		portraits = {
 			civilian = {

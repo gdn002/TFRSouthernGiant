@@ -1,4 +1,13 @@
 ﻿l_english:
+ # Traits
+ BRA_former_car_wash_judge: "Op Car Wash Veteran"
+ BRA_coup_sympathizer: "Coup Sympathizer"
+ BRA_military_politician: "Military Politician"
+ BRA_serial_centrist: "Serial Centrist"
+ BRA_damaged_reputation: "Damaged Reputation"
+ BRA_severely_damaged_reputation: "Severely Damaged Reputation"
+ BRA_vindicated_reputation: "Vindicated Reputation"
+ hos_revolutionary_fervor: "Revolutionary Fervor"
  # BRA - Leaders
  BRA_jair_bolsonaro_char: "Jair Bolsonaro"
  BRA_jair_bolsonaro_char_desc: "Jair Bolsonaro, a former army captain turned politician, rose to the presidency of Brazil in 2019 after a divisive and controversial campaign. Known for his fiery rhetoric and strong stance on law and order, Bolsonaro has positioned himself as a champion of conservative values, economic liberalization, and a bulwark against the left-wing movements that dominated Brazilian politics in the past.\n\nBolsonaro's rule is defined by his aggressive stance on crime, his commitment to privatization and deregulation, and his defiance of political correctness. He is a polarizing figure: loved by those who see him as a savior of traditional values and national pride, and loathed by critics who accuse him of undermining democracy and disregarding human rights.\n\nBolsonaro's government has faced significant challenges, including widespread protests, growing deforestation in the Amazon, and global criticism of his environmental policies.\n\nDespite the turbulence, Bolsonaro maintains a fiercely loyal base of supporters who see him as a necessary force to restore Brazil to greatness by combating corruption, reducing government intervention, and reviving the military's influence in politics. His tenure has set the stage for a more populist-leaning Brazil, with Bolsonaro frequently praising the country's military dictatorship of the past, signaling that his presidency could pave the way for even more dramatic political shifts in the future." #AI
@@ -6,6 +15,7 @@
  BRA_geraldo_alckmin_char: "Geraldo Alckmin"
  BRA_guilherme_boulos_char: "Guilherme Boulos"
  BRA_marco_freire_gomes_char: "Marco Freire Gomes"
+ BRA_moises_lima_char: "Moisés Lima"
  BRA_soraya_thronicke_char: "Soraya Thronicke"
  BRA_sofia_manzano_char: "Sofia Manzano"
  BRA_rui_costa_pimenta_char: "Rui Costa Pimenta"
@@ -65,6 +75,9 @@
  BR3_leonel_radde_char: "Leonel Radde"
  BR3_paulo_galo_char: "Paulo Galo"
  BR3_pedro_che_char: "Pedro Che"
+ # BR4 - Leaders
+ BR4_moises_lima_char: "Moisés Lima"
+ BR4_national_restoration_comitee_char: "National Restoration Comitee"
  # SPA - Leaders
  SPA_tarcisio_freitas_char: "Tarcísio Freitas"
  # SUL - Leaders
