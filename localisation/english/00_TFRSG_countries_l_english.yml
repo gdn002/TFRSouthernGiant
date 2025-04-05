@@ -42,6 +42,8 @@
  BR2: "Brazilian Military Junta"
  BR2_DEF: "The Brazilian Military Junta"
  BR2_ADJ: "Brazilian"
+ BR2_authoritarian_democrat: "Brazilian Constitutional Government"
+ BR2_authoritarian_democrat_DEF: "The Brazilian Constitutional Government"
 
  #Popular Front
  BR3: "Brazilian Popular Front"

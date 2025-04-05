@@ -236,6 +236,12 @@ focus_tree = {
 			    value = -0.15
 			    tooltip_side = BR2_president_side
 			}
+			swap_ideas = {
+				remove_idea = BR2_constitutional_crisis_idea
+				add_idea = BR2_constitutional_crisis_idea1
+			}
+			set_temp_variable = { society_development_var_temp = 0.25 }
+			add_society_development = yes
 		}
 	}
 
@@ -263,6 +269,16 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			add_political_power = 200
+			add_stability = 0.15
+			add_popularity = {
+				ideology = authoritarian_democrat
+    			popularity = 0.05
+			}
+			add_popularity = {
+				ideology = conservative
+    			popularity = 0.1
+			}
 			add_power_balance_value = {
 			    id = BR2_junta_power_struggle
 			    value = -0.15
@@ -304,6 +320,17 @@ focus_tree = {
 			    value = -0.3
 			    tooltip_side = BR2_president_side
 			}
+			add_days_mission_timeout = {
+    			mission = BR2_counter_coup_uprising_mission
+    			days = 50
+			}
+			set_politics = {
+			    ruling_party = authoritarian_democrat
+			    elections_allowed = yes
+			    last_election = "2022.10.27"
+			    election_frequency = 48
+			}
+			add_stability = 0.2
 		}
 	}
 
@@ -378,6 +405,19 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			add_stability = 0.05
+			add_days_mission_timeout = {
+    			mission = BR2_integralist_uprising_mission
+    			days = 20
+			}
+			add_days_mission_timeout = {
+    			mission = BR2_monarchist_uprising_mission
+    			days = 20
+			}
+			country_event = {
+				id = Brazil.junta.6
+				hours = 12
+			}
 		}
 	}
 
@@ -405,6 +445,14 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			add_war_support = 0.15
+			country_lock_all_division_template = no
+			swap_ideas = {
+				remove_idea = lower_conscription
+				add_idea = low_conscription
+			}
+			set_temp_variable = { military_development_var_temp = 0.25 }
+			add_military_development = yes
 		}
 	}
 
@@ -436,6 +484,13 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			add_political_power = 250
+			set_temp_variable = { military_development_var_temp = 0.25 }
+			add_military_development = yes
+			add_days_mission_timeout = {
+    			mission = BR2_counter_coup_uprising_mission
+    			days = -20
+			}
 		}
 	}
 
@@ -513,6 +568,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			add_command_power = 50
 			add_timed_idea = {
 				idea = BR2_brazilian_army_unleashed_idea
     			days = 30
@@ -549,7 +605,11 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			delayed_mark_focus_tree_layout_dirty = yes
+			add_stability = 0.15
+			country_event = {
+				id = Brazil.junta.5
+				days = 3
+			}
 		}
 	}
 
@@ -578,6 +638,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			# São Paulo breakaway ultimatum
+			SPA = {
+				country_event = {
+					id = Brazil.junta.7
+					days = 3
+				}
+			}
 		}
 	}
 
@@ -606,6 +672,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Sul breakaway ultimatum
+			SUL = {
+				country_event = {
+					id = Brazil.junta.10
+					days = 3
+				}
+			}
 		}
 	}
 
@@ -642,6 +714,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			# The civil war will be over!
+			add_stability = 0.25
+			add_war_support = 0.05
 			BRA_civil_war_end = yes
 		}
 	}

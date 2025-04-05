@@ -63,8 +63,11 @@
  # BR1 - Leaders
  BR1_lula_da_silva_char: "Lula da Silva"
  # BR2 - Leaders
- BR2_augusto_heleno_char: "Augusto Heleno"
+ BR2_jair_bolsonaro_char: "Jair Bolsonaro"
  BR2_braga_netto_char: "Braga Netto"
+ BR2_moises_lima_char: "Moisés Lima"
+ # BR2 - Generals
+ BR2_augusto_heleno_char: "Augusto Heleno"
  BR2_hamilton_mourao_char: "Hamilton Mourão"
  # BR3 - Leaders
  BR3_leo_pericles_char: "Léo Péricles"

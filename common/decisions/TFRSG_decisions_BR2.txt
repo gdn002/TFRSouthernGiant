@@ -69,7 +69,7 @@ BR2_junta_power_struggle_category = {
 		cancel_if_not_visible = yes
 		days_re_enable = 30
 		days_remove = 15
-		cost = 60	
+		cost = 50	
 		available = {
 			has_completed_focus = BR2_cw_adress_constitutional_crisis
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
@@ -110,7 +110,7 @@ BR2_junta_power_struggle_category = {
 		cancel_if_not_visible = yes
 		days_re_enable = 30
 		days_remove = 15
-		cost = 60	
+		cost = 50	
 		available = {
 			has_completed_focus = BR2_cw_purge_extremist_cells
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
@@ -314,7 +314,7 @@ BRA_civil_war_category = {
 		available = {
             has_completed_focus = BR2_the_dust_settles
 		}
-		days_mission_timeout = 150
+		days_mission_timeout = 180
 		activation = {
 			always = no
 		}
@@ -367,6 +367,11 @@ BRA_civil_war_category = {
 		days_remove = 20
 		fire_only_once = yes
 		war_with_on_remove = BR1
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
 		remove_effect = {
 			declare_war_on = {
     			target = BR1
@@ -391,6 +396,11 @@ BRA_civil_war_category = {
 		days_remove = 20
 		fire_only_once = yes
 		war_with_on_remove = BR3
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
 		remove_effect = {
 			declare_war_on = {
     			target = BR3
@@ -415,6 +425,11 @@ BRA_civil_war_category = {
 		days_remove = 20
 		fire_only_once = yes
 		war_with_on_remove = AMZ
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
 		remove_effect = {
 			declare_war_on = {
     			target = AMZ
@@ -481,6 +496,11 @@ BRA_civil_war_category = {
         custom_cost_text = 10cp_cost
 		days_remove = 10
 		fire_only_once = no
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
 		modifier = {
 			political_power_cost = 0.01
 		}
@@ -495,9 +515,12 @@ BRA_civil_war_category = {
 			tag = BR2
 		}
 		visible = {
+			has_active_mission = BR2_counter_coup_uprising_mission
+		}
+		available = {
 			has_completed_focus = BR2_cw_within_the_four_lines
 		}
-		cost = 100
+		cost = 50
 		days_remove = 30
 		fire_only_once = yes
 		modifier = {
@@ -514,20 +537,140 @@ BRA_civil_war_category = {
 			tag = BR2
 		}
 		visible = {
-			has_completed_focus = BR2_cw_military_in_command
+			has_active_mission = BR2_integralist_uprising_mission
 		}
-		cost = 100
+		available = {
+			has_completed_focus = BR2_cw_military_in_command
+			NOT = { has_decision = BR2_cw_anti_monarchist_cyberwarfare }
+		}
+		custom_cost_trigger = {
+            command_power > 40
+        }
+        custom_cost_text = 40cp_cost
 		days_remove = 30
 		fire_only_once = yes
 		modifier = {
 			command_power_gain = -0.01
 		}
 		complete_effect = {
-			add_command_power = -0.1
+			hidden_effect = {
+				add_command_power = -40
+			}
 		}
 		remove_effect = {
 			add_stability = 0.05
 			remove_mission = BR2_integralist_uprising_mission
+		}
+	}
+
+	BR2_cw_anti_monarchist_cyberwarfare = {
+		allowed = {
+			tag = BR2
+		}
+		visible = {
+			has_active_mission = BR2_monarchist_uprising_mission
+		}
+		available = {
+			has_completed_focus = BR2_cw_military_in_command
+			NOT = { has_decision = BR2_cw_raid_fascist_hideouts }
+		}
+		custom_cost_trigger = {
+            command_power > 40
+        }
+        custom_cost_text = 40cp_cost
+		days_remove = 30
+		fire_only_once = yes
+		modifier = {
+			command_power_gain = -0.01
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -40
+			}
+		}
+		remove_effect = {
+			add_stability = 0.05
+			remove_mission = BR2_monarchist_uprising_mission
+		}
+	}
+
+	BR2_cw_clamp_down_on_freedoms = {
+		allowed = {
+			tag = BR2
+		}
+		visible = {
+			has_active_mission = BR2_counter_coup_uprising_mission
+		}
+		available = {
+			has_completed_focus = BR2_cw_reclaiming_our_nation
+		}
+		cost = 25
+		days_remove = 30
+		days_re_enable = 45
+		modifier = {
+			authoritarian_democrat_drift = 0.01
+			nationalist_drift = 0.01
+			conservative_drift = 0.01
+			fascist_drift = 0.01
+		}
+		remove_effect = {
+			add_political_power = 50
+			add_days_mission_timeout = {
+				mission = BR2_counter_coup_uprising_mission
+				days = -20
+			}
+		}
+	}
+
+	BR2_cw_appeal_to_traditions = {
+		allowed = {
+			tag = BR2
+		}
+		visible = {
+			has_active_mission = BR2_integralist_uprising_mission
+		}
+		available = {
+			has_completed_focus = BR2_cw_reclaiming_our_nation
+		}
+		cost = 25
+		days_remove = 30
+		days_re_enable = 45
+		modifier = {
+			stability_weekly = 0.015
+			political_power_factor = 0.5
+		}
+		remove_effect = {
+			add_stability = 0.1
+			add_days_mission_timeout = {
+				mission = BR2_integralist_uprising_mission
+				days = -20
+			}
+		}
+	}
+
+	BR2_cw_rally_patriotism = {
+		allowed = {
+			tag = BR2
+		}
+		visible = {
+			has_active_mission = BR2_monarchist_uprising_mission
+		}
+		available = {
+			has_completed_focus = BR2_cw_reclaiming_our_nation
+		}
+		cost = 25
+		days_remove = 30
+		fire_only_once = yes
+		modifier = {
+			war_support_weekly = 0.015
+			army_morale_factor = 0.5
+		}
+		remove_effect = {
+			add_war_support = 0.1
+			add_days_mission_timeout = {
+				mission = BR2_monarchist_uprising_mission
+				days = -20
+			}
 		}
 	}
 }
