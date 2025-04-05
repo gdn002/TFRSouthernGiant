@@ -7,3 +7,8 @@ SUL_nazi_coup = {
     color = rgb { 200 200 200 }
 	color_ui = rgb { 200 200 200 }
 }
+
+BR4_mnpd = {
+    color = rgb { 32 118 63 }
+    color_ui = rgb { 32 118 63 }
+}

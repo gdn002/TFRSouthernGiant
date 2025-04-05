@@ -4039,6 +4039,7 @@ country_event = {
 				days = 12
 			}
 			delete_unit = { }
+
 			# Federal Gov generals
 			set_nationality = {
     			target_country = BR1
@@ -4099,7 +4100,20 @@ country_event = {
 			set_nationality = {
     			target_country = AMZ
     			character = BRA_vendramin_nunes_char
-			}		
+			}	
+
+			# Equipment transfer - 50% to Junta, 25% to Government	
+			send_equipment_fraction = {
+			    value = 0.5
+			    target = BR2
+			}
+			send_equipment_fraction = {
+			    value = 0.5
+			    target = BR1
+			}
+			transfer_navy = {
+			    target = BR1
+			}
 		}
 	}
 

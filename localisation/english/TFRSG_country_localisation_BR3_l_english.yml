@@ -18,7 +18,7 @@
  Brazil.commie.4.c: "Suspend the sentences of petty criminals for no cost."
  Brazil.commie.4.e: "Do we really want convicts roaming around?"
  Brazil.commie.5.t: "Army Brigades Join Our Cause!"
- Brazil.commie.5.d: "Great news for the revolution today, as two major army headquarters have revolted against the Brazilian high command and joined our cause. The 7th and 10th motorized brigades had initially entrenched themselves in their respective headquarters and refused to comply with orders to break their encirclement and link up with the rest of the Brazilian Army. Last night, a mutiny was spearheaded by the soldiers, leading to the purging of pro-Junta officers and the complete cutting of communications with the central command. Today, the two brigades have contacted the revolutionary command and expressed their desire to fight on our side.\nThe message has been delivered by general Miranda Netto, whom has sided with the mutiny. According to the general, the revolutionary messages of the Popular Front have reverberated amongst the grunts, combined with a sense of Northeastern patriotism which has led to the mutiny. The general has expressed a desire to reform the Popular Front's guerrilas into a semi-professional army with the help of his army expertise.\nWhile many celebrate this as a turning point in the Brazilian revolution, some remain skeptical about bringing in former members of the Brazilian Army into our forces, afraid that Miranda Netto could be secretly plotting against our movement."
+ Brazil.commie.5.d: "Great news for the revolution today, as two major army headquarters have revolted against the Brazilian high command and joined our cause. The 7th and 10th motorized brigades had initially entrenched themselves in their respective headquarters and refused to comply with orders to break their encirclement and link up with the rest of the Brazilian Army. Last night, a mutiny was spearheaded by the soldiers, leading to the purging of officers sympathetic to [BR4.GetNameDef] and the complete cutting of communications with the central command. Today, the two brigades have contacted the revolutionary command and expressed their desire to fight on our side.\nThe message has been delivered by general Miranda Netto, whom has sided with the mutiny. According to the general, the revolutionary messages of the Popular Front have reverberated amongst the grunts, combined with a sense of Northeastern patriotism which has led to the mutiny. The general has expressed a desire to reform the Popular Front's guerrilas into a semi-professional army with the help of his army expertise.\nWhile many celebrate this as a turning point in the Brazilian revolution, some remain skeptical about bringing in former members of the Brazilian Army into our forces, afraid that Miranda Netto could be secretly plotting against our movement."
  Brazil.commie.5.a: "A surprise to be sure, but a welcome one!"
  Brazil.commie.6.t: "The Amazonian Commune Calls For Our Aid!"
  Brazil.commie.6.d: "With the recent enemy incursions into the Northern territories, representatives of the native insurgency have contacted the leaders of the Popular Front offering a joint effort to combat the opposing forces. The insurgency is sympathetic to the revolutionary ideals of the front, and has shown willingness to fight by our side in order to defeat the fascists and oligarchs to our South.\nOur strategic command has discussed the potential advantages and disadvantages of this alliance. On one side, it would give us a major ally and allow us to catch our enemies off-guard as they're currently bogged down in the jungle. On the other side, concerns about the Popular Front's fighting forces possibly not being prepared for a massive counter-offensive have been raised. Ultimately, a consensus has been made:"
@@ -106,17 +106,17 @@
  #Decision Categories
  #Missions
  #Decisions
- BR3_cw_call_amazonian_commune: "Ally With The Amazonian Commune"
- BR3_cw_attack_government: "Liberate The [BR1.GetFlag] Federal Government"
- BR3_cw_attack_junta: "Liberate The [BR2.GetFlag] Military Junta"
+ BR3_cw_call_amazonian_commune: "Ally With The [AMZ.GetNameWithFlag]"
+ BR3_cw_attack_government: "Liberate The [BR1.GetNameWithFlag]"
+ BR3_cw_attack_junta: "Liberate The [BR2.GetNameWithFlag]"
  BR3_cw_attack_fascists: "Crush The [BR4.GetNameWithFlag]"
  BR3_cw_raid_armories: "Raid Military Armories in [FROM.GetName]"
  BR3_cw_distribute_humanitarian_aid: "Distribute Humanitarian Aid"
  BR3_cw_socialist_education_campaigns: "Socialist Education Campaigns"
  BR3_cw_rally_revolutionary_labor: "Rally The Revolutionary Labor Force"
  BR3_cw_boost_revolutionary_morale: "Boost Revolutionary Morale"
- BR3_cw_call_for_strikes_government: "Call For Strikes in The [BR1.GetFlag] Federal Government"
- BR3_cw_call_for_strikes_junta: "Call For Strikes in The [BR2.GetFlag] Military Junta"
+ BR3_cw_call_for_strikes_government: "Call For Strikes in The [BR1.GetNameWithFlag]"
+ BR3_cw_call_for_strikes_junta: "Call For Strikes in The [BR2.GetNameWithFlag]"
  BR3_cw_call_for_strikes_fascists: "Call For Strikes in The [BR4.GetNameWithFlag]"
  #BOP
  BR3_internal_faction_balance: "Internal Factions Balance"

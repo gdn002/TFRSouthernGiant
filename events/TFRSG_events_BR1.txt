@@ -1,0 +1,81 @@
+add_namespace = Brazil.libs
+
+###########################
+# Core Events
+###########################
+
+# Securing Rio
+country_event = {
+	id = Brazil.libs.1
+	title = Brazil.libs.1.t
+	desc = Brazil.libs.1.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazil.libs.1.a
+	}
+}
+
+# The emergency government
+country_event = {
+	id = Brazil.libs.2
+	title = Brazil.libs.2.t
+	desc = Brazil.libs.2.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazil.libs.2.a
+	}
+}
+
+# Federal government civil war strategy
+country_event = {
+	id = Brazil.libs.3
+	title = Brazil.libs.3.t
+	desc = Brazil.libs.3.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazil.libs.3.a
+	}
+}
+
+# Army brigades reporting
+country_event = {
+	id = Brazil.libs.4
+	title = Brazil.libs.4.t
+	desc = Brazil.libs.4.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazil.libs.4.a
+		custom_effect_tooltip = BR1_cw_army_reporting_tt
+		hidden_effect = {
+			load_oob = "BR1_Civil_War"
+		}
+	}
+}

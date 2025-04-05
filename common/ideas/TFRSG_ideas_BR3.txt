@@ -33,7 +33,7 @@ ideas = {
 				original_tag = BR3
 			}
 			modifier = {
-				# Initial CW modifier, severe debuffs and needs to be adressed ASAP
+				# Initial CW modifier, severe debuffs and needs to be addressed ASAP
 				army_attack_factor = -0.3
 				army_attack_speed_factor = -0.5
 				army_defence_factor = -0.15
@@ -93,7 +93,7 @@ ideas = {
 				original_tag = BR3
 			}
 			modifier = {
-				# Initial CW modifier, severe debuffs and needs to be adressed ASAP
+				# Initial CW modifier, severe debuffs and needs to be addressed ASAP
 				production_speed_buildings_factor = -0.5
 				industry_free_repair_factor = -0.8
 				consumer_goods_factor = 0.35

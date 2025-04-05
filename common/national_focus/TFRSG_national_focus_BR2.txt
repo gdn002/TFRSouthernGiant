@@ -208,7 +208,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BR2_cw_adress_constitutional_crisis
+		id = BR2_cw_address_constitutional_crisis
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -297,7 +297,7 @@ focus_tree = {
 		y = 1
 		cost = 2
 		prerequisite = {
-			focus = BR2_cw_adress_constitutional_crisis
+			focus = BR2_cw_address_constitutional_crisis
 			focus = BR2_cw_bolsonarismo_forever
 		}
 		mutually_exclusive = { 

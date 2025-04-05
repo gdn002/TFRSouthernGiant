@@ -14,5 +14,21 @@ characters = {
 			expire = "1.1.1.1"
 			id = -1
 		}
+	}
+
+	BR1_geraldo_alckmin_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Geraldo_Alckmin.png"
+			}
+		}
+		country_leader = {
+			ideology = centrist
+			traits = {
+				BRA_serial_centrist
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
 	}			
 }

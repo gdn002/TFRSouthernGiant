@@ -71,7 +71,7 @@ BR2_junta_power_struggle_category = {
 		days_remove = 15
 		cost = 50	
 		available = {
-			has_completed_focus = BR2_cw_adress_constitutional_crisis
+			has_completed_focus = BR2_cw_address_constitutional_crisis
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
 		}
 		complete_effect = {
@@ -290,14 +290,18 @@ BRA_civil_war_category = {
 	
     BR2_integralist_uprising_mission = {
 		priority = 10
+		allowed = {
+			tag = BR2
+		}
 		available = {
-			has_completed_focus = BR2_the_dust_settles
+			OR = {
+				has_completed_focus = BR2_the_dust_settles
+				has_country_flag = BR2_uprising_flag
+			}
 		}
 		days_mission_timeout = 150
 		activation = {
 			always = no
-		}
-		visible = {
 		}
 		fire_only_once = no
 		cancel_if_not_visible = yes
@@ -306,20 +310,31 @@ BRA_civil_war_category = {
 			base = 50
 		}
 		timeout_effect = {
+			set_country_flag = BR2_uprising_flag
+			add_stability = -0.25
+			add_war_support = -0.1
+			country_event = {
+				id = Brazil.junta.13
+				hours = 6
+			}
 		}
 	}
 
     BR2_monarchist_uprising_mission = {
 		priority = 10
+		allowed = {
+			tag = BR2
+		}
 		available = {
-            has_completed_focus = BR2_the_dust_settles
+            OR = {
+				has_completed_focus = BR2_the_dust_settles
+				has_country_flag = BR2_uprising_flag
+			}
 		}
 		days_mission_timeout = 180
 		activation = {
 			always = no
 		}
-		visible = {
-		}
 		fire_only_once = no
 		cancel_if_not_visible = yes
 		is_good = no
@@ -327,19 +342,38 @@ BRA_civil_war_category = {
 			base = 50
 		}
 		timeout_effect = {
+			set_country_flag = BR2_uprising_flag
+			hidden_effect = {
+				BR4 = {
+					set_politics = {
+					    ruling_party = nationalist
+					    elections_allowed = no
+					}
+				}
+			}
+			add_stability = -0.25
+			add_war_support = -0.1
+			country_event = {
+				id = Brazil.junta.14
+				hours = 6
+			}
 		}
 	}
 
     BR2_counter_coup_uprising_mission = {
 		priority = 10
+		allowed = {
+			tag = BR2
+		}
 		available = {
-            has_completed_focus = BR2_the_dust_settles
+            OR = {
+				has_completed_focus = BR2_the_dust_settles
+				has_country_flag = BR2_uprising_flag
+			}
 		}
 		days_mission_timeout = 150
 		activation = {
 			always = no
-		}
-		visible = {
 		}
 		fire_only_once = no
 		cancel_if_not_visible = yes
@@ -348,6 +382,22 @@ BRA_civil_war_category = {
 			base = 50
 		}
 		timeout_effect = {
+			set_country_flag = BR2_uprising_flag
+			hidden_effect = {
+				BR4 = {
+					set_politics = {
+					    ruling_party = social_liberal
+					    elections_allowed = no
+					}
+					set_cosmetic_tag = BR4_mnpd
+				}
+			}
+			add_stability = -0.25
+			add_war_support = -0.1
+			country_event = {
+				id = Brazil.junta.15
+				hours = 6
+			}
 		}
 	}
 
@@ -510,7 +560,7 @@ BRA_civil_war_category = {
 		}
 	}
 
-	BR2_cw_adress_pro_democracy_movement = {
+	BR2_cw_address_pro_democracy_movement = {
 		allowed = {
 			tag = BR2
 		}

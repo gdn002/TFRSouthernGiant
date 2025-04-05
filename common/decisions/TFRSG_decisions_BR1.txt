@@ -1,0 +1,131 @@
+#### CIVIL WAR ####
+BRA_civil_war_category = {
+    BR1_cw_attack_junta = {
+		allowed = {
+			tag = BR1
+		}
+		visible = {
+			has_completed_focus = BR1_cw_declare_state_of_emergency
+			country_exists = BR2
+			NOT = { has_war_with = BR2 }
+		}
+		custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		days_remove = 40
+		fire_only_once = yes
+		war_with_on_remove = BR2
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+    			target = BR2
+    			type = annex_everything
+			}
+		}
+	}
+
+    BR1_cw_attack_front = {
+		allowed = {
+			tag = BR1
+		}
+		visible = {
+			has_completed_focus = BR1_cw_declare_state_of_emergency
+			country_exists = BR3
+			NOT = { has_war_with = BR3 }
+		}
+        available = {
+            has_completed_focus = BR1_cw_appeal_to_the_un
+        }
+		custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		days_remove = 20
+		fire_only_once = yes
+		war_with_on_remove = BR3
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+    			target = BR3
+    			type = annex_everything
+			}
+		}
+	}
+
+    BR1_cw_attack_fascists = {
+		allowed = {
+			tag = BR1
+		}
+		visible = {
+			has_completed_focus = BR1_cw_declare_state_of_emergency
+			country_exists = BR4
+			NOT = { 
+                has_war_with = BR4 
+                BR4 = { has_cosmetic_tag = BR4_mnpd }
+            }
+		}
+        available = {
+            has_completed_focus = BR1_cw_appeal_to_the_un
+        }
+		custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		days_remove = 20
+		fire_only_once = yes
+		war_with_on_remove = BR4
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+    			target = BR4
+    			type = annex_everything
+			}
+		}
+	}
+
+    BR1_cw_call_democratic_uprising = {
+		allowed = {
+			tag = BR1
+		}
+		visible = {
+			has_completed_focus = BR1_cw_declare_state_of_emergency
+			country_exists = BR4
+            BR4 = { has_cosmetic_tag = BR4_mnpd }
+		}
+		custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		days_remove = 20
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
+		remove_effect = {
+			BR4 = { get_current_government_type = yes }
+			puppet = {
+    			target = BR4
+    			end_wars = no
+			}
+			BR4 = { 
+				restore_previous_government_type = yes 
+				ROOT_inherit_current_scope_wars_effect = yes
+			}
+		}
+	}
+}

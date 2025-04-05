@@ -3,6 +3,7 @@
 	oob = "BRA_Unifier_2020"
 
 	recruit_character = BR1_lula_da_silva_char
+	recruit_character = BR1_geraldo_alckmin_char
 
 	set_research_slots = 3
 	set_convoys = 100
@@ -31,6 +32,8 @@
 		BRA_the_centrao_idea
 		BRA_rise_of_evangelism_idea
 		BRA_informalized_economy_idea
+		BR1_emergency_government_idea
+		BR1_insecure_command_idea
 
 		# Ministers
 

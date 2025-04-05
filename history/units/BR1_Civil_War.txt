@@ -11,49 +11,49 @@
 
 units = {
 	division = {
-		name = "1a Milícia Constitucional"
+		name = "1a Milícia Republicana"
 		location = 14998
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "2a Milícia Constitucional"
+		name = "2a Milícia Republicana"
 		location = 14999
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "3a Milícia Constitucional"
+		name = "3a Milícia Republicana"
 		location = 8148
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "4a Milícia Constitucional"
+		name = "4a Milícia Republicana"
 		location = 10999
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "5a Milícia Constitucional"
+		name = "5a Milícia Republicana"
 		location = 12977
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "6a Milícia Constitucional"
+		name = "6a Milícia Republicana"
 		location = 10931
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "7a Milícia Constitucional"
+		name = "7a Milícia Republicana"
 		location = 12996
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
 	division = {
-		name = "8a Milícia Constitucional"
+		name = "8a Milícia Republicana"
 		location = 8148
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		

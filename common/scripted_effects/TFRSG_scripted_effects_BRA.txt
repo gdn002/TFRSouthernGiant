@@ -832,6 +832,17 @@ BRA_civil_war_setup = {
 		BR4 = {
 			inherit_technology = BRA
 		}
+
+		# Other Breakaways
+		AMZ = {
+			load_oob = "AMZ_Civil_War"
+		}
+		SPA = {
+			load_oob = "SPA_Civil_War"
+		}
+		SUL = {
+			load_oob = "SUL_Civil_War"
+		}
 	}
 }
 

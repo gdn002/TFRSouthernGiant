@@ -1,0 +1,132 @@
+# Federal Government
+EU_support_BR1 = {
+    allowed = {
+        OR = {
+            tag = GER
+            tag = FRA
+            tag = ENG         
+        }
+    }
+	enable = {
+		has_war = no
+		has_democratic_form_of_government = yes
+	}
+	abort = {
+        OR = {
+		    has_war = yes
+		    has_war_with = BR1
+            has_global_flag = BRA_civil_war_ended_flag
+        }
+	}
+
+	ai_strategy = {
+		type = support
+		id = BR1
+		value = 600
+	}
+}
+ARG_support_BR1 = {
+    allowed = {
+        tag = ARG
+    }
+	enable = {
+		has_war = no
+		has_democratic_form_of_government = yes
+	}
+	abort = {
+        OR = {
+		    has_war = yes
+		    has_war_with = BR1
+            has_global_flag = BRA_civil_war_ended_flag
+        }
+	}
+
+	ai_strategy = {
+		type = support
+		id = BR1
+		value = 900
+	}
+}
+
+# Popular Front
+PRC_support_BR3 = {
+    allowed = {
+        tag = PRC
+    }
+	enable = {
+		has_war = no
+        OR = {
+            has_government = totalitarian_socialist
+            has_government = libertarian_socialist
+            has_government = communist
+        }	
+	}
+	abort = {
+        OR = {
+		    has_war = yes
+		    has_war_with = BR3
+            has_global_flag = BRA_civil_war_ended_flag
+        }
+	}
+
+	ai_strategy = {
+		type = support
+		id = BR3
+		value = 400
+	}
+}
+LATAM_support_BR3 = {
+    allowed = {
+        or = {
+            tag = CUB
+            tag = VEN
+        }
+    }
+	enable = {
+		has_war = no
+        OR = {
+            has_government = totalitarian_socialist
+            has_government = libertarian_socialist
+            has_government = communist
+        }	
+	}
+	abort = {
+        OR = {
+		    has_war = yes
+		    has_war_with = BR3
+            has_global_flag = BRA_civil_war_ended_flag
+        }
+	}
+
+	ai_strategy = {
+		type = support
+		id = BR3
+		value = 600
+	}
+}
+SOV_support_BR3 = {
+    allowed = {
+        tag = SOV
+    }
+	enable = {
+		has_war = no
+        OR = {
+            has_government = totalitarian_socialist
+            has_government = libertarian_socialist
+            has_government = communist
+        }	
+	}
+	abort = {
+        OR = {
+		    has_war = yes
+		    has_war_with = BR3
+            has_global_flag = BRA_civil_war_ended_flag
+        }
+	}
+
+	ai_strategy = {
+		type = support
+		id = BR3
+		value = 400
+	}
+}
