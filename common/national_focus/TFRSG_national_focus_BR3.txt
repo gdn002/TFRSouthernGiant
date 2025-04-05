@@ -814,6 +814,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Amazon breakaway ultimatum
+			AMZ = {
+				country_event = {
+					id = Brazil.commie.8
+					days = 3
+				}
+			}
 		}
 	}
 
@@ -842,6 +848,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			# São Paulo breakaway ultimatum
+			SPA = {
+				country_event = {
+					id = Brazil.commie.11
+					days = 3
+				}
+			}
 		}
 	}
 
@@ -870,6 +882,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Sul breakaway ultimatum
+			SUL = {
+				country_event = {
+					id = Brazil.commie.14
+					days = 3
+				}
+			}
 		}
 	}
 

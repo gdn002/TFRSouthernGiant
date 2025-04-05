@@ -5,6 +5,9 @@
 	recruit_character = BR3_leo_pericles_char
 	recruit_character = BR3_guilherme_boulos_char
 	recruit_character = BR3_rui_costa_pimenta_char
+ 	recruit_character = BR3_leonel_radde_char
+	recruit_character = BR3_paulo_galo_char
+	recruit_character = BR3_pedro_che_char
 
 	set_research_slots = 3
 	set_convoys = 50

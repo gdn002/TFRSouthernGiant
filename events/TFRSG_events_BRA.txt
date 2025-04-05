@@ -4039,11 +4039,72 @@ country_event = {
 				days = 12
 			}
 			delete_unit = { }
+			# Federal Gov generals
+			set_nationality = {
+    			target_country = BR1
+    			character = BRA_marco_freire_gomes_char
+			}
+			set_nationality = {
+    			target_country = BR1
+    			character = BRA_tomas_ribeiro_paiva_char
+			}
+			set_nationality = {
+    			target_country = BR1
+    			character = BRA_andre_miranda_char
+			}
+			set_nationality = {
+    			target_country = BR1
+    			character = BRA_guido_naves_char
+			}
+			set_nationality = {
+    			target_country = BR1
+    			character = BRA_marcos_sampaio_olsen_char
+			}
+
+			# Military Junta generals
+			set_nationality = {
+    			target_country = BR2
+    			character = BRA_luiz_estorilho_char
+			}
+			set_nationality = {
+    			target_country = BR2
+    			character = BRA_almir_garnier_santos_char
+			}
+			set_nationality = {
+    			target_country = BR2
+    			character = BRA_kleber_nunes_char
+			}	
+			set_nationality = {
+    			target_country = BR2
+    			character = BRA_guilherme_cabral_char
+			}	
+			set_nationality = {
+    			target_country = BR2
+    			character = BRA_julio_cesar_arruda_char
+			}	
+			set_nationality = {
+    			target_country = BR2
+    			character = BRA_richard_fernandez_char
+			}
+
+			# Breakaway generals
+			set_nationality = {
+    			target_country = SUL
+    			character = BRA_hertz_pires_char
+			}
+			set_nationality = {
+    			target_country = AMZ
+    			character = BRA_augusto_costa_neves_char
+			}
+			set_nationality = {
+    			target_country = AMZ
+    			character = BRA_vendramin_nunes_char
+			}		
 		}
 	}
 
 	option = {
-		name = Brazil.civilwar.9.a
+		name = Brazil.civilwar.9.a		
 	}
 }
 
