@@ -36,10 +36,7 @@ country_event = {
 	}
 
 	option = {
-		name = Brazil.junta.2.a
-		activate_mission = BR2_integralist_uprising_mission
-		activate_mission = BR2_monarchist_uprising_mission
-		activate_mission = BR2_counter_coup_uprising_mission
+		name = Brazil.junta.2.a		
 	}
 }
 
@@ -51,16 +48,26 @@ country_event = {
 	
 	fire_only_once = yes
 	is_triggered_only = yes
+	timeout_days = 10
 	
 	trigger = {
 		tag = BR2
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = Brazil.junta.16
+				days = 30
+			}
+		}
 	}
 
 	# Attack federal gov
 	option = {
 		name = Brazil.junta.3.a
 		ai_will_do = {
-            base = 10
+            base = 15
         }
 		activate_mission = BR2_operation_ustra_mission
 		custom_effect_tooltip = BR2_cw_operation_mission_tt
@@ -282,6 +289,13 @@ country_event = {
 			target = SPA
 			transfer_troops = yes
 		}
+		hidden_effect = {
+			SPA = {
+				every_core_state = {
+					add_core_of = BR2
+				}
+			}
+		}
 	}
 }
 
@@ -386,6 +400,13 @@ country_event = {
 			target = SUL
 			transfer_troops = yes
 		}
+		hidden_effect = {
+			SUL = {
+				every_core_state = {
+					add_core_of = BR2
+				}
+			}
+		}
 	}
 }
 
@@ -488,8 +509,29 @@ country_event = {
 	}
 
 	option = {
-		name = Brazil.junta.13.a
+		name = Brazil.junta.15.a
 		custom_effect_tooltip = BR2_counter_coup_uprising_mission_tt
 		BR2_civil_war_implosion = yes
+	}
+}
+
+# Uprising missions start
+country_event = {
+	id = Brazil.junta.16
+	title = Brazil.junta.16.t
+	desc = Brazil.junta.16.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR2
+	}
+
+	option = {
+		name = Brazil.junta.16.a
+		activate_mission = BR2_integralist_uprising_mission
+		activate_mission = BR2_monarchist_uprising_mission
+		activate_mission = BR2_counter_coup_uprising_mission
 	}
 }

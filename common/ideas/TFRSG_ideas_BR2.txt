@@ -10,9 +10,10 @@ ideas = {
 				consumer_goods_factor = 0.2
 				industrial_capacity_factory = -0.2
 				industrial_capacity_dockyard = -0.2
+				custom_modifier_tooltip = BR2_rural_economy_idea_removal_tt
 			}
 			cancel = {
-    			num_of_factories > 20
+    			num_of_factories > 10
 			}
 		}
 
@@ -21,9 +22,11 @@ ideas = {
 				original_tag = BR2
 			}
 			modifier = {
-				political_power_factor = 0.25
 				offensive_war_stability_factor = -0.25
 				drift_defence_factor = 0.5
+				resistance_decay = 0.25
+				resistance_target = -0.1
+				compliance_growth = 0.15
 			}
 		}
 
@@ -44,7 +47,7 @@ ideas = {
 				original_tag = BR2
 			}
 			modifier = {
-				political_power_cost = 0.05
+				political_power_cost = 0.25
 				stability_weekly = -0.005
 				war_support_weekly = -0.005
 				society_development_monthly = -0.01
@@ -56,7 +59,7 @@ ideas = {
 				original_tag = BR2
 			}
 			modifier = {
-				political_power_cost = 0.025
+				political_power_cost = 0.15
 				stability_weekly = -0.002
 				war_support_weekly = -0.002
 			}
@@ -80,7 +83,7 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = BR1
-				breakthrough_bonus_against = 0.05
+				breakthrough_bonus_against = 0.15
 				defense_bonus_against = 0.05
 			}
 			modifier = {
@@ -95,7 +98,7 @@ ideas = {
 			targeted_modifier = {
 				tag = BR3
 				attack_bonus_against = 0.05
-				breakthrough_bonus_against = 0.05
+				breakthrough_bonus_against = 0.15
 			}
 			modifier = {
 
@@ -109,7 +112,7 @@ ideas = {
 			targeted_modifier = {
 				tag = AMZ
 				attack_bonus_against = 0.05
-				breakthrough_bonus_against = 0.05
+				breakthrough_bonus_against = 0.15
 			}
 			modifier = {
 
@@ -122,7 +125,7 @@ ideas = {
 			}
 			modifier = {
 				attack_bonus_against = 0.05
-				breakthrough_bonus_against = 0.05
+				breakthrough_bonus_against = 0.15
 				defense_bonus_against = 0.05
 			}
 		}

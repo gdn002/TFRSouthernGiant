@@ -218,12 +218,11 @@ BRA_civil_war_category = {
 		days_remove = 15
 		days_re_enable = 30
 		modifier = { 
-            power_balance_daily = 0.001
 			stability_weekly = 0.005
 			compliance_growth = 1			
         }
 		remove_effect = {
-			add_stability = 0.015
+			add_stability = 0.025
 			set_temp_variable = { poverty_development_var_temp = 0.025 }
 			add_poverty_development = yes
 		}

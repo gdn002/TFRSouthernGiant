@@ -25,7 +25,18 @@ BR2_junta_power_struggle = {
 		range = {
 			id = BR2_total_president_control_range
 			min = -1
-			max = -0.75
+			max = -0.8
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR2_high_president_control_range
+			min = -0.8
+			max = -0.6
 			modifier = {
 			}
 			on_activate = {
@@ -35,7 +46,18 @@ BR2_junta_power_struggle = {
 		}
 		range = {
 			id = BR2_partial_president_control_range
-			min = -0.75
+			min = -0.6
+			max = -0.4
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR2_minor_president_control_range
+			min = -0.4
 			max = -0.25
 			modifier = {
 			}
@@ -51,9 +73,31 @@ BR2_junta_power_struggle = {
 		id = BR2_military_side
 		icon = GFX_bop_BR2_military
 		range = {
-			id = BR2_partial_military_control_range
+			id = BR2_minor_military_control_range
 			min = 0.25
-			max = 0.75
+			max = 0.4
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR2_partial_military_control_range
+			min = 0.4
+			max = 0.6
+			modifier = {
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+		range = {
+			id = BR2_high_military_control_range
+			min = 0.6
+			max = 0.8
 			modifier = {
 			}
 			on_activate = {
@@ -63,7 +107,7 @@ BR2_junta_power_struggle = {
 		}
 		range = {
 			id = BR2_total_military_control_range
-			min = 0.75
+			min = 0.8
 			max = 1
 			modifier = {
 			}
