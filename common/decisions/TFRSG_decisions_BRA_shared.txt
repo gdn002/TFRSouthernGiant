@@ -23,6 +23,14 @@ BRA_amazonian_jungle_category = {
         }
 		ai_will_do = {
 			base = 1
+            modifier = {
+                add = 1
+                check_variable = { global.BRA_amazonian_preservation_var < 80 }
+            }
+            modifier = {
+                factor = 15
+                has_country_flag = BRA_progressive_administration_flag
+            }
 		}
         complete_effect = {
             hidden_effect = { 
@@ -60,6 +68,14 @@ BRA_amazonian_jungle_category = {
         }
 		ai_will_do = {
 			base = 1
+            modifier = {
+                add = 1
+                check_variable = { global.BRA_amazonian_preservation_var < 80 }
+            }
+            modifier = {
+                factor = 15
+                has_country_flag = BRA_progressive_administration_flag
+            }
 		}
         complete_effect = {
             hidden_effect = { 
@@ -99,6 +115,14 @@ BRA_amazonian_jungle_category = {
         }
 		ai_will_do = {
 			base = 1
+            modifier = {
+                add = 1
+                check_variable = { global.BRA_amazonian_preservation_var < 80 }
+            }
+            modifier = {
+                factor = 15
+                has_country_flag = BRA_progressive_administration_flag
+            }
 		}
         complete_effect = {
             hidden_effect = { 
@@ -137,6 +161,14 @@ BRA_amazonian_jungle_category = {
         }
 		ai_will_do = {
 			base = 1
+            modifier = {
+                add = 1
+                check_variable = { global.BRA_amazonian_preservation_var < 80 }
+            }
+            modifier = {
+                factor = 15
+                has_country_flag = BRA_progressive_administration_flag
+            }
 		}
         complete_effect = {
             hidden_effect = { 
@@ -186,6 +218,9 @@ BRA_civil_war_category = {
 				has_country_flag = BRA_civil_war_recruiting_flag
 			}
 		}
+        ai_will_do = {
+			base = 5
+		}
 		complete_effect = {
 			set_country_flag = BRA_civil_war_recruiting_flag
 		}
@@ -228,6 +263,9 @@ BRA_civil_war_category = {
 		visible = {
 			has_country_flag = BRA_civil_war_reintegration_allowed_flag
 		}
+        ai_will_do = {
+			base = 50
+		}
 		remove_effect = {
 			FROM = {
                 add_core_of = ROOT
@@ -243,13 +281,19 @@ BRA_civil_war_category = {
 		allowed = {
 			tag = AMZ
 		}
+        visible = {
+            is_puppet = no
+        }
 		available = {
             has_war = yes
 			country_exists = BR3
 		}
         cancel_trigger = {
-            has_capitulated = yes
-            NOT = { country_exists = BR3 }
+            OR = {
+                has_capitulated = yes
+                NOT = { country_exists = BR3 }
+                is_puppet = yes
+            }
         }
 		cost = 50
 		days_remove = 20
@@ -262,7 +306,7 @@ BRA_civil_war_category = {
             }
 		}
         ai_will_do = {
-			base = 1000
+			base = 100
 		}
 	}
 }

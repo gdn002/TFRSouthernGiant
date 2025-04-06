@@ -25,10 +25,13 @@ is_brazilian_civilwar_faction = {
 BRA_has_chamber_support_pl = {
 	custom_trigger_tooltip = {
 		tooltip = BRA_has_chamber_support_pl_tooltip
-		check_variable = {
-			var = BRA_chamber_total_support_var
-			value = 257
-			compare = greater_than_or_equals
+		if = { 
+			limit = { is_ai = no } # AI gets a pass from chamber checks
+			check_variable = {
+				var = BRA_chamber_total_support_var
+				value = 257
+				compare = greater_than_or_equals
+			}
 		}
 	}
 }
@@ -36,10 +39,13 @@ BRA_has_chamber_support_pl = {
 BRA_has_chamber_support_pec = {
 	custom_trigger_tooltip = {
 		tooltip = BRA_has_chamber_support_pec_tooltip
-		check_variable = {
-			var = BRA_chamber_total_support_var
-			value = 308
-			compare = greater_than_or_equals
+		if = { 
+			limit = { is_ai = no } # AI gets a pass from chamber checks
+			check_variable = {
+				var = BRA_chamber_total_support_var
+				value = 308
+				compare = greater_than_or_equals
+			}
 		}
 	}
 }

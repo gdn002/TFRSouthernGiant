@@ -11,6 +11,28 @@ ideas = {
 				cas_damage_reduction = 0.25
 				terrain_penalty_reduction = 0.5
 			}
+		}	
+	}
+
+	hidden_ideas = {
+		BRA_civil_war_gamerule_blessing = {
+			allowed = {
+				is_brazilian_unifier = yes
+			}
+			modifier = {
+				army_attack_factor = 1
+				army_attack_speed_factor = 0.3
+				breakthrough_factor = 0.5
+				army_defence_factor = 1
+				army_morale_factor = 0.5
+				army_org_factor = 0.5
+				initiative_factor = 0.5
+				ai_focus_aggressive_factor = 5
+			}
+
+			cancel = {
+				has_global_flag = BRA_civil_war_ended_flag
+			}
 		}
 	}
 }	

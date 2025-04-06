@@ -78,17 +78,38 @@ focus_tree = {
 		completion_reward = {
 			# We setup a provisional military government
 			add_political_power = 50
-			# TODO: This BOP initial value should be contextual
-			set_power_balance = {
-				id = BR2_junta_power_struggle
-				left_side = BR2_president_side
-				right_side = BR2_military_side
-				set_value = 0
+			if = {
+				limit = { BRA = { has_country_flag = BRA_reactionary_administration_flag } }
+				set_power_balance = {
+					id = BR2_junta_power_struggle
+					left_side = BR2_president_side
+					right_side = BR2_military_side
+					set_value = -0.2
+				}
+				# This is a flag only used by the AI so it focuses on a specific side of the power struggle
+				random = {
+					chance = 80
+					set_country_flag = BR2_AI_favor_president_flag
+				}
 			}
+			else = {
+				set_power_balance = {
+					id = BR2_junta_power_struggle
+					left_side = BR2_president_side
+					right_side = BR2_military_side
+					set_value = 0.1
+				}
+				# This is a flag only used by the AI so it focuses on a specific side of the power struggle
+				random = {
+					chance = 50
+					set_country_flag = BR2_AI_favor_president_flag
+				}
+			}
+			
 			country_event = {
 				id = Brazil.junta.2
 				hours = 12
-			}		
+			}			
 		}
 	}
 
@@ -229,6 +250,10 @@ focus_tree = {
 		cancelable = yes
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 5
+				has_country_flag = BR2_AI_favor_president_flag
+			}
 		}
 		completion_reward = {
 			add_power_balance_value = {
@@ -267,6 +292,10 @@ focus_tree = {
 		cancelable = yes
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 5
+				has_country_flag = BR2_AI_favor_president_flag
+			}
 		}
 		completion_reward = {
 			add_political_power = 200
@@ -313,6 +342,10 @@ focus_tree = {
 		cancelable = yes
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 5
+				has_country_flag = BR2_AI_favor_president_flag
+			}
 		}
 		completion_reward = {
 			add_power_balance_value = {
@@ -403,6 +436,10 @@ focus_tree = {
 		cancelable = yes
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 5
+				NOT = { has_country_flag = BR2_AI_favor_president_flag }
+			}
 		}
 		completion_reward = {
 			add_stability = 0.05
@@ -443,6 +480,10 @@ focus_tree = {
 		cancelable = yes
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 5
+				NOT = { has_country_flag = BR2_AI_favor_president_flag }
+			}
 		}
 		completion_reward = {
 			add_war_support = 0.15
@@ -482,6 +523,10 @@ focus_tree = {
 		cancelable = yes
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 5
+				NOT = { has_country_flag = BR2_AI_favor_president_flag }
+			}
 		}
 		completion_reward = {
 			add_political_power = 250
@@ -513,7 +558,7 @@ focus_tree = {
 		available_if_capitulated = no
 		cancelable = yes
 		ai_will_do = {
-			base = 1
+			base = 5
 		}
 		completion_reward = {
 			BRA_civil_war_add_claims = yes
@@ -536,7 +581,7 @@ focus_tree = {
 		available_if_capitulated = no
 		cancelable = yes
 		ai_will_do = {
-			base = 1
+			base = 5
 		}
 		completion_reward = {
 			custom_effect_tooltip = BR2_cw_armored_cavalry_tt

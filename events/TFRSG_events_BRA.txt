@@ -377,6 +377,23 @@ country_event = {
 	}
 }
 
+# Hidden stalemate breaker event for the AI Brazilian Civil War
+country_event = {
+	id = Brazil.timeline.18
+	hidden = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		is_brazilian_unifier = yes
+		NOT = { has_global_flag = BRA_civil_war_ended_flag }
+	}
+
+	option = {
+		name = Brazil.timeline.17.a
+	}
+}
+
 ###########################
 # Brazil Events
 ###########################

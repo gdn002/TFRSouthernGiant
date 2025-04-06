@@ -11,6 +11,9 @@ BRA_civil_war_category = {
 		available = {
 			country_exists = AMZ
 		}
+		ai_will_do = {
+			base = 100
+		}
 		cost = 50
 		days_remove = 20
 		fire_only_once = yes
@@ -35,6 +38,13 @@ BRA_civil_war_category = {
 			has_completed_focus = BR3_reclaim_our_country
 			country_exists = BR1
 			NOT = { has_war_with = BR1 }
+		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 40
+				has_war = no
+			}
 		}
 		custom_cost_trigger = {
             command_power > 30
@@ -65,6 +75,13 @@ BRA_civil_war_category = {
 			country_exists = BR2
 			NOT = { has_war_with = BR2 }
 		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 40
+				has_war = no
+			}
+		}
 		custom_cost_trigger = {
             command_power > 30
         }
@@ -94,8 +111,15 @@ BRA_civil_war_category = {
 			country_exists = BR4
 			NOT = { has_war_with = BR4 }
 		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 40
+				has_war = no
+			}
+		}
 		custom_cost_trigger = {
-            command_power > 30
+			command_power > 30  
         }
         custom_cost_text = 30cp_cost
 		days_remove = 20
@@ -118,6 +142,22 @@ BRA_civil_war_category = {
 		
 		allowed = {
 			tag = BR3
+		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 40
+				stockpile_ratio = {
+				    archetype = infantry_equipment
+				    ratio < 0.75
+				}
+			}
+			modifier = {
+				add = 15
+				has_equipment = {
+				    infantry_equipment < 1000
+				}
+			}
 		}
 		custom_cost_trigger = {
             command_power > 10
@@ -167,6 +207,13 @@ BRA_civil_war_category = {
 		visible = {
 			has_completed_focus = BR3_social_assistance_programs
 		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 20
+				has_stability < 0
+			}
+		}
 		cost = 25
 		days_remove = 15
 		days_re_enable = 30
@@ -191,6 +238,9 @@ BRA_civil_war_category = {
 		}
 		available = {
 			has_campaign_slot = yes
+		}
+		ai_will_do = {
+			base = 10
 		}
 		cost = 50
 		days_remove = 30
@@ -225,6 +275,9 @@ BRA_civil_war_category = {
 		available = {
 			has_campaign_slot = yes
 		}
+		ai_will_do = {
+			base = 10
+		}
 		cost = 50
 		days_remove = 30
 		days_re_enable = 60
@@ -257,6 +310,13 @@ BRA_civil_war_category = {
 		}
 		available = {
 			has_campaign_slot = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_war = yes
+			}
 		}
 		cost = 50
 		days_remove = 30
@@ -291,6 +351,13 @@ BRA_civil_war_category = {
 		available = {
 			has_campaign_slot = yes
 		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_war_with = BR1
+			}
+		}
 		cost = 30
 		days_remove = 30
 		days_re_enable = 60
@@ -298,6 +365,10 @@ BRA_civil_war_category = {
 		modifier = { 
 			political_power_cost = 0.05
 			resistance_target_on_our_occupied_states = 0.5
+		}
+		targeted_modifier = {
+			tag = BR1
+			attack_bonus_against = 0.1
 		}
 		complete_effect = {
 			BR1 = {
@@ -327,6 +398,13 @@ BRA_civil_war_category = {
 		available = {
 			has_campaign_slot = yes
 		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_war_with = BR2
+			}
+		}
 		cost = 30
 		days_remove = 30
 		days_re_enable = 60
@@ -334,6 +412,10 @@ BRA_civil_war_category = {
 		modifier = { 
 			political_power_cost = 0.05
 			resistance_target_on_our_occupied_states = 0.5
+		}
+		targeted_modifier = {
+			tag = BR2
+			attack_bonus_against = 0.1
 		}
 		complete_effect = {
 			BR2 = {
@@ -363,6 +445,13 @@ BRA_civil_war_category = {
 		available = {
 			has_campaign_slot = yes
 		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_war_with = BR4
+			}
+		}
 		cost = 30
 		days_remove = 30
 		days_re_enable = 60
@@ -370,6 +459,10 @@ BRA_civil_war_category = {
 		modifier = { 
 			political_power_cost = 0.05
 			resistance_target_on_our_occupied_states = 0.5
+		}
+		targeted_modifier = {
+			tag = BR4
+			attack_bonus_against = 0.1
 		}
 		complete_effect = {
 			BR4 = {
@@ -384,6 +477,46 @@ BRA_civil_war_category = {
 			add_campaign_slot = yes
 		}
 		cancel_effect = {
+			add_campaign_slot = yes
+		}
+	}
+
+	BR3_cw_dare_to_die = {
+		allowed = {
+			tag = BR3
+		}
+		visible = {
+			has_completed_focus = BR3_establish_the_pla
+		}
+		available = {
+			has_campaign_slot = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 25
+				has_war = yes
+			}
+		}
+		cost = 50
+		days_remove = 30
+		days_re_enable = 60
+		modifier = { 
+			political_power_cost = 0.05
+			weekly_casualties_war_support = 0.015
+			power_balance_daily = -0.005
+			out_of_supply_factor = -0.25
+			army_attack_factor = 0.25
+			army_attack_speed_factor = 0.1
+			breakthrough_factor = 0.15
+			experience_loss_factor = 0.35
+        }	
+		complete_effect = {
+			remove_campaign_slot = yes
+		}
+		remove_effect = {
+			set_temp_variable = { military_development_var_temp = 0.05 }
+			add_military_development = yes
 			add_campaign_slot = yes
 		}
 	}

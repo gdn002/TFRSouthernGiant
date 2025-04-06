@@ -9,6 +9,13 @@ BR2_junta_power_struggle_category = {
 			has_completed_focus = BR2_cw_setup_military_administration
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
 		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 15
+				has_country_flag = BR2_AI_favor_president_flag
+			}
+		}
 		complete_effect = {
 			hidden_effect = {
 				set_country_flag = BR2_is_taking_action_power_struggle_bop
@@ -40,6 +47,13 @@ BR2_junta_power_struggle_category = {
 		available = {
 			has_completed_focus = BR2_cw_setup_military_administration
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 15
+				NOT = { has_country_flag = BR2_AI_favor_president_flag }
+			}
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -73,6 +87,13 @@ BR2_junta_power_struggle_category = {
 		available = {
 			has_completed_focus = BR2_cw_address_constitutional_crisis
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 30
+				has_country_flag = BR2_AI_favor_president_flag
+			}
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -114,6 +135,13 @@ BR2_junta_power_struggle_category = {
 		available = {
 			has_completed_focus = BR2_cw_purge_extremist_cells
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 30
+				NOT = { has_country_flag = BR2_AI_favor_president_flag }
+			}
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -413,6 +441,13 @@ BRA_civil_war_category = {
 		custom_cost_trigger = {
             command_power > 10
         }
+		ai_will_do = {
+			base = 25
+			modifier = {
+				add = 25
+				has_war = no
+			}
+		}
         custom_cost_text = 10cp_cost
 		days_remove = 20
 		fire_only_once = yes
@@ -442,6 +477,13 @@ BRA_civil_war_category = {
 		custom_cost_trigger = {
             command_power > 10
         }
+		ai_will_do = {
+			base = 25
+			modifier = {
+				add = 25
+				has_war = no
+			}
+		}
         custom_cost_text = 10cp_cost
 		days_remove = 20
 		fire_only_once = yes
@@ -471,6 +513,13 @@ BRA_civil_war_category = {
 		custom_cost_trigger = {
             command_power > 10
         }
+		ai_will_do = {
+			base = 25
+			modifier = {
+				add = 25
+				has_war = no
+			}
+		}
         custom_cost_text = 10cp_cost
 		days_remove = 20
 		fire_only_once = yes
@@ -502,6 +551,9 @@ BRA_civil_war_category = {
     			value > 50
 			}
 		}
+		ai_will_do = {
+			base = 5
+		}
 		cost = 100
 		days_remove = 50
 		fire_only_once = yes
@@ -529,6 +581,9 @@ BRA_civil_war_category = {
     				level > 1
 				}
 			}
+		}
+		ai_will_do = {
+			base = 100
 		}
 		cancel_trigger = {
 			NOT = {
@@ -570,6 +625,9 @@ BRA_civil_war_category = {
 		available = {
 			has_completed_focus = BR2_cw_within_the_four_lines
 		}
+		ai_will_do = {
+			base = 100
+		}
 		cost = 50
 		days_remove = 30
 		fire_only_once = yes
@@ -592,6 +650,9 @@ BRA_civil_war_category = {
 		available = {
 			has_completed_focus = BR2_cw_military_in_command
 			NOT = { has_decision = BR2_cw_anti_monarchist_cyberwarfare }
+		}
+		ai_will_do = {
+			base = 100
 		}
 		custom_cost_trigger = {
             command_power > 40
@@ -624,6 +685,9 @@ BRA_civil_war_category = {
 			has_completed_focus = BR2_cw_military_in_command
 			NOT = { has_decision = BR2_cw_raid_fascist_hideouts }
 		}
+		ai_will_do = {
+			base = 100
+		}
 		custom_cost_trigger = {
             command_power > 40
         }
@@ -654,6 +718,9 @@ BRA_civil_war_category = {
 		available = {
 			has_completed_focus = BR2_cw_reclaiming_our_nation
 		}
+		ai_will_do = {
+			base = 0
+		}
 		cost = 25
 		days_remove = 30
 		days_re_enable = 45
@@ -682,6 +749,9 @@ BRA_civil_war_category = {
 		available = {
 			has_completed_focus = BR2_cw_reclaiming_our_nation
 		}
+		ai_will_do = {
+			base = 0
+		}
 		cost = 25
 		days_remove = 30
 		days_re_enable = 45
@@ -707,6 +777,9 @@ BRA_civil_war_category = {
 		}
 		available = {
 			has_completed_focus = BR2_cw_reclaiming_our_nation
+		}
+		ai_will_do = {
+			base = 0
 		}
 		cost = 25
 		days_remove = 30

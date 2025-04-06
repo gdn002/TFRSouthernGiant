@@ -303,6 +303,7 @@ BRA_add_election_approval_rating_pl = {
 }
 
 BRA_election_var_balancer = {
+	# Shamelessly ripped from the Russian elections mechanic, kudos RU-TFR devs
 	if = {
 		limit = {
 			check_variable = {
