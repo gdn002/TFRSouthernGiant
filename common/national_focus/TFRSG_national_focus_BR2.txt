@@ -317,7 +317,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BR2_cw_placeholder_pres
+		id = BR2_cw_loyalist_militias
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -367,7 +367,7 @@ focus_tree = {
 		prerequisite = {
 			focus = BR2_cw_address_constitutional_crisis
 			focus = BR2_cw_bolsonarismo_forever
-			focus = BR2_cw_placeholder_pres
+			focus = BR2_cw_loyalist_militias
 		}
 		available = {
 			is_power_balance_in_range = {
@@ -582,7 +582,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BR2_cw_placeholder_military
+		id = BR2_cw_duty_of_every_brazilian
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -622,14 +622,14 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-        relative_position_id = BR2_cw_placeholder_military
+        relative_position_id = BR2_cw_duty_of_every_brazilian
 		x = 0
 		y = 1
 		cost = 2
 		prerequisite = {
 			focus = BR2_cw_purge_extremist_cells
 			focus = BR2_cw_militarize_society
-			focus = BR2_cw_placeholder_military
+			focus = BR2_cw_duty_of_every_brazilian
 		}
 		available = {
 			is_power_balance_in_range = {
@@ -761,7 +761,7 @@ focus_tree = {
 			focus = BR2_cw_armored_cavalry
 		}
 		prerequisite = {
-			focus = BR2_cw_placeholder_pres
+			focus = BR2_cw_loyalist_militias
 			focus = BR2_cw_militarize_society
 		}
 		available_if_capitulated = no

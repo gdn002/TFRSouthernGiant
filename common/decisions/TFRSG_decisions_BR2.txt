@@ -14,6 +14,10 @@ BR2_junta_power_struggle_category = {
 			modifier = {
 				add = 15
 				has_country_flag = BR2_AI_favor_president_flag
+				is_power_balance_in_range = {
+    				id = BR2_junta_power_struggle
+    				range > BR2_high_president_control_range
+				}
 			}
 		}
 		complete_effect = {
@@ -49,6 +53,10 @@ BR2_junta_power_struggle_category = {
 			modifier = {
 				add = 15
 				NOT = { has_country_flag = BR2_AI_favor_president_flag }
+				is_power_balance_in_range = {
+    				id = BR2_junta_power_struggle
+    				range < BR2_high_military_control_range
+				}
 			}
 		}
 		complete_effect = {
@@ -85,6 +93,10 @@ BR2_junta_power_struggle_category = {
 			modifier = {
 				add = 30
 				has_country_flag = BR2_AI_favor_president_flag
+				is_power_balance_in_range = {
+    				id = BR2_junta_power_struggle
+    				range > BR2_high_president_control_range
+				}
 			}
 		}
 		complete_effect = {
@@ -111,11 +123,11 @@ BR2_junta_power_struggle_category = {
 			}
 			add_days_mission_timeout = {
     			mission = BR2_counter_coup_uprising_mission
-    			days = 20
+    			days = 10
 			}
 			add_days_mission_timeout = {
     			mission = BR2_integralist_uprising_mission
-    			days = -5
+    			days = -10
 			}
 		}
 	}
@@ -134,6 +146,10 @@ BR2_junta_power_struggle_category = {
 			modifier = {
 				add = 30
 				NOT = { has_country_flag = BR2_AI_favor_president_flag }
+				is_power_balance_in_range = {
+    				id = BR2_junta_power_struggle
+    				range < BR2_high_military_control_range
+				}
 			}
 		}
 		complete_effect = {
@@ -161,11 +177,11 @@ BR2_junta_power_struggle_category = {
 			}
 			add_days_mission_timeout = {
     			mission = BR2_integralist_uprising_mission
-    			days = 20
+    			days = 10
 			}
 			add_days_mission_timeout = {
     			mission = BR2_counter_coup_uprising_mission
-    			days = -5
+    			days = -10
 			}
 		}
 	}
@@ -438,7 +454,7 @@ BRA_civil_war_category = {
 		ai_will_do = {
 			base = 25
 			modifier = {
-				add = 25
+				add = 75
 				has_war = no
 			}
 		}
@@ -482,7 +498,7 @@ BRA_civil_war_category = {
 		ai_will_do = {
 			base = 25
 			modifier = {
-				add = 25
+				add = 75
 				has_war = no
 			}
 		}
@@ -526,7 +542,7 @@ BRA_civil_war_category = {
 		ai_will_do = {
 			base = 25
 			modifier = {
-				add = 25
+				add = 75
 				has_war = no
 			}
 		}
@@ -564,13 +580,14 @@ BRA_civil_war_category = {
 			NOT = { has_country_flag = developed_country }
 		}
 		available = {
+			is_neighbor_of = PAR
 			has_opinion = {
     			target = PAR
-    			value > 50
+    			value > 30
 			}
 		}
 		ai_will_do = {
-			base = 5
+			base = 50
 		}
 		cost = 100
 		days_remove = 50
@@ -652,10 +669,18 @@ BRA_civil_war_category = {
 		cost = 50
 		days_re_enable = 60
 		days_remove = 30
+		cancel_if_not_visible = yes
 		modifier = {
 			political_power_cost = 0.1
 		}
+		complete_effect = {
+			set_country_flag = BR2_is_raiding_flag
+		}
+		cancel_effect = {
+			clr_country_flag = BR2_is_raiding_flag
+		}
 		remove_effect = {
+			clr_country_flag = BR2_is_raiding_flag
 			add_stability = 0.05
 			add_days_mission_timeout = {
     			mission = BR2_counter_coup_uprising_mission
@@ -672,16 +697,27 @@ BRA_civil_war_category = {
 			has_completed_focus = BR2_cw_within_the_four_lines
 			has_active_mission = BR2_counter_coup_uprising_mission
 		}
+		available = {			
+			NOT = { has_country_flag = BR2_is_raiding_flag }
+		}
 		ai_will_do = {
 			base = 25
 		}
 		cost = 100
 		days_remove = 50
 		fire_only_once = yes
+		cancel_if_not_visible = yes
 		modifier = {
 			political_power_cost = 0.01
 		}
+		complete_effect = {
+			set_country_flag = BR2_is_raiding_flag
+		}
+		cancel_effect = {
+			clr_country_flag = BR2_is_raiding_flag
+		}
 		remove_effect = {
+			clr_country_flag = BR2_is_raiding_flag
 			add_stability = 0.15
 			remove_ideas = {
 				BR2_martial_law_idea
@@ -710,6 +746,7 @@ BRA_civil_war_category = {
         custom_cost_text = 10cp_cost
 		days_re_enable = 60
 		days_remove = 30
+		cancel_if_not_visible = yes
 		modifier = {
 			command_power_gain = -0.1
 		}
@@ -752,6 +789,7 @@ BRA_civil_war_category = {
         custom_cost_text = 40cp_cost
 		days_remove = 50
 		fire_only_once = yes
+		cancel_if_not_visible = yes
 		modifier = {
 			command_power_gain = -0.5
 		}
@@ -792,6 +830,7 @@ BRA_civil_war_category = {
         custom_cost_text = 10cp_cost
 		days_re_enable = 60
 		days_remove = 30
+		cancel_if_not_visible = yes
 		modifier = {
 			command_power_gain = -0.1
 		}
@@ -833,6 +872,7 @@ BRA_civil_war_category = {
         custom_cost_text = 40cp_cost
 		days_remove = 30
 		fire_only_once = yes
+		cancel_if_not_visible = yes
 		modifier = {
 			command_power_gain = -0.01
 		}

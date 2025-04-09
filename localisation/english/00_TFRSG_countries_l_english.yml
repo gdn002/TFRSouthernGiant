@@ -50,6 +50,14 @@
  BR3_DEF: "The Brazilian Popular Front"
  BR3_ADJ: "Brazilian"
 
+ #Integralist Front
+ BR4_fascist: "Brazilian Integralist Front"
+ BR4_fascist_DEF: "The Brazilian Integralist Front"
+ BR4_nationalist: "National Restoration Union"
+ BR4_nationalist_DEF: "The National Restoration Union"
+ BR4_social_liberal: "National Movement for Democracy"
+ BR4_social_liberal_DEF: "The National Movement for Democracy"
+
  #Independent Patagonia
 
  #Independent São Paulo

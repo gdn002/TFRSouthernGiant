@@ -54,24 +54,18 @@
  BR1_union_DEF: "The Federative Union of Brazil"
  BR1_unitedstates: "United States of Brazil"
  BR1_unitedstates_DEF: "The United States of Brazil"
- BR1_ussa: "United States of South America"
- BR1_ussa_DEF: "The United States of South America"
- BR1_ussa_ADJ: "South American"
  BR1_sa_federation: "South American Federation"
  BR1_sa_federation_DEF: "The South American Federation"
  BR1_sa_federation_ADJ: "South American"
+ BR1_ussa: "United States of South America"
+ BR1_ussa_DEF: "The United States of South America"
+ BR1_ussa_ADJ: "South American"
 
  #Military Junta Unifiers
  BR2_reunified: "Federative State of Brazil"
  BR2_reunified_DEF: "The Federative State of Brazil"
 
- #Military Junta Breakaways
- BR4_fascist: "Brazilian Integralist Front"
- BR4_fascist_DEF: "The Brazilian Integralist Front"
- BR4_nationalist: "National Restoration Union"
- BR4_nationalist_DEF: "The National Restoration Union"
- BR4_social_liberal: "National Movement for Democracy"
- BR4_social_liberal_DEF: "The National Movement for Democracy"
+ #Integralist Front Unifiers
  BR4_reunified: "Integralist Republic of Brazil"
  BR4_reunified_DEF: "The Integralist Republic of Brazil"
  BR4_restored: "Brazilian Democratic Restoration Authority"
@@ -80,19 +74,23 @@
  #Monarchist Unifiers
  BR4_regency: "Brazilian Regency"
  BR4_regency_DEF: "The Brazilian Regency"
+
  BR4_monarchy_nationalist: "Brazilian Empire"
  BR4_monarchy_nationalist_DEF: "The Brazilian Empire"
  BR4_monarchy_authoritarian_democrat: "Kingdom of Brazil"
  BR4_monarchy_authoritarian_democrat_DEF: "The Kingdom of Brazil"
+
  BR4_monarchyunion_nationalist: "Porto-Brazilian Empire"
  BR4_monarchyunion_nationalist_DEF: "The Porto-Brazilian Empire"
  BR4_monarchyunion_authoritarian_democrat: "United Kingdom of Brazil and Portugal"
  BR4_monarchyunion_authoritarian_democrat_DEF: "The United Kingdom of Brazil and Portugal"
  BR4_monarchyunion_ADJ: "Porto-Brazilian"
+
  BR4_monarchygreater_nationalist: "Greater Brazilian Empire"
  BR4_monarchygreater_nationalist_DEF: "The Greater Brazilian Empire"
  BR4_monarchygreater_authoritarian_democrat: "Greater Brazilian Kingdom"
  BR4_monarchygreater_authoritarian_democrat_DEF: "The Greater Brazilian Kingdom"
+ 
  BR4_monarchysoutham_nationalist: "South American Empire"
  BR4_monarchysoutham_nationalist_DEF: "The South American Empire"
  BR4_monarchysoutham_authoritarian_democrat: "Kingdom of South America"
@@ -109,6 +107,9 @@
  BR3_reunified_totalitarian_socialist: "Democratic Worker's Republic of Brazil"
  BR3_reunified_totalitarian_socialist_DEF: "The Democratic Worker's Republic of Brazil"
 
+ BR3_reunified_democratic: "Socialist Republic of Brazil"
+ BR3_reunified_democratic_DEF: "The Socialist Republic of Brazil"
+
  #URSAL
  BR3_URSAL_social_democrat: "Union of Sovereign Latin American States"
  BR3_URSAL_social_democrat_DEF: "The Union of Sovereign Latin American States"
@@ -119,6 +120,10 @@
  BR3_URSAL_totalitarian_socialist: "Great Latin American Democratic Worker's Republic"
  BR3_URSAL_totalitarian_socialist_DEF: "The Great Latin American Democratic Worker's Republic"
  BR3_URSAL_ADJ: "Latin American"
+
+ BR3_URSAL_democratic: "Union of Sovereign Latin American States"
+ BR3_URSAL_democratic_DEF: "The Union of Sovereign Latin American States"
+ BR3_URSAL_democratic_ADJ: "Latin American"
 
  #Brazilian Occupation Zones
  BRA_occupation_generic: "$NONIDEOLOGYADJ$ Occupation Zone"

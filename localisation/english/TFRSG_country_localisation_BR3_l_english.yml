@@ -136,9 +136,9 @@
  BR3_drafted_constitution_flag: "We have drafted a §Rnew socialist constitution§!"
  #Tooltips
  BR3_cw_link_up_with_pf_cells_tt: "§YWe will gain control over Northeastern Brazil.§!"
- BR3_libertarian_majority_tt: "Upon drafting our constitution, our government type will be §tLibertarian§!"
- BR3_centrist_majority_tt: "Upon drafting our constitution, our government type will be §ACentrist§!"
- BR3_hardliner_majority_tt: "Upon drafting our constitution, our government type will be §dTotalitarian§!"
+ BR3_libertarian_majority_tt: "When we have finished drafting our new constitution, our government will be §tDemocratic Socialist§!"
+ BR3_centrist_majority_tt: "When we have finished drafting our new constitution, our government will be a §APeople's Democratic Dictatorship§!"
+ BR3_hardliner_majority_tt: "Upon drafting our constitution, our government will be a §dCommunist Party State§!"
  BR3_civil_war_militias_spawn_tt: "We will §Yraise revolutionary militias§! to fight in the imminent civil war!"
  BR3_workers_of_brazil_rise_tt: "Unlocks §Yworker strikes in enemy territories§! decisions."
  BR3_commie_end_tt: "The Brazilian people have had enough, and they have finally overthrown the corrupt establishment that has given them so much grief for decades. What lies ahead is a promising, but also scary future as Brazil must come to terms with building socialism in an increasingly turbulent decade. You must be eager to get started, but this future must wait as this is where TFRSG's preview content ends, comrade.\n\n§YCOMING IN VERSION 0.2.0:§!\n- Build a new government by the people and for the people in the aftermath of the civil war. Unleash the true potential of a Brazil no longer shackled by a bloated ruling class, in one of three ways: a §dtotalitarian communist government§!, a §Acouncil republic§! or a §treformed federation§! backed by a socialist constitution.\n- Unite Latin America to stand together amidst the changing world order: favor §t\"socialism in one country\"§! and focus on mutual relations, build a §Asocialist movement§! in the continent, or §dunite all of Latin America under a single communist super-state§!!\n- Link up with other socialist nations and movements around the globe, and find your place in the §Rinternational communist movement§!.\n- Prepare yourself for the ultimate trial of the Latin American people: The §BUnited States§! will not remain embroiled in war forever, and once the fires die down, it may decide to settle the §RMonroe Doctrine§! once and for all.\n\n§YTHANK YOU FOR TRYING TFRSG - GDN001§!"
