@@ -73,7 +73,29 @@ ideas = {
 				army_attack_factor = 0.15
 				army_attack_speed_factor = 0.05
 				army_defence_factor = -0.05
+				max_planning_factor = -0.5
 				experience_loss_factor = 0.1
+			}
+		}
+
+		BR2_dutiful_military_idea = {
+			allowed = {
+				original_tag = BR2
+			}
+			modifier = {
+				army_attack_factor = 0.1
+			}
+		}
+
+		BR2_bolsonarist_militias_idea = {
+			allowed = {
+				original_tag = BR2
+			}
+			modifier = {
+				non_core_manpower = 0.5
+				recruitable_population_factor = 0.25
+				modifier_army_sub_unit_militia_attack_factor = 0.15
+				modifier_army_sub_unit_militia_defence_factor = 0.15
 			}
 		}
 

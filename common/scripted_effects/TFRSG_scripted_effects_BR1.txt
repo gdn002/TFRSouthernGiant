@@ -1,0 +1,27 @@
+# CIVIL WAR
+BR1_improve_command_insecurity = {
+	if = {
+		limit = {
+			has_idea = BR1_insecure_command_idea
+		}
+		swap_ideas = {
+			remove_idea = BR1_insecure_command_idea
+			add_idea = BR1_insecure_command_idea1
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = BR1_insecure_command_idea1
+		}
+		swap_ideas = {
+			remove_idea = BR1_insecure_command_idea1
+			add_idea = BR1_insecure_command_idea2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = BR1_insecure_command_idea2
+		}
+		remove_ideas = BR1_insecure_command_idea2
+	}
+}

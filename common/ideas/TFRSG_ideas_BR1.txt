@@ -6,16 +6,60 @@ ideas = {
 				original_tag = BR1
 			}
 			modifier = {
-
+				political_power_factor = -0.3
+				stability_factor = -0.25
 			}
 		}	
+
+		BR1_state_of_emergency_idea = {
+			allowed = {
+				original_tag = BR1
+			}
+			modifier = {
+				drift_defence_factor = 0.1
+				war_stability_factor = -0.5
+				army_core_defence_factor = 0.05
+			}
+		}
 
 		BR1_insecure_command_idea = {
 			allowed = {
 				original_tag = BR1
 			}
 			modifier = {
+				command_power_gain_mult = -0.5
+				max_command_power_mult = -0.3
+				experience_gain_army_factor = -0.5
+				experience_gain_navy_factor = -0.5
+				experience_gain_air_factor = -0.5
+			}
+		}
 
+		BR1_insecure_command_idea1 = {
+			name = BR1_insecure_command_idea
+			allowed = {
+				original_tag = BR1
+			}
+			modifier = {
+				command_power_gain_mult = -0.3
+				max_command_power_mult = -0.2
+				experience_gain_army_factor = -0.3
+				experience_gain_navy_factor = -0.3
+				experience_gain_air_factor = -0.3
+			}
+		}
+
+		BR1_insecure_command_idea2 = {
+			name = BR1_insecure_command_idea
+			allowed = {
+				original_tag = BR1
+			}
+			modifier = {
+				command_power_gain_mult = -0.1
+				max_command_power_mult = -0.1
+				experience_gain_army_factor = -0.1
+				experience_gain_navy_factor = -0.1
+				experience_gain_air_factor = -0.1
 			}
 		}
 	}

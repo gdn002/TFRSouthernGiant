@@ -79,3 +79,291 @@ country_event = {
 		}
 	}
 }
+
+# Requesting European support
+country_event = {
+	id = Brazil.libs.5
+	title = Brazil.libs.5.t
+	desc = Brazil.libs.5.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_global_flag = BRA_civil_war_ongoing_flag
+	}
+
+	# Equipment
+	option = {
+		name = Brazil.libs.5.a
+		ai_will_do = {
+            base = 5
+			modifier = {
+				add = 5
+				BR1 = {
+					has_opinion = {
+					    target = ROOT
+					    value > 10
+					}
+				}
+			}
+        }
+		effect_tooltip = {
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 1000
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = support_equipment
+			    amount = 50
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = motorized_equipment
+			    amount = 200
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = artillery_equipment
+			    amount = 100
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = light_mechanized_equipment
+			    amount = 50
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = mechanized_equipment
+			    amount = 20
+			    target = BR1
+			}	
+			send_equipment = {
+			    equipment = medium_tank_chassis
+			    amount = 10
+			    target = BR1
+			}	
+		}
+		BR1 = {
+			country_event = {
+				id = Brazil.libs.6
+				hours = 18
+			}
+		}
+	}
+
+	# Expertise
+	option = {
+		name = Brazil.libs.5.b
+		ai_will_do = {
+            base = 5
+			modifier = {
+				add = 5
+				BR1 = {
+					has_opinion = {
+					    target = ROOT
+					    value > 10
+					}
+				}
+			}
+        }
+		army_experience = -25
+		add_command_power = -50
+		effect_tooltip = {
+			BR1 = {
+				army_experience = 25
+				set_temp_variable = { military_development_var_temp = 0.1 }
+				add_military_development = yes
+				random_army_leader = { gain_xp = 5 }
+			}
+		}
+		BR1 = {
+			country_event = {
+				id = Brazil.libs.7
+				hours = 18
+			}
+		}
+	}
+
+	# Volunteers
+	option = {
+		name = Brazil.libs.5.c
+		ai_will_do = {
+            base = 5
+			modifier = {
+				add = 5
+				BR1 = {
+					has_opinion = {
+					    target = ROOT
+					    value > 10
+					}
+				}
+			}
+			modifier = {
+				add = 5
+				BR1 = {
+					has_opinion = {
+					    target = ROOT
+					    value > 20
+					}
+				}
+			}
+			modifier = {
+				add = 5
+				BR1 = {
+					has_opinion = {
+					    target = ROOT
+					    value > 30
+					}
+				}
+			}
+			modifier = {
+				add = 5
+				BR1 = {
+					has_opinion = {
+					    target = ROOT
+					    value > 40
+					}
+				}
+			}
+        }
+		effect_tooltip = {
+			BR1 = {
+				# Create Euro units
+			}
+		}
+		BR1 = {
+			country_event = {
+				id = Brazil.libs.8
+				hours = 18
+			}
+		}
+	}
+
+	# No help
+	option = {
+		name = Brazil.libs.5.c
+		ai_will_do = {
+            base = 5
+			modifier = {
+				multiply = 200
+				has_war = yes
+			}
+        }
+		BR1 = {
+			country_event = {
+				id = Brazil.libs.9
+				hours = 18
+			}
+		}
+	}
+}
+
+# European equipment
+country_event = {
+	id = Brazil.libs.6
+	title = Brazil.libs.6.t
+	desc = Brazil.libs.6.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazil.libs.6.a
+		FROM = {
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 1000
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = support_equipment
+			    amount = 50
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = motorized_equipment
+			    amount = 200
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = artillery_equipment
+			    amount = 100
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = light_mechanized_equipment
+			    amount = 50
+			    target = BR1
+			}
+			send_equipment = {
+			    equipment = mechanized_equipment
+			    amount = 20
+			    target = BR1
+			}	
+			send_equipment = {
+			    equipment = medium_tank_chassis
+			    amount = 10
+			    target = BR1
+			}	
+		}
+	}
+}
+
+# European expertise
+country_event = {
+	id = Brazil.libs.7
+	title = Brazil.libs.7.t
+	desc = Brazil.libs.7.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazil.libs.7.a
+		army_experience = 25
+		set_temp_variable = { military_development_var_temp = 0.1 }
+		add_military_development = yes
+		random_army_leader = { gain_xp = 5 }
+	}
+}
+
+# European volunteers
+country_event = {
+	id = Brazil.libs.8
+	title = Brazil.libs.8.t
+	desc = Brazil.libs.8.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazil.libs.8.a
+	}
+}
+
+# No Euro support
+country_event = {
+	id = Brazil.libs.9
+	title = Brazil.libs.9.t
+	desc = Brazil.libs.9.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazil.libs.9.a
+	}
+}

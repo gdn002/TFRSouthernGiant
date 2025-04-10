@@ -167,9 +167,7 @@ country_event = {
 
 	option = {
 		name = Brazil.junta.4.a
-		custom_effect_tooltip = BR2_cw_army_reporting_tt
-		set_country_flag = BRA_civil_war_recruitment_allowed_flag
-		custom_effect_tooltip = BRA_civil_war_recruitment_unlocked_tt
+		custom_effect_tooltip = BR2_cw_army_reporting_tt		
 		hidden_effect = {
 			load_oob = "BR2_Civil_War"
 		}

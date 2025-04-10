@@ -176,8 +176,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			# We are in a state of emergency!
-			set_country_flag = BRA_civil_war_recruitment_allowed_flag
-			custom_effect_tooltip = BRA_civil_war_recruitment_unlocked_tt
 		}
 	}
 
@@ -189,7 +187,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
         relative_position_id = BR1_cw_declare_state_of_emergency
-		x = -3
+		x = -4
 		y = 1
 		cost = 2
 		prerequisite = {
@@ -201,6 +199,10 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Rally up the army loyalists
+			BR1_improve_command_insecurity = yes
+			add_political_power = -50
+			add_war_support = 0.05
 		}
 	}
 
@@ -222,6 +224,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Request European military training aid
 		}
 	}
 
@@ -231,7 +234,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
         relative_position_id = BR1_cw_address_loyalist_army
-		x = -1.5
+		x = -2
 		y = 1
 		cost = 2
 		prerequisite = {
@@ -243,7 +246,11 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Purge pro-coup reactionary thought out of military education
 			country_lock_all_division_template = no
+			BR1_improve_command_insecurity = yes
+			set_temp_variable = { military_development_var_temp = 0.25 }
+			add_military_development = yes
 		}
 	}
 
@@ -268,6 +275,10 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Repeal the 79 amnesty law and crush pro-military coup sentiment
+			BR1_improve_command_insecurity = yes
+			set_temp_variable = { military_development_var_temp = 0.5 }
+			add_military_development = yes
 		}
 	}
 
@@ -291,6 +302,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Unite all republican parties under an emergency coalition
 			set_temp_variable = { coalition_partner_var_temp = token:market_liberal }
 			add_to_coalition = yes
 			set_temp_variable = { coalition_partner_var_temp = token:conservative }
@@ -304,7 +316,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
         relative_position_id = BR1_cw_assemble_the_broad_coalition
-		x = -1.5
+		x = -2
 		y = 1
 		cost = 2
 		prerequisite = {
@@ -323,6 +335,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Focus on social democratic measures to win the Brazilian people over
 		}
 	}
 
@@ -348,6 +361,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Focus on reinforcing the Brazilian institutional powers
 		}
 	}
 
@@ -357,7 +371,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
         relative_position_id = BR1_cw_assemble_the_broad_coalition
-		x = 1.5
+		x = 2
 		y = 1
 		cost = 2
 		prerequisite = {
@@ -376,6 +390,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Focus on economic protections and subsidies to keep the elites on the side of the government
 		}
 	}
 
@@ -398,7 +413,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			# PL do Emprego - focus on right-to-work projects to get Brazilians off informal employment and into the war economy
+			# PL do Emprego - focus on right-to-work projects to get Brazilians off informal employment and mobilize the economy
 		}
 	}
 
@@ -456,7 +471,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
         relative_position_id = BR1_cw_declare_state_of_emergency
-		x = 3
+		x = 4
 		y = 1
 		cost = 2
 		prerequisite = {
@@ -468,6 +483,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Use TV Globo to run propaganda
 			add_political_power = 100
 			add_campaign_slot = yes
 		}
@@ -491,6 +507,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Appeal to the international community for humanitarian and diplomatic aid
 		}
 	}
 
@@ -500,7 +517,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
         relative_position_id = BR1_cw_propaganda_contracts_with_globo
-		x = 1.5
+		x = 2
 		y = 1
 		cost = 2
 		prerequisite = {
@@ -512,6 +529,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Inject life into the Brazilian economy at a cost
 		}
 	}
 
@@ -536,6 +554,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			# Use the extraordinary conditions to implement economic regulations lost under Bolsonaro
 		}
 	}
 
@@ -557,8 +576,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = BR1_cw_repeal_the_amnesty_law
-		}
-		prerequisite = {
 			focus = BR1_cw_reintroduce_common_sense_regulations
 		}
 		available_if_capitulated = no
@@ -568,6 +585,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# COME DRINK YOUR CORN SYRUP
+			# Spawn an allied UN mission in Amapá and enables declaring war on the BPF
 		}
 	}
 

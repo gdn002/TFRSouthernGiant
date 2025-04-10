@@ -1891,6 +1891,14 @@ country_event = {
 				id = Brazil.53
 				hours = 12
 			}
+			BR1 = {
+				set_politics = {
+				    ruling_party = social_liberal
+				    elections_allowed = yes
+			    	last_election = "2022.10.27"
+			    	election_frequency = 48
+				}
+			}
 		}
 		else = {
 			if = {

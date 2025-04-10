@@ -34,6 +34,8 @@
  BR2_constitutional_crisis_idea_desc: "The Brazilian army reserves the right to guarantee law and order when the government fails to do so. While we have attempted to remain within the so called \"four lines of the constitution\", we also cannot jeopardize our mission for the sake of upholding an antiquated and collapsing status quo. Still, there are many who will attempt to use this fact to delegitimize the military and prevent us from fulfilling our duty."
  BR2_trigger_happy_military_idea: "Trigger-Happy Military"
  BR2_trigger_happy_military_idea_desc: "Our soldiers are eager to finally have their combat prowess tested, albeit not so much to be doing so against their fellow countrymen. While the sentiment is good in principle, our troops hold a romanticized view of their duty that not always aligns with the realities in the battlefield. Pair that with a high command that, with all due respect, lacks actual competency, we have our work cut out for us."
+ BR2_dutiful_military_idea: "Dutiful Military"
+ BR2_bolsonarist_militias_idea: "Bolsonarist Militias"
  BR2_operation_ustra_idea: "OPERAÇÃO: USTRA"
  BR2_operation_angico_idea: "OPERAÇÃO: ANGICO"
  BR2_operation_selva_idea: "OPERAÇÃO: SELVA"

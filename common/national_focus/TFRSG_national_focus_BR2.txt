@@ -347,10 +347,11 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_power_balance_value = {
-			    id = BR2_junta_power_struggle
-			    value = -0.075
-			    tooltip_side = BR2_president_side
+			add_war_support = 0.05
+			set_country_flag = BRA_civil_war_recruitment_allowed_flag
+			custom_effect_tooltip = BRA_civil_war_recruitment_unlocked_tt
+			add_ideas = {
+				BR2_bolsonarist_militias_idea
 			}
 		}
 	}
@@ -473,10 +474,6 @@ focus_tree = {
     			mission = BR2_integralist_uprising_mission
     			days = 20
 			}
-			add_days_mission_timeout = {
-    			mission = BR2_monarchist_uprising_mission
-    			days = 20
-			}
 			add_power_balance_value = {
 			    id = BR2_junta_power_struggle
 			    value = 0.05
@@ -523,10 +520,6 @@ focus_tree = {
     			mission = BR2_integralist_uprising_mission
     			days = 20
 			}
-			add_days_mission_timeout = {
-    			mission = BR2_monarchist_uprising_mission
-    			days = 20
-			}
 			country_event = {
 				id = Brazil.junta.6
 				hours = 12
@@ -570,11 +563,6 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = lower_conscription
 				add_idea = low_conscription
-			}
-			add_power_balance_value = {
-			    id = BR2_junta_power_struggle
-			    value = 0.075
-			    tooltip_side = BR2_military_side
 			}
 			set_temp_variable = { military_development_var_temp = 0.25 }
 			add_military_development = yes
@@ -647,6 +635,14 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = BR2_trigger_happy_military_idea
+				add_idea = BR2_dutiful_military_idea
+			}
+			add_days_mission_timeout = {
+    			mission = BR2_integralist_uprising_mission
+    			days = 20
+			}
 		}
 	}
 
@@ -770,6 +766,10 @@ focus_tree = {
 			base = 5
 		}
 		completion_reward = {
+			add_days_mission_timeout = {
+    			mission = BR2_monarchist_uprising_mission
+    			days = 20
+			}
 		}
 	}
 
