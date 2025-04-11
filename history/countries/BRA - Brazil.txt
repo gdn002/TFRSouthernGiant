@@ -505,41 +505,26 @@
 		}
 		
 		create_equipment_variant = {
-			name = "F-5E"
+			name = "EMB-314 Super Tucano"
 			type = small_plane_airframe_1
 			modules = {
 				fixed_main_weapon_slot = heavy_mg_4x
-				fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
-				fixed_auxiliary_weapon_slot_2 = light_mg_4x
-				engine_type_slot = engine_2_1x
+				fixed_auxiliary_weapon_slot_1 = light_mg_4x
+				engine_type_slot = engine_1_1x
 				special_type_slot_1 = hmg_defense_turret
 			}
-			icon = "GFX_fighter4_medium"
+			icon = "GFX_BRA_fighter1_medium"
 		}
+
 		create_equipment_variant = {
-			name = "AMX"
+			name = "EMB-312 Tucano"
 			type = small_plane_cas_airframe_1
 			modules = {
-				fixed_main_weapon_slot = small_bomb_bay
+				fixed_main_weapon_slot = bomb_locks
 				fixed_auxiliary_weapon_slot_1 = small_bomb_bay
-				fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
-				fixed_auxiliary_weapon_slot_3 = heavy_mg_4x
-				engine_type_slot = engine_2_1x
+				engine_type_slot = engine_1_1x
 				special_type_slot_1 = hmg_defense_turret
-				special_type_slot_2 = hmg_defense_turret
 			}
 			icon = "GFX_CAS3_medium"
-		}
-		create_equipment_variant = {
-			name = "P-3 Orion"
-			type = small_plane_naval_bomber_airframe_1
-			modules = {
-				fixed_main_weapon_slot = torpedo_mounting
-				fixed_auxiliary_weapon_slot_1 = empty
-				engine_type_slot = engine_2_1x
-				special_type_slot_1 = empty
-				special_type_slot_2 = empty	
-			}
-			icon = "GFX_naval_bomber5_medium"
 		}
 	}

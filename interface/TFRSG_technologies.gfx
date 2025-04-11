@@ -1,0 +1,173 @@
+spriteTypes = {	
+	### TFRSG - BRAZIL ###
+
+	## MOTORIZED ##
+	SpriteType = {
+		name = "GFX_BRA_motorised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_moto1.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_moto1.dds"
+	}
+
+	## INFANTRY EQUIPMENT ##
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry1.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons6_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_infantry6.dds"
+	}
+
+	## ROCKET ARTILLERY ##
+	SpriteType = {
+		name = "GFX_BRA_rocket_artillery_equipment_medium"
+		texturefile = "gfx/interface/technologies/artillery/BRA_rocket_arty1.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_rocket_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/artillery/BRA_rocket_arty2.png"
+	}
+
+	## AMPHIBIOUS VEHICLES ##
+	SpriteType = {
+		name = "GFX_BRA_amphibious_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_amphibious_mech1.png"
+	}
+	
+	## LIGHT TANKS ##
+	SpriteType = {
+		name = "GFX_BRA_light_tank1_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_light_tank1.png"
+	}
+	
+	## MAIN BATTLE TANKS ##
+	##NSB##
+	SpriteType = {
+		name = "GFX_BRA_main_battle_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_modern_tank1.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_main_battle_tank1_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_modern_tank2.dds"
+	}
+	
+	## MECHANIZED ##
+	SpriteType = {
+		name = "GFX_BRA_mechanised_infantry1_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_mechanized1.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_mechanized2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRA_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_mechanized3.png"
+	}
+	
+	## LIGHT MECHANIZED ##
+	SpriteType = {
+		name = "GFX_BRA_light_mechanized_infantry1_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_light_mech1.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_light_mechanized_infantry2_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_light_mech2.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_light_mechanized_infantry3_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_light_mech3.png"
+	}
+
+	# HELICOPTERS
+	SpriteType = {
+		name = "GFX_BRA_utility_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_helo_transport1.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_utility_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_helo_transport1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_BRA_attack_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_helo_attack1.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_attack_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_helo_attack1.png"
+	}
+
+	# TRANSPORT
+	SpriteType = {
+		name = "GFX_BRA_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_transport.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_transport_plane2_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_transport.png"
+	}
+
+	## AIRCRAFT
+	SpriteType = {
+		name = "GFX_BRA_fighter1_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_fighter2_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRA_fighter3_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_fighter3.dds"
+	}
+
+	# BBA AIRCRAFT
+	SpriteType = {
+		name = "GFX_BRA_iw_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_fighter1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRA_basic_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_fighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRA_improved_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/aircraft/BRA_fighter3.dds"
+	}
+}
