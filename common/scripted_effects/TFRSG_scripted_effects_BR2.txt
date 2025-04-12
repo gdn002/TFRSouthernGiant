@@ -1,20 +1,33 @@
 # Spawns the insurgency randomly throughout the Military Junta's territories
-BR2_civil_war_implosion = {
-    BR4 = {
-        declare_war_on = {
-            target = BR2
-            type = annex_everything
-        }
-    }
+BR2_civil_war_implosion = {  
     hidden_effect = {
-        every_owned_state = {
+        random_core_state = {
+            prioritize = { 505 }
+            transfer_state_to = BR4
             create_unit = {
 		    	division = "name = \"Milícia Insurgente\" division_template = \"Brazilian Militia\"  start_experience_factor = 0.0"
 		    	allow_spawning_on_enemy_provs = yes
 		    	owner = BR4
                 count = 4
 		    }
+        }     
+        every_owned_state = {
+            create_unit = {
+		    	division = "name = \"Milícia Insurgente\" division_template = \"Brazilian Militia\"  start_experience_factor = 0.0"
+		    	allow_spawning_on_enemy_provs = yes
+		    	owner = BR4
+                count = 2
+		    }
         }
     }
-   
+    BR4 = {
+        declare_war_on = {
+            target = BR2
+            type = annex_everything
+        }
+        add_timed_idea = {
+            idea = BR4_insurgent_deception_idea
+            days = 30
+        }
+    }  
 }

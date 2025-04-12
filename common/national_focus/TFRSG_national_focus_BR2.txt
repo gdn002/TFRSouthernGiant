@@ -87,9 +87,11 @@ focus_tree = {
 					set_value = -0.2
 				}
 				# This is a flag only used by the AI so it focuses on a specific side of the power struggle
-				random = {
-					chance = 80
-					set_country_flag = BR2_AI_favor_president_flag
+				hidden_effect = {
+					random = {
+						chance = 80
+						set_country_flag = BR2_AI_favor_president_flag
+					}
 				}
 			}
 			else = {
@@ -100,9 +102,11 @@ focus_tree = {
 					set_value = 0.1
 				}
 				# This is a flag only used by the AI so it focuses on a specific side of the power struggle
-				random = {
-					chance = 50
-					set_country_flag = BR2_AI_favor_president_flag
+				hidden_effect = {
+					random = {
+						chance = 50
+						set_country_flag = BR2_AI_favor_president_flag
+					}
 				}
 			}
 			

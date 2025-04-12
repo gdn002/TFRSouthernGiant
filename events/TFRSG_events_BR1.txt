@@ -397,7 +397,9 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			transfer_state = 1437
+			UNB = {
+				transfer_state = 1437
+			}
 		}
 	}
 

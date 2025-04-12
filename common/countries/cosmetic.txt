@@ -4,8 +4,8 @@ SUL_commie_coup = {
 }
 
 SUL_nazi_coup = {
-    color = rgb { 200 200 200 }
-	color_ui = rgb { 200 200 200 }
+    color = rgb { 80 80 80 }
+	color_ui = rgb { 80 80 80 }
 }
 
 BR4_mnpd = {

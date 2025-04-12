@@ -154,7 +154,7 @@ spriteTypes = {
 		name = "GFX_BRA_fighter3_medium"
 		texturefile = "gfx/interface/technologies/aircraft/BRA_fighter3.dds"
 	}
-
+	
 	# BBA AIRCRAFT
 	SpriteType = {
 		name = "GFX_BRA_iw_small_airframe_medium"

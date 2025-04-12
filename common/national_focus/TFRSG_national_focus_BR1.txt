@@ -415,7 +415,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = BR1_cw_the_republic_above_all
-			focus = BR1_cw_placate_the_economy
+			focus = BR1_cw_shield_the_people
 		}
 		available_if_capitulated = no
 		cancelable = yes
@@ -487,6 +487,7 @@ focus_tree = {
 		prerequisite = {
 			focus = BR1_cw_shield_the_people
 			focus = BR1_cw_the_republic_above_all
+			focus = BR1_cw_placate_the_economy
 		}
 		available_if_capitulated = no
 		cancelable = yes

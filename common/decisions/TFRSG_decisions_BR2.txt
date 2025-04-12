@@ -349,6 +349,11 @@ BRA_civil_war_category = {
 		}
 		timeout_effect = {
 			set_country_flag = BR2_uprising_flag
+			hidden_effect = {
+				BR4 = {
+					add_ideas = BR4_integralist_front_idea
+				}
+			}
 			add_stability = -0.25
 			add_war_support = -0.1
 			country_event = {
@@ -383,6 +388,7 @@ BRA_civil_war_category = {
 			set_country_flag = BR2_uprising_flag
 			hidden_effect = {
 				BR4 = {
+					add_ideas = BR4_national_restoration_idea
 					set_politics = {
 					    ruling_party = nationalist
 					    elections_allowed = no
@@ -423,6 +429,7 @@ BRA_civil_war_category = {
 			set_country_flag = BR2_uprising_flag
 			hidden_effect = {
 				BR4 = {
+					add_ideas = BR4_fight_for_democracy_idea
 					set_politics = {
 					    ruling_party = social_liberal
 					    elections_allowed = no
