@@ -79,6 +79,45 @@ BRA_civil_war_category = {
 		}
 	}
 
+	BR1_cw_attack_amazon = {
+		allowed = {
+			tag = BR1
+		}
+		visible = {
+			has_completed_focus = BR1_cw_declare_state_of_emergency
+			country_exists = AMZ
+			NOT = { has_war_with = AMZ }
+		}
+        available = {
+            has_completed_focus = BR1_cw_appeal_to_the_un
+        }
+		custom_cost_trigger = {
+            command_power > 10
+        }
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				has_war = no
+			}
+		}
+        custom_cost_text = 10cp_cost
+		days_remove = 20
+		fire_only_once = yes
+		war_with_on_remove = BR3
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+    			target = AMZ
+    			type = annex_everything
+			}
+		}
+	}
+
     BR1_cw_attack_fascists = {
 		allowed = {
 			tag = BR1

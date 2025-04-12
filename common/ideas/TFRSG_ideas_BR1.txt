@@ -62,5 +62,30 @@ ideas = {
 				experience_gain_air_factor = -0.1
 			}
 		}
+
+		BR1_economic_crisis_idea = {
+			allowed = {
+				original_tag = BR1
+			}
+			modifier = {
+				political_power_factor = -0.3
+				consumer_goods_factor = 0.1
+				business_value_factor = -0.15
+				tax_business_rate_factor = -0.3
+			}
+		}
+
+		BR1_economic_crisis_idea1 = {
+			name = BR1_economic_crisis_idea
+			allowed = {
+				original_tag = BR1
+			}
+			modifier = {
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.05
+				business_value_factor = -0.1
+				tax_business_rate_factor = -0.2
+			}
+		}
 	}
 }	

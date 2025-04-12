@@ -176,6 +176,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# We are in a state of emergency!
+			add_ideas = BR1_state_of_emergency_idea
 		}
 	}
 
@@ -225,6 +226,24 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Request European military training aid
+			FRA = {
+				country_event = {
+					id = Brazil.libs.5
+					days = 2
+				}
+			}
+			GER = {
+				country_event = {
+					id = Brazil.libs.5
+					days = 2
+				}
+			}
+			ENG = {
+				country_event = {
+					id = Brazil.libs.5
+					days = 2
+				}
+			}
 		}
 	}
 
@@ -276,6 +295,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Repeal the 79 amnesty law and crush pro-military coup sentiment
+			add_political_power = -100
 			BR1_improve_command_insecurity = yes
 			set_temp_variable = { military_development_var_temp = 0.5 }
 			add_military_development = yes
@@ -303,6 +323,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Unite all republican parties under an emergency coalition
+			add_political_power = -100
+			add_stability = 0.05
 			set_temp_variable = { coalition_partner_var_temp = token:market_liberal }
 			add_to_coalition = yes
 			set_temp_variable = { coalition_partner_var_temp = token:conservative }
@@ -336,6 +358,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Focus on social democratic measures to win the Brazilian people over
+			add_stability = 0.15
+			set_temp_variable = { poverty_development_var_temp = 0.25 }
+			add_poverty_development = yes
+			add_power_balance_value = {
+			    id = BR1_federal_gov_balance_of_power
+			    value = -0.05
+			    tooltip_side = BR1_lula_side
+			}
 		}
 	}
 
@@ -362,6 +392,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Focus on reinforcing the Brazilian institutional powers
+			add_war_support = 0.15
+			set_temp_variable = { society_development_var_temp = 0.25 }
+			add_society_development = yes
 		}
 	}
 
@@ -391,6 +424,23 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Focus on economic protections and subsidies to keep the elites on the side of the government
+			if = {
+				limit = { has_idea = BR1_economic_crisis_idea }
+				swap_ideas = {
+					remove_idea = BR1_economic_crisis_idea
+					add_idea = BR1_economic_crisis_idea1
+				}
+			}
+			else = {
+				remove_ideas = BR1_economic_crisis_idea
+			}
+			set_temp_variable = { industrial_development_var_temp = 0.25 }
+			add_industrial_development = yes
+			add_power_balance_value = {
+			    id = BR1_federal_gov_balance_of_power
+			    value = 0.05
+			    tooltip_side = BR1_alckmin_side
+			}
 		}
 	}
 
@@ -414,6 +464,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			# PL do Emprego - focus on right-to-work projects to get Brazilians off informal employment and mobilize the economy
+			remove_ideas = BRA_informalized_economy_idea
+			set_temp_variable = { poverty_development_var_temp = 0.25 }
+			add_poverty_development = yes
+			add_power_balance_value = {
+			    id = BR1_federal_gov_balance_of_power
+			    value = -0.1
+			    tooltip_side = BR1_lula_side
+			}
 		}
 	}
 
@@ -437,6 +495,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			# PEC Antigolpe - codify punishment against the military junta masterminds 
+			add_political_power = 100
+			set_temp_variable = { society_development_var_temp = 0.25 }
+			add_society_development = yes
 		}
 	}
 
@@ -460,6 +521,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			# PL do Orçamento - ensure the Brazilian budget can sustain itself during the crisis
+			set_temp_variable = { income_var_temp = 2500 }
+			add_income = yes
+			add_power_balance_value = {
+			    id = BR1_federal_gov_balance_of_power
+			    value = 0.1
+			    tooltip_side = BR1_alckmin_side
+			}
 		}
 	}
 
@@ -507,7 +575,9 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
-			# Appeal to the international community for humanitarian and diplomatic aid
+			# Appeal to the international community for humanitarian and diplomatic aid			
+			add_political_power = 200
+			add_stability = 0.15
 		}
 	}
 
@@ -530,6 +600,40 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Inject life into the Brazilian economy at a cost
+			set_temp_variable = { debt_var_temp = 5000 }
+			add_debt = yes
+			if = {
+				limit = { has_idea = BR1_economic_crisis_idea }
+				swap_ideas = {
+					remove_idea = BR1_economic_crisis_idea
+					add_idea = BR1_economic_crisis_idea1
+				}
+			}
+			else = {
+				remove_ideas = BR1_economic_crisis_idea
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = office_park
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -586,6 +690,10 @@ focus_tree = {
 		completion_reward = {
 			# COME DRINK YOUR CORN SYRUP
 			# Spawn an allied UN mission in Amapá and enables declaring war on the BPF
+			country_event = {
+				id = Brazil.libs.10
+				days = 3
+			}
 		}
 	}
 
@@ -609,7 +717,14 @@ focus_tree = {
 				NOT = {
 					country_exists = BR2
 					country_exists = BR3
-					country_exists = BR4
+					AND = {
+						country_exists = BR4
+						NOT = {
+							BR4 = {
+								has_government = social_liberal
+							}
+						}
+					}
 				}
 			}
 		}
@@ -617,6 +732,14 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			if = {
+				limit = { country_exists = BR4 }
+				annex_country = { target = BR4 }
+			}
+			if = {
+				limit = { country_exists = UNB }
+				annex_country = { target = UNB }
+			}
 		}
 	}
 }

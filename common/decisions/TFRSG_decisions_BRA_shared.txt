@@ -309,4 +309,63 @@ BRA_civil_war_category = {
 			base = 100
 		}
 	}
+
+    UNB_cw_united_nations_mission = {
+		allowed = {
+			tag = UNB
+		}
+		days_mission_timeout = 20
+		activation = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+		is_good = yes
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+			hidden_effect = {
+				delete_unit_template_and_units = { division_template = "Comando Militar" }
+				delete_unit_template_and_units = { division_template = "Brigada de Infantaria Motorizada" }
+				delete_unit_template_and_units = { division_template = "Brigada de Infantaria Mecanizada" }
+				delete_unit_template_and_units = { division_template = "Brigada de Infantaria Blindada" }
+				delete_unit_template_and_units = { division_template = "Brigada de Cavalaria Mecanizada" }
+				delete_unit_template_and_units = { division_template = "Brigada de Cavalaria Blindada" }
+				delete_unit_template_and_units = { division_template = "Corpo de Fuzileiros Navais" }
+				delete_unit_template_and_units = { division_template = "Brigada de Infantaria de Selva" }
+				delete_unit_template_and_units = { division_template = "Brigada de Infantaria Leve de Montanha" }
+				delete_unit_template_and_units = { division_template = "Brigada de Infantaria Leve (Aeromovel)" }
+				delete_unit_template_and_units = { division_template = "Brigada de Infantaria de Fronteira" }
+				delete_unit_template_and_units = { division_template = "Brigada de Infantaria Leve" }
+
+				load_oob = "UNB_Civil_War"
+                set_country_flag = developed_country
+			}
+            give_military_access = BR1
+            declare_war_on = {
+                target = AMZ
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BR2
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BR3
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BR4
+                type = annex_everything
+            }
+            news_event = {
+                id = Brazilnews.libs.1   
+                hours = 6         
+            }
+		}
+	}
 }

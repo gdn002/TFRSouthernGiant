@@ -1,4 +1,5 @@
 add_namespace = Brazil.libs
+add_namespace = Brazilnews.libs
 
 ###########################
 # Core Events
@@ -228,8 +229,14 @@ country_event = {
 			}
         }
 		effect_tooltip = {
-			BR1 = {
-				# Create Euro units
+			# Create Euro units
+			1450 = {
+				create_unit = {
+					division = "name = \"European Volunteers\" division_template = \"Brigada de Cavalaria Mecanizada\"  start_experience_factor = 0.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = BR1
+        			   count = 1
+				}
 			}
 		}
 		BR1 = {
@@ -348,6 +355,14 @@ country_event = {
 
 	option = {
 		name = Brazil.libs.8.a
+		1450 = {
+			create_unit = {
+				division = "name = \"European Volunteers\" division_template = \"Brigada de Cavalaria Mecanizada\"  start_experience_factor = 0.0"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+        		   count = 1
+			}
+		}
 	}
 }
 
@@ -365,5 +380,75 @@ country_event = {
 
 	option = {
 		name = Brazil.libs.9.a
+	}
+}
+
+# United Nations secures Amapá
+country_event = {
+	id = Brazil.libs.10
+	title = Brazil.libs.10.t
+	desc = Brazil.libs.10.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	immediate = {
+		hidden_effect = {
+			transfer_state = 1437
+		}
+	}
+
+	option = {
+		name = Brazil.libs.10.a
+		UNB = {
+			activate_mission = UNB_cw_united_nations_mission
+		}
+	}
+}
+
+###########################
+# News Events
+###########################
+
+# UN Intervenes in Brazil
+news_event = {
+	id = Brazilnews.libs.1
+	title = Brazilnews.1.t
+	desc = Brazilnews.1.d
+	major = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = UNB
+	}
+
+	option = {
+		name = Brazilnews.1.a
+		trigger = {
+			OR = {
+				tag = BR2
+				tag = BR3
+				tag = BR4
+				tag = AMZ
+				tag = SUL
+			}
+		}
+	}
+
+	option = {
+		name = Brazilnews.1.b
+		trigger = {
+			NOT = {
+				tag = BR2
+				tag = BR3
+				tag = BR4
+				tag = AMZ
+				tag = SUL
+			}
+		}
 	}
 }

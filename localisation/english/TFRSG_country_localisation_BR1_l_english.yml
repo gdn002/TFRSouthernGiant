@@ -24,8 +24,9 @@
  BR1_cw_appeal_to_the_un: "Appeal to The United Nations"
  BR1_cw_the_republic_endures: "The Republic Endures!"
  #Ideas
- BR1_emergency_government_idea: "Emergency Government"
- BR1_emergency_government_idea_desc: "With the military authoritarians in total control of the capital and our institutions, we were lucky to have been able to assemble a provisional government this hastily in the former capital. While the essential facilities for a continuation of government duties are there, we still find ourselves in charge of a dilapidated establishment. The remaining senators and deputies are on edge, and treasonous agents could be anywhere."
+ BR1_emergency_government_idea: "Damaged Government"
+ BR1_emergency_government_idea_desc: "With the military authoritarians in total control of the capital and our institutions, we were lucky to have been able to assemble a provisional government this hastily in the former capital. While the essential facilities for a continuation of government duties are there, we still find ourselves in charge of a crumbling establishment. The remaining senators and deputies are on edge, and treasonous agents could be anywhere."
+ BR1_state_of_emergency_idea: "State of Emergency"
  BR1_insecure_command_idea: "Insecure High Command"
  BR1_insecure_command_idea_desc: "The Brazilian High Command has never been anything to boast about. Many of our generals have sided with the coup ringleaders in Brasilia, leaving us with merely a skeleton crew who remain shaky at the idea of facing off their peers. They must be made to abide by their sworn duty to the Brazilian government, for better or worse."
  #Decision Categories
@@ -34,6 +35,7 @@
  BR1_cw_attack_junta: "Incursion Into The [BR2.GetNameWithFlag]"
  BR1_cw_attack_front: "Incursion Into The [BR3.GetNameWithFlag]"
  BR1_cw_attack_fascists: "Incursion Into The [BR4.GetNameWithFlag]"
+ BR1_cw_attack_amazon: "Incursion Into The [AMZ.GetNameWithFlag]"
  BR1_cw_call_democratic_uprising: "Ally With The [BR4.GetNameWithFlag]"
  #BOP
  BR1_federal_gov_power_struggle: "The Lula-Alckmin Balance of Power"
@@ -112,3 +114,6 @@
  Brazil.libs.9.t: "[FROM.GetNameDefCap] Refuses to Support Us!"
  Brazil.libs.9.d: ""
  Brazil.libs.9.a: "Seems that we're irrelevant to the [FROM.GetAdjective]..."
+ Brazil.libs.10.t: "United Nations Approves Intervention in Brazil"
+ Brazil.libs.10.d: ""
+ Brazil.libs.10.a: "Here comes the cavalry!"
