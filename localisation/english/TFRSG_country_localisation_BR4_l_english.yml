@@ -20,6 +20,7 @@
  #Decision Categories
  #Missions
  #Decisions
+ BR4_insurgency_targeted_decision: "Insurgency in [FROM.GetName]"
  #Country Flag
  #Tooltips
  BR4_integralist_end_tt: "Anauê! No more are we under the rule of degenerate communists, corrupt elites or populist puppets. Brazil finally has a true patriotic government to call its own, and we shall take our country down a road of greatness, no matter what the world throws at us! Our glory must be cut short, however, as this is where TFRSG's preview content ends.\n\n§YCOMING IN VERSION 0.5.0:§!\n- Bring tradition and real values to Brazil under a truly patriotic §Bintegral republic§!. Will you model it by the words of Plínio Salgado, or reform integralism for a new millennium?\n- §BSubjugate South America§!, asserting Brazil's dominance over the continent and becoming a global force to be reckoned with.\n- Prepare yourself for the ultimate trial of the Latin American people: The §BUnited States§! will not remain embroiled in war forever, and once the fires die down, it may decide to settle the §RMonroe Doctrine§! once and for all.\n\n§YTHANK YOU FOR TRYING TFRSG - GDN001§!"

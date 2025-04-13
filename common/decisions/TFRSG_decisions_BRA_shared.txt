@@ -219,7 +219,7 @@ BRA_civil_war_category = {
 			}
 		}
         ai_will_do = {
-			base = 5
+			base = 50
 		}
 		complete_effect = {
 			set_country_flag = BRA_civil_war_recruiting_flag
@@ -230,9 +230,6 @@ BRA_civil_war_category = {
 		}
 		cancel_effect = {
 			clr_country_flag = BRA_civil_war_recruiting_flag
-		}
-		ai_will_do = {
-			base = 100
 		}
 	}
     BRA_reintegrate_targeted_decision = {
@@ -264,16 +261,13 @@ BRA_civil_war_category = {
 			has_country_flag = BRA_civil_war_reintegration_allowed_flag
 		}
         ai_will_do = {
-			base = 50
+			base = 100
 		}
 		remove_effect = {
 			FROM = {
                 add_core_of = ROOT
 			    remove_claim_by = ROOT
             }
-		}
-		ai_will_do = {
-			base = 100
 		}
 	}
 

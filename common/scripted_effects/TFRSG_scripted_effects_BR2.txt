@@ -11,14 +11,10 @@ BR2_civil_war_implosion = {
                 count = 4
 		    }
         }     
-        every_owned_state = {
-            create_unit = {
-		    	division = "name = \"Milícia Insurgente\" division_template = \"Brazilian Militia\"  start_experience_factor = 0.0"
-		    	allow_spawning_on_enemy_provs = yes
-		    	owner = BR4
-                count = 2
-		    }
-        }
+    }
+    add_timed_idea = {
+        idea = BR4_insurgency_deception_enemy_idea
+        days = 30
     }
     BR4 = {
         declare_war_on = {

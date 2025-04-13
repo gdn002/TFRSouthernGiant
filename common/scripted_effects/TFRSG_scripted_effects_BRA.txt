@@ -853,21 +853,30 @@ BRA_civil_war_kickoff = {
 
 		BR1 = {
 			mark_focus_tree_layout_dirty = yes
+			add_ideas = BRA_civil_war_idea
 		}
 		BR2 = {
 			mark_focus_tree_layout_dirty = yes
+			add_ideas = BRA_civil_war_idea
 		}
 		BR3 = {
 			mark_focus_tree_layout_dirty = yes
+			add_ideas = BRA_civil_war_idea
 		}
 		SUL = {
 			load_oob = "SUL_Civil_War"
+			add_ideas = BRA_civil_war_idea
 		}
 		SPA = {
 			load_oob = "SPA_Civil_War"
+			add_ideas = BRA_civil_war_idea
 		}
 		AMZ = {
 			load_oob = "AMZ_Civil_War"
+			add_ideas = BRA_civil_war_idea
+		}
+		UNB = {
+			add_ideas = BRA_civil_war_idea
 		}
 	}	
 }
@@ -989,7 +998,7 @@ BRA_civil_war_get_state_recruitment_value = {
 BRA_civil_war_recruitment_scripted_effect = {
 	FROM = {
 		set_temp_variable = { BRA_civil_war_recruit_value_temp = 1 }
-        BRA_civil_war_get_state_recruitment_value = yes
+        BRA_civil_war_get_state_recruitment_value = yes	
         create_unit = {
 			division = "name = \"Milícia\" division_template = \"Brazilian Militia\"  start_experience_factor = 0.0"
 			allow_spawning_on_enemy_provs = yes

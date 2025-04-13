@@ -1,6 +1,25 @@
 ideas = {
 	## NATIONAL SPIRITS ##
-	country = {			
+	country = {	
+		BRA_civil_war_idea = {
+			allowed = {
+				is_brazilian_civilwar_faction = yes
+			}
+			modifier = {
+				stability_factor = -0.25
+				academic_development_monthly = -0.01
+				poverty_development_monthly = -0.01
+				farming_development_monthly = -0.01
+				industrial_development_monthly = -0.01
+				society_development_monthly = -0.01
+				ai_call_ally_desire_factor = 100
+				ai_join_ally_desire_factor = 100
+			}
+			cancel = {
+				has_global_flag = BRA_civil_war_ended_flag
+			}
+		}
+
 		AMZ_jungle_warriors_idea = {
 			allowed = {
 				original_tag = AMZ

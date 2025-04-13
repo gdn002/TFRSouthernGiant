@@ -588,9 +588,11 @@ BRA_civil_war_category = {
 		}
 		available = {
 			is_neighbor_of = PAR
-			has_opinion = {
-    			target = PAR
-    			value > 30
+			PAR = {
+				has_opinion = {
+    				target = BR2
+    				value > 30
+				}
 			}
 		}
 		ai_will_do = {
@@ -633,7 +635,7 @@ BRA_civil_war_category = {
 				any_controlled_state = {
 					any_province_building_level = {
 						building = naval_base
-    					level > 1
+    					level > 0
 					}
 				}
 			}
