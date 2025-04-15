@@ -121,6 +121,9 @@
  BRA_light_mechanized_equipment_6_short: "EE-21 Cotiara"
  BRA_light_mechanized_equipment_6_desc: "EE-21 Cotiara"
 ## ARTILLERY ##
+ BRA_artillery_equipment_1: "120mm M2 Raiado"
+ BRA_artillery_equipment_1_short: "120mm M2 Raiado"
+ BRA_artillery_equipment_1_desc: "120mm M2 Raiado"
  BRA_rocket_artillery: "Astros II"
  BRA_rocket_artillery_short: "Astros II"
  BRA_rocket_artillery_desc: "Astros II"
@@ -130,3 +133,19 @@
  BRA_motorized_rocket_equipment_2: "Astros 2020"
  BRA_motorized_rocket_equipment_2_short: "Astros 2020"
  BRA_motorized_rocket_equipment_2_desc: "Astros 2020"
+
+ ## HELICOPTERS ##
+ BRA_utility_helicopter_1: "Eurocopter Panther"
+ BRA_utility_helicopter_1_short: "Eurocopter Panther"
+ BRA_utility_helicopter_1_desc: "Eurocopter Panther"
+ BRA_utility_helicopter_equipment_1: "Eurocopter Panther"
+ BRA_utility_helicopter_equipment_1_short: "Eurocopter Panther"
+ BRA_utility_helicopter_equipment_1_desc: "Eurocopter Panther"
+ BRA_attack_helicopter_equipment_1: "Tigre HAP/HCP"
+ BRA_attack_helicopter_equipment_1_short: "Tigre HAP/HCP"
+ BRA_attack_helicopter_equipment_1_desc: "Tigre HAP/HCP"
+
+ ## TRANSPORT AIRCRAFT ##
+ BRA_transport_plane_equipment_1: "C-390 Millennium"
+ BRA_transport_plane_equipment_1_short: "C-390 Millennium"
+ BRA_transport_plane_equipment_1_desc: "C-390 Millennium"
