@@ -10,6 +10,9 @@ BR2_civil_war_implosion = {
 		    	owner = BR4
                 count = 4
 		    }
+        }
+        every_core_state = {
+            add_claim_by = BR4
         }     
     }
     add_timed_idea = {

@@ -36,28 +36,46 @@ BR3_civil_war_raid_scripted_effect = {
 
     multiply_temp_variable = { mec_equip_var = BRA_civil_war_recruit_value_temp }
 
-    add_equipment_to_stockpile = {
-    	type = infantry_equipment_2
-    	amount = inf_equip_var
-	}
-	add_equipment_to_stockpile = {
-    	type = support_equipment_1
-    	amount = sup_equip_var
-	}
-	add_equipment_to_stockpile = {
-    	type = motorized_equipment_1
-    	amount = mot_equip_var
-	}
-	add_equipment_to_stockpile = {
-    	type = artillery_equipment_1
-    	amount = art_equip_var
-	}	
-    add_equipment_to_stockpile = {
-    	type = light_mechanized_equipment_1
-    	amount = lmec_equip_var
-	}	
-    add_equipment_to_stockpile = {
-    	type = mechanized_equipment_1
-    	amount = mec_equip_var
-	}	
+    if = {
+        limit = { check_temp_variable = { inf_equip_var > 0} }
+        add_equipment_to_stockpile = {
+        	type = infantry_equipment_2
+        	amount = inf_equip_var
+	    }
+    }
+    if = {
+        limit = { check_temp_variable = { sup_equip_var > 0} }
+	    add_equipment_to_stockpile = {
+        	type = support_equipment_1
+        	amount = sup_equip_var
+	    }
+    }
+    if = {
+        limit = { check_temp_variable = { mot_equip_var > 0} }
+	    add_equipment_to_stockpile = {
+        	type = motorized_equipment_1
+        	amount = mot_equip_var
+	    }
+    }
+    if = {
+        limit = { check_temp_variable = { art_equip_var > 0} }
+	    add_equipment_to_stockpile = {
+        	type = artillery_equipment_1
+        	amount = art_equip_var
+	    }
+    }
+    if = {
+        limit = { check_temp_variable = { lmec_equip_var > 0} }	
+        add_equipment_to_stockpile = {
+        	type = light_mechanized_equipment_1
+        	amount = lmec_equip_var
+	    }
+    }
+    if = {
+        limit = { check_temp_variable = { mec_equip_var > 0} }	
+        add_equipment_to_stockpile = {
+        	type = mechanized_equipment_1
+        	amount = mec_equip_var
+	    }
+    }
 }

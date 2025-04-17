@@ -51,8 +51,10 @@ shared_focus = {
 		base = 1
 	}
 	available = {
-		# This branch should have some requirements so that it makes sense narratively and isn't just a gimme
-		# Perhaps the far-right riots should happen in 2023 and trigger a sequence of events that lead to Bolsonaro's arrest and makes this branch available
+		# In order to unlock this branch:
+		# The Jan 8th riots must happen under the far-right (against the progressives or centrists)
+		# The investigations into the resulting coup attempt must be allowed to proceed
+		# Once the investigations conclude in mid-2025, Bolsonaro and the military must be condemned
 	}
 	completion_reward = {
 		# The military will be rebellious for a while, but as the reforms take place it will eventually become much stronger
@@ -162,7 +164,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_brazilian_foreign_policy
-	x = -3
+	x = -4
 	y = 1
 	cost = 2
 	prerequisite = {
@@ -179,7 +181,7 @@ shared_focus = {
 
 	}
 	completion_reward = {
-
+		# Align with international liberalism and NATO
 	}
 }
 
@@ -216,7 +218,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_maintain_strategic_neutrality
-	x = -1
+	x = -2
 	y = 1
 	cost = 2
 	prerequisite = {
@@ -232,7 +234,7 @@ shared_focus = {
 
 	}
 	completion_reward = {
-
+		# Non-aligned foreign policy
 	}
 }
 
@@ -242,7 +244,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_maintain_strategic_neutrality
-	x = 1
+	x = 0
 	y = 1
 	cost = 2
 	prerequisite = {
@@ -258,7 +260,33 @@ shared_focus = {
 
 	}
 	completion_reward = {
+		# Isolationist foreign policy
+	}
+}
 
+shared_focus = {
+	id = BRA_south_american_unity
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_maintain_strategic_neutrality
+	x = 2
+	y = 1
+	cost = 2
+	prerequisite = {
+		focus = BRA_maintain_strategic_neutrality
+	}
+	mutually_exclusive = {
+		focus = BRA_the_international_mediator
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+		# Align with South America under Mercosul
 	}
 }
 
@@ -268,7 +296,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_brazilian_foreign_policy
-	x = 3
+	x = 4
 	y = 1
 	cost = 2
 	prerequisite = {
@@ -285,6 +313,6 @@ shared_focus = {
 
 	}
 	completion_reward = {
-
+		# Align with the multipolar movement and BRICS
 	}
 }

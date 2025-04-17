@@ -63,6 +63,7 @@ ideas = {
 				army_org_factor = 0.1
 				recon_factor_while_entrenched = 0.15
 				equipment_capture_factor = 0.35
+				experience_loss_factor = 0.10
 				hidden_modifier = {
 					ai_focus_defense_factor = 0.5
 				}
@@ -82,6 +83,8 @@ ideas = {
 				dig_in_speed_factor = 0.1
 				army_org_factor = 0.25
 				initiative_factor = 0.15
+				equipment_capture_factor = 0.15
+				experience_loss_factor = 0.15
 				hidden_modifier = {
 					ai_focus_aggressive_factor = 0.5
 				}
