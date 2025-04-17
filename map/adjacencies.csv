@@ -130,6 +130,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8241;14361;sea;2236;-1;-1;-1;-1;;Foveaux Strait
 13291;677;sea;5430;894;1499;892;1504;;San Francisco
 10233;5205;sea;13155;-1;-1;-1;-1;;Michigan
+6882;13260;sea;8518;-1;-1;-1;-1;;Jersey
+3957;6892;sea;8492;-1;-1;-1;-1;;Delaware
+788;3917;sea;8492;-1;-1;-1;-1;;Virginia
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2708;7932;;-1;-1;-1;-1;-1;KOREA_STRAIT;Korea Strait
@@ -140,25 +143,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12860;7455;impassable;-1;-1;-1;-1;-1;;Bhutan-India Border
 12860;12730;impassable;-1;-1;-1;-1;-1;;Bhutan-India Border
 5083;10792;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
-5083;12729;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
-5083;14445;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
-5083;14446;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
-12729;12919;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
-12729;12825;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
-12825;13083;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
-5083;14445;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
-5083;14446;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
-5317;14982;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
-8050;14982;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
-10849;14982;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
 4980;4934;impassable;-1;-1;-1;-1;-1;;Brazil-France Border
 5008;8107;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
 5214;8107;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
 5214;8107;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
-1928;4980;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
-1928;5008;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
-5008;14985;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
-5214;14985;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
 13583;1485;impassable;-1;-1;-1;-1;-1;;Ashevill-Oconee
 13583;4653;impassable;-1;-1;-1;-1;-1;;Ashevill-Oconee
 7643;13585;impassable;-1;-1;-1;-1;-1;;Ashevill-Oconee
@@ -212,11 +200,36 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1961;1129;impassable;-1;-1;-1;-1;-1;;Himalayas
 1961;1898;impassable;-1;-1;-1;-1;-1;;Himalayas
 8029;1898;impassable;-1;-1;-1;-1;-1;;Himalayas
-8029;10825;impassable;-1;-1;-1;-1;-1;;Himalayas
 1991;10825;impassable;-1;-1;-1;-1;-1;;Himalayas
 1991;10910;impassable;-1;-1;-1;-1;-1;;Himalayas
 4900;4435;impassable;-1;-1;-1;-1;-1;;Himalayas
 4900;8010;impassable;-1;-1;-1;-1;-1;;Himalayas
 5042;12884;impassable;-1;-1;-1;-1;-1;;Himalayas
 1607;4175;sea;7603;-1;-1;-1;-1;;Burma
+5083;12729;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
+5083;14445;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
+5083;14446;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
+12729;12919;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
+12729;12825;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
+12825;13083;impassable;-1;-1;-1;-1;-1;;Brazil-Colombia Border
+5083;14445;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
+5083;14446;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
+5083;8050;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
+5317;14982;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
+8050;14982;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
+10849;14982;impassable;-1;-1;-1;-1;-1;;Brazil-Venezuela Border
+1928;4980;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
+1928;5008;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
+5008;14985;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
+5214;14985;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
+14974;8213;impassable;-1;-1;-1;-1;-1;;Brazil-Peru Border
+14974;2226;impassable;-1;-1;-1;-1;-1;;Brazil-Peru Border
+2198;2226;impassable;-1;-1;-1;-1;-1;;Brazil-Peru Border
+2198;8160;impassable;-1;-1;-1;-1;-1;;Brazil-Peru Border
+8050;14445;impassable;-1;-1;-1;-1;-1;;Venezuela-Colombia Border
+12825;8213;impassable;-1;-1;-1;-1;-1;;Colombia-Peru Border
+12825;12869;impassable;-1;-1;-1;-1;-1;;Colombia-Peru Border
+13235;13234;impassable;-1;-1;-1;-1;-1;;Darien Gap
+13235;13233;impassable;-1;-1;-1;-1;-1;;Darien Gap
+13236;13233;impassable;-1;-1;-1;-1;-1;;Darien Gap
 -1;-1;-1;-1;-1;-1;-1;-1;-1;

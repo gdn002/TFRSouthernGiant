@@ -9,13 +9,9 @@ common\military_industrial_organization\organizations\TFR_organizations_ZZZ_gene
 common\scripted_localisation\TFR_FBI_Scripted_Loc.txt
 common\scripted_localisation\TFR_Super_Event_Scripted_Loc.txt
 common\scripted_triggers\TFR_scripted_triggers_ZZZ_generic.txt
+common\terrain\00_terrain.txt
 
 events\TFR_events_USA.txt
-
-interface\Technologies_aircraft.gfx
-interface\Technologies_armor.gfx
-interface\Technologies_artillery.gfx
-interface\Technologies_infantry.gfx
 
 portraits\00_portraits.txt
 

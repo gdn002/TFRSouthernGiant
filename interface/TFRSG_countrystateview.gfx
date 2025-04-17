@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_terrain_brasilia"
+		textureFile = "gfx/interface/terrains/brasilia.png"
+	}
+	spriteType = {
+		name = "GFX_terrain_salvador"
+		textureFile = "gfx/interface/terrains/salvador.png"
+	}
+	spriteType = {
+		name = "GFX_terrain_manaus"
+		textureFile = "gfx/interface/terrains/manaus.png"
+	}
+}
