@@ -1,4 +1,8 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_BRA_geraldo_alckmin"  
+		texturefile = "gfx/leaders/BRA/BRA_Geraldo_Alckmin.png" 
+	}
     spriteType = {
 		name = "GFX_BRA_jair_bolsonaro_mask"  
 		texturefile = "gfx/leaders/BRA/BRA_Jair_Bolsonaro_mask.png" 

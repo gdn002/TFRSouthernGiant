@@ -420,6 +420,7 @@ news_event = {
 	id = Brazilnews.libs.1
 	title = Brazilnews.1.t
 	desc = Brazilnews.1.d
+	picture = GFX_TFRSG_news_un_peacekeepers
 	major = yes
 
 	is_triggered_only = yes

@@ -6,12 +6,60 @@ spriteTypes = {
 	#}
 
 	SpriteType = {
+		name = "GFX_BRA_2022_airport_bombed"
+		texturefile = "gfx/event_pictures/BRA_2022_airport_bombed.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_2022_blockade"
+		texturefile = "gfx/event_pictures/BRA_2022_blockade.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_2022_bomb_squad"
+		texturefile = "gfx/event_pictures/BRA_2022_bomb_squad.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_2022_car_bomb"
+		texturefile = "gfx/event_pictures/BRA_2022_car_bomb.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_2022_encampments"
+		texturefile = "gfx/event_pictures/BRA_2022_encampments.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_2022_general_strike"
+		texturefile = "gfx/event_pictures/BRA_2022_general_strike.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_2022_grid_attacks"
+		texturefile = "gfx/event_pictures/BRA_2022_grid_attacks.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_2022_left_protests"
+		texturefile = "gfx/event_pictures/BRA_2022_left_protests.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_2022_protests"
+		texturefile = "gfx/event_pictures/BRA_2022_protests.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_alckmin_and_high_command"
+		texturefile = "gfx/event_pictures/BRA_alckmin_and_high_command.png"
+	}
+	SpriteType = {
 		name = "GFX_BRA_amazon_wasteland"
 		texturefile = "gfx/event_pictures/BRA_amazon_wasteland.png"
 	}
 	SpriteType = {
+		name = "GFX_BRA_army_officers_meeting"
+		texturefile = "gfx/event_pictures/BRA_army_officers_meeting.png"
+	}
+	SpriteType = {
 		name = "GFX_BRA_bolsonaro_alt_treatments"
 		texturefile = "gfx/event_pictures/BRA_bolsonaro_alt_treatments.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_bolsonaro_and_high_command"
+		texturefile = "gfx/event_pictures/BRA_bolsonaro_and_high_command.png"
 	}
 	SpriteType = {
 		name = "GFX_BRA_bolsonaro_cry"
@@ -52,6 +100,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BRA_brasilia_riots_faceoff"
 		texturefile = "gfx/event_pictures/BRA_brasilia_riots_faceoff.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_brasilia_riots_mst"
+		texturefile = "gfx/event_pictures/BRA_brasilia_riots_mst.png"
 	}
 	SpriteType = {
 		name = "GFX_BRA_brasilia_riots_selfie"
@@ -100,6 +152,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BRA_integralist_terrorists"
 		texturefile = "gfx/event_pictures/BRA_integralist_terrorists.png"
+	}
+	SpriteType = {
+		name = "GFX_BRA_lula_and_high_command"
+		texturefile = "gfx/event_pictures/BRA_lula_and_high_command.png"
 	}
 	SpriteType = {
 		name = "GFX_BRA_lula_election_campaign"
@@ -195,5 +251,13 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_TFRSG_news_patriotic_marches"
 		texturefile = "gfx/event_pictures/news_event/TFRSG_news_patriotic_marches.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_military_convoy"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_military_convoy.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_un_peacekeepers"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_un_peacekeepers.png"
 	}
 }

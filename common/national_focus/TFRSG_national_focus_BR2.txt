@@ -186,6 +186,12 @@ focus_tree = {
 				id = Brazil.junta.3
 				hours = 6
 			}
+			hidden_effect = {
+				news_event = {
+					id = Brazilnews.8
+					days = 15				
+				}
+			}
 		}
 	}
 

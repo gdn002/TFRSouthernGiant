@@ -2314,6 +2314,7 @@ country_event = {
 	id = Brazil.61
 	title = Brazil.61.t
 	desc = Brazil.61.d
+	picture = GFX_BRA_2022_protests
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2393,7 +2394,8 @@ country_event = {
 	id = Brazil.63
 	title = Brazil.63.t
 	desc = Brazil.63.d
-	
+	picture = GFX_BRA_2022_encampments
+
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -2450,6 +2452,7 @@ country_event = {
 	id = Brazil.64
 	title = Brazil.64.t
 	desc = Brazil.64.d
+	picture = GFX_BRA_2022_blockade
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2519,6 +2522,7 @@ country_event = {
 	id = Brazil.65
 	title = Brazil.65.t
 	desc = Brazil.65.d
+	picture = GFX_BRA_2022_bomb_squad
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2574,6 +2578,7 @@ country_event = {
 	id = Brazil.66
 	title = Brazil.66.t
 	desc = Brazil.66.d
+	picture = GFX_BRA_2022_airport_bombed
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2615,6 +2620,7 @@ country_event = {
 	id = Brazil.67
 	title = Brazil.67.t
 	desc = Brazil.67.d
+	picture = GFX_BRA_2022_grid_attacks
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2656,6 +2662,7 @@ country_event = {
 	id = Brazil.68
 	title = Brazil.68.t
 	desc = Brazil.68.d
+	picture = GFX_BRA_brasilia_riots
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2725,6 +2732,7 @@ country_event = {
 	id = Brazil.69
 	title = Brazil.69.t
 	desc = Brazil.69.d
+	picture = GFX_BRA_2022_left_protests
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2794,6 +2802,7 @@ country_event = {
 	id = Brazil.70
 	title = Brazil.70.t
 	desc = Brazil.70.d
+	picture = GFX_BRA_2022_bomb_squad
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2849,6 +2858,7 @@ country_event = {
 	id = Brazil.71
 	title = Brazil.71.t
 	desc = Brazil.71.d
+	pciture = GFX_BRA_2022_car_bomb
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2890,6 +2900,7 @@ country_event = {
 	id = Brazil.72
 	title = Brazil.72.t
 	desc = Brazil.72.d
+	picture = GFX_BRA_2022_general_strike
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -2934,6 +2945,7 @@ country_event = {
 	id = Brazil.73
 	title = Brazil.73.t
 	desc = Brazil.73.d
+	picture = GFX_BRA_brasilia_riots_mst
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -3003,6 +3015,7 @@ country_event = {
 	id = Brazil.74
 	title = Brazil.74.t
 	desc = Brazil.74.d
+	picture = GFX_BRA_lula_and_high_command
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -3040,6 +3053,7 @@ country_event = {
 	id = Brazil.75
 	title = Brazil.75.t
 	desc = Brazil.75.d
+	picture = GFX_BRA_alckmin_and_high_command
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -3077,6 +3091,7 @@ country_event = {
 	id = Brazil.76
 	title = Brazil.76.t
 	desc = Brazil.76.d
+	picture = GFX_BRA_bolsonaro_and_high_command
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -3108,6 +3123,7 @@ country_event = {
 	id = Brazil.77
 	title = Brazil.77.t
 	desc = Brazil.77.d
+	picture = GFX_BRA_army_officers_meeting
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -3753,12 +3769,13 @@ news_event = {
 	id = Brazilnews.8
 	title = Brazilnews.8.t
 	desc = Brazilnews.8.d
+	picture = GFX_TFRSG_news_military_convoy
 	major = yes
 
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = BRA
+		tag = BR2
 	}
 
 	option = {
