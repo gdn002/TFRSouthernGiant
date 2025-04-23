@@ -928,6 +928,11 @@ focus_tree = {
 		completion_reward = {
 			# The civil war will be over!
 			BRA_civil_war_end = yes
+
+			country_event = {
+				id = Brazil.timeline.15
+				days = 7
+			}
 		}
 	}
 }

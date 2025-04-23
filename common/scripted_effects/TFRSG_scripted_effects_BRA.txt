@@ -891,15 +891,20 @@ BRA_civil_war_end = {
 		clr_country_flag = shithole_country
 
 		set_country_flag = BRA_amazonian_preservation_mechanic_enabled	
-	}
 
-	if = {
-		limit = {
-			NOT = {
-				has_dynamic_modifier = { modifier = BRA_amazonian_jungle_dynamic }
+		if = {
+			limit = {
+				NOT = {
+					has_dynamic_modifier = { modifier = BRA_amazonian_jungle_dynamic }
+				}
 			}
+			add_dynamic_modifier = { modifier = BRA_amazonian_jungle_dynamic }
 		}
-		add_dynamic_modifier = { modifier = BRA_amazonian_jungle_dynamic }
+
+		remove_ideas = {
+			BRA_civil_war_idea
+			BRA_civil_war_gamerule_blessing
+		}
 	}
 
 	BRA_civil_war_core_all = yes

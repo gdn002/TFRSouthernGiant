@@ -44,6 +44,10 @@ spriteTypes = {
 		name = "GFX_idea_BRA_progressive_opposition"
 		texturefile = "gfx/interface/ideas/BRA/BRA_progressive_opposition_idea.png"
 	}
+	spriteType = {
+		name = "GFX_idea_BRA_2022_election_protests"
+		texturefile = "gfx/interface/ideas/BRA/BRA_2022_election_protests_idea.png"
+	}
 
     ### BRA MIO ###
     spriteType = {

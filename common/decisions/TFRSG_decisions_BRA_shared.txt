@@ -357,7 +357,7 @@ BRA_civil_war_category = {
                 type = annex_everything
             }
             news_event = {
-                id = Brazilnews.libs.1   
+                id = Brazilnews.libs.1 
                 hours = 6         
             }
 		}

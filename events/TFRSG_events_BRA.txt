@@ -298,6 +298,10 @@ country_event = {
 	option = {
 		name = Brazil.timeline.13.a
 		custom_effect_tooltip = BR1_democratic_end_tt
+
+		hidden_effect = {
+			set_cosmetic_tag = BR1_reunified
+		}
 	}
 }
 
@@ -317,6 +321,9 @@ country_event = {
 	option = {
 		name = Brazil.timeline.14.a
 		custom_effect_tooltip = BR2_junta_end_tt
+		hidden_effect = {
+			set_cosmetic_tag = BR2_reunified
+		}
 	}
 }
 
@@ -336,6 +343,9 @@ country_event = {
 	option = {
 		name = Brazil.timeline.15.a
 		custom_effect_tooltip = BR3_commie_end_tt
+		hidden_effect = {
+			set_cosmetic_tag = BR3_reunified
+		}
 	}
 }
 
@@ -355,6 +365,9 @@ country_event = {
 	option = {
 		name = Brazil.timeline.16.a
 		custom_effect_tooltip = BR4_integralist_end_tt
+		hidden_effect = {
+			set_cosmetic_tag = BR4_reunified
+		}
 	}
 }
 
@@ -374,23 +387,9 @@ country_event = {
 	option = {
 		name = Brazil.timeline.17.a
 		custom_effect_tooltip = BR4_monarchist_end_tt
-	}
-}
-
-# Hidden stalemate breaker event for the AI Brazilian Civil War
-country_event = {
-	id = Brazil.timeline.18
-	hidden = yes
-
-	is_triggered_only = yes
-	
-	trigger = {
-		is_brazilian_unifier = yes
-		NOT = { has_global_flag = BRA_civil_war_ended_flag }
-	}
-
-	option = {
-		name = Brazil.timeline.17.a
+		hidden_effect = {
+			set_cosmetic_tag = BR4_regency
+		}
 	}
 }
 
@@ -2858,7 +2857,7 @@ country_event = {
 	id = Brazil.71
 	title = Brazil.71.t
 	desc = Brazil.71.d
-	pciture = GFX_BRA_2022_car_bomb
+	picture = GFX_BRA_2022_car_bomb
 	
 	fire_only_once = yes
 	is_triggered_only = yes

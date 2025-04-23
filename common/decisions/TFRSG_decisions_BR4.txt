@@ -9,7 +9,7 @@ BRA_civil_war_category = {
 		state_target = yes
 		on_map_mode = map_only
 		allowed = {
-			is_brazilian_civilwar_faction = yes
+			tag = BR4
 		}
 		target_trigger = {
 			has_war_with = FROM.owner

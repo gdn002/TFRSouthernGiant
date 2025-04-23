@@ -954,6 +954,11 @@ focus_tree = {
 			add_stability = 0.25
 			add_war_support = 0.05
 			BRA_civil_war_end = yes
+
+			country_event = {
+				id = Brazil.timeline.14
+				days = 7
+			}
 		}
 	}
 }

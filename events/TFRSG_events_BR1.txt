@@ -418,8 +418,8 @@ country_event = {
 # UN Intervenes in Brazil
 news_event = {
 	id = Brazilnews.libs.1
-	title = Brazilnews.1.t
-	desc = Brazilnews.1.d
+	title = Brazilnews.libs.1.t
+	desc = Brazilnews.libs.1.d
 	picture = GFX_TFRSG_news_un_peacekeepers
 	major = yes
 
@@ -430,7 +430,7 @@ news_event = {
 	}
 
 	option = {
-		name = Brazilnews.1.a
+		name = Brazilnews.libs.1.a
 		trigger = {
 			OR = {
 				tag = BR2
@@ -443,7 +443,7 @@ news_event = {
 	}
 
 	option = {
-		name = Brazilnews.1.b
+		name = Brazilnews.libs.1.b
 		trigger = {
 			NOT = {
 				tag = BR2
