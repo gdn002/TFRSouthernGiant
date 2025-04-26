@@ -488,47 +488,95 @@ BRA_get_2022_elections_result = {
 			days = 7
 		}
 		if = {
-			limit = {
-				check_variable = { BRA_election_approval_rating_psdb_var > BRA_election_approval_rating_pt_var }
-				check_variable = { BRA_election_approval_rating_psdb_var > BRA_election_approval_rating_pl_var }
-			}
-			# Alckmin victory
-			set_country_flag = BRA_2022_elections_alckmin_won_flag
-			country_event = {
-				id = Brazil.47
-				hours = 6
-			}
-		}
-		else_if = {
-			limit = {
-				check_variable = { BRA_election_approval_rating_pl_var > BRA_election_approval_rating_pt_var }
-			}
-			# Bolsonaro victory
-			set_country_flag = BRA_2022_elections_bolsonaro_won_flag
+			# AI ELECTIONS BLOCK #
+			# AI gets a free pass and always has its chosen candidate win
+			limit = { is_ai = yes }
 			if = {
-				limit = {
-					NOT = { has_variable = BRA_2022_elections_bolsonaro_candidate_token }
-				}
-				# Jair
+				# Lula victory
+				limit = { has_completed_focus = BRA_2022_together_for_brazil }
+				set_country_flag = BRA_2022_elections_lula_won_flag
 				country_event = {
-					id = Brazil.48
+					id = Brazil.46
+					hours = 6
+				}
+			}
+			else_if = {
+				# Alckmin victory
+				limit = { has_completed_focus = BRA_2022_uniting_brazil }
+				set_country_flag = BRA_2022_elections_alckmin_won_flag
+				country_event = {
+					id = Brazil.47
 					hours = 6
 				}
 			}
 			else = {
-				# Not Jair
-				country_event = {
-					id = Brazil.49
-					hours = 6
+				# Bolsonaro victory
+				set_country_flag = BRA_2022_elections_bolsonaro_won_flag
+				if = {
+					limit = {
+						NOT = { has_variable = BRA_2022_elections_bolsonaro_candidate_token }
+					}
+					# Jair
+					country_event = {
+						id = Brazil.48
+						hours = 6
+					}
+				}
+				else = {
+					# Not Jair
+					country_event = {
+						id = Brazil.49
+						hours = 6
+					}
 				}
 			}
 		}
 		else = {
-			# Lula victory
-			set_country_flag = BRA_2022_elections_lula_won_flag
-			country_event = {
-				id = Brazil.46
-				hours = 6
+			# PLAYER ELECTIONS BLOCK #
+			# As a player you gotta actually win it
+			if = {
+				limit = {
+					check_variable = { BRA_election_approval_rating_psdb_var > BRA_election_approval_rating_pt_var }
+					check_variable = { BRA_election_approval_rating_psdb_var > BRA_election_approval_rating_pl_var }
+				}
+				# Alckmin victory
+				set_country_flag = BRA_2022_elections_alckmin_won_flag
+				country_event = {
+					id = Brazil.47
+					hours = 6
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { BRA_election_approval_rating_pl_var > BRA_election_approval_rating_pt_var }
+				}
+				# Bolsonaro victory
+				set_country_flag = BRA_2022_elections_bolsonaro_won_flag
+				if = {
+					limit = {
+						NOT = { has_variable = BRA_2022_elections_bolsonaro_candidate_token }
+					}
+					# Jair
+					country_event = {
+						id = Brazil.48
+						hours = 6
+					}
+				}
+				else = {
+					# Not Jair
+					country_event = {
+						id = Brazil.49
+						hours = 6
+					}
+				}
+			}
+			else = {
+				# Lula victory
+				set_country_flag = BRA_2022_elections_lula_won_flag
+				country_event = {
+					id = Brazil.46
+					hours = 6
+				}
 			}
 		}
 	}

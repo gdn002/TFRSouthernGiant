@@ -1534,6 +1534,22 @@ country_event = {
 			popularity = 0.01
 		}
 		activate_mission = BRA_2022_elections_opponents_mission
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = Brazil_2022_election_winner
+						option = Brazil_2022_election_winner_2
+					}
+					has_game_rule = {
+						rule = Brazil_2022_election_winner
+						option = Brazil_2022_election_winner_3
+					}
+				}
+			}
+		}
 	}
 	# Alckmin
 	option = {
@@ -1544,6 +1560,22 @@ country_event = {
 			popularity = 0.01
 		}
 		activate_mission = BRA_2022_elections_opponents_mission
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = Brazil_2022_election_winner
+						option = Brazil_2022_election_winner_1
+					}
+					has_game_rule = {
+						rule = Brazil_2022_election_winner
+						option = Brazil_2022_election_winner_3
+					}
+				}
+			}
+		}
 	}
 	# Bolsonaro
 	option = {
@@ -1554,6 +1586,22 @@ country_event = {
 			popularity = 0.01
 		}
 		activate_mission = BRA_2022_elections_opponents_mission
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = Brazil_2022_election_winner
+						option = Brazil_2022_election_winner_1
+					}
+					has_game_rule = {
+						rule = Brazil_2022_election_winner
+						option = Brazil_2022_election_winner_2
+					}
+				}
+			}
+		}
 	}
 }
 
