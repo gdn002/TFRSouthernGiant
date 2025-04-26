@@ -962,217 +962,7 @@ BRA_chamber_of_deputies_category = {
 	}
 }
 
-#### SOUTH AMERICAN SPHERE OF INFLUENCE ####
-BRA_south_american_sphere_category = {
-    # Help the Republic of Colombia win the war
-	BRA_intervene_in_colombia_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Restore the Republic of Colombia
-    BRA_peacekeeping_mission_in_colombia_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Ensure Castillo's self-coup fails
-    BRA_fortify_peruvian_democracy_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Oust Castillo after his self-coup
-    BRA_restore_peruvian_democracy_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Recognize the Venezuelan election results
-    BRA_recognize_venezuelan_elections_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Mediate the malvines crisis between ARG and ENG
-    BRA_mediate_malvines_crisis_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-            has_global_flag = SOV_first_nato_war_victory
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Mediate the essequibo crisis between VEN and GUY
-    BRA_mediate_essequibo_crisis_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Mediate the Patagonian separatist movement if Milei's reforms fail
-    BRA_mediate_patagonia_crisis_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Push for the formation of an united Guyanan Federation
-    BRA_push_for_guyanan_federation_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Recognize the independence of French Guyana
-    BRA_recognize_cayenne_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-            country_exists = CAY
-            CAY = {
-                has_idea = LATAM_unrecognized_state
-            }
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-    # Recognize the independence of Curaçao
-    BRA_recognize_curacao_decision = {
-		cancel_if_not_visible = yes
-		cost = 0
-		allowed = {
-			original_tag = BRA
-		}
-		visible = {
-            country_exists = CUR
-            CUR = {
-                has_idea = LATAM_unrecognized_state
-            }
-		}
-		available = {
-		}
-		ai_will_do = {
-			base = 1
-		}
-		complete_effect = {
-
-		}
-	}
-}
-
+#### COVID-19 PANDEMIC ####
 BRA_coronavirus_category = {
 	BRA_handle_covid_mission = {
 		priority = 10
@@ -1364,6 +1154,341 @@ BRA_coronavirus_category = {
 				BRA_coronavirus_pandemic_idea3
 				BRA_coronavirus_pandemic_idea4
 			}
+		}
+	}
+}
+
+#### SOUTH AMERICAN SPHERE OF INFLUENCE ####
+BRA_south_american_sphere_category = {
+    # Help the Republic of Colombia win the war
+	BRA_intervene_in_colombia_decision = {
+		icon = GFX_decision_SOV_colombia_operation
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+		days_remove = 20
+		cost = 100
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+			has_global_flag = COL_civil_war_flag
+			NOT = { has_global_flag = COL_civil_war_ended_flag }
+		}
+		available = {
+			country_exists = COL
+		}
+		cancel_trigger = {
+			NOT = { country_exists = COL }
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 25
+				has_government = social_democrat
+				COL = { has_government = social_democrat }
+			}
+			modifier = {
+				add = 5
+				has_government = social_liberal
+			}
+			modifier = {
+				add = 25
+				has_government = conservative
+				COL = { has_government = nationalist }
+			}
+		}
+		complete_effect = {
+			# Gives Colombia boosts and Brazilian volunteers for the civil war
+		}
+	}
+    # Counter-coup operation in Colombia
+	BRA_counter_coup_operation_in_colombia_decision = {
+		icon = GFX_decision_SOV_colombia_operation
+		cancel_if_not_visible = yes
+		days_remove = 20
+		custom_cost_trigger = {
+            command_power > 30
+        }
+        custom_cost_text = 30cp_cost
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+			has_global_flag = COL_civil_war_flag
+			NOT = { has_global_flag = COL_civil_war_ended_flag }
+		}
+		available = {
+			country_exists = COL
+			COL = { has_government = nationalist }
+			if = {
+				limit = { 
+					is_ai = no
+					has_dlc = "La Resistance" 
+				}
+				network_national_coverage = {
+				    target = COL
+				    value > 30
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = COL }
+				NOT = { COL = { has_government = nationalist }  }
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 25
+				has_government = social_democrat
+			}
+			modifier = {
+				add = 5
+				has_government = social_liberal
+			}
+		}
+		complete_effect = {
+			# Gustavo Petro will be rescued and put back in power
+			custom_effect_tooltip = SOV_initiate_operation_otel_moskva_tt
+			hidden_effect = {
+				COL = {
+					add_stability = 0.15
+					set_politics = {
+						ruling_party = social_democrat
+					}
+				}
+				country_event = { id = russia.719 hours = 10 }
+			}
+		}
+	}
+	# Peacekeeping operation in Colombia
+    BRA_peacekeeping_mission_in_colombia_decision = {
+		icon = GFX_decision_SOV_colombia_operation
+		cancel_if_not_visible = yes
+		cost = 150
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+			has_global_flag = COL_civil_war_flag
+			NOT = { has_global_flag = COL_civil_war_ended_flag }
+		}
+		available = {
+
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				OR = {
+					has_government = social_democrat
+					has_government = social_liberal
+				}
+				NOT = { country_exists = COL }
+			}
+			modifier = {
+				add = 5
+				has_government = conservative
+				NOT = { country_exists = COL }
+			}
+		}
+		complete_effect = {
+			# Brazil will intervene in the Colombian civil war and declare war on all factions (including the Republic of Colombia)
+			# If Brazil defeats all of them, a restoration government will be installed under Brazilian supervision
+			# If all but one faction controls all of Colombia and Brazil is pushed out of the country, they will be able to whitepeace Brazil and end the civil war 
+		}
+	}
+    # Recognize the Venezuelan election results
+    BRA_recognize_venezuelan_elections_decision = {
+		cancel_if_not_visible = yes
+		cost = 0
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+		}
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+		complete_effect = {
+
+		}
+	}
+    ## MALVINES/FALKLANDS CRISIS ##
+	BRA_malvines_crisis_mission = {
+		days_mission_timeout = 60
+		allowed = {
+			original_tag = BRA
+		}
+		available = {
+			has_global_flag = LATAM_malvines_crisis_averted
+		}
+		ai_will_do = {
+			base = 1
+		}
+		timeout_effect = {
+			# The second Falklands War will happen!
+		}
+		complete_effect = {
+			# The second Falklands War is avoided, kudos!
+		}
+	}
+	## Decisions to favor Argentina and transfer the Malvines
+    BRA_malvines_crisis_favor_ARG_decision = {
+		cancel_if_not_visible = yes
+		cost = 0
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+            has_global_flag = SOV_first_nato_war_victory
+		}
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+		complete_effect = {
+			
+		}
+	}
+	## Decisions to favor the UK and keep the status quo
+	BRA_malvines_crisis_favor_ENG_decision = {
+		cancel_if_not_visible = yes
+		cost = 0
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+            has_global_flag = SOV_first_nato_war_victory
+		}
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+		complete_effect = {
+
+		}
+	}
+	## ESSEQUIBO CRISIS ##
+	BRA_essequibo_crisis_mission = {
+		days_mission_timeout = 60
+		allowed = {
+			original_tag = BRA
+		}
+		available = {
+			has_global_flag = LATAM_essequibo_crisis_averted
+		}
+		ai_will_do = {
+			base = 1
+		}
+		timeout_effect = {
+			# The Essequibo War will happen!
+		}
+		complete_effect = {
+			# The Essequibo War is avoided, kudos!
+		}
+	}
+    # Mediate the essequibo crisis between VEN and GUY
+    BRA_mediate_essequibo_crisis_decision = {
+		cancel_if_not_visible = yes
+		cost = 0
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+		}
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+		complete_effect = {
+
+		}
+	}
+    # Mediate the Patagonian separatist movement if Milei's reforms fail
+    BRA_mediate_patagonia_crisis_decision = {
+		cancel_if_not_visible = yes
+		cost = 0
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+		}
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+		complete_effect = {
+
+		}
+	}
+    # Push for the formation of an united Guyanan Federation
+    BRA_push_for_guyanan_federation_decision = {
+		cancel_if_not_visible = yes
+		cost = 0
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+		}
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+		complete_effect = {
+
+		}
+	}
+    # Recognize the independence of French Guyana
+    BRA_recognize_cayenne_decision = {
+		cancel_if_not_visible = yes
+		cost = 0
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+            country_exists = CAY
+            CAY = {
+                has_idea = LATAM_unrecognized_state
+            }
+		}
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+		complete_effect = {
+
+		}
+	}
+    # Recognize the independence of Curaçao
+    BRA_recognize_curacao_decision = {
+		cancel_if_not_visible = yes
+		cost = 0
+		allowed = {
+			original_tag = BRA
+		}
+		visible = {
+            country_exists = CUR
+            CUR = {
+                has_idea = LATAM_unrecognized_state
+            }
+		}
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+		complete_effect = {
+
 		}
 	}
 }

@@ -11,3 +11,27 @@ BR4_civil_war_insurgents_scripted_effect = {
 		}
     }
 }
+
+BR4_civil_war_extend_insurgent_spirit_effect = {
+	if = {
+		limit = { has_idea = BR4_insurgent_deception_idea }
+		modify_timed_idea = {
+		    idea = BR4_insurgent_deception_idea
+		    days = 20
+		}
+	}
+	else_if = {
+		limit = { has_idea = BR4_insurgent_deception_integralist_idea }
+		modify_timed_idea = {
+		    idea = BR4_insurgent_deception_integralist_idea
+		    days = 20
+		}
+	}
+	else_if = {
+		limit = { has_idea = BR4_insurgent_deception_monarchist_idea }
+		modify_timed_idea = {
+		    idea = BR4_insurgent_deception_monarchist_idea
+		    days = 20
+		}
+	}
+}

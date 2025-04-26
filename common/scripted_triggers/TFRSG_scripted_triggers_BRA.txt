@@ -22,6 +22,29 @@ is_brazilian_civilwar_faction = {
 	}
 }
 
+is_south_american_tag = {
+	OR = {
+		is_brazilian_civilwar_faction = yes
+		original_tag = ARG
+		original_tag = PAT
+		original_tag = CHL
+		original_tag = URG
+		original_tag = BOL
+		original_tag = PAR
+		original_tag = PRU
+		original_tag = ECU
+		original_tag = COL
+		original_tag = CLS
+		original_tag = FRC
+		original_tag = ELN
+		original_tag = VEN
+		original_tag = GUY
+		original_tag = SUR
+		original_tag = CAY
+		original_tag = CUR
+	}
+}
+
 BRA_has_chamber_support_pl = {
 	custom_trigger_tooltip = {
 		tooltip = BRA_has_chamber_support_pl_tooltip

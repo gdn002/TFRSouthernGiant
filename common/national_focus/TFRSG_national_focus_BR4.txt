@@ -1,0 +1,317 @@
+######################################################
+# Brazilian Integralist Front/National Restoration Union Focus Tree
+# By gdn001
+######################################################
+
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = BR4_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = BR3
+		}
+	}
+
+    # ------------------------------------------------------------ CIVIL WAR FOCUSES ------------------------------------------------------------
+	# Intended duration: Until the civil war is done
+    focus = {
+		id = BR4_cw_our_time_to_rise
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		x = 5
+		y = 0
+		cost = 2
+		allow_branch = {
+			NOT = {
+				has_global_flag = BRA_civil_war_ended_flag
+				has_cosmetic_tag = BR4_mnpd
+			}
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+			hidden_trigger = {
+				has_global_flag = BRA_civil_war_started_flag
+			}
+		}
+		completion_reward = {
+			# The insurgency rises! Gives starting bonuses
+		}
+	}
+
+	focus = {
+		id = BR4_cw_god
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_our_time_to_rise
+		x = 0
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR4_cw_our_time_to_rise
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Political/Stability boosts
+		}
+	}  
+
+	focus = {
+		id = BR4_cw_country
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_god
+		x = 0
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR4_cw_god
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Claims and starting cores
+		}
+	} 
+
+	focus = {
+		id = BR4_cw_family
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_country
+		x = 0
+		y = 1
+		cost = 2
+		available = {
+			NOT = { country_exists = BR2 }
+		}
+		prerequisite = {
+			focus = BR4_cw_country
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# War support and unlocks attacks on other factions
+		}
+	}
+
+	focus = {
+		id = BR4_cw_keep_the_momentum
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_family
+		x = 0
+		y = 1
+		cost = 2
+		available = {
+			NOT = { country_exists = BR2 }
+		}
+		prerequisite = {
+			focus = BR4_cw_family
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Boost to the insurrection spirit
+		}
+	}
+
+	focus = {
+		id = BR4_cw_great_patriotic_army
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_keep_the_momentum
+		x = 0
+		y = 1
+		cost = 2
+		available = {
+			NOT = { country_exists = BR2 }
+		}
+		prerequisite = {
+			focus = BR4_cw_keep_the_momentum
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Unlocks division training and spawns army reinforcements
+		}
+	}
+
+	focus = {
+		id = BR4_cw_rise_of_integralism
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_family
+		x = -2
+		y = 1
+		cost = 2
+		available = {
+			has_government = fascist
+		}
+		prerequisite = {
+			focus = BR4_cw_family
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BR4_cw_the_new_greenshirts
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_rise_of_integralism
+		x = 0
+		y = 1
+		cost = 2
+		available = {
+			has_government = fascist
+		}
+		prerequisite = {
+			focus = BR4_cw_rise_of_integralism
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Unlocks militias and upgrades the insurrection spirit
+			swap_ideas = {
+			    remove_idea = BR4_insurgent_deception_idea
+			    add_idea = BR4_insurgent_deception_integralist_idea
+			}
+		}
+	}
+
+	focus = {
+		id = BR4_cw_undo_the_great_mistake
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_family
+		x = 2
+		y = 1
+		cost = 2
+		available = {
+			has_government = nationalist
+		}
+		prerequisite = {
+			focus = BR4_cw_family
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BR4_cw_royal_militias
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_undo_the_great_mistake
+		x = 0
+		y = 1
+		cost = 2
+		available = {
+			has_government = nationalist
+		}
+		prerequisite = {
+			focus = BR4_cw_undo_the_great_mistake
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Unlocks militias and upgrades the insurrection spirit
+			swap_ideas = {
+			    remove_idea = BR4_insurgent_deception_idea
+			    add_idea = BR4_insurgent_deception_monarchist_idea
+			}
+		}
+	}
+
+	focus = {
+		id = BR4_cw_our_inevitable_victory
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_great_patriotic_army
+		x = 0
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR4_cw_great_patriotic_army
+		}
+		prerequisite = {
+			focus = BR4_cw_the_new_greenshirts
+			focus = BR4_cw_royal_militias
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = BRA_civil_war_unifiers_defeated_tt
+				NOT = {
+					country_exists = BR1
+					country_exists = BR2
+					country_exists = BR3
+				}
+			}
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Further boosts insurrection spirit and immediately prompts wars on the remaining breakaways
+		}
+	}
+}

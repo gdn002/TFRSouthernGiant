@@ -214,13 +214,6 @@ country_event = {
         ai_will_do = {
             base = 3
         }
-
-        hidden_effect = {
-            news_event = {
-                id = Sulnews.1
-                days = 1
-            }
-        }
 	}
 
     # Communist coup

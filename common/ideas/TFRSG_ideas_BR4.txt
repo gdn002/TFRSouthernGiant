@@ -14,6 +14,34 @@ ideas = {
 			}
 		}
 
+		BR4_insurgent_deception_integralist_idea = {
+			name = BR4_insurgent_deception_idea
+			allowed = {
+				original_tag = BR4
+			}
+			modifier = {
+				modifier_army_sub_unit_militia_attack_factor = 0.5
+				modifier_army_sub_unit_militia_defence_factor = 0.5
+				modifier_army_sub_unit_militia_speed_factor = 0.15
+				modifier_army_sub_unit_militia_max_org_factor = 0.15
+				modifier_army_sub_unit_militia_org_recovery_cap_factor = 0.15
+			}
+		}
+
+		BR4_insurgent_deception_monarchist_idea = {
+			name = BR4_insurgent_deception_idea
+			allowed = {
+				original_tag = BR4
+			}
+			modifier = {
+				modifier_army_sub_unit_militia_attack_factor = 0.5
+				modifier_army_sub_unit_militia_defence_factor = 0.5
+				modifier_army_sub_unit_militia_speed_factor = 0.15
+				modifier_army_sub_unit_militia_max_org_factor = 0.15
+				modifier_army_sub_unit_militia_org_recovery_cap_factor = 0.15
+			}
+		}
+
 		BR4_insurgency_deception_enemy_idea = {
 			name = BR4_insurgent_deception_idea
 			allowed = {

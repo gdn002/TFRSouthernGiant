@@ -2,8 +2,8 @@
 BRA_civil_war_category = {
 	BR4_insurgency_targeted_decision = {
 		icon = USA_recruit_militia
-		cost = 10
-		days_remove = 15
+		cost = BR4_insurgency_cost_var
+		days_remove = 10
 		fire_only_once = yes
 		target_array = BRA.core_states
 		state_target = yes
@@ -22,16 +22,19 @@ BRA_civil_war_category = {
 		complete_effect = {
 			set_country_flag = BRA_civil_war_recruiting_flag
 			BR4_civil_war_insurgents_scripted_effect = yes		
-			modify_timed_idea = {
-			    idea = BR4_insurgent_deception_idea
-			    days = 15
-			}
-			BR2 = {
-				modify_timed_idea = {
-				    idea = BR4_insurgency_deception_enemy_idea
-				    days = 15
+			BR4_civil_war_extend_insurgent_spirit_effect = yes
+			if = {
+				limit = { country_exists = BR2 }
+				BR2 = {
+					modify_timed_idea = {
+					    idea = BR4_insurgency_deception_enemy_idea
+					    days = 15
+					}
 				}
-			}		
+			}
+				
+			custom_effect_tooltip = BR4_insurgency_cost_tt
+			add_to_variable	= { BR4_insurgency_cost_var = 10 }
 		}
 		remove_effect = {
 			clr_country_flag = BRA_civil_war_recruiting_flag		

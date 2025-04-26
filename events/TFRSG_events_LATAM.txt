@@ -427,8 +427,11 @@ news_event = {
 	desc = latin_america.20.d
 	picture = GFX_PRU_Coup_yes
 	is_triggered_only = yes
-	fire_only_once = yes
 	
+	show_major = {
+        is_south_american_tag = yes
+    }
+
 	option = {
 		name = latin_america.20.a
 	}
@@ -439,8 +442,11 @@ news_event = {
 	desc = latin_america.21.d
 	picture = GFX_PRU_Coup_no
 	is_triggered_only = yes
-	fire_only_once = yes
 	
+	show_major = {
+        is_south_american_tag = yes
+    }
+
 	option = {
 		name = latin_america.21.a
 	}

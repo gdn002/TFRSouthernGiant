@@ -17,16 +17,17 @@ BR2_civil_war_implosion = {
     }
     add_timed_idea = {
         idea = BR4_insurgency_deception_enemy_idea
-        days = 30
+        days = 40
     }
     BR4 = {
+        set_variable = { BR4_insurgency_cost_var = 0 }
         declare_war_on = {
             target = BR2
             type = annex_everything
         }
         add_timed_idea = {
             idea = BR4_insurgent_deception_idea
-            days = 30
+            days = 40
         }
     }  
 }

@@ -26,3 +26,6 @@
  latin_america.23.t: "The Headless Rooster"
  latin_america.23.d: "French Guiana declares independence"
  latin_america.23.a: "Au Revoir Frenchie!"
+ #Flags
+ LATAM_malvines_crisis_averted: "The §RMALVINES CRISIS§! has been averted!"
+ LATAM_essequibo_crisis_averted: "The §RESSEQUIBO CRISIS§! has been averted!"

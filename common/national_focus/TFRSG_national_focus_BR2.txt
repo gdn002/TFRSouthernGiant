@@ -832,7 +832,6 @@ focus_tree = {
 					country_exists = BR1
 					country_exists = BR3
 					country_exists = BR4
-					country_exists = UNB
 				}
 			}
 		}
