@@ -563,7 +563,10 @@
  BRA_petrobras_statized_idea3: "Statized Petrobrás"
  BRA_the_centrao_idea: "Centrist Elite Lobbying"
  BRA_progressive_opposition_idea: "Progressive Opposition"
- BRA_civil_war_gamerule_blessing: "Blessed By The Game Rule"
+ BRA_civil_war_gamerule_blessing: "Brazilian Civil War Game Rule"
+ BRA_civil_war_defense_idea: "Defensive Strategy"
+ BRA_civil_war_offense_idea: "Offensive Strategy"
+ BRA_civil_war_maneuver_idea: "Maneuver Strategy"
  #MIOs
  BRA_engesa: "Engenheiros Especializados S/A"
  BRA_arsenal_de_marinha: "Arsenal de Marinha do Rio de Janeiro"

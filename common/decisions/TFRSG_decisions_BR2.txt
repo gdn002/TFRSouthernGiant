@@ -374,7 +374,7 @@ BRA_civil_war_category = {
 				has_country_flag = BR2_uprising_flag
 			}
 		}
-		days_mission_timeout = 300
+		days_mission_timeout = 250
 		activation = {
 			always = no
 		}
@@ -455,24 +455,18 @@ BRA_civil_war_category = {
 			country_exists = BR1
 			NOT = { has_war_with = BR1 }
 		}
-		custom_cost_trigger = {
-            command_power > 10
-        }
 		ai_will_do = {
 			base = 25
 			modifier = {
-				add = 75
+				add = 50
 				has_war = no
 			}
 		}
-        custom_cost_text = 10cp_cost
+        cost = 75
 		days_remove = 20
-		fire_only_once = yes
 		war_with_on_remove = BR1
 		complete_effect = {
-			hidden_effect = {
-				add_command_power = -10
-			}
+			add_command_power = -10
 			add_days_mission_timeout = {
     			mission = BR2_counter_coup_uprising_mission
     			days = -20
@@ -499,9 +493,6 @@ BRA_civil_war_category = {
 			country_exists = BR3
 			NOT = { has_war_with = BR3 }
 		}
-		custom_cost_trigger = {
-            command_power > 10
-        }
 		ai_will_do = {
 			base = 25
 			modifier = {
@@ -509,14 +500,11 @@ BRA_civil_war_category = {
 				has_war = no
 			}
 		}
-        custom_cost_text = 10cp_cost
+		cost = 50
 		days_remove = 20
-		fire_only_once = yes
 		war_with_on_remove = BR3
 		complete_effect = {
-			hidden_effect = {
-				add_command_power = -10
-			}
+			add_command_power = -10
 			add_days_mission_timeout = {
     			mission = BR2_counter_coup_uprising_mission
     			days = -20
@@ -543,9 +531,6 @@ BRA_civil_war_category = {
 			country_exists = AMZ
 			NOT = { has_war_with = AMZ }
 		}
-		custom_cost_trigger = {
-            command_power > 10
-        }
 		ai_will_do = {
 			base = 25
 			modifier = {
@@ -553,14 +538,11 @@ BRA_civil_war_category = {
 				has_war = no
 			}
 		}
-        custom_cost_text = 10cp_cost
+        cost = 25
 		days_remove = 20
-		fire_only_once = yes
 		war_with_on_remove = AMZ
 		complete_effect = {
-			hidden_effect = {
-				add_command_power = -10
-			}
+			add_command_power = -10
 			add_days_mission_timeout = {
     			mission = BR2_counter_coup_uprising_mission
     			days = -20
@@ -621,10 +603,7 @@ BRA_civil_war_category = {
 		}
 		available = {
 			any_controlled_state = {
-				any_province_building_level = {
-					building = naval_base
-    				level > 0
-				}
+				naval_base > 0
 			}
 		}
 		ai_will_do = {
@@ -633,10 +612,7 @@ BRA_civil_war_category = {
 		cancel_trigger = {
 			NOT = {
 				any_controlled_state = {
-					any_province_building_level = {
-						building = naval_base
-    					level > 0
-					}
+					naval_base > 0
 				}
 			}
 		}
@@ -916,12 +892,15 @@ BRA_civil_war_category = {
 			has_completed_focus = BR2_cw_reclaiming_our_nation
 		}
 		ai_will_do = {
-			base = 0
+			base = 1
 		}
 		cost = 25
 		days_remove = 30
 		days_re_enable = 60
 		modifier = {
+			resistance_decay = 1
+			resistance_target = -0.3
+			compliance_growth = 1
 			authoritarian_democrat_drift = 0.01
 			nationalist_drift = 0.01
 			conservative_drift = 0.01
@@ -947,7 +926,7 @@ BRA_civil_war_category = {
 			has_completed_focus = BR2_cw_reclaiming_our_nation
 		}
 		ai_will_do = {
-			base = 0
+			base = 1
 		}
 		cost = 25
 		days_remove = 30
@@ -976,13 +955,14 @@ BRA_civil_war_category = {
 			has_completed_focus = BR2_cw_reclaiming_our_nation
 		}
 		ai_will_do = {
-			base = 0
+			base = 1
 		}
 		cost = 25
 		days_remove = 30
 		days_re_enable = 60
 		modifier = {
 			war_support_weekly = 0.015
+			weekly_casualties_war_support = 0.015
 			army_morale_factor = 0.5
 		}
 		remove_effect = {

@@ -26,6 +26,7 @@
  #Ideas
  BR1_emergency_government_idea: "Damaged Government"
  BR1_emergency_government_idea_desc: "With the military authoritarians in total control of the capital and our institutions, we were lucky to have been able to assemble a provisional government this hastily in the former capital. While the essential facilities for a continuation of government duties are there, we still find ourselves in charge of a crumbling establishment. The remaining senators and deputies are on edge, and treasonous agents could be anywhere."
+ BR1_broad_coalition_idea: "The Broad Coalition"
  BR1_state_of_emergency_idea: "State of Emergency"
  BR1_insecure_command_idea: "Insecure High Command"
  BR1_insecure_command_idea_desc: "The Brazilian High Command has never been anything to boast about. Many of our generals have sided with the coup ringleaders in Brasilia, leaving us with merely a skeleton crew who remain shaky at the idea of facing off their peers. They must be made to abide by their sworn duty to the Brazilian government, for better or worse."
@@ -33,11 +34,24 @@
  #Decision Categories
  #Missions
  #Decisions
+ BR1_lula_address_the_nation: "§tLula§!: Address The Nation"
+ BR1_lula_meet_with_deputies: "§tLula§!: Meet With Federal Deputies"
+ BR1_alckmin_address_the_nation: "§2Alckmin§!: Address The Nation"
+ BR1_alckmin_meet_with_deputies: "§2Alckmin§!: Meet With Federal Deputies"
+ BR1_reinforce_the_broad_coalition: "Reinforce The §YBroad Coalition§!"
  BR1_cw_attack_junta: "Incursion Into The [BR2.GetNameWithFlag]"
  BR1_cw_attack_front: "Incursion Into The [BR3.GetNameWithFlag]"
  BR1_cw_attack_fascists: "Incursion Into The [BR4.GetNameWithFlag]"
  BR1_cw_attack_amazon: "Incursion Into The [AMZ.GetNameWithFlag]"
  BR1_cw_call_democratic_uprising: "Ally With The [BR4.GetNameWithFlag]"
+ BR1_cw_campaign_brazil_for_all: "§YCampaign§!: Brazil - A Country For All"
+ BR1_cw_campaign_your_right_to_work: "§YCampaign§!: Your Right To Work"
+ BR1_cw_campaign_fight_for_democracy: "§YCampaign§!: Fighting For Democracy"
+ BR1_cw_campaign_to_overcome_our_past: "§YCampaign§!: To Overcome Our Past"
+ BR1_cw_campaign_defenders_of_the_economy: "§YCampaign§!: Defenders of The Economy"
+ BR1_cw_campaign_fiscal_responsibility: "§YCampaign§!: Fiscal Responsibility"
+ BR1_cw_campaign_new_brazilian_army: "§YCampaign§!: The New Brazilian Army"
+ BR1_cw_campaign_all_inclusive_economy: "§YCampaign§!: An All-Inclusive Economy"
  #BOP
  BR1_federal_gov_power_struggle: "The Lula-Alckmin Balance of Power"
  BR1_lula_side: "Lula da Silva"

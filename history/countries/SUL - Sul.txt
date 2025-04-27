@@ -28,7 +28,8 @@
 
 	add_ideas = {
 		# National Spirits
-
+		LATAM_prussia_of_the_south
+		
 		# Ministers
 
 		# Laws

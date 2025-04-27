@@ -15,9 +15,9 @@ BRA_civil_war_category = {
 			has_war_with = FROM.owner
 		}
 		available = {
-			NOT = {
-				has_country_flag = BRA_civil_war_recruiting_flag
-			}
+			##NOT = {
+			#	has_country_flag = BRA_civil_war_recruiting_flag
+			#}
 		}
 		complete_effect = {
 			set_country_flag = BRA_civil_war_recruiting_flag
@@ -44,6 +44,64 @@ BRA_civil_war_category = {
 		}
 		ai_will_do = {
 			base = 100
+		}
+	}
+
+	BR4_raid_armories_targeted_decision = {		
+		allowed = {
+			tag = BR4
+		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 40
+				stockpile_ratio = {
+				    archetype = infantry_equipment
+				    ratio < 0.75
+				}
+			}
+			modifier = {
+				add = 15
+				has_equipment = {
+				    infantry_equipment < 1000
+				}
+			}
+		}
+		custom_cost_trigger = {
+            command_power > 10
+        }
+		icon = GFX_decision_generic_industry
+        custom_cost_text = 10cp_cost
+		days_remove = 15
+		fire_only_once = yes
+		target_array = BRA.core_states
+		state_target = yes
+		on_map_mode = map_only
+		target_trigger = {
+			FROM = {
+				is_controlled_by = ROOT
+			}
+		}
+		visible = {
+			has_completed_focus = BR3_raid_military_bases
+		}
+		available = {
+			NOT = {
+				has_country_flag = BR3_civil_war_raiding_flag
+			}
+		}
+		complete_effect = {
+			set_country_flag = BR3_civil_war_raiding_flag
+			hidden_effect = {
+				add_command_power = -10
+			}
+		}
+		remove_effect = {
+			clr_country_flag = BR3_civil_war_raiding_flag
+			BR3_civil_war_raid_scripted_effect = yes
+		}
+		cancel_effect = {
+			clr_country_flag = BR3_civil_war_raiding_flag
 		}
 	}
 }

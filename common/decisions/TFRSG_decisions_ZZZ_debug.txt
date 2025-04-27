@@ -25,4 +25,14 @@ debug_decisions = {
 			BRA_chamber_of_deputies_elections = yes
  		}
 	}
+
+	 TFRSG_DEBUG_trigger_test_decision = {
+		cancel_if_not_visible = yes
+		days_re_enable = 1
+		available = {
+			any_controlled_state = {
+				naval_base > 0
+			}
+		}
+	}
 }

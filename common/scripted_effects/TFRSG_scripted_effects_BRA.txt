@@ -868,18 +868,76 @@ BRA_civil_war_setup = {
 		# Federal Gov
 		BR1 = {
 			inherit_technology = BRA
+			add_ideas = { BRA_brazilian_civil_war_idea }
+			if = {
+				limit = {
+					is_ai = yes
+					has_game_rule = {
+						rule = Brazil_civil_war_winner
+						option = Brazil_civil_war_winner_1
+					}
+				}
+				hidden_effect = {
+					add_ideas = { BRA_civil_war_gamerule_blessing }
+				}
+			}
 		}
 		# Military Junta
 		BR2 = {
 			inherit_technology = BRA
+			add_ideas = { BRA_brazilian_civil_war_idea }
+			if = {
+				limit = {
+					is_ai = yes
+					has_game_rule = {
+						rule = Brazil_civil_war_winner
+						option = Brazil_civil_war_winner_2
+					}
+				}
+				hidden_effect = {
+					add_ideas = { BRA_civil_war_gamerule_blessing }
+				}
+			}
 		}
 		# Popular Front
 		BR3 = {
 			inherit_technology = BRA
+			add_ideas = { BRA_brazilian_civil_war_idea }
+			if = {
+				limit = {
+					is_ai = yes
+					has_game_rule = {
+						rule = Brazil_civil_war_winner
+						option = Brazil_civil_war_winner_3
+					}
+				}
+				hidden_effect = {
+					add_ideas = { BRA_civil_war_gamerule_blessing }
+				}
+			}
 		}
 		# Junta Breakaways
 		BR4 = {
 			inherit_technology = BRA
+			add_ideas = { BRA_brazilian_civil_war_idea }
+			if = {
+				limit = {
+					is_ai = yes
+					OR = {
+						has_game_rule = {
+							rule = Brazil_civil_war_winner
+							option = Brazil_civil_war_winner_4
+						}
+						has_game_rule = {
+							rule = Brazil_civil_war_winner
+							option = Brazil_civil_war_winner_5
+						}
+					}
+				}
+				hidden_effect = {
+					add_ideas = { BRA_civil_war_gamerule_blessing }
+				}
+			}
 		}
 
 		# Other Breakaways

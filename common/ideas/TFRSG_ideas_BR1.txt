@@ -1,6 +1,6 @@
 ideas = {
 	## NATIONAL SPIRITS ##
-	country = {			
+	country = {	
 		BR1_emergency_government_idea = {
 			allowed = {
 				original_tag = BR1
@@ -19,6 +19,43 @@ ideas = {
 				drift_defence_factor = 0.1
 				war_stability_factor = 0.5
 				army_core_defence_factor = 0.05
+			}
+		}
+
+		BR1_broad_coalition_idea = {
+			allowed = {
+				original_tag = BR1
+			}
+			modifier = {
+				political_power_gain = 0.15
+				society_development_monthly = 0.05
+				resistance_target = -0.1
+				compliance_growth = 0.5
+			}
+		}
+
+		BR1_broad_coalition_idea_weak1 = {
+			name = BR1_broad_coalition_idea
+			allowed = {
+				original_tag = BR1
+			}
+			modifier = {
+				political_power_gain = 0.1
+				society_development_monthly = 0.025
+				resistance_target = -0.05
+				compliance_growth = 0.25
+			}
+		}
+
+		BR1_broad_coalition_idea_weak2 = {
+			name = BR1_broad_coalition_idea
+			allowed = {
+				original_tag = BR1
+			}
+			modifier = {
+				political_power_gain = 0.05
+				society_development_monthly = 0.01
+				compliance_growth = 0.1
 			}
 		}
 

@@ -75,12 +75,33 @@ focus_tree = {
 		}
 		completion_reward = {
 			# We reassemble a provisional house of deputies in Rio, albeit many of the elected officials are missing...
-			# TODO: This BOP initial value should be contextual
-			set_power_balance = {
-				id = BR1_federal_gov_balance_of_power
-				left_side = BR1_lula_side
-				right_side = BR1_alckmin_side
-				set_value = 0
+			add_ideas = { BR1_broad_coalition_idea }
+			if = {
+				limit = { BRA = { has_country_flag = BRA_2022_elections_lula_won_flag } }
+				set_power_balance = {
+					id = BR1_federal_gov_balance_of_power
+					left_side = BR1_lula_side
+					right_side = BR1_alckmin_side
+					set_value = -0.3
+				}
+			}
+			else_if = {
+				limit = { BRA = { has_country_flag = BRA_2022_elections_alckmin_won_flag } }
+				set_power_balance = {
+					id = BR1_federal_gov_balance_of_power
+					left_side = BR1_lula_side
+					right_side = BR1_alckmin_side
+					set_value = 0.3
+				}
+			}
+			else = {
+				limit = { BRA = { has_country_flag = BRA_2022_elections_alckmin_won_flag } }
+				set_power_balance = {
+					id = BR1_federal_gov_balance_of_power
+					left_side = BR1_lula_side
+					right_side = BR1_alckmin_side
+					set_value = 0
+				}
 			}
 			add_political_power = 100
 
@@ -554,6 +575,7 @@ focus_tree = {
 		completion_reward = {
 			# Use TV Globo to run propaganda
 			add_political_power = 100
+			custom_effect_tooltip = TFRSG_add_campaign_slot_tt
 			add_campaign_slot = yes
 		}
 	}
@@ -660,6 +682,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Use the extraordinary conditions to implement economic regulations lost under Bolsonaro
+			set_temp_variable = { academic_development_var_temp = 0.25 }
+			add_academic_development = yes
+			set_temp_variable = { farming_development_var_temp = 0.25 }
+			add_farming_development = yes
+			set_temp_variable = { industrial_development_var_temp = 0.25 }
+			add_industrial_development = yes
 		}
 	}
 
@@ -690,7 +718,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			# COME DRINK YOUR CORN SYRUP
-			# Spawn an allied UN mission in Amapá and enables declaring war on the BPF
+			# Spawn an allied UN mission in Amapá and enables declaring war on other unifiers
+			add_war_support = 0.15
 			country_event = {
 				id = Brazil.libs.10
 				days = 3
@@ -718,13 +747,9 @@ focus_tree = {
 				NOT = {
 					country_exists = BR2
 					country_exists = BR3
-					AND = {
+					OR = {
 						country_exists = BR4
-						NOT = {
-							BR4 = {
-								has_government = social_liberal
-							}
-						}
+						has_subject = BR4
 					}
 				}
 			}

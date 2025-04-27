@@ -553,24 +553,6 @@ country = {
 			personal_value_factor = -0.5
 		}
 	}
-	BRA_brazilian_civil_war_idea = {		
-		allowed = { 
-			is_brazilian_unifier = yes
-		}
-		
-		modifier = {
-			stability_factor = -0.35
-			surrender_limit = 1
-			max_surrender_limit_offset = 0.1
-			poverty_development_monthly = -0.005
-			farming_development_monthly = -0.005
-			industrial_development_monthly = -0.005
-			society_development_monthly = -0.005
-			hidden_modifier = {
-				invasion_preparation = 100
-			}
-		}
-	}
 	BRA_coronavirus_pandemic_idea = {
 		picture = generic_covid
 		allowed = {

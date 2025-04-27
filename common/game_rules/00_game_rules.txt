@@ -3684,6 +3684,12 @@ Brazil_2022_election_winner = {#巴西2022年大选获胜者
 		text = "RULE_OPTION_DEFAULT"
 		desc = "Brazil_2022_election_winner_TXT_DESC"
 	}
+	option = { #Military Coup
+		name = Brazil_2022_election_winner_4
+		text = "Brazil_2022_election_winner_4_TXT"
+		desc = "Brazil_2022_election_winner_4_TXT_DESC"
+		allow_achievements = no
+	}
 	option = { #Lula
 		name = Brazil_2022_election_winner_1
 		text = "Brazil_2022_election_winner_1_TXT"
@@ -3765,31 +3771,31 @@ Brazil_civil_war_winner = {#巴西内战胜利者
 		text = "RULE_OPTION_DEFAULT"
 		desc = "Brazil_civil_war_winner_TXT_DESC"
 	}
-	option = {
+	option = { #Federal Government
 		name = Brazil_civil_war_winner_1
 		text = "Brazil_civil_war_winner_1_TXT"
 		desc = "Brazil_civil_war_winner_1_DESC"
 		allow_achievements = no
 	}
-	option = {
+	option = { #Military Junta
 		name = Brazil_civil_war_winner_2
 		text = "Brazil_civil_war_winner_2_TXT"
 		desc = "Brazil_civil_war_winner_2_DESC"
 		allow_achievements = no
 	}
-	option = {
+	option = { #Popular Front
 		name = Brazil_civil_war_winner_3
 		text = "Brazil_civil_war_winner_3_TXT"
 		desc = "Brazil_civil_war_winner_3_DESC"
 		allow_achievements = no
 	}
-	option = {
+	option = { #Integralist Front
 		name = Brazil_civil_war_winner_4
 		text = "Brazil_civil_war_winner_4_TXT"
 		desc = "Brazil_civil_war_winner_4_DESC"
 		allow_achievements = no
 	}
-	option = {
+	option = { #Restoration Union
 		name = Brazil_civil_war_winner_5
 		text = "Brazil_civil_war_winner_5_TXT"
 		desc = "Brazil_civil_war_winner_5_DESC"
