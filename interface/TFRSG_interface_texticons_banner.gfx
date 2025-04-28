@@ -36,4 +36,14 @@ spriteTypes = {
 		texturefile = "gfx/texticons/banners/BRA/BRA_electronic_voting_booth.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_BRA_south_america_map"
+		texturefile = "gfx/texticons/banners/BRA/BRA_south_america_map.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_BRA_monroe_doctrine"
+		texturefile = "gfx/texticons/banners/BRA/BRA_monroe_doctrine.png"
+		legacy_lazy_load = no
+	}
 }

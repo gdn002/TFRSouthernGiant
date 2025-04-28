@@ -47,6 +47,8 @@ on_actions = {
 				add_to_coalition = yes
 				set_temp_variable = { coalition_partner_var_temp = token:nationalist }
 				add_to_coalition = yes
+				set_temp_variable = { coalition_partner_var_temp = token:conservative }
+				add_to_coalition = yes
 			}			
 		}
 	}

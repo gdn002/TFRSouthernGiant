@@ -431,7 +431,7 @@ BRA_civil_war_category = {
 				BR4 = {
 					add_ideas = BR4_fight_for_democracy_idea
 					set_politics = {
-					    ruling_party = social_liberal
+					    ruling_party = authoritarian_democrat
 					    elections_allowed = no
 					}
 					set_cosmetic_tag = BR4_mnpd

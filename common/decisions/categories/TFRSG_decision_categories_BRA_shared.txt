@@ -21,3 +21,14 @@ BRA_civil_war_category = {
 		has_global_flag = BRA_civil_war_started_flag
 	}
 }
+
+BRA_war_with_united_states_category = {
+	priority = 1000
+	visible_when_empty = yes
+	allowed = {
+		is_brazilian_civilwar_faction = yes
+	}
+	visible = {
+		has_global_flag = USA_american_civil_war_over_global
+	}
+}

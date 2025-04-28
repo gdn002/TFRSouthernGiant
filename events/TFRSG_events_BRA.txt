@@ -298,9 +298,8 @@ country_event = {
 	option = {
 		name = Brazil.timeline.13.a
 		custom_effect_tooltip = BR1_democratic_end_tt
-
 		hidden_effect = {
-			set_cosmetic_tag = BR1_reunified
+			BR1_endgame_content = yes
 		}
 	}
 }
@@ -322,7 +321,7 @@ country_event = {
 		name = Brazil.timeline.14.a
 		custom_effect_tooltip = BR2_junta_end_tt
 		hidden_effect = {
-			set_cosmetic_tag = BR2_reunified
+			BR2_endgame_content = yes
 		}
 	}
 }
@@ -344,7 +343,7 @@ country_event = {
 		name = Brazil.timeline.15.a
 		custom_effect_tooltip = BR3_commie_end_tt
 		hidden_effect = {
-			set_cosmetic_tag = BR3_reunified
+			BR3_endgame_content = yes
 		}
 	}
 }
@@ -366,7 +365,7 @@ country_event = {
 		name = Brazil.timeline.16.a
 		custom_effect_tooltip = BR4_integralist_end_tt
 		hidden_effect = {
-			set_cosmetic_tag = BR4_reunified
+			BR4_endgame_content = yes
 		}
 	}
 }
@@ -388,7 +387,7 @@ country_event = {
 		name = Brazil.timeline.17.a
 		custom_effect_tooltip = BR4_monarchist_end_tt
 		hidden_effect = {
-			set_cosmetic_tag = BR4_regency
+			BR4_endgame_content = yes
 		}
 	}
 }
@@ -1347,9 +1346,11 @@ country_event = {
 		add_stability = -0.05
 		set_temp_variable = { BRA_election_approval_rating_pl_var_temp = -0.1 }
 		BRA_add_election_approval_rating_pl = yes;
-		promote_character = {
-    		character = BRA_hamilton_mourao_char
-    		ideology = constitutionalist
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			last_election = "2018.10.26"
+			election_frequency = 48
+			elections_allowed = yes
 		}
 		custom_effect_tooltip = BRA_bolsonaro_banned_from_politics_tooltip
 		hidden_effect = {
@@ -1398,9 +1399,11 @@ country_event = {
 		add_stability = 0.05
 		set_temp_variable = { BRA_election_approval_rating_pl_var_temp = -0.05 }
 		BRA_add_election_approval_rating_pl = yes;
-		promote_character = {
-    		character = BRA_hamilton_mourao_char
-    		ideology = constitutionalist
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			last_election = "2018.10.26"
+			election_frequency = 48
+			elections_allowed = yes
 		}
 		custom_effect_tooltip = BRA_bolsonaro_banned_from_politics_tooltip
 		hidden_effect = {
@@ -1996,10 +1999,15 @@ country_event = {
 			}			
 			# New coalition
 			end_coalition = yes
-			set_temp_variable = { coalition_partner_var_temp = token:libertarian_socialist }
+			set_temp_variable = { coalition_partner_var_temp = token:social_democrat }
 			add_to_coalition = yes
-			set_temp_variable = { coalition_partner_var_temp = token:communist }
-			add_to_coalition = yes
+			if = {
+				limit = { has_completed_focus = BRA_2022_mingle_with_popular_front }
+				set_temp_variable = { coalition_partner_var_temp = token:libertarian_socialist }
+				add_to_coalition = yes
+				set_temp_variable = { coalition_partner_var_temp = token:communist }
+				add_to_coalition = yes
+			}		
 			# Cabinet
 			if = {
 				limit = {
@@ -2061,6 +2069,8 @@ country_event = {
 			}
 			# New coalition
 			end_coalition = yes
+			set_temp_variable = { coalition_partner_var_temp = token:social_liberal }
+			add_to_coalition = yes
 			set_temp_variable = { coalition_partner_var_temp = token:market_liberal }
 			add_to_coalition = yes
 			# Cabinet
@@ -4056,6 +4066,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			promote_character = BRA_arthur_lira_char
+			end_coalition = yes
 			set_politics = {
     			ruling_party = authoritarian_democrat
     			long_name = BRA_authoritarian_democrat_party_interim_long

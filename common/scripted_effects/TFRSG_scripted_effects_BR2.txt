@@ -31,3 +31,29 @@ BR2_civil_war_implosion = {
         }
     }  
 }
+
+BR2_endgame_content = {
+    ## Sets up post-civil war skeleton content for this tag
+    if = {
+        # BOLSONARO
+        limit = { has_government = authoritarian_democrat }
+        change_gov_type_presidential_dictatorship = yes
+        change_economy_type_oligopolistic_capitalism = yes
+    }
+    else = {
+        # MILITARY
+        change_gov_type_military_dictatorship = yes
+        change_economy_type_military_controlled_economy = yes
+    }
+
+    set_cosmetic_tag = BR2_reunified
+    remove_ideas = {
+        BR2_martial_law_idea
+        BR2_political_opposition_idea
+        BR2_constitutional_crisis_idea
+        BR2_constitutional_crisis_idea1
+        BR2_trigger_happy_military_idea
+        BR2_dutiful_military_idea
+        BR2_bolsonarist_militias_idea
+    }
+}

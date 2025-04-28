@@ -20,6 +20,8 @@ on_actions = {
 				# COUNTRY FLAGS		
 
 				# COALITION
+				set_temp_variable = { coalition_partner_var_temp = token:communist }
+				add_to_coalition = yes
 				set_temp_variable = { coalition_partner_var_temp = token:totalitarian_socialist }
 				add_to_coalition = yes
 				set_temp_variable = { coalition_partner_var_temp = token:libertarian_socialist }

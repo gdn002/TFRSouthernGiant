@@ -271,6 +271,56 @@ BRA_civil_war_category = {
 		}
 	}
 
+    # Decision only available to NPC AI unifiers in the rare chance they win the civil war
+    BRA_cw_npc_ai_reunify_decision = {
+		allowed = {
+            OR = {
+                tag = UNB
+                tag = BR4
+            }	
+		}
+        visible = {
+            is_ai = yes
+            if = {
+                limit = { TAG = BR4 }
+                has_cosmetic_tag = BR4_mnpd
+            }
+        }
+		available = {
+            has_war = no
+            NOT = {
+                country_exists = BR1
+                country_exists = BR2
+                country_exists = BR3               
+            }
+			if = {
+                limit = { TAG = UNB }
+                NOT = { country_exists = BR4 }
+            }
+		}
+		cost = 0
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect = {
+            BRA = {
+                every_core_state = {
+                    transfer_state_to = ROOT
+                    add_core_of = ROOT
+                }
+            }
+            if = { 
+                limit = { TAG = BR4 }
+                set_cosmetic_tag = BR4_restored
+            }
+            else = {
+                set_cosmetic_tag = UNB_reunified
+            }
+		}
+        ai_will_do = {
+			base = 1000
+		}
+	}
+
     AMZ_cw_call_popular_front = {
 		allowed = {
 			tag = AMZ

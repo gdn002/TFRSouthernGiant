@@ -84,3 +84,140 @@ defined_text = {
 		localization_key = "chamber_of_deputies_aligned"
 	}
 }
+
+defined_text = {
+	name = get_war_with_united_states_desc_text
+	
+	# TODO: To be implemented in the next major update
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "war_with_united_states_prewar_mode"
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = "war_with_united_states_active_mode"
+	}
+}
+
+defined_text = {
+	name = get_us_disposition_towards_brazil
+	
+	# TODO: To be implemented in the next major update
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "us_brazil_disposition_neutral"
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = "us_brazil_disposition_friendly"
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = "us_brazil_disposition_hostile"
+	}
+}
+
+defined_text = {
+	name = get_us_foreign_policy_towards_brazil
+	
+	# TODO: To be implemented in the next major update
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "us_brazil_foreign_policy_uncertain"
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = "us_brazil_foreign_policy_isolationist"
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = "us_brazil_foreign_policy_interventionist"
+	}
+}
+
+## VICTORY POINT STATUS ##
+defined_text = {
+	name = get_brasilia_status
+	text = {
+		trigger = {
+			FROM = {
+				controls_state = 1435
+			}
+		}
+		localization_key = "our_control"
+	}
+	text = {
+		trigger = {
+			OR = {
+				any_country = {
+					is_ally_with = BRA
+					controls_state = 1435
+				}
+			}
+		}
+		localization_key = "friendly_control"
+	}
+	text = {
+		trigger = {
+			any_country = {
+				has_war_with = BRA
+				controls_state = 1435
+			}
+		}
+		localization_key = "enemy_control"
+	}
+	text = {
+		localization_key = "neutral_control"
+	}
+}
+
+defined_text = {
+	name = get_bogota_status
+	text = {
+		trigger = {
+			FROM = {
+				controls_state = 306
+			}
+		}
+		localization_key = "our_control"
+	}
+	text = {
+		trigger = {
+			OR = {
+				any_country = {
+					is_ally_with = BRA
+					controls_state = 306
+				}
+			}
+		}
+		localization_key = "friendly_control"
+	}
+	text = {
+		trigger = {
+			any_country = {
+				has_war_with = BRA
+				controls_state = 306
+			}
+		}
+		localization_key = "enemy_control"
+	}
+	text = {
+		localization_key = "neutral_control"
+	}
+}

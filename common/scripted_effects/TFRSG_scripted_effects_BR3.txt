@@ -79,3 +79,56 @@ BR3_civil_war_raid_scripted_effect = {
 	    }
     }
 }
+
+BR3_endgame_content = {
+    ## Sets up post-civil war skeleton content for this tag
+    if = {
+        ## HARDLINERS
+        limit = {
+            is_power_balance_in_range = {
+    			id = BR3_internal_faction_balance
+    			range < BR3_centrist_hardliner_coalition
+			}
+        }
+        set_politics = { ruling_party = totalitarian_socialist }
+        change_government_type_communist_party_state = yes
+        change_economy_type_planned_economy = yes
+        set_cosmetic_tag = BR3_hardliner
+    }
+    else_if = {
+        ## LIBERTARIANS
+        limit = {
+            is_power_balance_in_range = {
+    			id = BR3_internal_faction_balance
+    			range > BR3_centrist_libertarian_coalition
+			}
+        }
+        set_politics = {
+			ruling_party = authoritarian_democrat
+			last_election = "2022.10.27"
+			election_frequency = 48
+			elections_allowed = yes
+		}
+        change_government_type_socialist_republic = yes
+        change_economy_type_socialist_market = yes
+        set_cosmetic_tag = BR3_libertarian
+    }
+    else = {
+        ## CENTRISTS
+        set_portraits = {
+			character = BR3_leo_pericles_char
+			civilian = { large ="GFX_BR3_Leo_Pericles_president" }
+		}
+        change_government_type_communist_party_state = yes
+        change_economy_type_worker_controlled = yes
+        set_cosmetic_tag = BR3_centrist    
+    }
+
+    remove_ideas = {
+        BR3_popular_front_idea
+        BR3_counter_revolution_idea
+        BR3_liberation_army_idea
+        BR3_redirected_industrial_output_mil_idea
+        BR3_redirected_industrial_output_civ_idea
+    }
+}

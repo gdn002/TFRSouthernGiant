@@ -15,9 +15,6 @@ BRA_civil_war_category = {
 			has_war_with = FROM.owner
 		}
 		available = {
-			##NOT = {
-			#	has_country_flag = BRA_civil_war_recruiting_flag
-			#}
 		}
 		complete_effect = {
 			set_country_flag = BRA_civil_war_recruiting_flag
@@ -34,7 +31,10 @@ BRA_civil_war_category = {
 			}
 				
 			custom_effect_tooltip = BR4_insurgency_cost_tt
-			add_to_variable	= { BR4_insurgency_cost_var = 10 }
+			if = {
+				limit = { check_variable = { BR4_insurgency_cost_var < 50 } }
+				add_to_variable	= { BR4_insurgency_cost_var = 10 }
+			}		
 		}
 		remove_effect = {
 			clr_country_flag = BRA_civil_war_recruiting_flag		

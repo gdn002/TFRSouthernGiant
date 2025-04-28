@@ -14,13 +14,6 @@ characters = {
 			expire = "1.1.1.1"
 			id = -1
 		}
-		country_leader = {
-			ideology = ultra_conservatism
-			traits = {
-			}
-			expire = "1.1.1.1"
-			id = -1
-		}
 	}
 	BRA_lula_da_silva_char = {
 		portraits = {
@@ -44,16 +37,9 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = constitutionalist
+			ideology = sovereign_democracy_auth_dem
 			traits = {
 				BRA_military_politician
-			}
-			expire = "1.1.1.1"
-			id = -1
-		}
-		country_leader = {
-			ideology = military_junta
-			traits = {
 			}
 			expire = "1.1.1.1"
 			id = -1
@@ -120,20 +106,6 @@ characters = {
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 2
-		}
-	}
-	BRA_moises_lima_char = {
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BR4/BR4_Moises_Lima.png"
-			}
-		}
-		country_leader = {
-			ideology = integralism
-			traits = {
-			}
-			expire = "1.1.1.1"
-			id = -1
 		}
 	}
 	BRA_soraya_thronicke_char = {

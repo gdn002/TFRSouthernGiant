@@ -8,7 +8,137 @@ SUL_nazi_coup = {
 	color_ui = rgb { 80 80 80 }
 }
 
+BR1_union = {
+	color = rgb { 32 118 63 }
+	color_ui = rgb { 32 118 63 }
+}
+
+BR1_unitedstates = {
+    color = rgb { 26 53 130 }
+	color_ui = rgb { 26 53 130 }
+}
+
+BR1_federation = {
+    color = rgb { 53 92 74 }
+	color_ui = rgb { 53 92 74 }
+}
+
+BR2_reunified = {
+	color = rgb { 62 76 22 }
+	color_ui = rgb { 62 76 22 }
+}
+
+BR3_libertarian = {
+	color = rgb { 189 44 44 }
+	color_ui = rgb { 189 44 44 }
+}
+
+BR3_centrist = {
+	color = rgb { 173 0 32 }
+	color_ui = rgb { 173 0 32 }
+}
+
+BR3_hardliner = {
+	color = rgb { 124 12 12 }
+	color_ui = rgb { 124 12 12 }
+}
+
 BR4_mnpd = {
     color = rgb { 32 118 63 }
     color_ui = rgb { 32 118 63 }
+}
+
+BR4_restored = {
+    color = rgb { 32 118 63 }
+    color_ui = rgb { 32 118 63 }
+}
+
+BR4_integralist = {
+    color = rgb { 18 48 110 }
+    color_ui = rgb { 18 48 110 }
+}
+
+BR4_kingdom = {
+    color = rgb { 0 148 64 }
+    color_ui = rgb { 0 148 64 }
+}
+
+BR4_kingdomunion = {
+    color = rgb { 0 148 64 }
+    color_ui = rgb { 0 148 64 }
+}
+
+BR4_kingdomgreater = {
+    color = rgb { 0 148 64 }
+    color_ui = rgb { 0 148 64 }
+}
+
+BR4_empire = {
+    color = rgb { 48 52 32 }
+    color_ui = rgb { 48 52 32 }
+}
+
+BR4_empireunion = {
+    color = rgb { 48 52 32 }
+    color_ui = rgb { 48 52 32 }
+}
+
+BR4_empiregreater = {
+    color = rgb { 48 52 32 }
+    color_ui = rgb { 48 52 32 }
+}
+
+SA_union = {
+    color = rgb { 26 53 130 }
+	color_ui = rgb { 26 53 130 }
+}
+
+SA_unitedstates = {
+    color = rgb { 26 53 130 }
+	color_ui = rgb { 26 53 130 }
+}
+
+SA_federation = {
+    color = rgb { 57 70 110 }
+	color_ui = rgb { 57 70 110 }
+}
+
+URSAL_libertarian = {
+	color = rgb { 189 44 44 }
+	color_ui = rgb { 189 44 44 }
+}
+
+URSAL_centrist = {
+	color = rgb { 173 0 32 }
+	color_ui = rgb { 173 0 32 }
+}
+
+URSAL_hardliner = {
+	color = rgb { 124 12 12 }
+	color_ui = rgb { 124 12 12 }
+}
+
+BRA_occupation_generic = {
+	color = rgb { 78 140 32 }
+	color_ui = rgb { 78 140 32 }
+}
+
+BRA_occupation_military = {
+	color = rgb { 62 76 22 }
+	color_ui = rgb { 62 76 22 }
+}
+
+BRA_occupation_democratic = {
+	color = rgb { 32 118 63 }
+	color_ui = rgb { 32 118 63 }
+}
+
+BRA_occupation_socialist = {
+	color = rgb { 168 17 17 }
+	color_ui = rgb { 168 17 17 }
+}
+
+BRA_occupation_integralist = {
+    color = rgb { 50 85 158 }
+    color_ui = rgb { 50 85 158 }
 }

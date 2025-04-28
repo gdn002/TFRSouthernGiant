@@ -28,4 +28,33 @@ characters = {
 			id = -1
 		}
 	}
+	BR4_antonio_orleans_braganza_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BR4/BR4_Antonio_Orleans_Braganza_absolutist.png"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchist
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+
+	BR4_bertrand_orleans_braganza_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BR4/BR4_Bertrand_Orleans_Braganza_absolutist.png"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchist
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
 }

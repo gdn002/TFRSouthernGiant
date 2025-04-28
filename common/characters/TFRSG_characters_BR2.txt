@@ -49,20 +49,6 @@ characters = {
 			logistics_skill = 2
 		}
 	}	
-	BR2_moises_lima_char = {
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BR4/BR4_Moises_Lima.png"
-			}
-		}
-		country_leader = {
-			ideology = integralism
-			traits = {
-			}
-			expire = "1.1.1.1"
-			id = -1
-		}
-	}
 
 	# GENERALS
 	BR2_augusto_heleno_char = {
@@ -86,7 +72,7 @@ characters = {
 	BR2_hamilton_mourao_char = {
 		portraits = {
 			army = {
-				large = "gfx/leaders/BR2/generals/BR2_Hamilton_Mourao_civilwar.png"
+				large = "gfx/leaders/BR2/generals/BR2_Hamilton_Mourao_military.png"
 			}
 		}
 		corps_commander = {
