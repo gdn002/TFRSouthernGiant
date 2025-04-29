@@ -109,21 +109,36 @@ defined_text = {
 	# TODO: To be implemented in the next major update
 	text = {
 		trigger = {
-			always = yes
+			check_variable = { global.USA_disposition_towards_BRA_value = 0 }
 		}
 		localization_key = "us_brazil_disposition_neutral"
 	}
 	text = {
 		trigger = {
-			always = no
+			check_variable = { global.USA_disposition_towards_BRA_value = 1 }
 		}
 		localization_key = "us_brazil_disposition_friendly"
 	}
 	text = {
 		trigger = {
-			always = no
+			check_variable = { global.USA_disposition_towards_BRA_value > 1 }
+		}
+		localization_key = "us_brazil_disposition_veryfriendly"
+	}
+	text = {
+		trigger = {
+			check_variable = { global.USA_disposition_towards_BRA_value = -1 }
 		}
 		localization_key = "us_brazil_disposition_hostile"
+	}
+	text = {
+		trigger = {
+			check_variable = { global.USA_disposition_towards_BRA_value < -1 }
+		}
+		localization_key = "us_brazil_disposition_veryhostile"
+	}
+	text = {
+		localization_key = "us_brazil_foreign_policy_uncertain"
 	}
 }
 

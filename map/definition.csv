@@ -648,7 +648,7 @@
 647;3;39;240;sea;false;ocean;0
 648;3;42;40;land;false;forest;1
 649;3;42;95;land;false;plains;1
-650;3;42;145;land;false;urban;3
+650;3;42;145;land;false;santiago;3
 651;3;45;5;land;false;plains;1
 652;3;45;60;land;false;mountain;7
 653;3;45;210;land;false;mountain;1
@@ -2150,7 +2150,7 @@
 2149;10;42;90;land;false;desert;3
 2150;10;42;140;land;false;plains;3
 2151;10;45;55;land;false;plains;5
-2152;10;48;20;land;false;urban;3
+2152;10;48;20;land;false;asuncion;3
 2153;10;51;85;land;true;mountain;3
 2154;10;54;50;land;false;jungle;5
 2155;10;54;155;land;false;plains;4
@@ -5105,7 +5105,7 @@
 5104;51;210;63;land;false;plains;6
 5105;51;210;213;land;false;desert;6
 5106;52;0;83;land;false;mountain;5
-5107;52;0;133;land;true;plains;3
+5107;52;0;133;land;true;fortaleza;3
 5108;52;0;240;sea;true;ocean;0
 5109;52;2;248;sea;false;ocean;0
 5110;52;3;48;land;false;forest;3
@@ -5166,7 +5166,7 @@
 5165;52;69;88;land;false;plains;3
 5166;52;72;53;land;false;mountain;3
 5167;52;72;158;land;true;mountain;3
-5168;52;75;18;land;true;plains;3
+5168;52;75;18;land;true;recife;3
 5169;52;75;223;land;true;desert;3
 5170;52;78;188;land;false;desert;4
 5171;52;81;153;land;false;mountain;3
@@ -5228,7 +5228,7 @@
 5227;52;198;208;land;false;plains;4
 5228;52;201;173;land;true;desert;3
 5229;52;204;138;land;false;mountain;3
-5230;52;207;203;land;false;urban;3
+5230;52;207;203;land;false;la_paz;3
 5231;52;210;18;land;false;plains;5
 5232;52;210;168;land;false;jungle;3
 5233;53;0;244;sea;true;ocean;0
@@ -8111,7 +8111,7 @@
 8110;93;192;76;land;false;forest;2
 8111;93;192;181;land;false;desert;5
 8112;93;195;41;land;false;mountain;6
-8113;93;195;96;land;true;urban;3
+8113;93;195;96;land;true;caracas;3
 8114;93;195;146;land;false;hills;6
 8115;93;198;6;land;false;desert;2
 8116;93;198;61;land;false;plains;5
@@ -8138,7 +8138,7 @@
 8137;94;6;232;sea;false;ocean;0
 8138;94;9;141;land;false;hills;5
 8139;94;10;240;sea;false;ocean;0
-8140;94;12;206;land;false;urban;3
+8140;94;12;206;land;false;goiania;3
 8141;94;12;248;sea;false;ocean;0
 8142;94;14;236;sea;false;ocean;0
 8143;94;15;21;land;true;forest;3
@@ -8146,7 +8146,7 @@
 8145;94;15;244;sea;false;ocean;0
 8146;94;16;232;sea;false;ocean;0
 8147;94;17;240;sea;false;ocean;0
-8148;94;18;86;land;false;hills;3
+8148;94;18;86;land;false;belo_horizonte;3
 8149;94;18;136;land;false;jungle;3
 8150;94;19;248;sea;true;ocean;0
 8151;94;20;236;sea;true;ocean;0
@@ -8179,7 +8179,7 @@
 8178;94;48;91;land;true;hills;5
 8179;94;48;141;land;true;plains;3
 8180;94;51;56;land;true;mountain;5
-8181;94;54;21;land;true;mountain;3
+8181;94;54;21;land;true;curitiba;3
 8182;94;57;86;land;true;forest;5
 8183;94;60;51;land;true;mountain;5
 8184;94;60;156;land;false;plains;3
@@ -10360,7 +10360,7 @@
 10359;133;33;154;land;false;desert;6
 10360;133;33;209;land;false;mountain;3
 10361;133;36;69;land;false;plains;6
-10362;133;36;174;land;true;urban;3
+10362;133;36;174;land;true;montevideo;3
 10363;133;36;219;land;false;forest;6
 10364;133;39;34;land;false;hills;6
 10365;133;39;139;land;true;forest;4
@@ -10445,7 +10445,7 @@
 10444;133;126;134;land;false;urban;6
 10445;133;126;189;land;true;mountain;4
 10446;133;129;49;land;false;forest;6
-10447;133;129;154;land;true;plains;3
+10447;133;129;154;land;true;porto_alegre;3
 10448;133;129;199;land;false;plains;2
 10449;133;132;14;land;false;forest;2
 10450;133;132;219;land;true;mountain;6
@@ -10745,7 +10745,7 @@
 10744;135;21;54;land;false;desert;7
 10745;135;21;159;land;false;desert;5
 10746;135;24;19;land;false;desert;2
-10747;135;24;74;land;false;urban;3
+10747;135;24;74;land;false;bogota;3
 10748;135;24;224;land;false;desert;7
 10749;135;27;39;land;false;desert;5
 10750;135;27;84;land;false;desert;6
@@ -10931,7 +10931,7 @@
 10930;136;12;14;land;false;mountain;5
 10931;136;15;79;land;false;hills;3
 10932;136;18;44;land;false;forest;5
-10933;136;18;149;land;true;plains;3
+10933;136;18;149;land;true;natal;3
 10934;136;21;9;land;false;jungle;3
 10935;136;21;214;land;false;desert;3
 10936;136;24;179;land;false;forest;4
@@ -12362,7 +12362,7 @@
 12361;175;66;32;land;false;plains;2
 12362;175;66;87;land;true;plains;4
 12363;175;66;137;land;false;mountain;6
-12364;175;69;52;land;true;urban;3
+12364;175;69;52;land;true;buenos_aires;3
 12365;175;69;97;land;false;hills;2
 12366;175;69;202;land;false;hills;6
 12367;175;72;17;land;true;mountain;4
@@ -12796,7 +12796,7 @@
 12795;177;99;67;land;false;forest;5
 12796;177;99;172;land;false;desert;5
 12797;177;102;32;land;false;mountain;6
-12798;177;102;87;land;false;urban;3
+12798;177;102;87;land;false;quito;3
 12799;177;102;137;land;false;forest;6
 12800;177;105;52;land;false;plains;5
 12801;177;105;97;land;false;desert;6
@@ -12851,7 +12851,7 @@
 12850;177;159;77;land;false;desert;2
 12851;177;159;182;land;false;plains;5
 12852;177;162;42;land;false;desert;7
-12853;177;162;97;land;true;plains;3
+12853;177;162;97;land;true;belem;3
 12854;177;162;147;land;false;forest;6
 12855;177;165;7;land;false;desert;7
 12856;177;165;62;land;false;mountain;5
@@ -12931,7 +12931,7 @@
 12930;178;63;87;land;false;mountain;3
 12931;178;66;52;land;false;mountain;4
 12932;178;66;157;land;false;plains;4
-12933;178;69;17;land;true;plains;3
+12933;178;69;17;land;true;sao_luis;3
 12934;178;69;222;land;false;plains;4
 12935;178;72;187;land;true;forest;5
 12936;178;75;152;land;false;plains;4
@@ -12995,7 +12995,7 @@
 12994;178;198;137;land;true;desert;3
 12995;178;201;202;land;true;mountain;4
 12996;178;204;17;land;true;forest;3
-12997;178;204;167;land;true;urban;3
+12997;178;204;167;land;true;lima;3
 12998;178;207;82;land;false;desert;3
 12999;178;207;132;land;true;plains;3
 13000;178;210;47;land;false;plains;3

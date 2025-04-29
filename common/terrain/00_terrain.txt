@@ -1,7 +1,7 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
 # Current version: 1.0.6
 # Changes:
-# - Adds more Brazilian cities
+# - Adds more LATAM cities
 
 ##################################################################
 ### Terrain Categories
@@ -3557,6 +3557,330 @@ categories =  {
 	}
 
 	manaus = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	asuncion = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	belem = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	belo_horizonte = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	bogota = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	buenos_aires = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	caracas = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	curitiba = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	fortaleza = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	goiania = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	la_paz = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	lima = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	montevideo = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	natal = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	porto_alegre = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	quito = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	recife = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	santiago = {
+		color = { 165 165 165 }
+		movement_cost = 3.2
+		ai_terrain_importance_factor = 4.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
+		sound_type = plains
+
+		units = {
+			attack = -0.7
+			movement = -0.05
+			defence = 0.06
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.50
+	}
+
+	sao_luis = {
 		color = { 165 165 165 }
 		movement_cost = 3.2
 		ai_terrain_importance_factor = 4.0
