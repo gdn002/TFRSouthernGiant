@@ -49,6 +49,9 @@ on_actions = {
 				add_to_coalition = yes
 				set_temp_variable = { coalition_partner_var_temp = token:conservative }
 				add_to_coalition = yes
+
+				# OTHER
+				set_variable = { global.TFRSG_active_BRA_tag = BRA }
 			}			
 		}
 	}

@@ -130,6 +130,7 @@ country_event = {
 	id = Brazil.timeline.6
 	title = Brazil.timeline.6.t
 	desc = Brazil.timeline.6.d
+	picture = GFX_BRA_carnaval
 
 	is_triggered_only = yes
 	

@@ -1,8 +1,8 @@
 ﻿l_english:
  # Timeline Events
  Brazil.timeline.6.t: "Carnaval Day"
- Brazil.timeline.6.d: ""
- Brazil.timeline.6.a: "[GetYear] has begun!"
+ Brazil.timeline.6.d: "All over the country, the Brazilian people celebrate their lives in the nation's flagship holiday. The [GetYear] Carnaval has been marked by breathtaking shows at all the usual hotspot cities such as Rio de Janeiro, Salvador and Recife. Every year, in the period before Lent, Brazilians go out to the streets to party and celebrate, wearing unsual costumes and taking a break from their routines to be their most joyful selves.\n\nThe date is also marked by massive parades all over the country, featuring marching bands, dances, acts and the iconic floats. The main show was hosted at the Sambódromo Marquês de Sapucaí in Rio, where all the Samba Schools and Carnival Blocks presented to massive audiences and competed amongst themselves in the yearly Rio de Janeiro Carnaval contest.\n\nThis year's event wasn't all revelry and debauchery however - the parades also reflected the Brazilian people's political tendencies and polarizations. Many of the carnaval floats presented featured strong political messaging, mostly reflecting anti-racist, anti-fascist and anti-imperialist sentiments, albeit a few parades also featured opposing messages of pro-religious, pro-traditions thought. Ideological clashes were inevitable, but fortunately no serious incidents have been reported so far. It seems that Brazilians still value their enjoyment of Carnaval over political bickering."
+ Brazil.timeline.6.a: "And with that, [GetYear] has officially begun."
  Brazil.timeline.7.t: "Brazilian Independence Day"
  Brazil.timeline.7.d: ""
  Brazil.timeline.7.a: "Independence or death!"

@@ -962,6 +962,8 @@ focus_tree = {
 				id = Brazil.timeline.14
 				days = 7
 			}
+
+			set_variable = { global.TFRSG_active_BRA_tag = BR2 }
 		}
 	}
 }
