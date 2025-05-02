@@ -1,5 +1,14 @@
 ﻿l_english:
  TFRSG_add_campaign_slot_tt: "We will gain a §YCampaign Slot§!."
+ #Debug Decisions
+ BRA_DEBUG_trigger_civil_war: "Trigger The §RBrazilian Civil War§!"
+ BRA_DEBUG_trigger_civil_war_desc: "Let's get the party started right away!"
+ BRA_DEBUG_force_chamber_elections: "Force §YChamber of Deputies§! Elections"
+ BRA_DEBUG_force_chamber_elections_desc: "Would this count as a coup attempt?"
+ BRA_DEBUG_gimme_osorio: "Gib Osório Pl0x"
+ BRA_DEBUG_gimme_osorio_desc: "Couldn't you wait for the next major update?"
+ TFRSG_DEBUG_trigger_test_decision: "TRFSG Trigger Test Decision"
+ TFRSG_DEBUG_trigger_test_decision_desc: "This is here just for whenever the dev needs to test some particularly \"special\" triggers. Otherwise, does fuck all."
  #Music
  TFRSG_capital_enslavement: "Sepultura - Capital Enslavement"
  TFRSG_indigena_futurista: "Katú Mirim - Indígena Futurista"

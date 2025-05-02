@@ -3,12 +3,22 @@ spriteTypes = {
 
 	## MOTORIZED ##
 	SpriteType = {
+		name = "GFX_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_moto0.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_BRA_motorised_infantry2_medium"
 		texturefile = "gfx/interface/technologies/infantry/BRA_moto1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_BRA_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry/BRA_moto0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRA_motorized_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/infantry/BRA_moto1.dds"
 	}
 
@@ -81,15 +91,27 @@ spriteTypes = {
 	## MAIN BATTLE TANKS ##
 	##NSB##
 	SpriteType = {
-		name = "GFX_BRA_main_battle_tank2_medium"
-		texturefile = "gfx/interface/technologies/armor/BRA_modern_tank2.dds"
+		name = "GFX_BRA_basic_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_tamoyo.dds"
 	}
 	SpriteType = {
-		name = "GFX_BRA_basic_medium_tank_chassis_medium"
+		name = "GFX_BRA_improved_medium_tank_chassis_medium"
 		texturefile = "gfx/interface/technologies/armor/BRA_modern_tank2.dds"
 	}
 	SpriteType = {
 		name = "GFX_BRA_modern_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_tamoyo.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_tank_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_modern_tank2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRA_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/armor/BRA_tamoyo.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRA_main_battle_tank4_medium"
 		texturefile = "gfx/interface/technologies/armor/BRA_modern_tank2.dds"
 	}
 	
