@@ -1,5 +1,5 @@
 	# OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-	# Current version: 1.0.6
+	# Current version: 1.2025.0b
 	# Changes:
 	# - Currently unchanged from TFR, but being kept for future Intelligence Agency additions
 

@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.6
+# Current version: 1.2025.0b
 # Changes:
 # - Adds scripted loc entries for TFRSG Super Events
 
@@ -107,6 +107,20 @@
 		
 		text = { 
 			trigger = {
+				has_country_flag = wagner_war_se_flag
+			}
+			localization_key = "wagner_war_title"
+		}
+		
+		text = { 
+			trigger = {
+				has_country_flag =  wagner_victory_se_flag
+			}
+			localization_key = "wagner_victory_title"
+		}
+		
+		text = { 
+			trigger = {
 				has_country_flag = super_north_korean_civil_war_flag
 			}
 			localization_key = "super_north_korean_civil_war"
@@ -124,6 +138,13 @@
 				has_country_flag = USA_civil_war_joe_biden_super
 			}
 			localization_key = "USA_civil_war_joe_biden_super"
+		}
+		
+		text = { 
+			trigger = {
+				has_country_flag = USA_bloomberg_sweep_super
+			}
+			localization_key = "USA_bloomberg_sweep_super"
 		}
 		
 		text = { 
@@ -236,6 +257,12 @@
 				has_country_flag = GER_third_european_war_super
 			}
 			localization_key = "GER_third_european_war_super"
+		}
+		text = {
+			trigger = {
+				has_country_flag = GER_juche_germany_super
+			}
+			localization_key = "GER_juche_germany_super"
 		}
 		text = {
 			trigger = {
@@ -440,9 +467,21 @@
 		}
 		text = { 
 			trigger = {
+				has_country_flag = PRC_xi_imper_won_super_event_flag
+			}
+			localization_key = "PRC_xi_imper_victory_super"
+		}
+		text = { 
+			trigger = {
 				has_country_flag = JAP_pdto_victory_super_event_flag
 			}
 			localization_key = "JAP_pdto_victory_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_nick_land_victory_super_event_flag
+			}
+			localization_key = "PRC_nick_land_victory_super"
 		}
 		text = { 
 			trigger = {
@@ -603,6 +642,20 @@
 			}
 			localization_key = "navalny_victory_text"
 		}
+			
+		text = { 
+			trigger = {
+				has_country_flag = wagner_war_se_flag
+			}
+			localization_key = "wagner_war_text"
+		}
+		
+		text = { 
+			trigger = {
+				has_country_flag = wagner_victory_se_flag
+			}
+			localization_key = "wagner_victory_text"
+		}
 		
 		text = { 
 			trigger = {
@@ -623,6 +676,13 @@
 				has_country_flag = USA_civil_war_joe_biden_super
 			}
 			localization_key = "USA_civil_war_joe_biden_super_text"
+		}
+		
+		text = { 
+			trigger = {
+				has_country_flag = USA_bloomberg_sweep_super
+			}
+			localization_key = "USA_bloomberg_sweep_super_text"
 		}
 		
 		text = { 
@@ -735,6 +795,12 @@
 				has_country_flag = GER_third_european_war_super
 			}
 			localization_key = "GER_third_european_war_super_text"
+		}
+		text = {
+			trigger = {
+				has_country_flag = GER_juche_germany_super
+			}
+			localization_key = "GER_juche_germany_super_text"
 		}
 		text = {
 			trigger = {
@@ -939,9 +1005,21 @@
 		}
 		text = { 
 			trigger = {
+				has_country_flag = PRC_xi_imper_won_super_event_flag
+			}
+			localization_key = "PRC_xi_imper_victory_super_text"
+		}
+		text = { 
+			trigger = {
 				has_country_flag = JAP_pdto_victory_super_event_flag
 			}
 			localization_key = "JAP_pdto_victory_super_text"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_nick_land_victory_super_event_flag
+			}
+			localization_key = "PRC_nick_land_victory_super_text"
 		}
 		text = { 
 			trigger = {
@@ -1105,6 +1183,20 @@
 		
 		text = { 
 			trigger = {
+				has_country_flag = wagner_war_se_flag
+			}
+			localization_key = "wagner_war_button"
+		}
+		
+		text = { 
+			trigger = {
+				has_country_flag = wagner_victory_se_flag
+			}
+			localization_key = "wagner_victory_button"
+		}
+		
+		text = { 
+			trigger = {
 				has_country_flag = super_north_korean_civil_war_flag
 			}
 			localization_key = "super_north_korean_civil_war_button"
@@ -1122,6 +1214,13 @@
 				has_country_flag = USA_civil_war_joe_biden_super
 			}
 			localization_key = "USA_civil_war_joe_biden_super_button"
+		}
+		
+		text = { 
+			trigger = {
+				has_country_flag = USA_bloomberg_sweep_super
+			}
+			localization_key = "USA_bloomberg_sweep_super_button"
 		}
 		
 		text = { 
@@ -1234,6 +1333,12 @@
 				has_country_flag = GER_third_european_war_super
 			}
 			localization_key = "GER_third_european_war_super_button"
+		}
+		text = {
+			trigger = {
+				has_country_flag = GER_juche_germany_super
+			}
+			localization_key = "GER_juche_germany_super_button"
 		}
 		text = {
 			trigger = {
@@ -1438,9 +1543,21 @@
 		}
 		text = { 
 			trigger = {
+				has_country_flag = PRC_xi_imper_won_super_event_flag
+			}
+			localization_key = "PRC_xi_imper_victory_super_button"
+		}
+		text = { 
+			trigger = {
 				has_country_flag = JAP_pdto_victory_super_event_flag
 			}
 			localization_key = "JAP_pdto_victory_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_nick_land_victory_super_event_flag
+			}
+			localization_key = "PRC_nick_land_victory_super_button"
 		}
 		text = { 
 			trigger = {

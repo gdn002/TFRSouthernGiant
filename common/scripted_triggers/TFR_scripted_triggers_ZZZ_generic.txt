@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.6
+# Current version: 1.2025.0b
 # Changes:
 # - Makes Brazil and other LATAM tags relevant
 

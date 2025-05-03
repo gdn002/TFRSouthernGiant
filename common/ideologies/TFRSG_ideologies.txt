@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.0.6
+# Current version: 1.2025.0b
 # Changes:
 # - Adds Integralism as a fascist sub-ideology
 
@@ -348,9 +348,9 @@ ideologies = {
 			sovereign_democracy_liberal = {
 				can_be_randomly_selected = no
 				color = {
-					19
-					186
-					179
+					14
+					140
+					134
 				}
 			}
 			ultra_liberalism = {
@@ -727,6 +727,9 @@ ideologies = {
 				}
 			}
 			mafia_state = {
+				can_be_randomly_selected = no
+			}
+			mafia_state_2 = {
 				can_be_randomly_selected = no
 			}
 			absolute_monarchist = {
