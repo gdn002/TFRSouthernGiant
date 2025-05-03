@@ -2,6 +2,8 @@
 
 	oob = "BRA_Unifier_2020"
 
+	recruit_character = AMZ_coiab_assembly_char
+
 	set_research_slots = 3
 	set_convoys = 10
 	set_stability = 0.1

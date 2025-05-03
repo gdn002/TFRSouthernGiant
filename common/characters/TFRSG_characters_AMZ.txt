@@ -1,0 +1,17 @@
+characters = {
+    # SUL
+	AMZ_coiab_assembly_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AMZ/AMZ_coiab_assembly.png"
+			}
+		}
+		country_leader = {
+			ideology = eco_socialism
+			traits = {
+			}
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+}

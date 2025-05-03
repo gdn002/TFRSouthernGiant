@@ -71,6 +71,10 @@
  BR2_reunified: "Federative State of Brazil"
  BR2_reunified_DEF: "The Federative State of Brazil"
 
+ #MNPD
+ BR4_mnpd: "National Movement For Democracy"
+ BR4_mnpd_DEF: "The National Movement For Democracy"
+
  #Integralist Front Unifiers
  BR4_integralist: "Integralist Republic of Brazil"
  BR4_integralist_DEF: "The Integralist Republic of Brazil"

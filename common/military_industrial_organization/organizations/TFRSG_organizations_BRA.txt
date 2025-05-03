@@ -9,10 +9,12 @@ BRA_engesa = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
+		1453 = {
+			is_core_of = FROM
+			is_controlled_by = FROM
+		}
 		FROM = {
-			controls_state = 1453
-			has_completed_focus = BRA_restart_osorio_project
-			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+			has_country_flag = BRA_engesa_restored_flag		
 		}
 	}
 }
@@ -28,9 +30,9 @@ BRA_arsenal_de_marinha = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		FROM = {
-			controls_state = 1450
-			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+		1450 = {
+			is_core_of = FROM
+			is_controlled_by = FROM
 		}
 	}
 }
@@ -43,9 +45,9 @@ BRA_base_submarinos_ilha_da_madeira = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		FROM = {
-			controls_state = 500
-			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+		500 = {
+			is_core_of = FROM
+			is_controlled_by = FROM
 		}
 	}
 }
@@ -61,9 +63,9 @@ BRA_embraer = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		FROM = {
-			controls_state = 501
-			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+		501 = {
+			is_core_of = FROM
+			is_controlled_by = FROM
 		}
 	}
 }
@@ -79,9 +81,9 @@ BRA_avibras = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		FROM = {
-			controls_state = 501
-			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+		501 = {
+			is_core_of = FROM
+			is_controlled_by = FROM
 		}
 	}
 }
@@ -97,9 +99,9 @@ BRA_xmobots = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		FROM = {
-			controls_state = 501
-			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+		501 = {
+			is_core_of = FROM
+			is_controlled_by = FROM
 		}
 	}
 }
@@ -112,9 +114,9 @@ BRA_imbel = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		FROM = {
-			controls_state = 1435
-			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+		1435 = {
+			is_core_of = FROM
+			is_controlled_by = FROM
 		}
 	}
 }
@@ -127,9 +129,9 @@ BRA_companhia_brasileira_cartuchos = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		FROM = {
-			controls_state = 1453
-			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+		1453 = {
+			is_core_of = FROM
+			is_controlled_by = FROM
 		}
 	}
 }
@@ -145,9 +147,9 @@ BRA_agrale = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		FROM = {
-			controls_state = 502
-			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+		502 = {
+			is_core_of = FROM
+			is_controlled_by = FROM
 		}
 	}
 }

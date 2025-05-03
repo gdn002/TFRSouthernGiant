@@ -402,10 +402,16 @@ BRA_civil_war_category = {
                 target = BR3
                 type = annex_everything
             }
-            declare_war_on = {
-                target = BR4
-                type = annex_everything
-            }
+            if = {
+                limit = {
+                    country_exists = BR4
+                    NOT = { BR4 = { has_cosmetic_tag = BR4_mnpd } }
+                }
+                declare_war_on = {
+                    target = BR4
+                    type = annex_everything
+                }
+            }           
             news_event = {
                 id = Brazilnews.libs.1 
                 hours = 6         

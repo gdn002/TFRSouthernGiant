@@ -829,3 +829,139 @@ BRA = {
 		}
 	}
 }
+
+BR1 = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_carcara.png"
+			}
+		}
+	}
+
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_sucuri.png"
+			}
+		}
+	}
+	
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_tamoyo.png"
+			}
+		}
+	}
+
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_osorio.png"
+			}
+		}
+	}
+}
+
+BR2 = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_carcara.png"
+			}
+		}
+	}
+
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_sucuri.png"
+			}
+		}
+	}
+	
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_tamoyo.png"
+			}
+		}
+	}
+
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_osorio.png"
+			}
+		}
+	}
+}
+
+BR3 = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_carcara.png"
+			}
+		}
+	}
+
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_sucuri.png"
+			}
+		}
+	}
+	
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_tamoyo.png"
+			}
+		}
+	}
+
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_osorio.png"
+			}
+		}
+	}
+}
+
+BR4 = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_carcara.png"
+			}
+		}
+	}
+
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_sucuri.png"
+			}
+		}
+	}
+	
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_tamoyo.png"
+			}
+		}
+	}
+
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/BRA/BRA_osorio.png"
+			}
+		}
+	}
+}

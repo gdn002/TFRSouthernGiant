@@ -356,6 +356,7 @@
  BRA_civil_war_started_flag: "The §RBrazilian Civil War§! has started!"
  BRA_civil_war_ongoing_flag: "The §RBrazilian Civil War§! is ongoing!"
  BRA_civil_war_ended_flag: "The §RBrazilian Civil War§! is over!"
+ BRA_engesa_restored_flag: "Has restored Engesa"
  #Parties
  BRA_national_socialist_party: "§ROUTLAWED§!"
  BRA_national_socialist_party_long: "§ROUTLAWED§!"

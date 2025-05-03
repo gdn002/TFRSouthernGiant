@@ -71,8 +71,9 @@
 	}
 	
 	set_popularities = {
+		national_socialist = 8
 		fascist = 40
-		nationalist = 40
+		nationalist = 32
 		conservative = 20
 	}
 

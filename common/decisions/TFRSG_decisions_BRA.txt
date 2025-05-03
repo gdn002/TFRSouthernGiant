@@ -1320,6 +1320,7 @@ BRA_south_american_sphere_category = {
     ## MALVINES/FALKLANDS CRISIS ##
 	BRA_malvines_crisis_mission = {
 		days_mission_timeout = 60
+		is_good = no
 		allowed = {
 			original_tag = BRA
 		}
@@ -1377,6 +1378,7 @@ BRA_south_american_sphere_category = {
 	## ESSEQUIBO CRISIS ##
 	BRA_essequibo_crisis_mission = {
 		days_mission_timeout = 60
+		is_good = no
 		allowed = {
 			original_tag = BRA
 		}

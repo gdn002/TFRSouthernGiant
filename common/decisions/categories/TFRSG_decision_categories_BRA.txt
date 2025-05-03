@@ -6,7 +6,7 @@ BRA_political_radicalization_category = {
 }
 
 BRA_2022_elections_category = {
-	icon = GFX_decision_category_PRC_internal_factions_icon
+	icon = GFX_decision_category_BRA_2022_elections
     visible_when_empty = yes
     priority = 5
 
@@ -54,7 +54,7 @@ BRA_coronavirus_category = {
 }
 
 BRA_south_american_sphere_category = {
-	icon = GFX_decision_category_PRC_internal_factions_icon
+	icon = GFX_decision_category_BRA_south_american_sphere
     visible_when_empty = yes
     priority = 2
 

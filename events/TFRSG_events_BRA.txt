@@ -3961,7 +3961,6 @@ country_event = {
 			BR2 = {
 				transfer_state = 1435
 				add_state_core = 1435
-				load_oob = "BRA_Unifier_2020"
 			}
 		}
 	}
@@ -3971,7 +3970,10 @@ country_event = {
 		effect_tooltip = {
 			BR2 = {
 				transfer_state = 1435
-			}
+			}			
+		}
+		hidden_effect = {
+			BR2 = { load_oob = "BRA_Unifier_2020" }
 		}
 	}
 }
@@ -3995,7 +3997,6 @@ country_event = {
 			BR1 = {
 				transfer_state = 1450
 				add_state_core = 1450
-				load_oob = "BRA_Unifier_2020"
 			}
 			country_event = {
 				id = Brazil.civilwar.7
@@ -4010,6 +4011,9 @@ country_event = {
 			BR1 = {
 				transfer_state = 1450
 			}
+		}
+		hidden_effect = {
+			BR1 = { load_oob = "BRA_Unifier_2020" }
 		}
 	}
 }
@@ -4242,7 +4246,6 @@ country_event = {
 			BR3 = {
 				transfer_state = 1452
 				add_state_core = 1452
-				load_oob = "BRA_Unifier_2020"
 			}
 			country_event = {
 				id = Brazil.civilwar.11
@@ -4257,6 +4260,9 @@ country_event = {
 			BR3 = {
 				transfer_state = 1452
 			}
+		}
+		hidden_effect = {
+			BR3 = { load_oob = "BRA_Unifier_2020" }
 		}
 	}
 }

@@ -746,11 +746,11 @@ focus_tree = {
 				tooltip = BRA_civil_war_unifiers_defeated_tt
 				NOT = {
 					country_exists = BR2
-					country_exists = BR3
-					OR = {
-						country_exists = BR4
-						has_subject = BR4
-					}
+					country_exists = BR3					
+				}
+				OR = {
+					NOT = { country_exists = BR4 }
+					has_subject = BR4
 				}
 			}
 		}

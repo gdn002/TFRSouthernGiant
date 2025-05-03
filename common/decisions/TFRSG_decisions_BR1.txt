@@ -18,7 +18,7 @@ BR1_federal_gov_balance_of_power_category = {
 			}
  		}
 		modifier = {
-			political_power_cost = -0.05
+			political_power_cost = 0.05
 			social_democrat_drift = 0.01
 			power_balance_daily = -0.003
 		}
@@ -46,7 +46,7 @@ BR1_federal_gov_balance_of_power_category = {
 			}
  		}
 		modifier = {
-			political_power_cost = -0.1
+			political_power_cost = 0.1
 			social_democrat_drift = 0.025
 			power_balance_daily = -0.005
 		}
@@ -75,7 +75,7 @@ BR1_federal_gov_balance_of_power_category = {
 			}
  		}
 		modifier = {
-			political_power_cost = -0.05
+			political_power_cost = 0.05
 			social_liberal_drift = 0.01
 			power_balance_daily = 0.003
 		}
@@ -103,7 +103,7 @@ BR1_federal_gov_balance_of_power_category = {
 			}
  		}
 		modifier = {
-			political_power_cost = -0.1
+			political_power_cost = 0.1
 			social_liberal_drift = 0.025
 			power_balance_daily = 0.005
 		}

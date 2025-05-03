@@ -28,9 +28,9 @@ debug_decisions = {
 
 	BRA_DEBUG_gimme_osorio = {
 		cancel_if_not_visible = yes
-		days_re_enable = 1
+		fire_only_once = yes
         allowed = {
-            tag = BRA
+            is_brazilian_unifier = yes
         }
 		complete_effect = {
 			set_technology = {
@@ -57,6 +57,7 @@ debug_decisions = {
 			    icon = "GFX_BRA_main_battle_tank4_medium"
 			    design_team = mio:BRA_engesa
 			}
+			set_country_flag = BRA_engesa_restored_flag
  		}
 	}
 

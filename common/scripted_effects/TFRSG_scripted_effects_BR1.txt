@@ -51,7 +51,7 @@ BR1_endgame_content = {
 			election_frequency = 48
 			elections_allowed = yes
 		}		
-		change_gov_type_presidential_republic = yes
+		change_government_type_presidential_republic = yes
 		change_economy_type_left_corporatism = yes
 		set_cosmetic_tag = BR1_union
     }
@@ -69,13 +69,13 @@ BR1_endgame_content = {
 			election_frequency = 48
 			elections_allowed = yes
 		}		
-		change_gov_type_presidential_republic = yes
+		change_government_type_presidential_republic = yes
 		change_economy_type_corporatism = yes
 		set_cosmetic_tag = BR1_federation
     }
     else = {
         # BALANCED
-        change_gov_type_semi_presidential_system = yes
+        change_government_type_semi_presidential_system = yes
 		change_economy_type_liberal_corporatism = yes
 		set_cosmetic_tag = BR1_unitedstates
     }

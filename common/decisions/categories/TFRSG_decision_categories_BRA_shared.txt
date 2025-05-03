@@ -12,6 +12,7 @@ BRA_amazonian_jungle_category = {
 }
 
 BRA_civil_war_category = {
+	icon = GFX_decision_category_BRA_civil_war
 	priority = 10
 	visible_when_empty = yes
 	allowed = {
@@ -23,6 +24,7 @@ BRA_civil_war_category = {
 }
 
 BRA_war_with_united_states_category = {
+	icon = GFX_decision_category_BRA_war_with_united_states
 	priority = 1000
 	visible_when_empty = yes
 	allowed = {

@@ -54,7 +54,8 @@
 	}
 	
 	set_popularities = {
-		conservative = 42
+		authoritarian_democrat = 4
+		conservative = 38
 		market_liberal = 5
 		social_liberal = 18
 		social_democrat = 35

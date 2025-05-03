@@ -75,10 +75,12 @@
 	
 	set_popularities = {
 		fascist = 10
-		nationalist = 19
-		authoritarian_democrat = 28
-		conservative = 34
+		nationalist = 22
+		authoritarian_democrat = 18
+		conservative = 30
 		market_liberal = 9
+		social_liberal = 7
+		social_democrat = 4
 	}
 
 	# STARTING TECHS

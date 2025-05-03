@@ -53,7 +53,7 @@
  BR1_cw_campaign_new_brazilian_army: "§YCampaign§!: The New Brazilian Army"
  BR1_cw_campaign_all_inclusive_economy: "§YCampaign§!: An All-Inclusive Economy"
  #BOP
- BR1_federal_gov_power_struggle: "The Lula-Alckmin Balance of Power"
+ BR1_federal_gov_balance_of_power: "The Lula-Alckmin Balance of Power"
  BR1_lula_side: "Lula da Silva"
  BR1_alckmin_side: "Geraldo Alckmin"
  BR1_lula_dominant_range: "Lula Dominant"
@@ -66,6 +66,7 @@
  BR1_alckmin_strong_range: "Strong Alckmin Bias"
  BR1_alckmin_dominant_range: "Alckmin Dominant"
  #Country Flag
+ BR1_is_taking_action_bop: "Is taking political action"
  #Tooltips
  BR1_cw_army_reporting_tt: "We will raise §Yrepublican militias§! and §Ymilitary brigades§! to fight the imminent civil war!"
  BR1_cw_recover_brazilian_core_tt: "§YWe will gain control over Eastern Brazil.§!"

@@ -37,8 +37,8 @@ BR1_federal_gov_balance_of_power = {
 				political_power_factor = 0.15
 				social_democrat_drift = 0.05
 				war_support_factor = 0.15
-				poverty_development_monthly = 0.05
-				military_development_monthly = 0.05
+				poverty_development_monthly = 0.025
+				military_development_monthly = 0.025
 			}
 			on_activate = {
 				if = {
@@ -60,8 +60,8 @@ BR1_federal_gov_balance_of_power = {
 				political_power_factor = 0.1
 				social_democrat_drift = 0.03
 				war_support_factor = 0.1
-				poverty_development_monthly = 0.04
-				military_development_monthly = 0.04
+				poverty_development_monthly = 0.025
+				military_development_monthly = 0.025
 			}
 			on_activate = {
 				if = {
@@ -83,8 +83,8 @@ BR1_federal_gov_balance_of_power = {
 				political_power_factor = 0.15
 				social_democrat_drift = 0.02
 				war_support_factor = 0.05
-				poverty_development_monthly = 0.03
-				military_development_monthly = 0.03
+				poverty_development_monthly = 0.02
+				military_development_monthly = 0.02
 			}
 			on_activate = {
 				if = {
@@ -105,8 +105,8 @@ BR1_federal_gov_balance_of_power = {
 			modifier = {
 				political_power_factor = 0.2
 				social_democrat_drift = 0.01
-				poverty_development_monthly = 0.02
-				military_development_monthly = 0.02
+				poverty_development_monthly = 0.015
+				military_development_monthly = 0.015
 				farming_development_monthly = 0.005
 				industrial_development_monthly = 0.005
 			}
@@ -137,8 +137,8 @@ BR1_federal_gov_balance_of_power = {
 				social_liberal_drift = 0.01
 				poverty_development_monthly = 0.005
 				military_development_monthly = 0.005
-				farming_development_monthly = 0.02
-				industrial_development_monthly = 0.02
+				farming_development_monthly = 0.015
+				industrial_development_monthly = 0.015
 			}
 			on_activate = {
 				if = {
@@ -160,8 +160,8 @@ BR1_federal_gov_balance_of_power = {
 				political_power_factor = 0.15
 				social_liberal_drift = 0.02
 				stability_factor = 0.05
-				farming_development_monthly = 0.03
-				industrial_development_monthly = 0.03
+				farming_development_monthly = 0.02
+				industrial_development_monthly = 0.02
 			}
 			on_activate = {
 				if = {
@@ -183,8 +183,8 @@ BR1_federal_gov_balance_of_power = {
 				political_power_factor = 0.1
 				social_liberal_drift = 0.03
 				stability_factor = 0.1
-				farming_development_monthly = 0.04
-				industrial_development_monthly = 0.04
+				farming_development_monthly = 0.025
+				industrial_development_monthly = 0.025
 			}
 			on_activate = {
 				if = {
@@ -206,8 +206,8 @@ BR1_federal_gov_balance_of_power = {
 				political_power_factor = 0.15
 				social_liberal_drift = 0.05
 				stability_factor = 0.15
-				farming_development_monthly = 0.05
-				industrial_development_monthly = 0.05
+				farming_development_monthly = 0.025
+				industrial_development_monthly = 0.025
 			}
 			on_activate = {
 				if = {

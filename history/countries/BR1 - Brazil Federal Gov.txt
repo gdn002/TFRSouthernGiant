@@ -65,11 +65,14 @@
 	}
 	
 	set_popularities = {
+		nationalist = 2
 		authoritarian_democrat = 2
 		conservative = 14
-		social_democrat = 36
+		social_democrat = 28
 		social_liberal = 21
-		market_liberal = 27
+		market_liberal = 22
+		libertarian_socialist = 5
+		communist = 6
 	}
 
 	# STARTING TECHS
