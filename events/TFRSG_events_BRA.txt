@@ -1759,12 +1759,14 @@ country_event = {
 		trigger = {
 			has_completed_focus = BRA_2022_together_for_brazil
 		}
+		complete_national_focus = BRA_2022_love_wins
 	}
 	option = {
 		name = Brazil.46.b
 		trigger = {
 			NOT = { has_completed_focus = BRA_2022_together_for_brazil }
 		}
+		complete_national_focus = BRA_2022_love_wins
 	}
 }
 
@@ -1799,12 +1801,14 @@ country_event = {
 		trigger = {
 			has_completed_focus = BRA_2022_uniting_brazil
 		}
+		complete_national_focus = BRA_2022_reason_prevails
 	}
 	option = {
 		name = Brazil.47.b
 		trigger = {
 			NOT = { has_completed_focus = BRA_2022_uniting_brazil }
 		}
+		complete_national_focus = BRA_2022_reason_prevails
 	}
 }
 
@@ -1839,12 +1843,14 @@ country_event = {
 		trigger = {
 			has_completed_focus = BRA_2022_god_country_family
 		}
+		complete_national_focus = BRA_2022_patriotic_victory
 	}
 	option = {
 		name = Brazil.48.b
 		trigger = {
 			NOT = { has_completed_focus = BRA_2022_god_country_family }
 		}
+		complete_national_focus = BRA_2022_patriotic_victory
 	}
 }
 
@@ -1879,12 +1885,14 @@ country_event = {
 		trigger = {
 			has_completed_focus = BRA_2022_god_country_family
 		}
+		complete_national_focus = BRA_2022_patriotic_victory
 	}
 	option = {
 		name = Brazil.49.b
 		trigger = {
 			NOT = { has_completed_focus = BRA_2022_god_country_family }
 		}
+		complete_national_focus = BRA_2022_patriotic_victory
 	}
 }
 
@@ -2257,7 +2265,7 @@ country_event = {
 	}
 
 	immediate = {
-		hidden_effect = {
+		hidden_effect = {			
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = -0.015
@@ -2278,6 +2286,7 @@ country_event = {
 			}
 			else = {
 				# Protests escalate
+				set_country_flag = BRA_2022_election_protests_far_right_flag
 				country_event = {
 					id = Brazil.63
 					days = 15
@@ -2295,6 +2304,8 @@ country_event = {
    	 			tooltip_side = BRA_radicalization_side
 			}
 		}
+		mark_focus_tree_layout_dirty = yes
+		focus_unlock = yes
 	}
 }
 
@@ -2339,6 +2350,7 @@ country_event = {
 						check_variable = { BRA_chamber_progressive_seats_var > BRA_chamber_reactionary_seats_var }
 					}
 					# Far left path
+					set_country_flag = BRA_2022_election_protests_far_left_flag
 					country_event = {
 						id = Brazil.69
 						days = 20
@@ -2346,6 +2358,7 @@ country_event = {
 				}
 				else = {
 					# Far right path
+					set_country_flag = BRA_2022_election_protests_far_right_flag
 					country_event = {
 						id = Brazil.63
 						days = 15
@@ -2364,6 +2377,8 @@ country_event = {
    	 			tooltip_side = BRA_radicalization_side
 			}
 		}
+		mark_focus_tree_layout_dirty = yes
+		focus_unlock = yes
 	}
 }
 
@@ -2403,6 +2418,7 @@ country_event = {
 			}
 			else = {
 				# Protests escalate
+				set_country_flag = BRA_2022_election_protests_far_left_flag
 				country_event = {
 					id = Brazil.69
 					days = 20
@@ -2420,6 +2436,8 @@ country_event = {
    	 			tooltip_side = BRA_radicalization_side
 			}
 		}
+		mark_focus_tree_layout_dirty = yes
+		focus_unlock = yes
 	}
 }
 

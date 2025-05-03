@@ -198,6 +198,8 @@ focus_tree = {
 		completion_reward = {
 			# We are in a state of emergency!
 			add_ideas = BR1_state_of_emergency_idea
+			BRA_civil_war_add_claims = yes
+			set_country_flag = BRA_civil_war_reintegration_allowed_flag
 		}
 	}
 

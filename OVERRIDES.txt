@@ -7,6 +7,7 @@ common\game_rules\00_game_rules.txt
 common\ideologies\TFRSG_ideologies.txt
 common\intelligence_agencies\00_intelligence_agencies.txt
 common\military_industrial_organization\organizations\TFR_organizations_ZZZ_generic.txt
+common\on_actions\TFR_on_actions_ZZZ.txt
 common\scripted_localisation\TFR_FBI_Scripted_Loc.txt
 common\scripted_localisation\TFR_Super_Event_Scripted_Loc.txt
 common\scripted_triggers\TFR_scripted_triggers_ZZZ_generic.txt

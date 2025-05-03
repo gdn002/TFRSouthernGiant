@@ -200,13 +200,17 @@
  BR3_social_liberal_party_democratic_long: "Party For Democracy and Liberty" 
  BR3_social_democrat_party_democratic: "PTB" 
  BR3_social_democrat_party_democratic_long: "Brazilian Labour Party" 
- BR3_social_democrat_party_democratic: "PSOL" 
- BR3_social_democrat_party_democratic_long: "Socialism and Liberty Party" 
+ BR3_libertarian_socialist_democratic: "PSOL" 
+ BR3_libertarian_socialist_democratic_long: "Socialism and Liberty Party" 
  BR3_communist_party_democratic: "PCB" 
  BR3_communist_party_democratic_long: "Brazilian Communist Party"
  BR3_totalitarian_socialist_party_democratic: "PCO"
  BR3_totalitarian_socialist_party_democratic_long: "Worker's Cause Party"
 
+ BR3_party_outlawed: "§ROUTLAWED§!"
+ BR3_party_outlawed_long: "§ROUTLAWED§!"
+ BR3_social_democrat_party_npt: "NPT" 
+ BR3_social_democrat_party_npt_long: "New Worker's Party" 
  BR3_nationalist_party_pla: "ELPB"
  BR3_nationalist_party_pla_long: "People's Liberation Army of Brazil"
 
@@ -216,6 +220,13 @@
  BR3_communist_party_pcb_long: "Communist Party of Brazil - Centrists"
  BR3_totalitarian_socialist_party_pcb: "PCB - Hardliners"
  BR3_totalitarian_socialist_party_pcb_long: "Communist Party of Brazil - Hardliners"
+
+ BR3_libertarian_socialist_party_ursal: "GCCAL - Libertarians"
+ BR3_libertarian_socialist_party_ursal_long: "Grand Communist Council of Latin America - Libertarians" 
+ BR3_communist_party_ursal: "GCCAL - Centrists" 
+ BR3_communist_party_ursal_long: "Grand Communist Council of Latin America - Centrists"
+ BR3_totalitarian_socialist_party_ursal: "GCCAL - Hardliners"
+ BR3_totalitarian_socialist_party_ursal_long: "Grand Communist Council of Latin America - Hardliners"
 
  BR3_communist_party_pco: "PCO - Libertarians" 
  BR3_communist_party_pco_long: "Worker's Cause Party - Libertarians"

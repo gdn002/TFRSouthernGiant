@@ -184,6 +184,127 @@ BRA_political_radicalization_category = {
 			}
 		}
 	}
+
+	## Post Elections
+	BRA_curtail_agitation = {
+		cancel_if_not_visible = yes
+		days_re_enable = 20
+		days_remove = 15
+		cost = 25
+		visible = {
+			has_country_flag = BRA_2022_elections_over_flag
+		}
+		available = {
+			has_idea = BRA_2022_election_protests_idea
+			OR = {
+				has_completed_focus = BRA_2022_bolsonarisms_last_stand
+			}
+			NOT = {
+				has_country_flag = BRA_is_taking_action_radicalization_bop
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = BRA_is_taking_action_radicalization_bop
+			}
+ 		}
+		modifier = {
+			political_power_cost = 0.05
+			power_balance_daily = 0.001
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = BRA_is_taking_action_radicalization_bop
+			}
+			add_power_balance_value = {
+    			id = BRA_political_radicalization_balance
+			    value = 0.05
+			    tooltip_side = BRA_stabilization_side
+			}
+		}
+	}
+
+	BRA_disperse_protests = {
+		cancel_if_not_visible = yes
+		days_re_enable = 20
+		days_remove = 15
+		custom_cost_trigger = {
+            command_power > 10
+        }
+        custom_cost_text = 10cp_cost
+		visible = {
+			has_country_flag = BRA_2022_elections_over_flag
+		}
+		available = {
+			has_idea = BRA_2022_election_protests_idea
+			OR = {
+				has_completed_focus = BRA_2022_bolsonarisms_last_stand
+			}
+			NOT = {
+				has_country_flag = BRA_is_taking_action_radicalization_bop
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = BRA_is_taking_action_radicalization_bop
+			}
+ 		}
+		modifier = {
+			political_power_cost = 0.05
+			command_power_gain = -0.1
+			power_balance_daily = 0.005
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = BRA_is_taking_action_radicalization_bop
+			}
+			add_stability = -0.025
+			add_power_balance_value = {
+    			id = BRA_political_radicalization_balance
+			    value = 0.05
+			    tooltip_side = BRA_stabilization_side
+			}
+		}
+	}
+
+	BRA_fan_up_radicalism = {
+		cancel_if_not_visible = yes
+		days_re_enable = 20
+		days_remove = 15
+		cost = 25
+		visible = {
+			has_country_flag = BRA_2022_elections_over_flag
+		}
+		available = {
+			has_idea = BRA_2022_election_protests_idea
+			OR = {
+				has_completed_focus = BRA_2022_bolsonarisms_last_stand
+			}
+			NOT = {
+				has_country_flag = BRA_is_taking_action_radicalization_bop
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = BRA_is_taking_action_radicalization_bop
+			}
+ 		}
+		modifier = {
+			political_power_cost = 0.1
+			power_balance_daily = -0.001
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = BRA_is_taking_action_radicalization_bop
+			}
+			add_stability = -0.05
+			add_power_balance_value = {
+    			id = BRA_political_radicalization_balance
+			    value = -0.05
+			    tooltip_side = BRA_radicalization_side
+			}
+		}
+	}
 }
 
 #### 2022 ELECTIONS ####
@@ -819,7 +940,7 @@ BRA_2022_elections_category = {
 		}
 		modifier = {
 			political_power_cost = 0.1
-			command_power_gain = -0.1
+			command_power_gain = -0.25
 			power_balance_daily = 0.025
 		}
 		timeout_effect = {

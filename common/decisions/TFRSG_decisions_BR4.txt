@@ -17,8 +17,7 @@ BRA_civil_war_category = {
 		available = {
 		}
 		complete_effect = {
-			set_country_flag = BRA_civil_war_recruiting_flag
-			BR4_civil_war_insurgents_scripted_effect = yes		
+			set_country_flag = BRA_civil_war_recruiting_flag				
 			BR4_civil_war_extend_insurgent_spirit_effect = yes
 			if = {
 				limit = { country_exists = BR2 }
@@ -37,7 +36,8 @@ BRA_civil_war_category = {
 			}		
 		}
 		remove_effect = {
-			clr_country_flag = BRA_civil_war_recruiting_flag		
+			clr_country_flag = BRA_civil_war_recruiting_flag	
+			BR4_civil_war_insurgents_scripted_effect = yes	
 		}
 		cancel_effect = {
 			clr_country_flag = BRA_civil_war_recruiting_flag
@@ -102,6 +102,48 @@ BRA_civil_war_category = {
 		}
 		cancel_effect = {
 			clr_country_flag = BR3_civil_war_raiding_flag
+		}
+	}
+
+	BR4_reintegrate_targeted_decision = {
+		icon = GFX_decision_generic_recore
+		cost = BR4_reintegrate_cost_var
+		days_remove = 30
+		fire_only_once = no
+		target_array = BRA.core_states
+		state_target = yes
+		on_map_mode = map_only
+		allowed = {
+			tag = BR4
+		}
+		target_trigger = {
+			FROM = {
+				is_controlled_by = ROOT
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		available = {
+			FROM = {
+                resistance < 20
+            }
+		}
+        ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			custom_effect_tooltip = BR4_insurgency_cost_tt
+			if = {
+				limit = { check_variable = { BR4_insurgency_cost_var < 50 } }
+				add_to_variable	= { BR4_insurgency_cost_var = 5 }
+			}
+		}
+		remove_effect = {
+			FROM = {
+                add_core_of = ROOT
+			    remove_claim_by = ROOT
+            }
 		}
 	}
 }

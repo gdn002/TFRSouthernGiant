@@ -1,5 +1,8 @@
-# OVERRIDE - ADDRESSES BUG WITH DUPLICATE LEFT CORPORATISM IN PLACE OF LIBERAL CORPORATISM EFFECT
-# VOLVO PLZ FIX
+# OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
+# Current version: 1.2025.0b
+# Changes:
+# - Fix Left Corporatism / Liberal Corporatism erroneous effects from vanilla TFR
+# - Valve plz fix
 
 #Diplomacy
 enable_wargoal_justification = {

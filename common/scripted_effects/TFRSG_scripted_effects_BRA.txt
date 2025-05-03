@@ -579,6 +579,7 @@ BRA_get_2022_elections_result = {
 				}
 			}
 		}
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -1115,6 +1116,42 @@ BRA_civil_war_recruitment_scripted_effect = {
 			allow_spawning_on_enemy_provs = yes
 			owner = ROOT
             count = BRA_civil_war_recruit_value_temp
+		}
+    }
+}
+
+BRA_endgame_content = {
+    ## Sets up post-civil war skeleton content for this tag
+    set_portraits = {
+		character = BRA_jair_bolsonaro_char
+		civilian = { large ="GFX_BRA_Jair_Bolsonaro_reelection" }
+	}
+
+	if = {
+        # LULA
+        limit = {
+            has_country_flag = BRA_progressive_administration_flag
+        }
+		country_event = {
+			id = Brazil.timeline.9
+			hours = 12
+		}
+    }
+	else_if = {
+        # ALCKMIN
+        limit = {
+            has_country_flag = BRA_centrist_administration_flag
+        }
+		country_event = {
+			id = Brazil.timeline.10
+			hours = 12
+		}
+    }
+    else = {
+        # BOLSONARO
+		country_event = {
+			id = Brazil.timeline.11
+			hours = 12
 		}
     }
 }
