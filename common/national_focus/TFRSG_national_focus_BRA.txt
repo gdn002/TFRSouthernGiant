@@ -903,7 +903,7 @@ focus_tree = {
 			# Choosing this path makes later statization of Petrobras easier
 			add_political_power = -100
 			add_stability = 0.05
-			set_temp_variable = { BRA_chamber_centrao_support_var_temp = 15 }
+			set_temp_variable = { BRA_chamber_centrao_support_var_temp = 25 }
 			BRA_remove_centrao_support_random = yes
 			set_temp_variable = { poverty_development_var_temp = 0.05 }
 			add_poverty_development = yes
@@ -2312,7 +2312,7 @@ focus_tree = {
 		relative_position_id = BRA_2022_love_wins
 		x = 0
 		y = 1
-		cost = 2
+		cost = 4
 		allow_branch = {
 			has_completed_focus = BRA_2022_love_wins
 		}
@@ -2460,7 +2460,7 @@ focus_tree = {
 		relative_position_id = BRA_2022_reason_prevails
 		x = 0
 		y = 1
-		cost = 2
+		cost = 4
 		allow_branch = {
 			has_completed_focus = BRA_2022_reason_prevails
 		}
@@ -2666,7 +2666,7 @@ focus_tree = {
 		relative_position_id = BRA_2022_patriotic_victory
 		x = 0
 		y = 1
-		cost = 2
+		cost = 4
 		allow_branch = {
 			has_completed_focus = BRA_2022_patriotic_victory
 		}
@@ -2801,10 +2801,11 @@ focus_tree = {
 		}
 		available = {
 			NOT = { has_idea = BRA_2022_election_protests_idea }
-			date > 2022.01.01
+			date > 2023.01.01
 		}
 		completion_reward = {
-			
+			add_stability = 0.15
+			BRA_endgame_content = yes
 		}
 	}
 }

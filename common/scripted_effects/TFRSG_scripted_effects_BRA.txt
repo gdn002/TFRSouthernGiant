@@ -1,3 +1,5 @@
+@NUM_DAYS_2024 = 738760
+
 ## AMAZON JUNGLE MECHANIC
 BRA_add_amazonian_preservation = {
 	custom_effect_tooltip = BRA_add_amazonian_preservation_tooltip
@@ -863,13 +865,23 @@ BRA_decrease_oil_crisis = {
 }
 
 ## CIVIL WAR
+BRA_civil_war_tag_setup = {
+	hidden_effect = {
+		# Sets up bi-yearly relay events for civil war tags, with the appropriate day offset accounted for
+		set_variable = { TFRSG_days_into_2024_var = num_days }
+		subtract_from_variable = { TFRSG_days_into_2024_var = NUM_DAYS_2024 }
+		country_event = {
+			id = Brazil.timeline.2
+		}
+	}
+}
+
 BRA_civil_war_setup = {
 	hidden_effect = {
 		set_global_flag = BRA_civil_war_started_flag
 		# Federal Gov
 		BR1 = {
 			inherit_technology = BRA
-			add_ideas = { BRA_brazilian_civil_war_idea }
 			if = {
 				limit = {
 					is_ai = yes
@@ -886,7 +898,6 @@ BRA_civil_war_setup = {
 		# Military Junta
 		BR2 = {
 			inherit_technology = BRA
-			add_ideas = { BRA_brazilian_civil_war_idea }
 			if = {
 				limit = {
 					is_ai = yes
@@ -903,7 +914,6 @@ BRA_civil_war_setup = {
 		# Popular Front
 		BR3 = {
 			inherit_technology = BRA
-			add_ideas = { BRA_brazilian_civil_war_idea }
 			if = {
 				limit = {
 					is_ai = yes
@@ -920,7 +930,6 @@ BRA_civil_war_setup = {
 		# Junta Breakaways
 		BR4 = {
 			inherit_technology = BRA
-			add_ideas = { BRA_brazilian_civil_war_idea }
 			if = {
 				limit = {
 					is_ai = yes
@@ -954,36 +963,33 @@ BRA_civil_war_setup = {
 	}
 }
 
-BRA_civil_war_kickoff = {
+BRA_civil_war_start = {
 	hidden_effect = {
 		set_global_flag = BRA_civil_war_ongoing_flag
 
 		BR1 = {
 			mark_focus_tree_layout_dirty = yes
-			add_ideas = BRA_civil_war_idea
+			add_ideas = { BRA_brazilian_civil_war_idea }
 		}
 		BR2 = {
 			mark_focus_tree_layout_dirty = yes
-			add_ideas = BRA_civil_war_idea
+			add_ideas = { BRA_brazilian_civil_war_idea }
 		}
 		BR3 = {
 			mark_focus_tree_layout_dirty = yes
-			add_ideas = BRA_civil_war_idea
+			add_ideas = { BRA_brazilian_civil_war_idea }
 		}
 		SUL = {
-			load_oob = "SUL_Civil_War"
-			add_ideas = BRA_civil_war_idea
+			add_ideas = { BRA_brazilian_civil_war_idea }
 		}
 		SPA = {
-			load_oob = "SPA_Civil_War"
-			add_ideas = BRA_civil_war_idea
+			add_ideas = { BRA_brazilian_civil_war_idea }
 		}
 		AMZ = {
-			load_oob = "AMZ_Civil_War"
-			add_ideas = BRA_civil_war_idea
+			add_ideas = { BRA_brazilian_civil_war_idea }
 		}
 		UNB = {
-			add_ideas = BRA_civil_war_idea
+			add_ideas = { BRA_brazilian_civil_war_idea }
 		}
 	}	
 }
@@ -1009,7 +1015,7 @@ BRA_civil_war_end = {
 		}
 
 		remove_ideas = {
-			BRA_civil_war_idea
+			BRA_brazilian_civil_war_idea
 			BRA_civil_war_gamerule_blessing
 		}
 	}
@@ -1122,11 +1128,6 @@ BRA_civil_war_recruitment_scripted_effect = {
 
 BRA_endgame_content = {
     ## Sets up post-civil war skeleton content for this tag
-    set_portraits = {
-		character = BRA_jair_bolsonaro_char
-		civilian = { large ="GFX_BRA_Jair_Bolsonaro_reelection" }
-	}
-
 	if = {
         # LULA
         limit = {
@@ -1135,6 +1136,12 @@ BRA_endgame_content = {
 		country_event = {
 			id = Brazil.timeline.9
 			hours = 12
+		}
+		set_power_balance = {
+		    id = BRA_political_alignment_balance
+		    left_side = BRA_progressive_side
+		    right_side = BRA_reactionary_side
+			set_value = -0.15
 		}
     }
 	else_if = {
@@ -1146,12 +1153,24 @@ BRA_endgame_content = {
 			id = Brazil.timeline.10
 			hours = 12
 		}
+		set_power_balance = {
+		    id = BRA_political_alignment_balance
+		    left_side = BRA_progressive_side
+		    right_side = BRA_reactionary_side
+			set_value = 0
+		}
     }
     else = {
         # BOLSONARO
 		country_event = {
 			id = Brazil.timeline.11
 			hours = 12
+		}
+		set_power_balance = {
+		    id = BRA_political_alignment_balance
+		    left_side = BRA_progressive_side
+		    right_side = BRA_reactionary_side
+			set_value = 0.15
 		}
     }
 }

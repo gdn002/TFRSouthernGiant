@@ -210,6 +210,90 @@ characters = {
 			id = -1
 		}
 	}
+	BRA_renan_bolsonaro_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Renan_Bolsonaro.png"
+			}
+		}
+		country_leader = {
+			ideology = civic_nationalism
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BRA_gleisi_hoffmann_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Gleisi_Hoffmann.png"
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BRA_dilma_rousseff_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Dilma_Rousseff.png"
+			}
+		}
+		country_leader = {
+			ideology = left_populism
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BRA_ciro_gomes_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Ciro_Gomes.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BRA_fernando_haddad_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Fernando_Haddad.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BRA_tarcisio_freitas_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Tarcisio_Freitas.png"
+			}
+		}
+		country_leader = {
+			ideology = right_centrist
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	BRA_eduardo_leite_char = {
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Eduardo_Leite.png"
+			}
+		}
+		country_leader = {
+			ideology = right_libertarianism
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
 
 	# BRA - GENERALS
 	BRA_hertz_pires_char = {

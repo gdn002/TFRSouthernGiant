@@ -3,6 +3,10 @@ spriteTypes = {
 		name = "GFX_BRA_Lula_da_Silva_sunglasses" 
 		texturefile = "gfx/leaders/BRA/BRA_Lula_da_Silva_sunglasses.png" 
 	}
+	spriteType = {
+		name = "GFX_BRA_Lula_da_Silva_hat" 
+		texturefile = "gfx/leaders/BRA/BRA_Lula_da_Silva_hat.png" 
+	}
 
 	spriteType = {
 		name = "GFX_BRA_geraldo_alckmin"  
@@ -24,6 +28,23 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_BRA_Jair_Bolsonaro_reelection"  
 		texturefile = "gfx/leaders/BRA/BRA_Jair_Bolsonaro_reelection.png" 
+	}
+	spriteType = {
+		name = "GFX_BRA_Jair_Bolsonaro_sunglasses"  
+		texturefile = "gfx/leaders/BRA/BRA_Jair_Bolsonaro_sunglasses.png" 
+	}
+
+	spriteType = {
+		name = "GFX_BRA_Flavio_Bolsonaro_reelection"  
+		texturefile = "gfx/leaders/BRA/BRA_Flavio_Bolsonaro_Reelection.png" 
+	}
+	spriteType = {
+		name = "GFX_BRA_Eduardo_Bolsonaro_reelection"  
+		texturefile = "gfx/leaders/BRA/BRA_Eduardo_Bolsonaro_Reelection.png" 
+	}
+	spriteType = {
+		name = "GFX_BRA_Carlos_Bolsonaro_reelection"  
+		texturefile = "gfx/leaders/BRA/BRA_Carlos_Bolsonaro_Reelection.png" 
 	}
 
 	spriteType = {

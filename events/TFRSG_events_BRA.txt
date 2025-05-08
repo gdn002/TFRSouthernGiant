@@ -4,20 +4,20 @@ add_namespace = Brazil.civilwar
 add_namespace = Brazil.timeline
 add_namespace = Brazil.super
 
-###########################
-# Timeline Relay Events
-###########################
+####################################################################################################################################################################
+# Timeline Events
+####################################################################################################################################################################
 
 # 2022
 country_event = {
 	id = Brazil.timeline.1
 
-	fire_only_once = yes
+	fire_only_once = yes	# NOTE: The other year events are not fire_only_once because they can overlap between civil war tags
 	is_triggered_only = yes
 	hidden = yes
 
 	trigger = {
-		is_brazilian_unifier = yes
+		tag = BRA
 	}
 
 	immediate = {
@@ -42,7 +42,6 @@ country_event = {
 country_event = {
 	id = Brazil.timeline.2
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
 
@@ -51,9 +50,44 @@ country_event = {
 	}
 
 	immediate = {
-		country_event = {
-			id = Brazil.timeline.3
-			days = 730
+		if = {
+			limit = { NOT = { tag = BRA } }
+			# This area is for the civil war tags (BR1-BR4)
+			# Since they can only normally come into existence in early 2024, we must account for the amount of days elapsed
+			# from the start of the year until the tag was spawned, and offset all events by this amount
+			# The country variable TFRSG_days_into_2024_var should have the current day of the year
+
+			# 2026
+			set_temp_variable = { days_to_event = 730 }
+			subtract_to_temp_variable = { days_to_event = TFRSG_days_into_2024_var }
+			country_event = {
+				id = Brazil.timeline.3
+				days = days_to_event
+			}
+
+			# RS floods
+			set_temp_variable = { days_to_event = 125 }
+			subtract_to_temp_variable = { days_to_event = TFRSG_days_into_2024_var }
+			country_event = {
+				id = Brazil.92
+				days = days_to_event
+			}
+		}
+		else = {
+			# This area is for the standard Brazilian tag
+			# It should be syncronized, so no weird math required
+
+			# 2026
+			country_event = {
+				id = Brazil.timeline.3
+				days = 730
+			}
+
+			# RS floods
+			country_event = {
+				id = Brazil.92
+				days = 125
+			}
 		}
 	}
 
@@ -66,7 +100,6 @@ country_event = {
 country_event = {
 	id = Brazil.timeline.3
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
 
@@ -75,7 +108,16 @@ country_event = {
 	}
 
 	immediate = {
-		
+		country_event = {
+			id = Brazil.timeline.4
+			days = 730
+		}
+
+		# 2026 Elections Skeleton Event
+		country_event = {
+			id = Brazil.timeline.18
+			days = 300
+		}
 	}
 
 	option = {
@@ -87,7 +129,6 @@ country_event = {
 country_event = {
 	id = Brazil.timeline.4
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
 
@@ -96,7 +137,10 @@ country_event = {
 	}
 
 	immediate = {
-		
+		country_event = {
+			id = Brazil.timeline.5
+			days = 730
+		}
 	}
 
 	option = {
@@ -108,7 +152,6 @@ country_event = {
 country_event = {
 	id = Brazil.timeline.5
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
 
@@ -117,7 +160,10 @@ country_event = {
 	}
 
 	immediate = {
-		
+		country_event = {
+			id = Brazil.timeline.6
+			days = 730
+		}
 	}
 
 	option = {
@@ -393,9 +439,270 @@ country_event = {
 	}
 }
 
-###########################
+# 2026 Elections Skeleton Event
+country_event = {
+	id = Brazil.timeline.18
+	title = Brazil.timeline.18.t
+	desc = Brazil.timeline.18.desc
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRA
+	}
+
+	# PROGRESSIVE PRESIDENTS
+	# Gleisi Hoffman
+	option = {
+		name = Brazil.timeline.18.a
+		trigger = {
+			has_country_flag = BRA_progressive_administration_flag
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range < BRA_strong_reformist_range
+			}
+		}
+		ai_chance = { base = 50 }
+		promote_character = BRA_gleisi_hoffmann_char
+		set_politics = {
+		    ruling_party = social_democrat
+		    last_election = "2026.10.27"
+		}
+	}
+	# Dilma Rousseff
+	option = {
+		name = Brazil.timeline.18.b
+		trigger = {
+			has_country_flag = BRA_progressive_administration_flag
+			has_idea = BRA_dilma_rousseff_hog
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range < BRA_strong_reformist_range
+			}
+		}
+		ai_chance = { base = 50 }
+		promote_character = BRA_dilma_rousseff_char
+		set_politics = {
+		    ruling_party = social_democrat
+		    last_election = "2026.10.27"
+		}
+	}
+	# Lula da Silva
+	option = {
+		name = Brazil.timeline.18.c
+		trigger = {
+			has_country_flag = BRA_progressive_administration_flag
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range > BRA_leaning_radical_range
+			}
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range < BRA_balanced_alignment_range
+			}
+		}
+		ai_chance = { base = 50 }
+		set_politics = {
+		    ruling_party = social_democrat
+		    last_election = "2026.10.27"
+		}
+		set_portraits = {
+			character = BRA_lula_da_silva_char
+			civilian = { large ="GFX_BRA_Lula_da_Silva_sunglasses" }
+		}
+	}
+	# Ciro Gomes
+	option = {
+		name = Brazil.timeline.18.d
+		trigger = {
+			OR = {
+				AND = {
+					has_country_flag = BRA_progressive_administration_flag
+					is_power_balance_in_range = {
+					    id = BRA_political_alignment_balance
+					    range > BRA_leaning_reformist_range
+					}
+				}
+				AND = {
+					has_country_flag = BRA_centrist_administration_flag
+					is_power_balance_in_range = {
+					    id = BRA_political_alignment_balance
+					    range < BRA_leaning_reformist_range
+					}
+				}
+			}
+		}
+		ai_chance = { base = 50 }
+		promote_character = BRA_ciro_gomes_char
+		set_politics = {
+		    ruling_party = social_democrat
+		    last_election = "2026.10.27"
+		    long_name = BRA_social_democrat_party_pdt
+		    name = BRA_social_democrat_party_pdt_long
+		}
+	}
+	# Fernando Haddad
+	option = {
+		name = Brazil.timeline.18.e
+		trigger = {
+			has_country_flag = BRA_progressive_administration_flag
+			has_idea = BRA_fernando_haddad_hog
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range > BRA_leaning_reformist_range
+			}
+		}
+		ai_chance = { base = 50 }
+		promote_character = BRA_fernando_haddad_char
+		set_politics = {
+		    ruling_party = social_democrat
+		    last_election = "2026.10.27"
+		}
+	}
+	# Geraldo Alckmin
+	option = {
+		name = Brazil.timeline.18.f
+		trigger = {
+			has_country_flag = BRA_centrist_administration_flag
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range > BRA_strong_reformist_range
+			}
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range < BRA_strong_conservative_range
+			}
+		}
+		ai_chance = { base = 50 }
+		set_politics = {
+		    ruling_party = social_liberal
+		    last_election = "2026.10.27"
+		}
+	}
+	# Tarcísio Freitas
+	option = {
+		name = Brazil.timeline.18.g
+		trigger = {
+			OR = {
+				AND = {
+					has_country_flag = BRA_centrist_administration_flag
+					is_power_balance_in_range = {
+					    id = BRA_political_alignment_balance
+					    range > BRA_leaning_conservative_range
+					}
+				}
+				AND = {
+					has_country_flag = BRA_reactionary_administration_flag
+					is_power_balance_in_range = {
+					    id = BRA_political_alignment_balance
+					    range < BRA_leaning_conservative_range
+					}
+				}
+			}
+		}
+		ai_chance = { base = 50 }
+		promote_character = BRA_tarcisio_freitas_char
+		set_politics = {
+		    ruling_party = conservative
+		    last_election = "2026.10.27"
+			long_name = BRA_conservative_party_republicanos
+		    name = BRA_conservative_party_republicanos_long
+		}
+	}
+	# Eduardo Leite
+	option = {
+		name = Brazil.timeline.18.h
+		trigger = {
+			has_country_flag = BRA_reactionary_administration_flag
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range < BRA_leaning_conservative_range
+			}
+		}
+		ai_chance = { base = 50 }
+		promote_character = BRA_eduardo_leite_char
+		set_politics = {
+		    ruling_party = market_liberal
+		    last_election = "2026.10.27"
+		}
+	}
+	# Flávio Bolsonaro/Re-elect current family member
+	option = {
+		name = Brazil.timeline.18.i
+		trigger = {
+			has_country_flag = BRA_reactionary_administration_flag
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range > BRA_balanced_alignment_range
+			}
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range < BRA_leaning_reactionary_range
+			}
+		}
+		ai_chance = { base = 50 }
+		if = {
+			limit = {
+				has_country_leader = {
+					character = BRA_jair_bolsonaro_char
+				}			
+			}
+			promote_character = BRA_flavio_bolsonaro_char
+		}
+		else = {
+			set_portraits = {
+				character = BRA_flavio_bolsonaro_char
+				civilian = { large ="GFX_BRA_Flavio_Bolsonaro_reelection" }
+			}
+			set_portraits = {
+				character = BRA_eduardo_bolsonaro_char
+				civilian = { large ="GFX_BRA_Eduardo_Bolsonaro_reelection" }
+			}
+			set_portraits = {
+				character = BRA_carlos_bolsonaro_char
+				civilian = { large ="GFX_BRA_Carlos_Bolsonaro_reelection" }
+			}
+		}
+		set_politics = {
+		    ruling_party = conservative
+		    last_election = "2026.10.27"
+		}
+	}
+	# Jair Bolsonaro
+	option = {
+		name = Brazil.timeline.18.i
+		trigger = {
+			has_country_flag = BRA_reactionary_administration_flag
+			is_power_balance_in_range = {
+			    id = BRA_political_alignment_balance
+			    range > BRA_strong_conservative_range
+			}
+		}
+		ai_chance = { base = 50 }
+		add_country_leader_role = {
+		    character = BRA_jair_bolsonaro_char
+		    promote_leader = yes
+		    country_leader = {
+		        ideology = ultra_conservatism
+		        expire = "1.1.1.1"
+		    }
+		}
+		set_politics = {
+		    ruling_party = authoritarian_democrat
+		    last_election = "2026.10.27"
+			long_name = BRA_authoritarian_democrat_party_alianca
+		    name = BRA_authoritarian_democrat_party_alianca_long
+		}
+		set_portraits = {
+			character = BRA_jair_bolsonaro_char
+			civilian = { large ="GFX_BRA_Jair_Bolsonaro_sunglasses" }
+		}
+	}
+}
+
+####################################################################################################################################################################
 # Brazil Events
-###########################
+####################################################################################################################################################################
 
 # The Forever Country of The Future
 country_event = {
@@ -881,11 +1188,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_country_flag = BRA_covid_trials_started
-			mark_focus_tree_layout_dirty = yes
-			news_event = {
-				id = Brazilnews.3
-				days = 3
-			}
+			mark_focus_tree_layout_dirty = yes			
 			load_oob = "BRA_Covid_Trials"
 			country_event = {
 				id = Brazil.29
@@ -1834,6 +2137,11 @@ country_event = {
 			country_event = {
 				id = Brazil.61
 				days = 15
+			}
+
+			set_portraits = {
+				character = BRA_jair_bolsonaro_char
+				civilian = { large ="GFX_BRA_Jair_Bolsonaro_reelection" }
 			}
 		}
 	}
@@ -3693,9 +4001,43 @@ country_event = {
 	}
 }
 
-###########################
+# Rio Grande do Sul 2024 floods
+country_event = {
+	id = Brazil.92
+	title = Brazil.92.t
+	desc = Brazil.92.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			is_brazilian_unifier = yes
+			tag = SUL
+		}
+		owns_state = 502
+	}
+
+	option = {
+		name = Brazil.92.a
+		502 = {
+			damage_building = {
+			  type = infrastructure
+			  damage = 2
+			}
+		}
+		hidden_effect = {
+			news_event = {
+				id = Brazilnews.3
+				hours = 6
+			}
+		}
+	}
+}
+
+####################################################################################################################################################################
 # Brazil News
-###########################
+####################################################################################################################################################################
 
 # Lula's acquittal
 news_event = {
@@ -3745,22 +4087,43 @@ news_event = {
 	}
 }
 
-# Covid CPI installed news
+# Rio Grande do Sul 2024 floods
 news_event = {
 	id = Brazilnews.3
 	title = Brazilnews.3.t
 	desc = Brazilnews.3.d
-	picture = GFX_TFRSG_news_covid_trials
 	major = yes
 
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = BRA
+		OR = {
+			is_brazilian_unifier = yes
+			tag = SUL
+		}
 	}
 
 	option = {
 		name = Brazilnews.3.a
+		trigger = {
+			is_brazilian_civilwar_faction = yes
+		}
+	}
+
+	option = {
+		name = Brazilnews.3.b
+		trigger = {
+			is_brazilian_civilwar_faction = no
+			NOT = { has_global_flag = BRA_civil_war_ongoing_flag }
+		}
+	}
+
+	option = {
+		name = Brazilnews.3.c
+		trigger = {
+			is_brazilian_civilwar_faction = no
+			has_global_flag = BRA_civil_war_ongoing_flag
+		}
 	}
 }
 
@@ -3979,6 +4342,7 @@ country_event = {
 			BR2 = {
 				transfer_state = 1435
 				add_state_core = 1435
+				BRA_civil_war_tag_setup = yes
 			}
 		}
 	}
@@ -4015,6 +4379,7 @@ country_event = {
 			BR1 = {
 				transfer_state = 1450
 				add_state_core = 1450
+				BRA_civil_war_tag_setup = yes
 			}
 			country_event = {
 				id = Brazil.civilwar.7
@@ -4055,6 +4420,7 @@ country_event = {
 			BR1 = {
 				transfer_state = 1450
 				add_state_core = 1450
+				BRA_civil_war_tag_setup = yes
 			}
 			country_event = {
 				id = Brazil.civilwar.7
@@ -4264,6 +4630,7 @@ country_event = {
 			BR3 = {
 				transfer_state = 1452
 				add_state_core = 1452
+				BRA_civil_war_tag_setup = yes
 			}
 			country_event = {
 				id = Brazil.civilwar.11

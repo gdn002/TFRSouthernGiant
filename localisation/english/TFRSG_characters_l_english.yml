@@ -24,6 +24,13 @@
  BRA_flavio_bolsonaro_char: "Flávio Bolsonaro"
  BRA_carlos_bolsonaro_char: "Carlos Bolsonaro"
  BRA_eduardo_bolsonaro_char: "Eduardo Bolsonaro"
+ BRA_renan_bolsonaro_char: "Renan Bolsonaro"
+ BRA_gleisi_hoffmann_char: "Gleisi Hoffmann"
+ BRA_dilma_rousseff_char: "Dilma Rousseff"
+ BRA_ciro_gomes_char: "Ciro Gomes"
+ BRA_fernando_haddad_char: "Fernando Haddad"
+ BRA_tarcisio_freitas_char: "Tarcísio Freitas"
+ BRA_eduardo_leite_char: "Eduardo Leite"
  # BRA - Ministers
  BRA_hamilton_mourao_hog: "Hamilton Mourão"
  BRA_dilma_rousseff_hog: "Dilma Rousseff"

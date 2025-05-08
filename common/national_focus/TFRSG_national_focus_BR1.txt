@@ -579,6 +579,19 @@ focus_tree = {
 			add_political_power = 100
 			custom_effect_tooltip = TFRSG_add_campaign_slot_tt
 			add_campaign_slot = yes
+			add_ideas = {
+				BR1_TV_globo_propaganda_idea
+			}
+			BR2 = {
+				add_ideas = {
+					BR1_TV_globo_propaganda_idea_enemy
+				}
+			}
+			BR3 = {
+				add_ideas = {
+					BR1_TV_globo_propaganda_idea_enemy
+				}
+			}
 		}
 	}
 

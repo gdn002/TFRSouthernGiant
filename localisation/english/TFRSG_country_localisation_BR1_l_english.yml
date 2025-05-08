@@ -24,13 +24,14 @@
  BR1_cw_appeal_to_the_un: "Appeal to The United Nations"
  BR1_cw_the_republic_endures: "The Republic Endures!"
  #Ideas
- BR1_emergency_government_idea: "Damaged Government"
+ BR1_emergency_government_idea: "Dilapidated Government"
  BR1_emergency_government_idea_desc: "With the military authoritarians in total control of the capital and our institutions, we were lucky to have been able to assemble a provisional government this hastily in the former capital. While the essential facilities for a continuation of government duties are there, we still find ourselves in charge of a crumbling establishment. The remaining senators and deputies are on edge, and treasonous agents could be anywhere."
  BR1_broad_coalition_idea: "The Broad Coalition"
  BR1_state_of_emergency_idea: "State of Emergency"
  BR1_insecure_command_idea: "Insecure High Command"
  BR1_insecure_command_idea_desc: "The Brazilian High Command has never been anything to boast about. Many of our generals have sided with the coup ringleaders in Brasilia, leaving us with merely a skeleton crew who remain shaky at the idea of facing off their peers. They must be made to abide by their sworn duty to the Brazilian government, for better or worse."
  BR1_economic_crisis_idea: "Economic Crisis"
+ BR1_TV_globo_propaganda_idea: "TV Globo Propaganda Campaigns"
  #Decision Categories
  #Missions
  #Decisions
@@ -71,6 +72,7 @@
  BR1_cw_army_reporting_tt: "We will raise §Yrepublican militias§! and §Ymilitary brigades§! to fight the imminent civil war!"
  BR1_cw_recover_brazilian_core_tt: "§YWe will gain control over Eastern Brazil.§!"
  BR1_democratic_end_tt: "The Brazilian Republic has endured its greatest trial yet, but even more difficult times lie ahead! Will Brazilian democracy remain a shining beacon in a sea of rampant nationalism and extremism? It remains to be seen, as this is where TFRSG's preview content ends.\n\n§YCOMING IN VERSION 0.3.0:§!\n- Reinforce Brazilian democracy, and usher in a new §GRepublican Era§! for the country. Favor §pLula's plan§! or §2Alckmin's method§!, or a §7balance of both§!.\n- Become the new hegemon in the continent as the US continues to burn. §BPeacefully unite South America§! through diplomacy, political and economical integration, or claim your own §GManifest Destiny§!!\n- Become a new beacon for liberalism as the old world fades away.\n- Prepare yourself for the ultimate trial of the Latin American people: The §BUnited States§! will not remain embroiled in war forever, and once the fires die down, it may decide to settle the §RMonroe Doctrine§! once and for all.\n\n§YTHANK YOU FOR TRYING TFRSG - GDN001§!"
+ BR1_TV_globo_propaganda_remove_tt: "§YThis National Spirit will be removed once The Federal Government has been defeated.§!"
  #Faction
  BR1_sato_faction: "South American Treaty Organization"
  #Parties

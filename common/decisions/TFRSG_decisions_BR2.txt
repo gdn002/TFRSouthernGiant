@@ -216,10 +216,7 @@ BRA_civil_war_category = {
     			target = BR1
     			type = annex_everything
 			}
-			set_global_flag = BRA_civil_war_ongoing_flag
-			mark_focus_tree_layout_dirty = yes
-			BR1 = { mark_focus_tree_layout_dirty = yes }
-			BR3 = { mark_focus_tree_layout_dirty = yes }
+			BRA_civil_war_start = yes
 		}
 	}
 
@@ -247,10 +244,7 @@ BRA_civil_war_category = {
     			target = BR3
     			type = annex_everything
 			}
-			set_global_flag = BRA_civil_war_ongoing_flag
-			mark_focus_tree_layout_dirty = yes
-			BR1 = { mark_focus_tree_layout_dirty = yes }
-			BR3 = { mark_focus_tree_layout_dirty = yes }
+			BRA_civil_war_start = yes
 		}
 	}
 
@@ -278,10 +272,7 @@ BRA_civil_war_category = {
     			target = AMZ
     			type = annex_everything
 			}
-			set_global_flag = BRA_civil_war_ongoing_flag
-			mark_focus_tree_layout_dirty = yes
-			BR1 = { mark_focus_tree_layout_dirty = yes }
-			BR3 = { mark_focus_tree_layout_dirty = yes }
+			BRA_civil_war_start = yes
 		}
 	}
 
@@ -319,10 +310,7 @@ BRA_civil_war_category = {
     			target = AMZ
     			type = annex_everything
 			}
-			set_global_flag = BRA_civil_war_ongoing_flag
-			mark_focus_tree_layout_dirty = yes
-			BR1 = { mark_focus_tree_layout_dirty = yes }
-			BR3 = { mark_focus_tree_layout_dirty = yes }
+			BRA_civil_war_start = yes
 		}
 	}
 	

@@ -6,7 +6,7 @@ ideas = {
 				original_tag = BR1
 			}
 			modifier = {
-				political_power_factor = -0.1
+				political_power_factor = -0.25
 				stability_factor = -0.25
 			}
 		}	
@@ -124,5 +124,39 @@ ideas = {
 				tax_business_rate_factor = -0.2
 			}
 		}
+
+		BR1_TV_globo_propaganda_idea = {
+			allowed = {
+				original_tag = BR1
+			}
+			modifier = {
+				political_power_factor = 0.15
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				social_democrat_drift = 0.02
+				social_liberal_drift = 0.02
+				market_liberal_drift = 0.02
+				misc_expense = 0.05
+			}
+		}
+
+		BR1_TV_globo_propaganda_idea_enemy = {
+			name = BR1_TV_globo_propaganda_idea
+			allowed = {
+				is_brazilian_civilwar_faction = yes
+			}
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+				war_support_factor = -0.15
+				social_democrat_drift = 0.01
+				social_liberal_drift = 0.01
+				market_liberal_drift = 0.01
+				custom_modifier_tooltip = BR1_TV_globo_propaganda_remove_tt
+			}
+			cancel = {
+    			NOT = { country_exists = BR1 }
+			}
+		}	
 	}
 }	

@@ -1176,7 +1176,8 @@ BRA_coronavirus_category = {
 		ai_will_do = {
 			base = 1
 		}
-		remove_effect = {		
+		remove_effect = {	
+			add_stability = 0.05	
 			add_days_mission_timeout = {
    				mission = BRA_handle_covid_mission
     			days = 30
