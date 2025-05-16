@@ -53,8 +53,8 @@ country_event = {
 		if = {
 			limit = { NOT = { tag = BRA } }
 			# This area is for the civil war tags (BR1-BR4)
-			# Since they can only normally come into existence in early 2024, we must account for the amount of days elapsed
-			# from the start of the year until the tag was spawned, and offset all events by this amount
+			# Since they can only normally come into existence in early 2024, this event has to be fired around that period 
+			# and we must account for the amount of days elapsed from the start of 2024 to deduct them for the relayed events
 			# The country variable TFRSG_days_into_2024_var should have the current day of the year
 
 			# 2026
@@ -4222,6 +4222,150 @@ news_event = {
 	}
 }
 
+# Federal Government victory in the BCW
+news_event = {
+	id = Brazilnews.9
+	title = Brazilnews.9.t
+	desc = Brazilnews.9.d
+	picture = GFX_TFRSG_news_military_convoy
+	major = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR1
+	}
+
+	option = {
+		name = Brazilnews.9.a
+		original_recipient_only = no
+	}
+	option = {
+		name = Brazilnews.9.b
+		original_recipient_only = yes
+	}
+}
+
+# Military Junta victory in the BCW
+news_event = {
+	id = Brazilnews.10
+	title = Brazilnews.10.t
+	desc = Brazilnews.10.d
+	picture = GFX_TFRSG_news_military_convoy
+	major = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR2
+	}
+
+	option = {
+		name = Brazilnews.10.a
+		original_recipient_only = no
+	}
+	option = {
+		name = Brazilnews.10.b
+		original_recipient_only = yes
+	}
+}
+
+# Popular Front victory in the BCW
+news_event = {
+	id = Brazilnews.11
+	title = Brazilnews.11.t
+	desc = Brazilnews.11.d
+	picture = GFX_TFRSG_news_military_convoy
+	major = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR3
+	}
+
+	option = {
+		name = Brazilnews.11.a
+		original_recipient_only = no
+	}
+	option = {
+		name = Brazilnews.11.b
+		original_recipient_only = yes
+	}
+}
+
+# Integralist victory in the BCW
+news_event = {
+	id = Brazilnews.12
+	title = Brazilnews.12.t
+	desc = Brazilnews.12.d
+	picture = GFX_TFRSG_news_military_convoy
+	major = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR4
+	}
+
+	option = {
+		name = Brazilnews.12.a
+		original_recipient_only = no
+	}
+	option = {
+		name = Brazilnews.12.b
+		original_recipient_only = yes
+	}
+}
+
+# Monarchist victory in the BCW
+news_event = {
+	id = Brazilnews.13
+	title = Brazilnews.13.t
+	desc = Brazilnews.13.d
+	picture = GFX_TFRSG_news_military_convoy
+	major = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR4
+	}
+
+	option = {
+		name = Brazilnews.13.a
+		original_recipient_only = no
+	}
+	option = {
+		name = Brazilnews.13.b
+		original_recipient_only = yes
+	}
+}
+
+# United Nations victory in the BCW
+news_event = {
+	id = Brazilnews.14
+	title = Brazilnews.14.t
+	desc = Brazilnews.14.d
+	picture = GFX_TFRSG_news_military_convoy
+	major = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = UNB
+	}
+
+	option = {
+		name = Brazilnews.14.a
+		original_recipient_only = no
+	}
+	option = {
+		name = Brazilnews.14.b
+		original_recipient_only = yes
+	}
+}
+
 ###########################
 # Brazilian Civil War Events
 ###########################
@@ -4684,6 +4828,7 @@ country_event = {
 	id = Brazil.civilwar.12
 	title = Brazil.civilwar.12.t
 	desc = Brazil.civilwar.12.d
+	picture = GFX_SPA_tarcisio_statement
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -4721,6 +4866,7 @@ country_event = {
 	id = Brazil.civilwar.13
 	title = Brazil.civilwar.13.t
 	desc = Brazil.civilwar.13.d
+	picture = GFX_AMZ_native_march
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -4778,6 +4924,7 @@ country_event = {
 	id = Brazil.civilwar.14
 	title = Brazil.civilwar.14.t
 	desc = Brazil.civilwar.14.d
+	picture = GFX_SUL_sul_eh_meu_pais_march
 	
 	fire_only_once = yes
 	is_triggered_only = yes

@@ -1446,6 +1446,9 @@ BRA_south_american_sphere_category = {
 		allowed = {
 			original_tag = BRA
 		}
+		activation = {
+			always = no
+		}
 		available = {
 			has_global_flag = LATAM_malvines_crisis_averted
 		}
@@ -1503,6 +1506,9 @@ BRA_south_american_sphere_category = {
 		is_good = no
 		allowed = {
 			original_tag = BRA
+		}
+		activation = {
+			always = no
 		}
 		available = {
 			has_global_flag = LATAM_essequibo_crisis_averted

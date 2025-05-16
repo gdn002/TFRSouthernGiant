@@ -304,7 +304,8 @@ country_event = {
 news_event = {
 	id = Sulnews.1
 	title = Sulnews.1.t
-	desc = Sulnews.1.d	
+	desc = Sulnews.1.d
+    picture = GFX_TFRSG_news_sul_elections_suspended	
 
 	is_triggered_only = yes
 	major = yes
@@ -357,6 +358,7 @@ news_event = {
 	id = Sulnews.2
 	title = Sulnews.2.t
 	desc = Sulnews.2.d
+    picture = GFX_TFRSG_news_sul_pcb_coup
 
 	is_triggered_only = yes
 	major = yes
@@ -409,6 +411,7 @@ news_event = {
 	id = Sulnews.3
 	title = Sulnews.3.t
 	desc = Sulnews.3.d
+    picture = GFX_TFRSG_news_sul_nazi_coup
 	
 	is_triggered_only = yes
     major = yes
@@ -461,6 +464,7 @@ news_event = {
 	id = Sulnews.4
 	title = Sulnews.4.t
 	desc = Sulnews.4.d
+    picture = GFX_TFRSG_news_sul_decio_victory
 	
 	is_triggered_only = yes
     major = yes
@@ -513,6 +517,7 @@ news_event = {
 	id = Sulnews.5
 	title = Sulnews.5.t
 	desc = Sulnews.5.d
+    picture = GFX_TFRSG_news_sul_leite_victory
 	
 	is_triggered_only = yes
     major = yes
@@ -565,6 +570,7 @@ news_event = {
 	id = Sulnews.6
 	title = Sulnews.6.t
 	desc = Sulnews.6.d
+    picture = GFX_TFRSG_news_sul_moro_victory
 	
 	is_triggered_only = yes
     major = yes
@@ -617,6 +623,7 @@ news_event = {
 	id = Sulnews.7
 	title = Sulnews.7.t
 	desc = Sulnews.7.d
+    picture = GFX_TFRSG_news_sul_hang_victory
 	
 	is_triggered_only = yes
     major = yes

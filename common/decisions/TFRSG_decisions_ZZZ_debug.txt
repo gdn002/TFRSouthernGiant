@@ -62,6 +62,78 @@ debug_decisions = {
  		}
 	}
 
+	BRA_DEBUG_force_2022_elections = {
+		cancel_if_not_visible = yes
+		fire_only_once = yes
+        allowed = {
+            tag = BRA			
+        }
+		visible = {
+			NOT = { has_country_flag = BRA_2022_elections_over_flag }
+		}
+		complete_effect = {
+			BRA_get_2022_elections_result = yes
+ 		}
+	}
+
+	BRA_DEBUG_force_2026_elections = {
+		cancel_if_not_visible = yes
+		fire_only_once = yes
+        allowed = {
+            tag = BRA
+        }
+		visible = {
+			has_country_flag = BRA_2022_elections_over_flag
+		}
+		complete_effect = {
+			country_event = {
+				id = Brazil.timeline.18
+			}
+ 		}
+	}
+
+	BRA_DEBUG_2022_elections_cheat_PT = {
+		cancel_if_not_visible = yes
+        allowed = {
+            tag = BRA			
+        }
+		visible = {
+			NOT = { has_country_flag = BRA_2022_elections_over_flag }
+		}
+		complete_effect = {
+			set_temp_variable = { BRA_election_approval_rating_pt_var_temp = 1 }
+			BRA_add_election_approval_rating_pt = yes
+ 		}
+	}
+
+	BRA_DEBUG_2022_elections_cheat_PSDB = {
+		cancel_if_not_visible = yes
+        allowed = {
+            tag = BRA			
+        }
+		visible = {
+			NOT = { has_country_flag = BRA_2022_elections_over_flag }
+		}
+		complete_effect = {
+			set_temp_variable = { BRA_election_approval_rating_psdb_var_temp = 1 }
+			BRA_add_election_approval_rating_psdb = yes
+ 		}
+	}
+
+	BRA_DEBUG_2022_elections_cheat_PL = {
+		cancel_if_not_visible = yes
+       	allowed = {
+            tag = BRA			
+        }
+		visible = {
+			NOT = { has_country_flag = BRA_2022_elections_over_flag }
+		}
+		complete_effect = {
+			set_temp_variable = { BRA_election_approval_rating_pl_var_temp = 1 }
+			BRA_add_election_approval_rating_pl = yes
+ 		}
+	}
+
 	TFRSG_DEBUG_trigger_test_decision = {
 		cancel_if_not_visible = yes
 		days_re_enable = 1

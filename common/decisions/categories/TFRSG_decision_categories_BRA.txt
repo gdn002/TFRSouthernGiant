@@ -63,6 +63,6 @@ BRA_south_american_sphere_category = {
     }
 
 	visible = {
-		always = no
+		has_country_flag = BRA_south_american_sphere_mechanic_flag
 	}
 }

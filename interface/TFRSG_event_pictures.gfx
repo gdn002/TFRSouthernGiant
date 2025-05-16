@@ -221,6 +221,18 @@ spriteTypes = {
 		name = "GFX_BRA_sunset_soccer"
 		texturefile = "gfx/event_pictures/BRA_sunset_soccer.png"
 	}
+	SpriteType = {
+		name = "GFX_SUL_sul_eh_meu_pais_march"
+		texturefile = "gfx/event_pictures/SUL_sul_eh_meu_pais_march.png"
+	}
+	SpriteType = {
+		name = "GFX_SPA_tarcisio_statement"
+		texturefile = "gfx/event_pictures/SPA_tarcisio_statement.png"
+	}
+	SpriteType = {
+		name = "GFX_AMZ_native_march"
+		texturefile = "gfx/event_pictures/AMZ_native_march.png"
+	}
 
 	#### NEWS ####
 	#SpriteType = {
@@ -263,5 +275,33 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_TFRSG_news_un_peacekeepers"
 		texturefile = "gfx/event_pictures/news_event/TFRSG_news_un_peacekeepers.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_sul_decio_victory"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_sul_decio_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_sul_elections_suspended"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_sul_elections_suspended.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_sul_hang_victory"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_sul_hang_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_sul_leite_victory"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_sul_leite_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_sul_moro_victory"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_sul_moro_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_sul_nazi_coup"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_sul_nazi_coup.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_sul_pcb_coup"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_sul_pcb_coup.png"
 	}
 }

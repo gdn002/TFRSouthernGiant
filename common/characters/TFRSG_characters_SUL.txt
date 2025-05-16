@@ -40,7 +40,7 @@ characters = {
     SUL_eduardo_leite_char = {
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SUL/SUL_Decio_Lima.png"
+				large = "gfx/leaders/BRA/BRA_Eduardo_Leite.png"
 			}
 		}
 		country_leader = {
@@ -111,10 +111,10 @@ characters = {
 		}
 	}
 
-    SUL_erlosungsfuhrer_char = {
+    SUL_salvador_da_raca_char = {
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SUL/SUL_Erlosungsfuhrer.png"
+				large = "gfx/leaders/SUL/SUL_Salvador_da_Raca.png"
 			}
 		}
         country_leader = {

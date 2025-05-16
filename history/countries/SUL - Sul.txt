@@ -8,7 +8,7 @@
 	recruit_character = SUL_sergio_moro_char
 	recruit_character = SUL_luciano_hang_char
 	recruit_character = SUL_carlos_messalla_char
-	recruit_character = SUL_erlosungsfuhrer_char
+	recruit_character = SUL_salvador_da_raca_char
 
 	set_research_slots = 3
 	set_convoys = 10

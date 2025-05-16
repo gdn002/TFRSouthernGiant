@@ -26,3 +26,12 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "TFRSG_america"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}
