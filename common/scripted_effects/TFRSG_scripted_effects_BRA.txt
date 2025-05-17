@@ -763,20 +763,36 @@ BRA_covid_trials_events = {
 	}
 }
 
-# TODO: CHANGE COVID TRIALS OUTCOME TO BE MORE DIRECTLY BASED OFF COVID PERFORMANCE
-# COVID TRIALS OUTCOMES REFERENCE - The outcome depends on decisions made on the starting focus tree
-# 1. Bolsonaro Impeached: Reshuffle Cabinet AND Fire Mandetta - Mourão will take over and Bolsonaro will be barred from running again
-# 2. Bolsonaro Exonerated: Either Work With Centrão OR Heed Mandetta (but not both) - Bolsonaro will have the option to hand over presidency to Mourão, or continue with debuffs
-# 3. Inconclusive Outcome: Work With Centrão AND Heed Mandetta, but fail to stabilize covid - Bolsonaro will continue with minor debuffs and able to run again in 2022
-# 4. Bolsonaro Acquited: Work With Centrão AND Heed Mandetta AND Stabilize Covid - Bolsonaro will be strengthened and able to run again in 2022
-# 5. Fallback Path: If none of the above conditions are met, outcome 3 will happen with higher debuffs as a fallback
+# COVID TRIALS OUTCOMES REFERENCE - The outcome uses a score system to evaluate the government's Covid-19 performance
+# The government starts with a score of 6, with events based on focus choices potentially increasing or lowering it
+# Also for each level of Covid-19 pandemic severity, one point is deducted
+# 0 or less -> Impeachment
+# 1-2 -> Exoneration
+# 3-4 -> Inconclusive
+# 5 or greater -> acquittal
 BRA_covid_trials_outcome = {
 	custom_effect_tooltip = BRA_covid_trials_outcome_tooltip
+	if = {
+		limit = { has_idea = BRA_coronavirus_pandemic_idea3 }
+		subtract_from_variable = { BRA_covid_trials_score_var = 1 }
+	}
+	else_if = {
+		limit = { has_idea = BRA_coronavirus_pandemic_idea2 }
+		subtract_from_variable = { BRA_covid_trials_score_var = 2 }
+	}
+	else_if = {
+		limit = { has_idea = BRA_coronavirus_pandemic_idea1 }
+		subtract_from_variable = { BRA_covid_trials_score_var = 3 }
+	}
+	else_if = {
+		limit = { has_idea = BRA_coronavirus_pandemic_idea }
+		subtract_from_variable = { BRA_covid_trials_score_var = 4 }
+	}
+
 	hidden_effect = {
 		if = {
 			limit = {
-				has_completed_focus = BRA_reshuffle_cabinet
-				has_completed_focus = BRA_fire_mandetta
+				check_variable = { BRA_covid_trials_score_var < 1 }
 			}
 	
 			# Impeached
@@ -787,10 +803,7 @@ BRA_covid_trials_outcome = {
 		}
 		else_if = {
 			limit = {
-				OR = {
-					has_completed_focus = BRA_reshuffle_cabinet
-					has_completed_focus = BRA_fire_mandetta
-				}
+				check_variable = { BRA_covid_trials_score_var < 3 }
 			}
 	
 			# Exonerated
@@ -801,9 +814,7 @@ BRA_covid_trials_outcome = {
 		}
 		else_if = {
 			limit = {
-				has_completed_focus = BRA_work_with_centrao
-				has_completed_focus = BRA_heed_mandettas_concerns
-				NOT = { has_completed_focus = BRA_covid_stabilization }
+				check_variable = { BRA_covid_trials_score_var < 5 }
 			}
 	
 			# Inconclusive
@@ -812,24 +823,10 @@ BRA_covid_trials_outcome = {
 				days = 5
 			}
 		}
-		else_if = {
-			limit = {
-				has_completed_focus = BRA_work_with_centrao
-				has_completed_focus = BRA_heed_mandettas_concerns
-				has_completed_focus = BRA_covid_stabilization
-			}
-	
+		else = {	
 			# Acquitted
 			country_event = {
 				id = Brazil.39
-				days = 5
-			}
-		}
-		else = {
-			set_country_flag = BRA_covid_trials_fallback_flag
-			# Fallback inconclusive
-			country_event = {
-				id = Brazil.38
 				days = 5
 			}
 		}

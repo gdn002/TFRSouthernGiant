@@ -1081,6 +1081,41 @@ BRA_chamber_of_deputies_category = {
 			add_ideas = BRA_petrobras_statized_idea1
 		}
 	}
+
+	BRA_oil_crisis_fadeout_mission = {
+		priority = 10
+		available = {
+			hidden_trigger = {	
+			    NOT = {
+					has_idea = BRA_oil_crisis_idea
+					has_idea = BRA_oil_crisis_idea1
+					has_idea = BRA_oil_crisis_idea2
+				}
+			}
+		}
+		days_mission_timeout = 200
+		activation = {
+			always = no
+		}
+		fire_only_once = no
+		is_good = yes
+		ai_will_do = {
+			base = 50
+		}
+		timeout_effect = {
+			BRA_decrease_oil_crisis = yes
+			if = {
+			    limit = {
+			        OR = {
+						has_idea = BRA_oil_crisis_idea
+						has_idea = BRA_oil_crisis_idea1
+						has_idea = BRA_oil_crisis_idea2
+					}
+			    }
+			    activate_mission = BRA_oil_crisis_fadeout_mission
+			}			
+		}
+	}
 }
 
 #### COVID-19 PANDEMIC ####

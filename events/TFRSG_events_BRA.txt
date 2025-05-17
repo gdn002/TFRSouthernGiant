@@ -1403,7 +1403,7 @@ country_event = {
 			# Popular Front backs Lula
 			country_event = {
 				id = Brazil.28
-				days = 336
+				days = 346
 			}		
 		}
 	}
@@ -1496,6 +1496,7 @@ country_event = {
 	}
 
 	immediate = {
+		set_variable = { BRA_covid_trials_score_var = 6 }
 		hidden_effect = {
 			BRA_covid_trials_events = yes
 		}
@@ -1503,6 +1504,7 @@ country_event = {
 
 	option = {
 		name = Brazil.29.a
+		custom_effect_tooltip = BRA_covid_trials_score_tt
 	}
 }
 
@@ -1519,11 +1521,16 @@ country_event = {
 		tag = BRA
 	}
 
+	immediate = {
+		subtract_from_variable = { BRA_covid_trials_score_var = 1 }
+	}
+
 	option = {
 		name = Brazil.30.a
 		add_political_power = -25
 		set_temp_variable = { BRA_election_approval_rating_pl_var_temp = -0.05 }
 		BRA_add_election_approval_rating_pl = yes;	
+		custom_effect_tooltip = BRA_covid_trials_score_negative_tt
 	}
 }
 
@@ -1559,11 +1566,16 @@ country_event = {
 		tag = BRA
 	}
 
+	immediate = {
+		subtract_from_variable = { BRA_covid_trials_score_var = 1 }
+	}
+
 	option = {
 		name = Brazil.32.a
 		add_political_power = -25
 		set_temp_variable = { BRA_election_approval_rating_pl_var_temp = -0.05 }
 		BRA_add_election_approval_rating_pl = yes;	
+		custom_effect_tooltip = BRA_covid_trials_score_negative_tt
 	}
 }
 
@@ -1580,11 +1592,16 @@ country_event = {
 		tag = BRA
 	}
 
+	immediate = {
+		add_to_variable = { BRA_covid_trials_score_var = 1 }
+	}
+
 	option = {
-		add_political_power = 50
-		set_temp_variable = { BRA_election_approval_rating_psdb_var_temp = 0.1 }
-		BRA_add_election_approval_rating_psdb = yes;
 		name = Brazil.33.a
+		add_political_power = 50
+		set_temp_variable = { BRA_election_approval_rating_psdb_var_temp = 0.15 }
+		BRA_add_election_approval_rating_psdb = yes;
+		custom_effect_tooltip = BRA_covid_trials_score_positive_tt
 	}
 }
 
@@ -1601,11 +1618,16 @@ country_event = {
 		tag = BRA
 	}
 
+	immediate = {
+		subtract_from_variable = { BRA_covid_trials_score_var = 1 }
+	}
+
 	option = {
 		name = Brazil.34.a
 		add_political_power = -25
 		set_temp_variable = { BRA_election_approval_rating_pl_var_temp = -0.05 }
 		BRA_add_election_approval_rating_pl = yes;	
+		custom_effect_tooltip = BRA_covid_trials_score_negative_tt
 	}
 }
 
@@ -1736,9 +1758,6 @@ country_event = {
 
 	# Standard
 	option = {
-		trigger = {
-			NOT = { has_country_flag = BRA_covid_trials_fallback_flag }
-		}
 		name = Brazil.38.a
 		add_political_power = -50
 		set_temp_variable = { BRA_election_approval_rating_pl_var_temp = -0.025 }
@@ -1749,20 +1768,6 @@ country_event = {
 		set_portraits = {
 			character = BRA_jair_bolsonaro_char
 			civilian = { large ="GFX_BRA_jair_bolsonaro_sad" }
-		}
-	}
-	# Fallback (has higher debuffs)
-	option = {
-		trigger = {
-			has_country_flag = BRA_covid_trials_fallback_flag
-		}
-		name = Brazil.38.a
-		add_political_power = -100
-		add_stability = -0.05
-		set_temp_variable = { BRA_election_approval_rating_pl_var_temp = -0.05 }
-		BRA_add_election_approval_rating_pl = yes;
-		BRA_jair_bolsonaro_char = { 
-			add_country_leader_trait = BRA_severely_damaged_reputation
 		}
 	}
 }
@@ -1810,7 +1815,24 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = BRA_2022_elections_started_flag
 			mark_focus_tree_layout_dirty = yes
-		}
+
+			# Covid-19 fadeout fallback
+			if = {
+				limit = {
+					NOT = { has_completed_focus = BRA_covid_recovery_policy }
+				}
+				activate_mission = BRA_covid_fadeout_mission
+			}
+
+			# Oil Crisis fallback
+			if = {
+				limit = {
+					NOT = { has_completed_focus = BRA_drop_import_parity_policy }
+					NOT = { has_completed_focus = BRA_look_to_russian_oil }
+				}
+				activate_mission = BRA_oil_crisis_fadeout_mission
+			}
+		}	
 	}
 
 	option = {
@@ -4227,7 +4249,7 @@ news_event = {
 	id = Brazilnews.9
 	title = Brazilnews.9.t
 	desc = Brazilnews.9.d
-	picture = GFX_TFRSG_news_military_convoy
+	picture = GFX_TFRSG_news_military_presidential_parade
 	major = yes
 
 	is_triggered_only = yes
@@ -4251,7 +4273,7 @@ news_event = {
 	id = Brazilnews.10
 	title = Brazilnews.10.t
 	desc = Brazilnews.10.d
-	picture = GFX_TFRSG_news_military_convoy
+	picture = GFX_TFRSG_news_military_parade_brasilia
 	major = yes
 
 	is_triggered_only = yes
@@ -4275,7 +4297,7 @@ news_event = {
 	id = Brazilnews.11
 	title = Brazilnews.11.t
 	desc = Brazilnews.11.d
-	picture = GFX_TFRSG_news_military_convoy
+	picture = GFX_TFRSG_news_commie_parade
 	major = yes
 
 	is_triggered_only = yes
@@ -4299,7 +4321,7 @@ news_event = {
 	id = Brazilnews.12
 	title = Brazilnews.12.t
 	desc = Brazilnews.12.d
-	picture = GFX_TFRSG_news_military_convoy
+	picture = GFX_TFRSG_news_integralist_parade
 	major = yes
 
 	is_triggered_only = yes
@@ -4323,7 +4345,7 @@ news_event = {
 	id = Brazilnews.13
 	title = Brazilnews.13.t
 	desc = Brazilnews.13.d
-	picture = GFX_TFRSG_news_military_convoy
+	picture = GFX_TFRSG_news_monarchist_parade
 	major = yes
 
 	is_triggered_only = yes
@@ -4347,7 +4369,7 @@ news_event = {
 	id = Brazilnews.14
 	title = Brazilnews.14.t
 	desc = Brazilnews.14.d
-	picture = GFX_TFRSG_news_military_convoy
+	picture = GFX_TFRSG_news_un_peacekeepers_parade
 	major = yes
 
 	is_triggered_only = yes

@@ -304,4 +304,28 @@ spriteTypes = {
 		name = "GFX_TFRSG_news_sul_pcb_coup"
 		texturefile = "gfx/event_pictures/news_event/TFRSG_news_sul_pcb_coup.png"
 	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_military_presidential_parade"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_military_presidential_parade.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_military_parade_brasilia"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_military_parade_brasilia.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_un_peacekeepers_parade"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_un_peacekeepers_parade.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_commie_parade"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_commie_parade.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_monarchist_parade"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_monarchist_parade.png"
+	}
+	SpriteType = {
+		name = "GFX_TFRSG_news_integralist_parade"
+		texturefile = "gfx/event_pictures/news_event/TFRSG_news_integralist_parade.png"
+	}
 }

@@ -832,6 +832,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		cancel_if_invalid = no
 		continue_if_invalid = yes
+		cancelable = no
 		ai_will_do = {
 			base = 1
 		}

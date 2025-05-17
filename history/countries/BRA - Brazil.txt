@@ -187,7 +187,7 @@
 	# Popular Front forms
 	country_event = {
 		id = Brazil.26
-		days = 590
+		days = 580
 	}
 
 	# 2022 Elections race
