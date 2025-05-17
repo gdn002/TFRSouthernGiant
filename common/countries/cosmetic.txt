@@ -142,3 +142,18 @@ BRA_occupation_integralist = {
     color = rgb { 50 85 158 }
     color_ui = rgb { 50 85 158 }
 }
+
+COL_integralist_admin = {
+    color = rgb { 52 70 110 }
+    color_ui = rgb { 52 70 110 }
+}
+
+PRU_integralist_admin = {
+    color = rgb { 52 70 110 }
+    color_ui = rgb { 52 70 110 }
+}
+
+ARG_integralist_admin = {
+    color = rgb { 52 70 110 }
+    color_ui = rgb { 52 70 110 }
+}

@@ -2811,6 +2811,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
+			add_ideas = BRA_2022_election_protests_idea
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = -0.025
@@ -2841,9 +2842,9 @@ country_event = {
 
 	option = {
 		name = Brazil.63.a
-		add_command_power = -30
-		add_ideas = BRA_2022_election_protests_idea
+		add_command_power = -30		
 		effect_tooltip = {
+			add_ideas = BRA_2022_election_protests_idea
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = -0.025
@@ -3149,6 +3150,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
+			add_ideas = BRA_2022_election_protests_idea
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = -0.025
@@ -3194,6 +3196,7 @@ country_event = {
 		name = Brazil.69.a
 		add_political_power = -150
 		effect_tooltip = {
+			add_ideas = BRA_2022_election_protests_idea
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = -0.025
@@ -3435,6 +3438,9 @@ country_event = {
 		name = Brazil.74.a
 		add_political_power = -200
 		activate_mission = BRA_2022_elections_protests_pacification_mission
+		hidden_effect = {
+			add_ideas = BRA_2022_election_protests_pacification_idea
+		}
 	}
 	# Accept - leads to the CIVIL WAR
 	option = {
@@ -3473,6 +3479,9 @@ country_event = {
 		name = Brazil.75.a
 		add_political_power = -200
 		activate_mission = BRA_2022_elections_protests_pacification_mission
+		hidden_effect = {
+			add_ideas = BRA_2022_election_protests_pacification_idea
+		}
 	}
 	# Accept - leads to the CIVIL WAR
 	option = {
@@ -3511,6 +3520,9 @@ country_event = {
 		name = Brazil.76.a
 		add_political_power = -50
 		activate_mission = BRA_2022_elections_protests_pacification_mission
+		hidden_effect = {
+			add_ideas = BRA_2022_election_protests_pacification_idea
+		}
 	}
 	# Accept - leads to the CIVIL WAR
 	option = {

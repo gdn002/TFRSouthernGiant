@@ -9,7 +9,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_BRA_geraldo_alckmin"  
+		name = "GFX_BRA_Geraldo_Alckmin"  
 		texturefile = "gfx/leaders/BRA/BRA_Geraldo_Alckmin.png" 
 	}
 	spriteType = {

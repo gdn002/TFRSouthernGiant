@@ -237,6 +237,7 @@ country = {
 	}
 	BRA_self_indulgent_military_idea1 = {
 		picture = BRA_brazilian_army
+		name = BRA_self_indulgent_military_idea
 	
 		allowed = { 
 			is_brazilian_unifier = yes
@@ -256,6 +257,7 @@ country = {
 	}
 	BRA_self_indulgent_military_idea2 = {
 		picture = BRA_brazilian_army
+		name = BRA_self_indulgent_military_idea
 	
 		allowed = { 
 			is_brazilian_unifier = yes
@@ -317,6 +319,7 @@ country = {
 	}
 	BRA_rebellious_military_idea1 = {
 		picture = BRA_brazilian_army
+		name = BRA_rebellious_military_idea
 	
 		allowed = { 
 			is_brazilian_unifier = yes
@@ -343,6 +346,7 @@ country = {
 	}
 	BRA_rebellious_military_idea2 = {
 		picture = BRA_brazilian_army
+		name = BRA_rebellious_military_idea
 	
 		allowed = { 
 			is_brazilian_unifier = yes
@@ -801,6 +805,19 @@ country = {
 			stability_weekly = -0.005
 			surrender_limit = -0.25
 			drift_defence_factor = -0.3
+		}
+	}
+	BRA_2022_election_protests_pacification_idea = {
+		picture = BRA_2022_election_protests
+		allowed = {
+			always = no
+		}
+		modifier = {
+			stability_weekly = -0.001
+			war_support_weekly = -0.001
+			political_power_cost = 0.25
+			command_power_gain = -0.25
+			power_balance_daily = 0.025
 		}
 	}
 	BRA_general_strikes_idea = {

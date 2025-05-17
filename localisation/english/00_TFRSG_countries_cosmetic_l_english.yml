@@ -81,6 +81,10 @@
  BR4_restored: "Brazilian Democratic Restoration Authority"
  BR4_restored_DEF: "The Brazilian Democratic Restoration Authority"
 
+ COL_integralist_admin: "Caribbean Directory"
+ PRU_integralist_admin: "Andean Directory"
+ ARG_integralist_admin: "Southern Cone Directory"
+
  #Monarchist Unifiers
  BR4_regency: "Brazilian Regency"
  BR4_regency_DEF: "The Brazilian Regency"
