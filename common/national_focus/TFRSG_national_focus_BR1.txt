@@ -783,4 +783,118 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = BR1_reclaim_sao_paulo
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR1_cw_the_republic_endures
+		x = -1
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_completed_focus = BR1_cw_the_republic_endures
+		}
+		prerequisite = {
+			focus = BR1_cw_the_republic_endures
+		}
+		bypass = {
+			NOT = { country_exists = SPA }
+		}		
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# São Paulo breakaway ultimatum
+			SPA = {
+				country_event = {
+					id = Brazil.libs.11
+					days = 3
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BR1_reclaim_the_south
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR1_cw_the_republic_endures
+		x = 1
+		y = 1
+		cost = 2
+		allow_branch = {
+			has_completed_focus = BR1_cw_the_republic_endures
+		}
+		prerequisite = {
+			focus = BR1_cw_the_republic_endures
+		}	
+		bypass = {
+			NOT = { country_exists = SUL }
+		}		
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Sul breakaway ultimatum
+			SUL = {
+				country_event = {
+					id = Brazil.libs.14
+					days = 3
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BR1_a_victory_for_democracy
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        relative_position_id = BR1_reclaim_sao_paulo
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = BR1_reclaim_sao_paulo
+		}
+		prerequisite = {
+			focus = BR1_reclaim_the_south
+		}
+		available = {
+			has_war = no
+			custom_trigger_tooltip = {
+				tooltip = BRA_civil_war_breakaways_defeated_tt
+				NOT = {
+					country_exists = AMZ
+					country_exists = SPA
+					country_exists = SUL
+				}
+			}
+		}		
+		available_if_capitulated = no
+		cancelable = yes
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# The civil war will be over!
+			add_stability = 0.25
+			add_war_support = 0.05
+			BRA_civil_war_end = yes
+
+			country_event = {
+				id = Brazil.timeline.13
+				days = 7
+			}
+
+			set_variable = { global.TFRSG_active_BRA_tag = BR1 }
+		}
+	}
 }

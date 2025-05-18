@@ -1015,6 +1015,53 @@ BRA_civil_war_end = {
 			BRA_brazilian_civil_war_idea
 			BRA_civil_war_gamerule_blessing
 		}
+
+		# Clear other unifiers' cores and claims
+		if = {
+			limit = { NOT = { tag = BR1 } }
+			BRA = {
+				every_core_state = {
+					remove_claim_by = BR1
+					remove_core_of = BR1
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { tag = BR2 } }
+			BRA = {
+				every_core_state = {
+					remove_claim_by = BR2
+					remove_core_of = BR2
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { tag = BR3 } }
+			BRA = {
+				every_core_state = {
+					remove_claim_by = BR3
+					remove_core_of = BR3
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { tag = BR4 } }
+			BRA = {
+				every_core_state = {
+					remove_claim_by = BR4
+					remove_core_of = BR4
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { tag = UNB } }
+			BRA = {
+				every_core_state = {
+					remove_claim_by = UNB
+					remove_core_of = UNB
+				}
+			}
+		}
 	}
 
 	BRA_civil_war_core_all = yes
@@ -1041,6 +1088,7 @@ BRA_civil_war_core_all = {
 	hidden_effect = {
 		BRA = {
 			every_core_state = {
+				remove_claim_by = ROOT
 				add_core_of = ROOT
 			}
 		}

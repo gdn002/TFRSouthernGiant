@@ -336,6 +336,13 @@ country_event = {
 			target = AMZ
 			transfer_troops = yes
 		}
+		hidden_effect = {
+			AMZ = {
+				every_core_state = {
+					add_core_of = BR3
+				}
+			}
+		}
 	}
 }
 
@@ -421,6 +428,13 @@ country_event = {
 		annex_country = {
 			target = SPA
 			transfer_troops = yes
+		}
+		hidden_effect = {
+			SPA = {
+				every_core_state = {
+					add_core_of = BR3
+				}
+			}
 		}
 	}
 }
@@ -519,6 +533,13 @@ country_event = {
 		annex_country = {
 			target = SUL
 			transfer_troops = yes
+		}
+		hidden_effect = {
+			SUL = {
+				every_core_state = {
+					add_core_of = BR3
+				}
+			}
 		}
 	}
 }

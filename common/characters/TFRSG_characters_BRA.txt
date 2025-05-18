@@ -590,21 +590,5 @@ characters = {
 			maneuvering_skill = 1
 			coordination_skill = 1
 		}
-	}
-
-	# SAO PAULO
-	SPA_tarcisio_freitas_char = {
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SPA/SPA_Tarcisio_Freitas_civilwar.png"
-			}
-		}
-		country_leader = {
-			ideology = right_centrist
-			traits = {
-			}
-			expire = "1.1.1.1"
-			id = -1
-		}
 	}		
 }

@@ -26,15 +26,15 @@
  BRA_infantry_equipment_6_short: "IMBEL MD30"
  BRA_infantry_equipment_6_desc: "IMBEL MD30"
  ## MOTORIZED ##
- BRA_motorized_equipment_1: "Agrale AM-41"
- BRA_motorized_equipment_1_short: "Agrale AM-41"
- BRA_motorized_equipment_1_desc: "Agrale AM-41"
- BRA_motorized_equipment_2: "Agrale AM-41T"
- BRA_motorized_equipment_2_short: "Agrale AM-41T"
- BRA_motorized_equipment_2_desc: "Agrale AM-41T"
- BRA_motorized_equipment_3: "Agrale AM-50"
- BRA_motorized_equipment_3_short: "Agrale AM-50"
- BRA_motorized_equipment_3_desc: "Agrale AM-50"
+ BRA_motorized_equipment_1: "Agrale Marruá AM-21"
+ BRA_motorized_equipment_1_short: "Agrale Marruá AM-21"
+ BRA_motorized_equipment_1_desc: "Agrale Marruá AM-21"
+ BRA_motorized_equipment_2: "Agrale AM-41"
+ BRA_motorized_equipment_2_short: "Agrale AM-41"
+ BRA_motorized_equipment_2_desc: "Agrale AM-41"
+ BRA_motorized_equipment_3: "Agrale AM-51"
+ BRA_motorized_equipment_3_short: "Agrale AM-51"
+ BRA_motorized_equipment_3_desc: "Agrale AM-51"
  #############
  ### ARMOR ###
  #############
@@ -197,15 +197,15 @@
  BR1_infantry_equipment_6_short: "IMBEL MD30"
  BR1_infantry_equipment_6_desc: "IMBEL MD30"
  ## MOTORIZED ##
- BR1_motorized_equipment_1: "Agrale AM-41"
- BR1_motorized_equipment_1_short: "Agrale AM-41"
- BR1_motorized_equipment_1_desc: "Agrale AM-41"
- BR1_motorized_equipment_2: "Agrale AM-41T"
- BR1_motorized_equipment_2_short: "Agrale AM-41T"
- BR1_motorized_equipment_2_desc: "Agrale AM-41T"
- BR1_motorized_equipment_3: "Agrale AM-50"
- BR1_motorized_equipment_3_short: "Agrale AM-50"
- BR1_motorized_equipment_3_desc: "Agrale AM-50"
+ BR1_motorized_equipment_1: "Agrale Marruá AM-21"
+ BR1_motorized_equipment_1_short: "Agrale Marruá AM-21"
+ BR1_motorized_equipment_1_desc: "Agrale Marruá AM-21"
+ BR1_motorized_equipment_2: "Agrale AM-41"
+ BR1_motorized_equipment_2_short: "Agrale AM-41"
+ BR1_motorized_equipment_2_desc: "Agrale AM-41"
+ BR1_motorized_equipment_3: "Agrale AM-51"
+ BR1_motorized_equipment_3_short: "Agrale AM-51"
+ BR1_motorized_equipment_3_desc: "Agrale AM-51"
  #############
  ### ARMOR ###
  #############
@@ -368,15 +368,15 @@
  BR2_infantry_equipment_6_short: "IMBEL MD30"
  BR2_infantry_equipment_6_desc: "IMBEL MD30"
  ## MOTORIZED ##
- BR2_motorized_equipment_1: "Agrale AM-41"
- BR2_motorized_equipment_1_short: "Agrale AM-41"
- BR2_motorized_equipment_1_desc: "Agrale AM-41"
- BR2_motorized_equipment_2: "Agrale AM-41T"
- BR2_motorized_equipment_2_short: "Agrale AM-41T"
- BR2_motorized_equipment_2_desc: "Agrale AM-41T"
- BR2_motorized_equipment_3: "Agrale AM-50"
- BR2_motorized_equipment_3_short: "Agrale AM-50"
- BR2_motorized_equipment_3_desc: "Agrale AM-50"
+ BR2_motorized_equipment_1: "Agrale Marruá AM-21"
+ BR2_motorized_equipment_1_short: "Agrale Marruá AM-21"
+ BR2_motorized_equipment_1_desc: "Agrale Marruá AM-21"
+ BR2_motorized_equipment_2: "Agrale AM-41"
+ BR2_motorized_equipment_2_short: "Agrale AM-41"
+ BR2_motorized_equipment_2_desc: "Agrale AM-41"
+ BR2_motorized_equipment_3: "Agrale AM-51"
+ BR2_motorized_equipment_3_short: "Agrale AM-51"
+ BR2_motorized_equipment_3_desc: "Agrale AM-51"
  #############
  ### ARMOR ###
  #############
@@ -539,15 +539,15 @@
  BR3_infantry_equipment_6_short: "IMBEL MD30"
  BR3_infantry_equipment_6_desc: "IMBEL MD30"
  ## MOTORIZED ##
- BR3_motorized_equipment_1: "Agrale AM-41"
- BR3_motorized_equipment_1_short: "Agrale AM-41"
- BR3_motorized_equipment_1_desc: "Agrale AM-41"
- BR3_motorized_equipment_2: "Agrale AM-41T"
- BR3_motorized_equipment_2_short: "Agrale AM-41T"
- BR3_motorized_equipment_2_desc: "Agrale AM-41T"
- BR3_motorized_equipment_3: "Agrale AM-50"
- BR3_motorized_equipment_3_short: "Agrale AM-50"
- BR3_motorized_equipment_3_desc: "Agrale AM-50"
+ BR3_motorized_equipment_1: "Agrale Marruá AM-21"
+ BR3_motorized_equipment_1_short: "Agrale Marruá AM-21"
+ BR3_motorized_equipment_1_desc: "Agrale Marruá AM-21"
+ BR3_motorized_equipment_2: "Agrale AM-41"
+ BR3_motorized_equipment_2_short: "Agrale AM-41"
+ BR3_motorized_equipment_2_desc: "Agrale AM-41"
+ BR3_motorized_equipment_3: "Agrale AM-51"
+ BR3_motorized_equipment_3_short: "Agrale AM-51"
+ BR3_motorized_equipment_3_desc: "Agrale AM-51"
  #############
  ### ARMOR ###
  #############
@@ -710,15 +710,15 @@
  BR4_infantry_equipment_6_short: "IMBEL MD30"
  BR4_infantry_equipment_6_desc: "IMBEL MD30"
  ## MOTORIZED ##
- BR4_motorized_equipment_1: "Agrale AM-41"
- BR4_motorized_equipment_1_short: "Agrale AM-41"
- BR4_motorized_equipment_1_desc: "Agrale AM-41"
- BR4_motorized_equipment_2: "Agrale AM-41T"
- BR4_motorized_equipment_2_short: "Agrale AM-41T"
- BR4_motorized_equipment_2_desc: "Agrale AM-41T"
- BR4_motorized_equipment_3: "Agrale AM-50"
- BR4_motorized_equipment_3_short: "Agrale AM-50"
- BR4_motorized_equipment_3_desc: "Agrale AM-50"
+ BR4_motorized_equipment_1: "Agrale Marruá AM-21"
+ BR4_motorized_equipment_1_short: "Agrale Marruá AM-21"
+ BR4_motorized_equipment_1_desc: "Agrale Marruá AM-21"
+ BR4_motorized_equipment_2: "Agrale AM-41"
+ BR4_motorized_equipment_2_short: "Agrale AM-41"
+ BR4_motorized_equipment_2_desc: "Agrale AM-41"
+ BR4_motorized_equipment_3: "Agrale AM-51"
+ BR4_motorized_equipment_3_short: "Agrale AM-51"
+ BR4_motorized_equipment_3_desc: "Agrale AM-51"
  #############
  ### ARMOR ###
  #############

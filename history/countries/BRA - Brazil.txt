@@ -273,10 +273,7 @@
 		set_technology = {
 			main_battle_tank1 = 1
 			main_battle_tank2 = 1
-			main_battle_tank3 = 1
 			light_tank1 = 1
-			light_tank2 = 1
-			amphibious_tank1 = 1
 			amphibious_mechanized_infantry1 = 1
 		}
 	}
@@ -316,19 +313,12 @@
 			set_air_oob = "BRA_2020_air_legacy"
 			set_technology = {
 				CAS1 = 1
-				CAS2 = 1
 				cv_CAS1 = 1
-				cv_CAS2 = 1
 				fighter1 = 1
-				fighter2 = 1
-				fighter3 = 1
 				cv_fighter1 = 1
 				naval_bomber1 = 1
-				naval_bomber2 = 1
-				naval_bomber3 = 1
 				strategic_bomber1 = 1
-				strategic_bomber2 = 1
-				tactical_bomber1 = 1
+				transport_plane2 = 1
 			}
 		}
 	}
