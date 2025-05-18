@@ -159,7 +159,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_war_support = 0.1
-			custom_effect_tooltip = BRA_civil_war_militias_spawn_tt			
+			custom_effect_tooltip = BR3_civil_war_militias_spawn_tt			
 			country_event = {
 				id = Brazil.commie.3
 				hours = 6
@@ -195,7 +195,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			set_country_flag = BRA_civil_war_recruitment_allowed_flag
-			custom_effect_tooltip = BR3_civil_war_militias_spawn_tt
+			custom_effect_tooltip = BRA_civil_war_recruitment_unlocked_tt
 			add_corps_commander_role = {
 			    Character = BR3_leonel_radde_char
 			    skill = 1
@@ -712,6 +712,7 @@ focus_tree = {
 			# Awards the powerful PLA idea and unlocks training of professional divisions
 			add_command_power = 50
 			country_lock_all_division_template = no
+			custom_effect_tooltip = TFRSG_inherited_templates_hint_tt
 			swap_ideas = {
 				remove_idea = BR3_guerrila_warfare_idea
 				add_idea = BR3_liberation_army_idea

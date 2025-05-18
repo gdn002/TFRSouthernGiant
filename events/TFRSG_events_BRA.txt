@@ -4532,9 +4532,6 @@ country_event = {
 				transfer_state = 1435
 			}			
 		}
-		hidden_effect = {
-			BR2 = { load_oob = "BRA_Unifier_2020" }
-		}
 	}
 }
 
@@ -4572,9 +4569,6 @@ country_event = {
 			BR1 = {
 				transfer_state = 1450
 			}
-		}
-		hidden_effect = {
-			BR1 = { load_oob = "BRA_Unifier_2020" }
 		}
 	}
 }
@@ -4823,9 +4817,6 @@ country_event = {
 			BR3 = {
 				transfer_state = 1452
 			}
-		}
-		hidden_effect = {
-			BR3 = { load_oob = "BRA_Unifier_2020" }
 		}
 	}
 }

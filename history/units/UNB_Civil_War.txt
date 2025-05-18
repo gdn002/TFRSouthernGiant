@@ -10,6 +10,7 @@
 		engineer = { x = 0 y = 0 }
 	}
 		
+	override_model = LRA_UN_infantry_entity
 }
 
 units = {

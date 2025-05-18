@@ -73,6 +73,19 @@ ideas = {
 				cas_damage_reduction = 0.25
 				terrain_penalty_reduction = 0.5
 			}
+		}
+
+		UNB_peacekeeping_mission_idea = {
+			allowed = {
+				original_tag = UNB
+			}
+			modifier = {
+				non_core_manpower = 0.5
+				supply_factor = 0.25
+				resistance_decay = 0.25
+				resistance_target = -0.15
+				compliance_growth = 0.25
+			}
 		}	
 	}
 

@@ -290,6 +290,7 @@ focus_tree = {
 		completion_reward = {
 			# Purge pro-coup reactionary thought out of military education
 			country_lock_all_division_template = no
+			custom_effect_tooltip = TFRSG_inherited_templates_hint_tt
 			BR1_improve_command_insecurity = yes
 			set_temp_variable = { military_development_var_temp = 0.25 }
 			add_military_development = yes

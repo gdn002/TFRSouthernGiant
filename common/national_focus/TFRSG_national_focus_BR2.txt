@@ -574,6 +574,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.15
 			country_lock_all_division_template = no
+			custom_effect_tooltip = TFRSG_inherited_templates_hint_tt
 			swap_ideas = {
 				remove_idea = lower_conscription
 				add_idea = low_conscription

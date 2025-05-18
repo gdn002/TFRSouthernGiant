@@ -81,6 +81,7 @@
 		high_taxes
 		lower_conscription
 		medium_female_service
+		higher_racial_integration
 		general_exemptions
 
 		# Development

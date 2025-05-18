@@ -1,5 +1,7 @@
 ﻿l_english:
+ #Misc Tooltips
  TFRSG_add_campaign_slot_tt: "We will gain a §YCampaign Slot§!."
+ TFRSG_inherited_templates_hint_tt: "§CHINT: You can find inherited division templates from The Federative Republic of Brazil under decomissioned templates.§!"
  #Debug Decisions
  BRA_DEBUG_trigger_civil_war: "Trigger The §RBrazilian Civil War§!"
  BRA_DEBUG_trigger_civil_war_desc: "Let's get the party started right away!"

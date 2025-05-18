@@ -42,7 +42,7 @@
 		low_conscription
 		lower_female_service
 		lower_supervision
-		low_racial_integration
+		medium_racial_integration
 		no_draft_exemptions
 		low_immigration
 		low_race
