@@ -45,12 +45,12 @@
 
  SUL_national_socialist_party_coup: "NSSBAP"
  SUL_national_socialist_party_coup_long: "National Socialist Southern Brazilian Worker's Party"
- SUL_libertarian_socialist_party_coup: "PCSB - Libertarians"
- SUL_libertarian_socialist_party_coup_long: "Communist Party of Southern Brazil - Libertarians" 
+ SUL_libertarian_socialist_party_coup: "PCSB - Moderates"
+ SUL_libertarian_socialist_party_coup_long: "Communist Party of Southern Brazil - Moderates" 
  SUL_communist_party_coup: "PCSB - Centrists" 
  SUL_communist_party_coup_long: "Communist Party of Southern Brazil - Centrists"
- SUL_totalitarian_socialist_party_coup: "PCSB - Totalitarians"
- SUL_totalitarian_socialist_party_coup_long: "Communist Party of Southern Brazil - Totalitarians"
+ SUL_totalitarian_socialist_party_coup: "PCSB - Hardliners"
+ SUL_totalitarian_socialist_party_coup_long: "Communist Party of Southern Brazil - Hardliners"
  #Country
  #Summary
  #Events

@@ -10,7 +10,7 @@
 		}
 	}
 	
-	# Leaders
+	# Starting Leaders
 	recruit_character = BRA_jair_bolsonaro_char
 	recruit_character = BRA_lula_da_silva_char
 	recruit_character = BRA_geraldo_alckmin_char
@@ -22,6 +22,17 @@
 	recruit_character = BRA_rui_costa_pimenta_char
 	recruit_character = BRA_hamilton_mourao_char
 	recruit_character = BRA_arthur_lira_char
+
+	# Later Leaders
+	recruit_character = BRA_flavio_bolsonaro_char
+	recruit_character = BRA_carlos_bolsonaro_char
+	recruit_character = BRA_eduardo_bolsonaro_char
+	recruit_character = BRA_gleisi_hoffmann_char
+	recruit_character = BRA_dilma_rousseff_char
+	recruit_character = BRA_ciro_gomes_char
+	recruit_character = BRA_fernando_haddad_char
+	recruit_character = BRA_tarcisio_freitas_char
+	recruit_character = BRA_eduardo_leite_char
 
 	# Generals/Admirals
 	recruit_character = BRA_hertz_pires_char

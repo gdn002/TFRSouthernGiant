@@ -1781,7 +1781,7 @@ focus_tree = {
 				if = {
 					# Set Flávio Bolsonaro as the replacement opponent if Bolsonaro cannot run
 					limit = { has_country_flag = BRA_bolsonaro_banned_from_politics_flag }
-					set_variable = { BRA_2022_elections_bolsonaro_candidate_token = token:BRA_flavio_bolsonaro_char }
+					set_variable = { BRA_2022_elections_bolsonaro_candidate = 1 }
 				}
 			}
 		}
@@ -1818,7 +1818,7 @@ focus_tree = {
 				if = {
 					# Set Flávio Bolsonaro as the replacement opponent if Bolsonaro cannot run
 					limit = { has_country_flag = BRA_bolsonaro_banned_from_politics_flag }
-					set_variable = { BRA_2022_elections_bolsonaro_candidate_token = token:BRA_flavio_bolsonaro_char }
+					set_variable = { BRA_2022_elections_bolsonaro_candidate = 1 }
 				}
 			}
 		}

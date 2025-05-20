@@ -46,4 +46,9 @@ spriteTypes = {
 		texturefile = "gfx/texticons/banners/BRA/BRA_monroe_doctrine.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_Ideology_Integralism"
+		texturefile = "gfx/texticons/banners/ideology/Ideology_Integralism.png"
+		legacy_lazy_load = no
+	}
 }

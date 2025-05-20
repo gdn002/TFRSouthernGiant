@@ -1,4 +1,48 @@
 defined_text = {
+	name = get_bolsonaro_son_candidate
+
+	text = {
+		trigger = {
+			BRA = {
+				check_variable = {
+					var = BRA_2022_elections_bolsonaro_candidate
+					value = 1
+					compare = equals
+				}
+			}
+		}
+		localization_key = "BRA_flavio_bolsonaro_char"
+	}
+	text = {
+		trigger = {
+			BRA = {
+				check_variable = {
+					var = BRA_2022_elections_bolsonaro_candidate
+					value = 2
+					compare = equals
+				}
+			}
+		}
+		localization_key = "BRA_carlos_bolsonaro_char"
+	}
+	text = {
+		trigger = {
+			BRA = {
+				check_variable = {
+					var = BRA_2022_elections_bolsonaro_candidate
+					value = 3
+					compare = equals
+				}
+			}
+		}
+		localization_key = "BRA_eduardo_bolsonaro_char"
+	}
+	text = {
+		localization_key = "BRA_jair_bolsonaro_char"
+	}
+}
+
+defined_text = {
 	name = get_chamber_wing_status_progressives
 	
 	text = {

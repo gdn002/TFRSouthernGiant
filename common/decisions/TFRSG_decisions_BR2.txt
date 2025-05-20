@@ -12,7 +12,7 @@ BR2_junta_power_struggle_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 15
+				add = 25
 				has_country_flag = BR2_AI_favor_president_flag
 				is_power_balance_in_range = {
     				id = BR2_junta_power_struggle
@@ -51,7 +51,7 @@ BR2_junta_power_struggle_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 15
+				add = 25
 				NOT = { has_country_flag = BR2_AI_favor_president_flag }
 				is_power_balance_in_range = {
     				id = BR2_junta_power_struggle
@@ -91,7 +91,7 @@ BR2_junta_power_struggle_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 30
+				add = 50
 				has_country_flag = BR2_AI_favor_president_flag
 				is_power_balance_in_range = {
     				id = BR2_junta_power_struggle
@@ -144,7 +144,7 @@ BR2_junta_power_struggle_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 30
+				add = 50
 				NOT = { has_country_flag = BR2_AI_favor_president_flag }
 				is_power_balance_in_range = {
     				id = BR2_junta_power_struggle
@@ -446,7 +446,7 @@ BRA_civil_war_category = {
 		ai_will_do = {
 			base = 25
 			modifier = {
-				add = 50
+				add = 75
 				has_war = no
 			}
 		}

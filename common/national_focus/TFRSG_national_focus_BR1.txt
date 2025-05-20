@@ -895,6 +895,13 @@ focus_tree = {
 				days = 7
 			}
 
+			hidden_effect = {
+				news_event = {
+					id = Brazilnews.9
+					hours = 12
+				}
+			}
+
 			set_variable = { global.TFRSG_active_BRA_tag = BR1 }
 		}
 	}

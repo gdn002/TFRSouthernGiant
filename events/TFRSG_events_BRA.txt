@@ -1980,21 +1980,21 @@ country_event = {
 		name = Brazil.43.a
 		set_temp_variable = { BRA_election_approval_rating_pl_var_temp = 0.025 }
 		BRA_add_election_approval_rating_pl = yes;
-		set_variable = { BRA_2022_elections_bolsonaro_candidate_token = token:BRA_flavio_bolsonaro_char }
+		set_variable = { BRA_2022_elections_bolsonaro_candidate = 1 }
 		custom_effect_tooltip = BRA_2022_elections_candidate_flavio_tooltip
 	}
 	# Carlos
 	option = {
 		name = Brazil.43.b
 		add_stability = 0.05
-		set_variable = { BRA_2022_elections_bolsonaro_candidate_token = token:BRA_carlos_bolsonaro_char }
+		set_variable = { BRA_2022_elections_bolsonaro_candidate = 2 }
 		custom_effect_tooltip = BRA_2022_elections_candidate_carlos_tooltip
 	}
 	# Eduardo
 	option = {
 		name = Brazil.43.c
 		add_political_power = 50
-		set_variable = { BRA_2022_elections_bolsonaro_candidate_token = token:BRA_eduardo_bolsonaro_char }
+		set_variable = { BRA_2022_elections_bolsonaro_candidate = 3 }
 		custom_effect_tooltip = BRA_2022_elections_candidate_eduardo_tooltip
 	}
 	# YOLO it, run Jair
@@ -2292,18 +2292,18 @@ country_event = {
 		else = {
 			if = {
 				limit = {
-					NOT = { has_variable = BRA_2022_elections_bolsonaro_candidate_token }
+					NOT = { has_variable = BRA_2022_elections_bolsonaro_candidate }
 				}
 				country_event = {
-				id = Brazil.54
-				hours = 12
-			}
+					id = Brazil.54
+					hours = 12
+				}
 			}
 			else = {
 				country_event = {
-				id = Brazil.55
-				hours = 12
-			}
+					id = Brazil.55
+					hours = 12
+				}
 			}
 		}
 	}
@@ -2480,7 +2480,36 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			promote_character = BRA_2022_elections_bolsonaro_candidate_token
+			if = {
+				limit = {
+					check_variable = {
+					    var = BRA_2022_elections_bolsonaro_candidate
+					    value = 1
+					    compare = equals
+					}
+				}
+				promote_character = BRA_flavio_bolsonaro_char
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+					    var = BRA_2022_elections_bolsonaro_candidate
+					    value = 2
+					    compare = equals
+					}
+				}
+				promote_character = BRA_carlos_bolsonaro_char
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+					    var = BRA_2022_elections_bolsonaro_candidate
+					    value = 3
+					    compare = equals
+					}
+				}
+				promote_character = BRA_eduardo_bolsonaro_char
+			}
 			set_politics = {
 			    ruling_party = conservative
 			    elections_allowed = yes
@@ -2495,7 +2524,36 @@ country_event = {
 	option = {
 		name = Brazil.55.a
 		effect_tooltip = {
-			promote_character = BRA_2022_elections_bolsonaro_candidate_token
+			if = {
+				limit = {
+					check_variable = {
+					    var = BRA_2022_elections_bolsonaro_candidate
+					    value = 1
+					    compare = equals
+					}
+				}
+				promote_character = BRA_flavio_bolsonaro_char
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+					    var = BRA_2022_elections_bolsonaro_candidate
+					    value = 2
+					    compare = equals
+					}
+				}
+				promote_character = BRA_carlos_bolsonaro_char
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+					    var = BRA_2022_elections_bolsonaro_candidate
+					    value = 3
+					    compare = equals
+					}
+				}
+				promote_character = BRA_eduardo_bolsonaro_char
+			}
 			set_politics = {
 			    ruling_party = conservative
 			    elections_allowed = yes

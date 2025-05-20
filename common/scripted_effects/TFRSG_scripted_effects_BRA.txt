@@ -516,7 +516,7 @@ BRA_get_2022_elections_result = {
 				set_country_flag = BRA_2022_elections_bolsonaro_won_flag
 				if = {
 					limit = {
-						NOT = { has_variable = BRA_2022_elections_bolsonaro_candidate_token }
+						NOT = { has_variable = BRA_2022_elections_bolsonaro_candidate }
 					}
 					# Jair
 					country_event = {
@@ -556,7 +556,7 @@ BRA_get_2022_elections_result = {
 				set_country_flag = BRA_2022_elections_bolsonaro_won_flag
 				if = {
 					limit = {
-						NOT = { has_variable = BRA_2022_elections_bolsonaro_candidate_token }
+						NOT = { has_variable = BRA_2022_elections_bolsonaro_candidate }
 					}
 					# Jair
 					country_event = {
