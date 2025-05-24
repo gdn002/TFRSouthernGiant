@@ -18,7 +18,7 @@ shared_focus = {
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
-	x = 0
+	x = -15
 	y = 0
 	cost = 5
 	ai_will_do = {
@@ -788,7 +788,7 @@ shared_focus = {
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
-	x = 10
+	x = 15
 	y = 0
 	cost = 1
 	ai_will_do = {
@@ -958,5 +958,154 @@ shared_focus = {
 	}
 	completion_reward = {
 		# Align with the international multipolar movement and BRICS
+	}
+}
+
+# ------------------------------------------------------------ Economic Policy ------------------------------------------------------------
+
+shared_focus = {
+	id = BRA_brazilian_economic_policy
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	
+	x = 20
+	y = 0
+	cost = 5
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_reorganize_bndes
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_brazilian_economic_policy
+	x = 0
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_brazilian_economic_policy
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_draft_economic_plans
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_reorganize_bndes
+	x = 0
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_reorganize_bndes
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_agrarian_focus
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_draft_economic_plans
+	x = -5
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_draft_economic_plans
+	}
+	mutually_exclusive = {
+		focus = BRA_industry_focus
+		focus = BRA_service_focus
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_industry_focus
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_draft_economic_plans
+	x = 0
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_draft_economic_plans
+	}
+	mutually_exclusive = {
+		focus = BRA_agrarian_focus
+		focus = BRA_service_focus
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_service_focus
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_draft_economic_plans
+	x = 5
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_draft_economic_plans
+	}
+	mutually_exclusive = {
+		focus = BRA_industry_focus
+		focus = BRA_agrarian_focus
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
 	}
 }

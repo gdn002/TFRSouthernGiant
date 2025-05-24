@@ -13,9 +13,7 @@ BRA_engesa = {
 			is_core_of = FROM
 			is_controlled_by = FROM
 		}
-		FROM = {
-			has_country_flag = BRA_engesa_restored_flag		
-		}
+		has_country_flag = BRA_engesa_restored_flag	
 	}
 }
 
@@ -98,11 +96,14 @@ BRA_xmobots = {
 		is_brazilian_unifier = yes
 		has_dlc = "Arms Against Tyranny"
 	}
+	visible = {
+		has_country_flag = BRA_xmobots_available_flag
+	}
 	available = {
 		501 = {
 			is_core_of = FROM
 			is_controlled_by = FROM
-		}
+		}		
 	}
 }
 

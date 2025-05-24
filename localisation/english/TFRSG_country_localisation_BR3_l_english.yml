@@ -60,6 +60,9 @@
  Brazil.commie.17.t: "On Revolutionary Optimism"
  Brazil.commie.17.d: "It is said that Vladimir Lenin assumed he would not live to see a communist revolution take place in Russia. In the 20th century, the main name behind Brazilian communism had been Luís Carlos Prestes, a pioneer who witnessed the rise of the Soviet Union, provided a front against the rise of evil in Brazil, and for all his sacrifices, he unfortunately did not live to see the day the Brazilian workers would rise up in the first step to overcome the evils of capitalism in his country.\nBut being a communist is not merely about improving one's condition. It is about believing in the good of human nature, it is about hoping that a better society is always possible, it is about fighting for the common good even if you know you might not live to see the fruits of your labor.\nPrestes did not live to see the day the Brazilian people would decide enough was enough and break from their shackles, but we are unfathomably lucky to be witness to it. And with our enemies defeated, the country reunited under popular rule and jubilation all across Brazil, our liberation is all but inevitable. This is a victory for us, for every Brazilian that has lived and will live, for the workers of the world... This is a victory for Prestes."
  Brazil.commie.17.a: "A better future is possible."
+ Brazil.commie.18.t: "Enemies of The Revolution"
+ Brazil.commie.18.d: "With the shock that comes with a socialist uprising, we should have expected significant resistance sooner or later. Within our controlled territories, enemies of the revolution have rallied around what is being called the \"Movimento Contra-Revolucionário\" and engaged in subversive activities against the Popular Front. While this movement is still too insignificant to warrant any concern for now, we should still be aware of its lingering effects and try to counteract them."
+ Brazil.commie.18.a: "The many twists and turns on the road to socialism."
  #Focuses
  BR3_cw_popular_front_rises: "The Brazilian Popular Front Rises!"
  BR3_cw_mount_a_workers_council: "Assemble a Worker's Council"
@@ -221,12 +224,12 @@
  BR3_totalitarian_socialist_party_pcb: "PCB - Hardliners"
  BR3_totalitarian_socialist_party_pcb_long: "Communist Party of Brazil - Hardliners"
 
- BR3_libertarian_socialist_party_ursal: "GCCAL - Moderates"
- BR3_libertarian_socialist_party_ursal_long: "Grand Communist Council of Latin America - Moderates" 
- BR3_communist_party_ursal: "GCCAL - Centrists" 
- BR3_communist_party_ursal_long: "Grand Communist Council of Latin America - Centrists"
- BR3_totalitarian_socialist_party_ursal: "GCCAL - Hardliners"
- BR3_totalitarian_socialist_party_ursal_long: "Grand Communist Council of Latin America - Hardliners"
+ BR3_libertarian_socialist_party_ursal: "PCAL - Moderates"
+ BR3_libertarian_socialist_party_ursal_long: "Communist Party of Latin America - Moderates" 
+ BR3_communist_party_ursal: "PCAL - Centrists" 
+ BR3_communist_party_ursal_long: "Communist Party of Latin America - Centrists"
+ BR3_totalitarian_socialist_party_ursal: "PCAL - Hardliners"
+ BR3_totalitarian_socialist_party_ursal_long: "Communist Party of Latin America - Hardliners"
 
  BR3_communist_party_pco: "PCO - Moderates" 
  BR3_communist_party_pco_long: "Worker's Cause Party - Moderates"

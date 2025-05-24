@@ -18,20 +18,10 @@ BRA_civil_war_category = {
 		}
 		complete_effect = {
 			set_country_flag = BRA_civil_war_recruiting_flag				
-			BR4_civil_war_extend_insurgent_spirit_effect = yes
-			if = {
-				limit = { country_exists = BR2 }
-				BR2 = {
-					modify_timed_idea = {
-					    idea = BR4_insurgency_deception_enemy_idea
-					    days = 15
-					}
-				}
-			}
-				
+			BR4_civil_war_extend_insurgent_spirit_effect = yes				
 			custom_effect_tooltip = BR4_insurgency_cost_tt
 			if = {
-				limit = { check_variable = { BR4_insurgency_cost_var < 50 } }
+				limit = { check_variable = { BR4_insurgency_cost_var < 100 } }
 				add_to_variable	= { BR4_insurgency_cost_var = 10 }
 			}		
 		}
@@ -82,9 +72,6 @@ BRA_civil_war_category = {
 				is_controlled_by = ROOT
 			}
 		}
-		visible = {
-			has_completed_focus = BR3_raid_military_bases
-		}
 		available = {
 			NOT = {
 				has_country_flag = BR3_civil_war_raiding_flag
@@ -107,7 +94,7 @@ BRA_civil_war_category = {
 
 	BR4_reintegrate_targeted_decision = {
 		icon = GFX_decision_generic_recore
-		cost = BR4_reintegrate_cost_var
+		cost = BR4_integration_cost_var
 		days_remove = 30
 		fire_only_once = no
 		target_array = BRA.core_states
@@ -125,6 +112,8 @@ BRA_civil_war_category = {
 			}
 		}
 		available = {
+			has_completed_focus = BR4_cw_country
+			has_manpower > 1000
 			FROM = {
                 resistance < 20
             }
@@ -133,10 +122,11 @@ BRA_civil_war_category = {
 			base = 100
 		}
 		complete_effect = {
+			add_manpower = -1000
 			custom_effect_tooltip = BR4_insurgency_cost_tt
 			if = {
-				limit = { check_variable = { BR4_insurgency_cost_var < 50 } }
-				add_to_variable	= { BR4_insurgency_cost_var = 5 }
+				limit = { check_variable = { BR4_integration_cost_var < 50 } }
+				add_to_variable	= { BR4_integration_cost_var = 5 }
 			}
 		}
 		remove_effect = {
@@ -144,6 +134,70 @@ BRA_civil_war_category = {
                 add_core_of = ROOT
 			    remove_claim_by = ROOT
             }
+		}
+	}
+
+	BR4_cw_attack_government = {
+		allowed = {
+			tag = BR4
+		}
+		visible = {
+			country_exists = BR1
+			NOT = { has_war_with = BR1 }
+		}
+		available = {
+			has_completed_focus = BR4_cw_family
+		}
+		ai_will_do = {
+			base = 25
+			modifier = {
+				add = 75
+				has_war = no
+			}
+		}
+		cost = 50
+		days_remove = 15
+		war_with_on_remove = BR1
+		complete_effect = {
+			add_command_power = -20
+		}
+		remove_effect = {
+			declare_war_on = {
+    			target = BR1
+    			type = annex_everything
+			}
+		}
+	}
+
+	BR4_cw_attack_front = {
+		allowed = {
+			tag = BR4
+		}
+		visible = {
+			country_exists = BR3
+			NOT = { has_war_with = BR3 }
+		}
+		available = {
+			has_completed_focus = BR4_cw_family
+		}
+		ai_will_do = {
+			base = 25
+			modifier = {
+				add = 75
+				has_war = no
+			}
+		}
+		cost = 50
+		days_remove = 15
+		war_with_on_remove = BR3
+		complete_effect = {
+			add_command_power = -20
+		}
+		remove_effect = {
+			declare_war_on = {
+    			target = BR3
+    			type = annex_everything
+			}
 		}
 	}
 }

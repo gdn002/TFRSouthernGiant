@@ -34,6 +34,13 @@ BR4_civil_war_extend_insurgent_spirit_effect = {
 		    days = 20
 		}
 	}
+	every_enemy_country = {
+		limit = { has_idea = BR4_insurgency_deception_enemy_idea }
+		modify_timed_idea = {
+		    idea = BR4_insurgency_deception_enemy_idea
+		    days = 15
+		}
+	}
 }
 
 BR4_endgame_content = {

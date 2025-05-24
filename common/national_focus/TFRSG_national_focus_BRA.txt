@@ -908,6 +908,11 @@ focus_tree = {
 			BRA_remove_centrao_support_random = yes
 			set_temp_variable = { poverty_development_var_temp = 0.05 }
 			add_poverty_development = yes
+			add_tech_bonus = {
+			    bonus = 0.25
+			    uses = 1
+			    category = synth_resources
+			}
 		}
 	}
 	focus = {
@@ -937,6 +942,10 @@ focus_tree = {
 			# Choosing this path makes later liberalizing Petrobras easier
 			add_political_power = 200
 			add_stability = -0.05
+			set_temp_variable = { industry_development_var_temp = 0.05 }
+			add_industry_development = yes
+			set_temp_variable = { farming_development_var_temp = 0.05 }
+			add_farming_development = yes
 		}
 	}
 	focus = {
@@ -986,6 +995,8 @@ focus_tree = {
 			set_temp_variable = { debt_var_temp = 40 }
 			add_debt_with_inflation = yes
 			BRA_decrease_oil_crisis = yes
+			set_temp_variable = { poverty_development_var_temp = 0.05 }
+			add_poverty_development = yes
 		}
 	}
 	focus = {
@@ -2313,7 +2324,7 @@ focus_tree = {
 		relative_position_id = BRA_2022_love_wins
 		x = 0
 		y = 1
-		cost = 4
+		cost = 4.3
 		allow_branch = {
 			has_completed_focus = BRA_2022_love_wins
 		}
@@ -2461,7 +2472,7 @@ focus_tree = {
 		relative_position_id = BRA_2022_reason_prevails
 		x = 0
 		y = 1
-		cost = 4
+		cost = 4.3
 		allow_branch = {
 			has_completed_focus = BRA_2022_reason_prevails
 		}
@@ -2667,7 +2678,7 @@ focus_tree = {
 		relative_position_id = BRA_2022_patriotic_victory
 		x = 0
 		y = 1
-		cost = 4
+		cost = 4.3
 		allow_branch = {
 			has_completed_focus = BRA_2022_patriotic_victory
 		}

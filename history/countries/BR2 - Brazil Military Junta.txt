@@ -11,7 +11,7 @@
 
 	set_research_slots = 3
 	set_convoys = 0
-	set_stability = 0.25
+	set_stability = 0.3
 	set_war_support = 0.6
 
 	set_country_flag = country_language_portuguese
@@ -36,7 +36,6 @@
 		BRA_informalized_economy_idea
 		BR2_rural_economy_idea
 		BR2_martial_law_idea
-		BR2_political_opposition_idea
 		BR2_constitutional_crisis_idea
 		BR2_trigger_happy_military_idea
 

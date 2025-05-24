@@ -11,8 +11,8 @@
 
 	set_research_slots = 3
 	set_convoys = 50
-	set_stability = 0.05
-	set_war_support = 0.25
+	set_stability = 0.15
+	set_war_support = 0.15
 
 	set_country_flag = country_language_portuguese
 	set_country_flag = shithole_country
@@ -36,7 +36,6 @@
 		BRA_rise_of_evangelism_idea
 		BRA_informalized_economy_idea
 		BR3_popular_front_idea
-		BR3_counter_revolution_idea
 		BR3_disorganized_warfare_idea
 		BR3_uncontrolled_industrial_output_idea
 

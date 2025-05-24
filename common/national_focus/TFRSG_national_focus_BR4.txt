@@ -17,7 +17,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 20
-			original_tag = BR3
+			original_tag = BR4
 		}
 	}
 
@@ -34,7 +34,6 @@ focus_tree = {
 		allow_branch = {
 			NOT = {
 				has_global_flag = BRA_civil_war_ended_flag
-				has_cosmetic_tag = BR4_mnpd
 			}
 		}
 		available_if_capitulated = no
@@ -49,6 +48,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			# The insurgency rises! Gives starting bonuses
+			add_political_power = 50
+			add_war_support = 0.15
+			BR4_civil_war_extend_insurgent_spirit_effect = yes
 		}
 	}
 
@@ -71,6 +73,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Political/Stability boosts
+			add_political_power = 100
+			add_stability = 0.15
 		}
 	}  
 
@@ -93,6 +97,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Claims and starting cores
+			BRA_civil_war_add_claims = yes
 		}
 	} 
 
@@ -118,6 +123,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# War support and unlocks attacks on other factions
+			add_war_support = 0.25
 		}
 	}
 
@@ -143,6 +149,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Boost to the insurrection spirit
+			add_political_power = 150
+			BR4_civil_war_extend_insurgent_spirit_effect = yes
 		}
 	}
 
@@ -168,6 +176,22 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Unlocks division training and spawns army reinforcements
+			country_lock_all_division_template = no
+			custom_effect_tooltip = TFRSG_inherited_templates_hint_tt
+			random_controlled_state = {
+				create_unit = {
+					division = "name = \"Bda Inf Mtz\" division_template = \"Brigada de Infantaria Motorizada\"  start_experience_factor = 0.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = BR4
+            		count = 2
+				}
+				create_unit = {
+					division = "name = \"Bda C Mec\" division_template = \"Brigada de Cavalaria Mecanizada\"  start_experience_factor = 0.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = BR4
+            		count = 1
+				}
+			}
 		}
 	}
 
@@ -177,7 +201,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		relative_position_id = BR4_cw_family
-		x = -2
+		x = -1.5
 		y = 1
 		cost = 2
 		available = {
@@ -186,13 +210,21 @@ focus_tree = {
 		prerequisite = {
 			focus = BR4_cw_family
 		}
+		mutually_exclusive = {
+			focus = BR4_cw_undo_the_great_mistake
+		}
 		available_if_capitulated = no
 		cancelable = no
 		ai_will_do = {
 			base = 1
 		}
 		completion_reward = {
-			
+			add_political_power = 250
+			add_war_support = 0.1
+			add_popularity = { 
+				ideology = fascist
+				popularity = 0.15
+			}
 		}
 	}
 
@@ -222,6 +254,7 @@ focus_tree = {
 			    remove_idea = BR4_insurgent_deception_idea
 			    add_idea = BR4_insurgent_deception_integralist_idea
 			}
+			BR4_civil_war_extend_insurgent_spirit_effect = yes
 		}
 	}
 
@@ -231,7 +264,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		relative_position_id = BR4_cw_family
-		x = 2
+		x = 1.5
 		y = 1
 		cost = 2
 		available = {
@@ -240,13 +273,21 @@ focus_tree = {
 		prerequisite = {
 			focus = BR4_cw_family
 		}
+		mutually_exclusive = {
+			focus = BR4_cw_rise_of_integralism
+		}
 		available_if_capitulated = no
 		cancelable = no
 		ai_will_do = {
 			base = 1
 		}
 		completion_reward = {
-			
+			add_political_power = 100
+			add_war_support = 0.25
+			add_popularity = { 
+				ideology = nationalist
+				popularity = 0.15
+			}
 		}
 	}
 
@@ -276,11 +317,12 @@ focus_tree = {
 			    remove_idea = BR4_insurgent_deception_idea
 			    add_idea = BR4_insurgent_deception_monarchist_idea
 			}
+			BR4_civil_war_extend_insurgent_spirit_effect = yes
 		}
 	}
 
 	focus = {
-		id = BR4_cw_our_inevitable_victory
+		id = BR4_cw_fan_brazilian_irredentism
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -289,12 +331,119 @@ focus_tree = {
 		y = 1
 		cost = 2
 		prerequisite = {
-			focus = BR4_cw_great_patriotic_army
-		}
-		prerequisite = {
 			focus = BR4_cw_the_new_greenshirts
 			focus = BR4_cw_royal_militias
 		}
+		prerequisite = {
+			focus = BR4_cw_great_patriotic_army
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# General boost
+			BR4_civil_war_extend_insurgent_spirit_effect = yes
+			add_political_power = 100
+			add_stability = -0.05
+			add_war_support = 0.25
+		}
+	}
+
+	focus = {
+		id = BR4_cw_our_workers
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_fan_brazilian_irredentism
+		x = -1.5
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR4_cw_fan_brazilian_irredentism
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Industry boost
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BR4_cw_our_nation
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_fan_brazilian_irredentism
+		x = 0
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR4_cw_fan_brazilian_irredentism
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Political boost
+			add_political_power = 250
+			add_stability = 0.25
+		}
+	}
+
+	focus = {
+		id = BR4_cw_our_soldiers
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_fan_brazilian_irredentism
+		x = 1.5
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR4_cw_fan_brazilian_irredentism
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# Spawns bonus divisions
+		}
+	}
+
+	focus = {
+		id = BR4_cw_the_loose_ends
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_our_nation
+		x = 0
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR4_cw_our_nation
+			focus = BR4_cw_our_workers
+			focus = BR4_cw_our_soldiers
+		}		
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = BRA_civil_war_unifiers_defeated_tt
@@ -312,6 +461,97 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Further boosts insurrection spirit and immediately prompts wars on the remaining breakaways
+			BR4_civil_war_extend_insurgent_spirit_effect = yes
+			add_war_support = 0.15
+			if = {
+				limit = { country_exists = AMZ }
+				declare_war_on = {
+					target = AMZ
+    				type = annex_everything
+				}
+			}
+			if = {
+				limit = { country_exists = SUL }
+				declare_war_on = {
+					target = SUL
+    				type = annex_everything
+				}
+			}
+			if = {
+				limit = { country_exists = SPA }
+				declare_war_on = {
+					target = SPA
+    				type = annex_everything
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BR4_cw_our_inevitable_victory
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = BR4_cw_the_loose_ends
+		x = 0
+		y = 1
+		cost = 2
+		prerequisite = {
+			focus = BR4_cw_the_loose_ends
+		}
+		available = {
+			has_war = no
+			custom_trigger_tooltip = {
+				tooltip = BRA_civil_war_breakaways_defeated_tt
+				NOT = {
+					country_exists = AMZ
+					country_exists = SPA
+					country_exists = SUL
+				}
+			}
+		}
+		available_if_capitulated = no
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			# The civil war will be over!
+			add_stability = 0.25
+			add_war_support = 0.05
+			BRA_civil_war_end = yes
+
+			remove_ideas = { BR4_total_anarchy_idea }
+
+			# Integralist End
+			if = {
+				limit = { has_government = fascist }
+				country_event = {
+					id = Brazil.timeline.16
+					days = 7
+				}
+				hidden_effect = {
+					news_event = {
+						id = Brazilnews.12
+						hours = 12
+					}
+				}
+			}		
+			# Monarchist End
+			else_if = {
+				limit = { has_government = nationalist }
+				country_event = {
+					id = Brazil.timeline.17
+					days = 7
+				}
+				hidden_effect = {
+					news_event = {
+						id = Brazilnews.13
+						hours = 12
+					}
+				}
+			}
+			set_variable = { global.TFRSG_active_BRA_tag = BR4 }
 		}
 	}
 }

@@ -458,6 +458,7 @@ country_event = {
 		BR2_civil_war_implosion = yes
 		BR4 = {
 			change_tag_from = BR2
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 }
@@ -489,6 +490,7 @@ country_event = {
 		BR2_civil_war_implosion = yes
 		BR4 = {
 			change_tag_from = BR2
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 }
@@ -528,8 +530,27 @@ country_event = {
 
 	option = {
 		name = Brazil.junta.16.a
+		add_ideas = { BR2_political_opposition_idea }
 		activate_mission = BR2_integralist_uprising_mission
 		activate_mission = BR2_monarchist_uprising_mission
 		activate_mission = BR2_counter_coup_uprising_mission
+	}
+}
+
+country_event = {
+	id = Brazil.junta.17
+	title = Brazil.junta.17.t
+	desc = Brazil.junta.17.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BR2
+	}
+
+	option = {
+		name = Brazil.junta.17.a
+		mark_focus_tree_layout_dirty = yes
 	}
 }
