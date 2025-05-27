@@ -112,6 +112,14 @@
  BR3_crush_sul_separatists_desc: "The Southern States have always had a desire to secede from the rest of the country, but recently they have become a hotspot for reactionary sentiment as well. Still, they're an important part of the nation, and we cannot be allowing their half-baked attempt at independence to go unchecked. It'll take a true cultural revolution to fix the South, but no Brazilian shall be left behind!"
  BR3_end_of_brazilian_humiliation: "§REnd of The Brazilian Humiliation§!"
  BR3_end_of_brazilian_humiliation_desc: "Just like the Chinese put an end to their \"Century of Humiliation\" when their civil war concluded with the communists victorious, so shall it be known that we Brazilians have finally overcome our humiliation with a people's victory! No more neocolonialism, no more being held hostage by a corrupt oligarchy, no more being the periphery of the Western world. §RBrazil shall rise!§!"
+ #Focuses - Shared
+ BR3_the_brazilian_liberation_army: "The Brazilian Liberation Army"
+ BR3_peoples_army_focus: "A People's Army"
+ BR3_red_army_focus: "A Red Army"
+ BR3_international_socialism: "International Socialism In The 21st Century"
+ BR3_the_ussr_focus: "The Old Bear"
+ BR3_the_prc_focus: "The Rising Dragon"
+ BR3_the_apla_focus: "The Wounded Eagle"
  #Ideas
  BR3_popular_front_idea: "Popular Front"
  BR3_popular_front_idea_desc: "While we may have disagreements on the exact method, the many parties and peoples of the Brazilian Popular Front all share the same objective: To depose the corrupt Brazilian burgeouise elites and install a government truly of the people, for the people. While there will be time for political discussion and faction bickering after the dust settles, right now our people are dominated by an uncontested revolutionary fervor that spreads to workers throughout Brazil!\n\n§RNow or never, Brazil will be red!§!"
@@ -129,6 +137,7 @@
  BR3_popular_front_strikes_idea: "Popular Front Strikes"
  BR3_peoples_constitution_idea: "Brazilian People's Constitution"
  BR3_peoples_constitution_dynamic: "Brazilian People's Constitution"
+ BR3_eternal_revolution_idea: "Eternal Revolution"
  #Decision Categories
  #Missions
  #Decisions

@@ -172,6 +172,16 @@ ideas = {
 			}
 		}
 
+		BR3_eternal_revolution_idea = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				# General post-cw political buff
+				# Can be extended through many means, but once lost cannot be recovered
+			}
+		}
+
 		## PEOPLE'S CONSTITUTION DYNAMIC IDEA ##
 		# Notes on how the dynamic idea magic is done for reference
 		# Modifiers are actually applied via a dynamic modifier by tweaking its variables to change the effects

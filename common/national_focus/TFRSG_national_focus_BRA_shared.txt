@@ -38,7 +38,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_begin_military_reforms
-	x = 1.5
+	x = 2
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -67,7 +67,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_begin_military_reforms
-	x = -1.5
+	x = -2
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -253,7 +253,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_reboot_military_industry
-	x = -1.5
+	x = -2
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -293,7 +293,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_reboot_military_industry
-	x = 1.5
+	x = 2
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -340,7 +340,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_begin_military_reforms
-	x = -5
+	x = -6
 	y = 2
 	cost = 5
 	prerequisite = {
@@ -388,7 +388,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_rejuvenate_the_navy
-	x = 1.5
+	x = 2
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -410,7 +410,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_rejuvenate_the_navy
-	x = -1.5
+	x = -2
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -432,7 +432,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_tamandare_class_project
-	x = 1.5
+	x = 2
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -487,7 +487,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_tamandare_class_project
-	x = -1.5
+	x = -2
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -514,7 +514,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_brazilian_carrier_program
-	x = 0.75
+	x = 1
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -537,7 +537,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_brazilian_carrier_program
-	x = -0.75
+	x = -1
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -610,7 +610,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_airforce_of_the_future
-	x = 0.75
+	x = 1
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -675,7 +675,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_airforce_of_the_future
-	x = -0.75
+	x = -1
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -740,7 +740,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_drone_battlefield_integration
-	x = 0.75
+	x = 1
 	y = 1
 	cost = 5
 	prerequisite = {
@@ -808,7 +808,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_brazilian_foreign_policy
-	x = -1.5
+	x = -2
 	y = 1
 	cost = 2
 	prerequisite = {
@@ -862,7 +862,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_maintain_strategic_neutrality
-	x = -1.5
+	x = -2
 	y = 1
 	cost = 2
 	prerequisite = {
@@ -914,7 +914,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_maintain_strategic_neutrality
-	x = 1.5
+	x = 2
 	y = 1
 	cost = 2
 	prerequisite = {
@@ -940,7 +940,7 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	relative_position_id = BRA_brazilian_foreign_policy
-	x = 1.5
+	x = 2
 	y = 1
 	cost = 2
 	prerequisite = {
@@ -1098,6 +1098,123 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = BRA_industry_focus
 		focus = BRA_agrarian_focus
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_placeholder_agrarian
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_agrarian_focus
+	x = 0
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_agrarian_focus
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_placeholder_mining
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_industry_focus
+	x = -2.5
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_agrarian_focus
+		focus = BRA_industry_focus
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_placeholder_industry
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_industry_focus
+	x = 0
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_industry_focus
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_placeholder_research
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_industry_focus
+	x = 2.5
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_service_focus
+		focus = BRA_industry_focus
+	}
+	ai_will_do = {
+		base = 1
+	}
+	available = {
+
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = BRA_placeholder_service
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = BRA_service_focus
+	x = 0
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = BRA_service_focus
 	}
 	ai_will_do = {
 		base = 1

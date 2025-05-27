@@ -3,6 +3,7 @@ These files must be kept up to date with the base TFR mod, as well as include th
 
 common\bookmarks\TFR_the_fire_rises.txt
 common\countries\colors.txt
+common\countries\cosmetic.txt
 common\game_rules\00_game_rules.txt
 common\ideologies\TFRSG_ideologies.txt
 common\intelligence_agencies\00_intelligence_agencies.txt
