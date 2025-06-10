@@ -49,7 +49,10 @@ BRA_has_chamber_support_pl = {
 	custom_trigger_tooltip = {
 		tooltip = BRA_has_chamber_support_pl_tooltip
 		if = { 
-			limit = { is_ai = no } # AI gets a pass from chamber checks
+			limit = { 
+				is_ai = no # AI gets a pass from chamber checks
+				has_country_flag = BRA_chamber_of_deputies_enabled
+			} 
 			check_variable = {
 				var = BRA_chamber_total_support_var
 				value = 257
@@ -63,7 +66,10 @@ BRA_has_chamber_support_pec = {
 	custom_trigger_tooltip = {
 		tooltip = BRA_has_chamber_support_pec_tooltip
 		if = { 
-			limit = { is_ai = no } # AI gets a pass from chamber checks
+			limit = { 
+				is_ai = no # AI gets a pass from chamber checks
+				has_country_flag = BRA_chamber_of_deputies_enabled
+			} 
 			check_variable = {
 				var = BRA_chamber_total_support_var
 				value = 308
@@ -76,10 +82,16 @@ BRA_has_chamber_support_pec = {
 BRA_has_centrao_influence_greater_than_or_equals = {
 	custom_trigger_tooltip = {
 		tooltip = BRA_has_centrao_influence_greater_than_or_equals_tooltip
-		check_variable = {
-			var = BRA_centrao_influence_var
-			value = BRA_centrao_influence_trigger_temp
-			compare = greater_than_or_equals
+		if = { 
+			limit = { 
+				is_ai = no # AI gets a pass from chamber checks
+				has_country_flag = BRA_chamber_of_deputies_enabled
+			} 
+			check_variable = {
+				var = BRA_centrao_influence_var
+				value = BRA_centrao_influence_trigger_temp
+				compare = greater_than_or_equals
+			}
 		}
 	}
 }
@@ -87,10 +99,16 @@ BRA_has_centrao_influence_greater_than_or_equals = {
 BRA_has_centrao_influence_less_than_or_equals = {
 	custom_trigger_tooltip = {
 		tooltip = BRA_has_centrao_influence_less_than_or_equals_tooltip
-		check_variable = {
-			var = BRA_centrao_influence_var
-			value = BRA_centrao_influence_trigger_temp
-			compare = less_than_or_equals
+		if = { 
+			limit = { 
+				is_ai = no # AI gets a pass from chamber checks
+				has_country_flag = BRA_chamber_of_deputies_enabled
+			} 
+			check_variable = {
+				var = BRA_centrao_influence_var
+				value = BRA_centrao_influence_trigger_temp
+				compare = less_than_or_equals
+			}
 		}
 	}
 }

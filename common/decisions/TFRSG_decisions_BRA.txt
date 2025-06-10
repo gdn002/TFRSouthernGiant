@@ -316,7 +316,7 @@ BRA_2022_elections_category = {
 			always = no
 		}
 		available = {
-			always = no
+			has_country_flag = BRA_2022_elections_suspended_flag
 		}
 		fire_only_once = yes
 		cancel_if_not_visible = yes

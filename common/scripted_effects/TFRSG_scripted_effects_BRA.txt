@@ -582,6 +582,24 @@ BRA_get_2022_elections_result = {
 			}
 		}
 		mark_focus_tree_layout_dirty = yes
+
+		# Safeguard to force the civil war from happening if the game rules say so
+		if = {
+			limit = {
+				is_ai = yes
+				# Has rule to force civil war
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = Brazil_civil_war_setting_1
+				}
+			}
+			set_power_balance = {
+				id = BRA_political_radicalization_balance
+				left_side = BRA_radicalization_side
+				right_side = BRA_stabilization_side
+				set_value = -0.75
+			}
+		}
 	}
 }
 
@@ -967,6 +985,7 @@ BRA_civil_war_start = {
 		BR1 = {
 			mark_focus_tree_layout_dirty = yes
 			add_ideas = { BRA_brazilian_civil_war_idea }
+			BRA_civil_war_get_strategy_idea = yes
 		}
 		BR2 = {
 			mark_focus_tree_layout_dirty = yes
@@ -975,6 +994,7 @@ BRA_civil_war_start = {
 		BR3 = {
 			mark_focus_tree_layout_dirty = yes
 			add_ideas = { BRA_brazilian_civil_war_idea }
+			BRA_civil_war_get_strategy_idea = yes
 		}
 		SUL = {
 			add_ideas = { BRA_brazilian_civil_war_idea }
@@ -988,7 +1008,44 @@ BRA_civil_war_start = {
 		UNB = {
 			add_ideas = { BRA_brazilian_civil_war_idea }
 		}
+
+		hidden_effect = {
+			news_event = {
+				id = Brazilnews.8
+				hours = 6				
+			}
+		}
 	}	
+}
+
+BRA_civil_war_get_strategy_idea = {
+	if = {
+		limit = {
+			has_country_flag = BRA_cw_picked_defense
+		}
+		add_timed_idea = {
+		    idea = BRA_civil_war_defense_idea
+		    days = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_country_flag = BRA_cw_picked_maneuver
+		}
+		add_timed_idea = {
+		    idea = BRA_civil_war_maneuver_idea
+		    days = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_country_flag = BRA_cw_picked_offense
+		}
+		add_timed_idea = {
+		    idea = BRA_civil_war_offense_idea
+		    days = 30
+		}
+	}
 }
 
 BRA_civil_war_end = {

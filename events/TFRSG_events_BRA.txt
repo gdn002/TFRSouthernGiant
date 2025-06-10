@@ -1110,6 +1110,7 @@ country_event = {
 	
 	trigger = {
 		tag = BRA
+		NOT = { has_country_flag = BRA_2022_elections_suspended_flag }
 	}
 
 	immediate = {
@@ -1231,6 +1232,18 @@ country_event = {
 					}
 				}
 			}
+			modifier = {
+    		    add = -10
+    		    BRA_jair_bolsonaro_char = { has_trait = BRA_damaged_reputation }
+    		}
+			modifier = {
+    		    add = -15
+    		    BRA_jair_bolsonaro_char = { has_trait = BRA_severely_damaged_reputation }
+    		}
+			modifier = {
+    		    add = -20
+    		    has_country_flag = BRA_bolsonaro_banned_from_politics_flag
+    		}
 		}
 	}
 }
@@ -1561,6 +1574,7 @@ country_event = {
 	
 	trigger = {
 		tag = BRA
+		NOT = { has_country_flag = BRA_2022_elections_suspended_flag }
 	}
 
 	immediate = {
@@ -2168,6 +2182,36 @@ country_event = {
 					id = Brazil.64
 					days = 10
 				}
+
+				# Safeguard to prevent the civil war from happening if the game rules shouldn't allow it
+				if = {
+					limit = {
+						is_ai = yes
+						OR = {
+							AND = {
+								# Civil war won't happen on default historical
+								has_game_rule = {
+									rule = Brazil_civil_war_setting
+									option = DEFAULT
+								}
+								is_historical_focus_on = yes
+							}
+							# Has rule to prevent civil war
+							has_game_rule = {
+								rule = Brazil_civil_war_setting
+								option = Brazil_civil_war_setting_2
+							}
+						}
+					}
+					hidden_effect = {
+						set_power_balance = {
+							id = BRA_political_radicalization_balance
+							left_side = BRA_radicalization_side
+							right_side = BRA_stabilization_side
+							set_value = 0.15
+						}
+					}
+				}
 			}
 		}
 	}
@@ -2482,6 +2526,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
+			
 			if = {
 				limit = {
 					is_power_balance_in_range = {
@@ -2637,7 +2682,35 @@ country_event = {
 				id = Brazil.73
 				days = 15
 			}
-		}
+
+			# Safeguard to prevent the civil war from happening if the game rules shouldn't allow it
+			if = {
+				limit = {
+					is_ai = yes
+					OR = {
+						AND = {
+							# Civil war won't happen on default historical
+							has_game_rule = {
+								rule = Brazil_civil_war_setting
+								option = DEFAULT
+							}
+							is_historical_focus_on = yes
+						}
+						# Has rule to prevent civil war
+						has_game_rule = {
+							rule = Brazil_civil_war_setting
+							option = Brazil_civil_war_setting_2
+						}
+					}
+				}
+				set_power_balance = {
+					id = BRA_political_radicalization_balance
+					left_side = BRA_radicalization_side
+					right_side = BRA_stabilization_side
+					set_value = 0.15
+				}
+			}
+		}	
 	}
 
 	option = {
@@ -2738,6 +2811,18 @@ country_event = {
 		hidden_effect = {
 			add_ideas = BRA_2022_election_protests_pacification_idea
 		}
+
+		ai_chance = {
+			base = 50
+			modifier = {
+				# Gamerule to force the civil war
+				factor = 0
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = Brazil_civil_war_setting_1
+				}
+			}
+		}
 	}
 	# Accept - leads to the CIVIL WAR
 	option = {
@@ -2754,6 +2839,28 @@ country_event = {
 			days = 2
 		}
 		custom_effect_tooltip = BRA_civil_war_last_warning_tt
+
+		ai_chance = {
+			base = 50
+			modifier = {
+				# Gamerule to prevent the civil war
+				factor = 0
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = Brazil_civil_war_setting_2
+				}
+			}
+			modifier = {
+				# Civil war won't happen on default historical
+				factor = 0
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = DEFAULT
+				}
+				is_historical_focus_on = yes
+			}
+		}
+		
 	}
 }
 
@@ -2779,6 +2886,18 @@ country_event = {
 		hidden_effect = {
 			add_ideas = BRA_2022_election_protests_pacification_idea
 		}
+
+		ai_chance = {
+			base = 50
+			modifier = {
+				# Gamerule to force the civil war
+				factor = 0
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = Brazil_civil_war_setting_1
+				}
+			}
+		}
 	}
 	# Accept - leads to the CIVIL WAR
 	option = {
@@ -2795,6 +2914,27 @@ country_event = {
 			days = 2
 		}
 		custom_effect_tooltip = BRA_civil_war_last_warning_tt
+
+		ai_chance = {
+			base = 50
+			modifier = {
+				# Gamerule to prevent the civil war
+				factor = 0
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = Brazil_civil_war_setting_2
+				}
+			}
+			modifier = {
+				# Civil war won't happen on default historical
+				factor = 0
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = DEFAULT
+				}
+				is_historical_focus_on = yes
+			}
+		}
 	}
 }
 
@@ -2820,6 +2960,18 @@ country_event = {
 		hidden_effect = {
 			add_ideas = BRA_2022_election_protests_pacification_idea
 		}
+
+		ai_chance = {
+			base = 50
+			modifier = {
+				# Gamerule to force the civil war
+				factor = 0
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = Brazil_civil_war_setting_1
+				}
+			}
+		}
 	}
 	# Accept - leads to the CIVIL WAR
 	option = {
@@ -2830,6 +2982,27 @@ country_event = {
 			days = 2
 		}
 		custom_effect_tooltip = BRA_civil_war_last_warning_tt
+
+		ai_chance = {
+			base = 50
+			modifier = {
+				# Gamerule to prevent the civil war
+				factor = 0
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = Brazil_civil_war_setting_2
+				}
+			}
+			modifier = {
+				# Civil war won't happen on default historical
+				factor = 0
+				has_game_rule = {
+					rule = Brazil_civil_war_setting
+					option = DEFAULT
+				}
+				is_historical_focus_on = yes
+			}
+		}
 	}
 }
 
@@ -3246,6 +3419,7 @@ country_event = {
 
 	option = {
 		name = Brazil.88.a
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -3254,7 +3428,8 @@ country_event = {
 	id = Brazil.89
 	title = Brazil.89.t
 	desc = Brazil.89.d
-	
+	picture = GFX_BRA_army_officers_meeting
+
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -3363,6 +3538,26 @@ country_event = {
 				hours = 6
 			}
 		}
+	}
+}
+
+# 2022 Elections Suspended
+country_event = {
+	id = Brazil.93
+	title = Brazil.93.t
+	desc = Brazil.93.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = BRA
+	}
+
+	option = {
+		name = Brazil.93.a
+		mark_focus_tree_layout_dirty = yes
+		focus_unlock = yes
 	}
 }
 
@@ -3592,29 +3787,21 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			promote_character = BRA_arthur_lira_char
-			end_coalition = yes
-			set_politics = {
-    			ruling_party = authoritarian_democrat
-    			long_name = BRA_authoritarian_democrat_party_interim_long
-    			name = BRA_authoritarian_democrat_party_interim
-			}
 			country_event = {
 				id = Brazil.civilwar.8
 				days = 6
-			}
+			}		
 		}
 	}
 
 	option = {
 		name = Brazil.civilwar.7.a
-		effect_tooltip = {
-			promote_character = BRA_arthur_lira_char
-			set_politics = {
-    			ruling_party = authoritarian_democrat
-    			long_name = BRA_authoritarian_democrat_party_interim_long
-    			name = BRA_authoritarian_democrat_party_interim
-			}
+		promote_character = BRA_arthur_lira_char
+		set_politics = {
+    		ruling_party = market_liberal
+			last_election = "2022.10.27"
+			election_frequency = 48
+			elections_allowed = yes
 		}
 	}
 }

@@ -534,6 +534,33 @@ country_event = {
 		activate_mission = BR2_integralist_uprising_mission
 		activate_mission = BR2_monarchist_uprising_mission
 		activate_mission = BR2_counter_coup_uprising_mission
+
+		if = {
+			limit = {
+				is_ai = yes
+				has_game_rule = {
+					rule = Brazil_civil_war_winner
+					option = Brazil_civil_war_winner_4
+				}
+			}
+			add_days_mission_timeout = {
+    			mission = BR2_integralist_uprising_mission
+    			days = -140
+			}
+		}
+		else_if = {
+			limit = {
+				is_ai = yes
+				has_game_rule = {
+					rule = Brazil_civil_war_winner
+					option = Brazil_civil_war_winner_5
+				}
+			}
+			add_days_mission_timeout = {
+    			mission = BR2_monarchist_uprising_mission
+    			days = -140
+			}
+		}
 	}
 }
 

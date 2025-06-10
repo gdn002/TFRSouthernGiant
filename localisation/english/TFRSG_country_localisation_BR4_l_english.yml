@@ -2,9 +2,9 @@
  #Leaders
  #Focuses
  BR4_cw_our_time_to_rise: "§aOur Time To Rise§!"
- BR4_cw_god: "§aGod§!"
- BR4_cw_country: "§aCountry§!"
- BR4_cw_family: "§aFamily§!"
+ BR4_cw_god: "§aGOD§!"
+ BR4_cw_country: "§aCOUNTRY§!"
+ BR4_cw_family: "§aFAMILY§!"
  BR4_cw_keep_the_momentum: "Not a Step Back"
  BR4_cw_great_patriotic_army: "Our Great Patriotic Army"
  BR4_cw_rise_of_integralism: "§PRise Of Integralism§!"
@@ -29,8 +29,8 @@
  BR4_insurgency_targeted_decision: "Insurgency in [FROM.GetName]"
  BR4_raid_armories_targeted_decision: "Raid armories in [FROM.GetName]"
  BR4_reintegrate_targeted_decision: "Enforce compliance in [FROM.GetName]"
- BR4_cw_attack_government: "End the [BR1.GetFlag] corrupt republic once and for all"
- BR4_cw_attack_front: "Crush the [BR3.GetFlag] communist pigs"
+ BR4_cw_attack_government: "End the [BR1.GetFlag] §Ycorrupt republic§! once and for all"
+ BR4_cw_attack_front: "Crush the [BR3.GetFlag] §Ycommunist pigs§!"
  #Country Flag
  #Tooltips
  BR4_insurgency_cost_tt: "§YThe cost of this decision will increase every time it is taken, up to a maximum of 100.§!"

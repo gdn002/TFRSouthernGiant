@@ -82,6 +82,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/BRA/BRA_covid_stabilization.png"
 	}
 	## COVID TRIALS
+	SpriteType = {
+		name = "GFX_focus_BRA_covid_trials_focus"
+		texturefile = "gfx/interface/goals/BRA/BRA_covid_trials_focus.png"
+	}
 	## 2022 ELECTIONS
 	SpriteType = {
 		name = "GFX_focus_BRA_the_2022_race"
@@ -112,7 +116,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/BRA/BRA_2022_uniting_brazil.png"
 	}
 	SpriteType = {
+		name = "GFX_focus_BRA_2022_stand_for_normalcy"
+		texturefile = "gfx/interface/goals/BRA/BRA_2022_stand_for_normalcy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_2022_gather_centrao_support"
+		texturefile = "gfx/interface/goals/BRA/BRA_2022_gather_centrao_support.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_2022_propaganda_overdrive"
+		texturefile = "gfx/interface/goals/BRA/BRA_2022_propaganda_overdrive.png"
+	}
+	SpriteType = {
 		name = "GFX_focus_BRA_2022_god_country_family"
 		texturefile = "gfx/interface/goals/BRA/BRA_2022_god_country_family.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_2022_cruzade_for_brazil"
+		texturefile = "gfx/interface/goals/BRA/BRA_2022_cruzade_for_brazil.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_2022_moderated_tone"
+		texturefile = "gfx/interface/goals/BRA/BRA_2022_moderated_tone.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_2022_no_holding_back"
+		texturefile = "gfx/interface/goals/BRA/BRA_2022_no_holding_back.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_2022_social_media_campaign"
+		texturefile = "gfx/interface/goals/BRA/BRA_2022_social_media_campaign.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_2022_the_last_stretch"
+		texturefile = "gfx/interface/goals/BRA/BRA_2022_the_last_stretch.png"
 	}
 }

@@ -57,28 +57,46 @@ country_event = {
 	option = {
 		name = Brazil.commie.3.a
 		ai_chance = { base = 5 }
-		add_timed_idea = {
-		    idea = BRA_civil_war_defense_idea
-		    days = 30
+		custom_effect_tooltip = {
+			BRA_when_civil_war_starts_tt
 		}
+		effect_tooltip = {
+		    add_timed_idea = {
+		        idea = BRA_civil_war_defense_idea
+		        days = 30
+		    }
+		}
+		set_country_flag = BRA_cw_picked_defense
 	}
 	# Speed
 	option = {
 		name = Brazil.commie.3.b
 		ai_chance = { base = 3 }
-		add_timed_idea = {
-		    idea = BRA_civil_war_maneuver_idea
-		    days = 30
+		custom_effect_tooltip = {
+			BRA_when_civil_war_starts_tt
 		}
+		effect_tooltip = {
+		    add_timed_idea = {
+		        idea = BRA_civil_war_maneuver_idea
+		        days = 30
+		    }
+		}
+		set_country_flag = BRA_cw_picked_maneuver
 	}
 	# Offensive
 	option = {
 		name = Brazil.commie.3.c
 		ai_chance = { base = 2 }
-		add_timed_idea = {
-		    idea = BRA_civil_war_offense_idea
-		    days = 30
+		custom_effect_tooltip = {
+			BRA_when_civil_war_starts_tt
 		}
+		effect_tooltip = {
+		    add_timed_idea = {
+		        idea = BRA_civil_war_offense_idea
+		        days = 30
+		    }
+		}
+		set_country_flag = BRA_cw_picked_offense
 	}
 }
 

@@ -1,12 +1,13 @@
 ﻿l_english:
  #Faction
- LATAM_faction_sadc: "South American Defense Council"
- LATAM_faction_sato: "South American Treaty Organization"
- LATAM_faction_sasp: "South American Security Pact"
- LATAM_faction_oslan: "Organization of Sovereign Latin American Nations"
- LATAM_faction_ladi: "Latin American Defense Initiative"
- LATAM_faction_adi: "Andean Defense Initiative"
- LATAM_faction_rpsp: "River Plate Security Pact"
+ LATAM_faction_sadc: "South American Defense Council" # Formed by the Federative Republic of Brazil (BRA)  
+ LATAM_faction_sato: "South American Treaty Organization" # Formed by the Federal Government (BR1)
+ LATAM_faction_sasp: "South American Security Pact" # Formed by the Military Junta (BR2)
+ LATAM_faction_oslan: "Organization of Sovereign Latin American Nations" # Formed by the Popular Front (BR3)
+ LATAM_faction_sada: "South American Defensive Axis" # Formed by the Integralist Front (BR4)
+ LATAM_faction_cdi: "Caribbean Defense Initiative" # Formed by Venezuela
+ LATAM_faction_adi: "Andean Pact" # Formed by either Peru or Colombia if they're right-wing
+ LATAM_faction_rpa: "River Plate Axis" # Formed by Argentina
  #Ideas
  LATAM_prussia_of_the_south: "Prussia of The South"
  LATAM_baptism_by_fire_idea: "Baptism By Fire"

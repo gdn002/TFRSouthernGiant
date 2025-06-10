@@ -37,7 +37,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = sovereign_democracy_auth_dem
+			ideology = military_democracy
 			traits = {
 				BRA_military_politician
 			}
@@ -157,7 +157,7 @@ characters = {
 			}				
 		}
 		country_leader = {
-			ideology = hybrid_regime
+			ideology = classical_liberalism
 			traits = {
 				hos_Indecisive_Leader
 			}
