@@ -41,13 +41,6 @@ BR1_federal_gov_balance_of_power = {
 				military_development_monthly = 0.025
 			}
 			on_activate = {
-				if = {
-					limit = { has_idea = { BR1_broad_coalition_idea_weak1 } }
-					replace_ideas = {
-						remove_idea = BR1_broad_coalition_idea_weak1
-						add_idea = BR1_broad_coalition_idea_weak2
-					}
-				}
 			}
 			on_deactivate = {
 			}
@@ -64,13 +57,6 @@ BR1_federal_gov_balance_of_power = {
 				military_development_monthly = 0.025
 			}
 			on_activate = {
-				if = {
-					limit = { has_idea = { BR1_broad_coalition_idea_weak2 } }
-					replace_ideas = {
-						remove_idea = BR1_broad_coalition_idea_weak2
-						add_idea = BR1_broad_coalition_idea_weak1
-					}
-				}
 			}
 			on_deactivate = {
 			}
@@ -87,13 +73,6 @@ BR1_federal_gov_balance_of_power = {
 				military_development_monthly = 0.02
 			}
 			on_activate = {
-				if = {
-					limit = { has_idea = { BR1_broad_coalition_idea } }
-					replace_ideas = {
-						remove_idea = BR1_broad_coalition_idea
-						add_idea = BR1_broad_coalition_idea_weak1
-					}
-				}
 			}
 			on_deactivate = {
 			}
@@ -111,13 +90,6 @@ BR1_federal_gov_balance_of_power = {
 				industrial_development_monthly = 0.005
 			}
 			on_activate = {
-				if = {
-					limit = { has_idea = { BR1_broad_coalition_idea_weak1 } }
-					replace_ideas = {
-						remove_idea = BR1_broad_coalition_idea_weak1
-						add_idea = BR1_broad_coalition_idea
-					}
-				}
 			}
 			on_deactivate = {
 			}
@@ -141,13 +113,6 @@ BR1_federal_gov_balance_of_power = {
 				industrial_development_monthly = 0.015
 			}
 			on_activate = {
-				if = {
-					limit = { has_idea = { BR1_broad_coalition_idea_weak1 } }
-					replace_ideas = {
-						remove_idea = BR1_broad_coalition_idea_weak1
-						add_idea = BR1_broad_coalition_idea
-					}
-				}
 			}
 			on_deactivate = {
 			}
@@ -164,13 +129,6 @@ BR1_federal_gov_balance_of_power = {
 				industrial_development_monthly = 0.02
 			}
 			on_activate = {
-				if = {
-					limit = { has_idea = { BR1_broad_coalition_idea } }
-					replace_ideas = {
-						remove_idea = BR1_broad_coalition_idea
-						add_idea = BR1_broad_coalition_idea_weak1
-					}
-				}
 			}
 			on_deactivate = {
 			}
@@ -187,13 +145,6 @@ BR1_federal_gov_balance_of_power = {
 				industrial_development_monthly = 0.025
 			}
 			on_activate = {
-				if = {
-					limit = { has_idea = { BR1_broad_coalition_idea_weak2 } }
-					replace_ideas = {
-						remove_idea = BR1_broad_coalition_idea_weak2
-						add_idea = BR1_broad_coalition_idea_weak1
-					}
-				}
 			}
 			on_deactivate = {
 			}
@@ -210,13 +161,6 @@ BR1_federal_gov_balance_of_power = {
 				industrial_development_monthly = 0.025
 			}
 			on_activate = {
-				if = {
-					limit = { has_idea = { BR1_broad_coalition_idea_weak1 } }
-					replace_ideas = {
-						remove_idea = BR1_broad_coalition_idea_weak1
-						add_idea = BR1_broad_coalition_idea_weak2
-					}
-				}
 			}
 			on_deactivate = {
 			}

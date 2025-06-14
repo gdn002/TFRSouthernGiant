@@ -1030,6 +1030,25 @@ news_event = {
 	}
 }
 
+# Military Coup news
+news_event = {
+	id = Brazilnews.15
+	title = Brazilnews.15.t
+	desc = Brazilnews.15.d
+	picture = GFX_TFRSG_news_military_convoy
+	major = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BRA
+	}
+
+	option = {
+		name = Brazilnews.15.a
+	}
+}
+
 ## SUPER EVENTS
 
 # Amazonian Collapse SE

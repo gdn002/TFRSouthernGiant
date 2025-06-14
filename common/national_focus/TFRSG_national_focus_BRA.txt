@@ -3077,6 +3077,10 @@ focus_tree = {
 						elections_allowed = yes
 					}
 				}
+				news_event = {
+					id = Brazilnews.15
+					hours = 4
+				}
 			}
 			
 			country_event = {

@@ -44,7 +44,7 @@ country_event = {
     # Hold elections
 	option = {
 		name = Sul.2.a
-        ai_will_do = {
+        ai_chance = {
             base = 10
         }
 
@@ -59,7 +59,7 @@ country_event = {
     # Suspend elections
     option = {
 		name = Sul.2.b
-        ai_will_do = {
+        ai_chance = {
             base = 10
         }
 
@@ -93,7 +93,7 @@ country_event = {
     # Socdem victory
 	option = {
 		name = Sul.3.a
-        ai_will_do = {
+        ai_chance = {
             base = 2
         }
 
@@ -120,7 +120,7 @@ country_event = {
     # Soclib victory
     option = {
 		name = Sul.3.b
-        ai_will_do = {
+        ai_chance = {
             base = 8
         }
 
@@ -145,7 +145,7 @@ country_event = {
     # Conservative victory
     option = {
 		name = Sul.3.c
-        ai_will_do = {
+        ai_chance = {
             base = 10
         }
 
@@ -170,7 +170,7 @@ country_event = {
     # Marketlib victory
     option = {
 		name = Sul.3.e
-        ai_will_do = {
+        ai_chance = {
             base = 4
         }
 
@@ -211,7 +211,7 @@ country_event = {
     # Status quo
 	option = {
 		name = Sul.4.a
-        ai_will_do = {
+        ai_chance = {
             base = 3
         }
 	}
@@ -219,7 +219,7 @@ country_event = {
     # Communist coup
     option = {
 		name = Sul.4.b
-        ai_will_do = {
+        ai_chance = {
             base = 3
         }
 
@@ -270,7 +270,7 @@ country_event = {
     # Nazi coup
     option = {
 		name = Sul.4.c
-        ai_will_do = {
+        ai_chance = {
             base = 4
         }
 

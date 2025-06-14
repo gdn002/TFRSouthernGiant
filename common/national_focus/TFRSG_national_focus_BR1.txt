@@ -95,7 +95,6 @@ focus_tree = {
 				}
 			}
 			else = {
-				limit = { BRA = { has_country_flag = BRA_2022_elections_alckmin_won_flag } }
 				set_power_balance = {
 					id = BR1_federal_gov_balance_of_power
 					left_side = BR1_lula_side

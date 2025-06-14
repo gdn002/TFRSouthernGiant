@@ -26,7 +26,7 @@ BRA_political_radicalization_balance = {
 	# Radicalization Side
 	side = {
 		id = BRA_radicalization_side
-		icon = GFX_bop_BRA_radicalization
+		icon = GFX_BRA_bop_radicalization
 		range = {
 			id = BRA_total_radicalization_range
 			min = -1
@@ -89,7 +89,7 @@ BRA_political_radicalization_balance = {
 	# Stabilization Side
 	side = {
 		id = BRA_stabilization_side
-		icon = GFX_bop_BRA_stabilization
+		icon = GFX_BRA_bop_stabilization
 		range = {
 			id = BRA_low_radicalization_range
 			min = 0.2

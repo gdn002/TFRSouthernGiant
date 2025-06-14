@@ -66,7 +66,7 @@ country_event = {
 	# Attack federal gov
 	option = {
 		name = Brazil.junta.3.a
-		ai_will_do = {
+		ai_chance = {
             base = 15
         }
 		activate_mission = BR2_operation_ustra_mission
@@ -86,7 +86,7 @@ country_event = {
 	# Attack popular front
 	option = {
 		name = Brazil.junta.3.b
-		ai_will_do = {
+		ai_chance = {
             base = 5
         }
 		activate_mission = BR2_operation_angico_mission
@@ -106,7 +106,7 @@ country_event = {
 	# Attack amazon commune
 	option = {
 		name = Brazil.junta.3.c
-		ai_will_do = {
+		ai_chance = {
             base = 5
         }
 		activate_mission = BR2_operation_selva_mission
@@ -126,7 +126,7 @@ country_event = {
 	# Attack everyone
 	option = {
 		name = Brazil.junta.3.e
-		ai_will_do = {
+		ai_chance = {
             base = 5
         }
 		activate_mission = BR2_operation_apocalipse_mission

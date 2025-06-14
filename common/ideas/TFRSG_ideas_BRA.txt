@@ -667,6 +667,7 @@ country = {
 		}
 	}
 	BRA_brazilian_2acw_refugees_idea = {
+		picture = CAN_american_refugees
 		allowed = {
 			always = no
 		}
