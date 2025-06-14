@@ -58,9 +58,7 @@ country_event = {
 		# Defensive
 		name = Brazil.libs.3.a
 		ai_chance = { base = 3 }
-		custom_effect_tooltip = {
-			BRA_when_civil_war_starts_tt
-		}
+		custom_effect_tooltip = BRA_when_civil_war_starts_tt
 		effect_tooltip = {
 		    add_timed_idea = {
 		        idea = BRA_civil_war_defense_idea
@@ -73,9 +71,7 @@ country_event = {
 		# Offensive
 		name = Brazil.libs.3.b
 		ai_chance = { base = 2 }
-		custom_effect_tooltip = {
-			BRA_when_civil_war_starts_tt
-		}
+		custom_effect_tooltip = BRA_when_civil_war_starts_tt
 		effect_tooltip = {
 		    add_timed_idea = {
 		        idea = BRA_civil_war_offense_idea

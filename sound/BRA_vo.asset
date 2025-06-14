@@ -23,6 +23,11 @@ category =
 		BR3_infantry_positive_combat
 		BR3_infantry_move_out
 		BR3_infantry_retreat
+		BR4_infantry_idle
+		BR4_infantry_neutral_combat
+		BR4_infantry_positive_combat
+		BR4_infantry_move_out
+		BR4_infantry_retreat
  	}
 	compressor = 
  	{
@@ -399,6 +404,101 @@ soundeffect =
 soundeffect = 
 {
     name = "BR3_infantry_retreat"
+    sounds = {
+        sound = BRA_Retreat_001
+        sound = BRA_Retreat_002
+        sound = BRA_Retreat_003
+        sound = BRA_Retreat_004
+        sound = BRA_Retreat_005
+		sound = BRA_Retreat_006
+		sound = BRA_Retreat_007
+		sound = BRA_Retreat_008
+    }
+	max_audible = 4
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## BR4
+
+soundeffect = 
+{
+    name = "BR4_infantry_idle"
+    sounds = {
+		sound = BRA_Idle_001
+        sound = BRA_Idle_002
+        sound = BRA_Idle_003
+        sound = BRA_Idle_004
+        sound = BRA_Idle_005
+    }
+	max_audible = 6
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = 
+{
+    name = "BR4_infantry_neutral_combat"
+    sounds = {
+        sound = BRA_Neutral_001
+		sound = BRA_Neutral_002
+        sound = BRA_Neutral_003
+        sound = BRA_Neutral_004
+        sound = BRA_Neutral_005
+        sound = BRA_Neutral_006
+        sound = BRA_Neutral_007
+        sound = BRA_Neutral_008
+    }
+	max_audible = 6
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "BR4_infantry_positive_combat"
+    sounds = {
+        sound = BRA_Positive_001
+        sound = BRA_Positive_002
+        sound = BRA_Positive_003
+        sound = BRA_Positive_004
+        sound = BRA_Positive_005
+        sound = BRA_Positive_006
+        sound = BRA_Positive_007
+        sound = BRA_Positive_008
+    }
+	max_audible = 4
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "BR4_infantry_move_out"
+    sounds = {
+        sound = BRA_Moving_001
+        sound = BRA_Moving_002
+        sound = BRA_Moving_003
+        sound = BRA_Moving_004
+        sound = BRA_Moving_005
+        sound = BRA_Moving_006
+        sound = BRA_Moving_007
+        sound = BRA_Moving_008		
+    }
+	max_audible = 8
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "BR4_infantry_retreat"
     sounds = {
         sound = BRA_Retreat_001
         sound = BRA_Retreat_002
