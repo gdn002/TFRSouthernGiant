@@ -540,10 +540,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = -0.1
-			add_days_mission_timeout = {
-   				mission = BRA_handle_covid_mission
-    			days = 80
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = 50 }
+			BRA_add_days_corona_pandemic = yes
 		}
 	}
 	focus = {
@@ -573,10 +571,8 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.1
-			add_days_mission_timeout = {
-   				mission = BRA_handle_covid_mission
-    			days = 50
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = 20 }
+			BRA_add_days_corona_pandemic = yes
 		}
 	}
 	focus = {
@@ -609,10 +605,8 @@ focus_tree = {
 			    ideology = conservative
 			    popularity = 0.025
 			}
-			add_days_mission_timeout = {
-   				mission = BRA_handle_covid_mission
-    			days = -50
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -50 }
+			BRA_add_days_corona_pandemic = yes
 		}
 	}
 	focus = {
@@ -683,10 +677,8 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			add_stability = -0.1
-			add_days_mission_timeout = {
-   				mission = BRA_handle_covid_mission
-    			days = -80
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -20 }
+			BRA_add_days_corona_pandemic = yes
 			add_popularity = {
 			    ideology = conservative
 			    popularity = 0.05
@@ -972,6 +964,11 @@ focus_tree = {
 			set_temp_variable = { debt_var_temp = 180 }
 			add_debt_with_inflation = yes
 			activate_mission = BRA_petrobras_state_shares_mission
+			custom_effect_tooltip = BRA_increase_state_share_petrobras_tt
+			effect_tooltip = {
+				BRA_decrease_oil_crisis = yes
+				add_ideas = BRA_petrobras_statized_idea1
+			}
 		}
 	}
 	focus = {
@@ -1305,10 +1302,8 @@ focus_tree = {
     			value = -0.05
    	 			tooltip_side = BRA_radicalization_side
 			}
-			add_days_mission_timeout = {
-				mission = BRA_covid_fadeout_mission
-				days = -100
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -50 }
+			BRA_add_days_corona_recovery = yes
 			add_days_mission_timeout = {
 				mission = BRA_covid_vaccine_mission
 				days = -50
@@ -1334,10 +1329,8 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-			add_days_mission_timeout = {
-				mission = BRA_covid_fadeout_mission
-				days = -50
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -25 }
+			BRA_add_days_corona_recovery = yes
 			add_days_mission_timeout = {
 				mission = BRA_covid_vaccine_mission
 				days = -50
@@ -1368,10 +1361,8 @@ focus_tree = {
 			add_stability = 0.05
 			set_temp_variable = { poverty_development_var_temp = 0.05 }
 			add_poverty_development = yes
-			add_days_mission_timeout = {
-				mission = BRA_covid_fadeout_mission
-				days = -50
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -25 }
+			BRA_add_days_corona_recovery = yes
 		}
 	}
 	focus = {
@@ -1393,10 +1384,8 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-			add_days_mission_timeout = {
-				mission = BRA_covid_fadeout_mission
-				days = -100
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -50 }
+			BRA_add_days_corona_recovery = yes
 		}
 	}
 	focus = {
@@ -1420,10 +1409,8 @@ focus_tree = {
 		completion_reward = {
 			set_temp_variable = { society_development_var_temp = 0.05 }
 			add_society_development = yes
-			add_days_mission_timeout = {
-				mission = BRA_covid_fadeout_mission
-				days = -50
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -25 }
+			BRA_add_days_corona_recovery = yes
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = 0.025
@@ -1450,10 +1437,8 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = {
-			add_days_mission_timeout = {
-				mission = BRA_covid_fadeout_mission
-				days = -50
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -50 }
+			BRA_add_days_corona_recovery = yes
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = 0.1
@@ -1481,10 +1466,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = -0.15
-			add_days_mission_timeout = {
-				mission = BRA_covid_fadeout_mission
-				days = -150
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -50 }
+			BRA_add_days_corona_recovery = yes
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
     			value = 0.15
@@ -1512,10 +1495,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.1
-			add_days_mission_timeout = {
-				mission = BRA_covid_fadeout_mission
-				days = -100
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -25 }
+			BRA_add_days_corona_recovery = yes
 			add_days_mission_timeout = {
 				mission = BRA_covid_vaccine_mission
 				days = -100

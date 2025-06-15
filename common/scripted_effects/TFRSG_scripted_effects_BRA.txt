@@ -722,6 +722,64 @@ BRA_decrease_corona = {
 	#}
 }
 
+BRA_add_days_corona_pandemic = {
+	hidden_effect = {
+		add_to_variable = { 
+			BRA_handle_covid_days_var = BRA_covid_mission_days_temp
+		}
+		add_days_mission_timeout = {
+   			mission = BRA_handle_covid_mission
+    		days = BRA_covid_mission_days_temp
+		}
+		if = {
+			# Cap at 50 days minimum
+			limit = {
+				check_variable = { BRA_handle_covid_days_var < 50 }
+			}
+			set_variable = { BRA_handle_covid_days_var < 50 }
+		}
+	}
+	if = {
+		limit = { 
+			check_variable = { BRA_covid_mission_days_temp < 0 }
+		}
+		multiply_temp_variable = { BRA_covid_mission_days_temp = -1}
+		custom_effect_tooltip = BRA_remove_days_corona_pandemic_tt
+	}
+	else = {
+		custom_effect_tooltip = BRA_add_days_corona_pandemic_tt
+	}
+}
+
+BRA_add_days_corona_recovery = {
+	hidden_effect = {
+		add_to_variable = { 
+			BRA_covid_fadeout_days_var = BRA_covid_mission_days_temp
+		}
+		add_days_mission_timeout = {
+   			mission = BRA_covid_fadeout_mission
+    		days = BRA_covid_mission_days_temp
+		}
+		if = {
+			# Cap at 50 days minimum
+			limit = {
+				check_variable = { BRA_covid_fadeout_days_var < 50 }
+			}
+			set_variable = { BRA_covid_fadeout_days_var < 50 }
+		}
+	}
+	if = {
+		limit = { 
+			check_variable = { BRA_covid_mission_days_temp < 0 }
+		}
+		multiply_temp_variable = { BRA_covid_mission_days_temp = -1}
+		custom_effect_tooltip = BRA_remove_days_corona_recovery_tt
+	}
+	else = {	
+		custom_effect_tooltip = BRA_add_days_corona_recovery_tt
+	}
+}
+
 ## COVID TRIALS EVENT FLOW
 BRA_covid_trials_events = {
 	if = {

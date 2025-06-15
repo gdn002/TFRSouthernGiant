@@ -18,6 +18,10 @@ on_actions = {
 				}
 				add_debt = yes	
 
+				# COVID
+				set_variable = { BRA_handle_covid_days_var = 150 }
+				set_variable = { BRA_covid_fadeout_days_var = 200 }
+
 				# 2022 ELECTIONS
 				set_variable = { BRA_election_approval_rating_pt_var = 0.38 }
 				set_variable = { BRA_election_approval_rating_psdb_var = 0.10 }

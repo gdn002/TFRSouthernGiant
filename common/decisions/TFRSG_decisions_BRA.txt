@@ -1126,14 +1126,11 @@ BRA_coronavirus_category = {
 				has_completed_focus = BRA_covid_recovery_policy
 			}
 		}
-		days_mission_timeout = 150
+		days_mission_timeout = BRA_handle_covid_days_var
 		activation = {
 			always = no
 		}
-		visible = {
-		}
 		fire_only_once = no
-		cancel_if_not_visible = yes
 		is_good = no
 		ai_will_do = {
 			base = 50
@@ -1164,10 +1161,8 @@ BRA_coronavirus_category = {
 		}
 		remove_effect = {
 			add_stability = -0.05
-			add_days_mission_timeout = {
-   				mission = BRA_handle_covid_mission
-    			days = 20
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = 20 }
+			BRA_add_days_corona_pandemic = yes
 		}
 	}
 	BRA_mask_mandates_decision = {
@@ -1189,10 +1184,8 @@ BRA_coronavirus_category = {
 		}
 		remove_effect = {
 			add_stability = -0.025
-			add_days_mission_timeout = {
-   				mission = BRA_handle_covid_mission
-    			days = 50
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = 20 }
+			BRA_add_days_corona_pandemic = yes
 		}
 	}
 	BRA_higiene_guidelines_decision = {
@@ -1211,10 +1204,8 @@ BRA_coronavirus_category = {
 		}
 		remove_effect = {	
 			add_stability = 0.05	
-			add_days_mission_timeout = {
-   				mission = BRA_handle_covid_mission
-    			days = 30
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = 20 }
+			BRA_add_days_corona_pandemic = yes
 		}
 	}
 	BRA_experimental_treatments_decision = {
@@ -1240,10 +1231,8 @@ BRA_coronavirus_category = {
 		}
 		remove_effect = {
 			add_political_power = 75
-			add_days_mission_timeout = {
-   				mission = BRA_handle_covid_mission
-    			days = -20
-			}
+			set_temp_variable = { BRA_covid_mission_days_temp = -5 }
+			BRA_add_days_corona_pandemic = yes
 		}
 	}
 	BRA_covid_fadeout_mission = {
@@ -1259,7 +1248,7 @@ BRA_coronavirus_category = {
 				}
 			}
 		}
-		days_mission_timeout = 200
+		days_mission_timeout = BRA_covid_fadeout_days_var
 		activation = {
 			always = no
 		}
@@ -1302,12 +1291,15 @@ BRA_coronavirus_category = {
 			base = 50
 		}
 		timeout_effect = {
-			remove_ideas = {
-				BRA_coronavirus_pandemic_idea
-				BRA_coronavirus_pandemic_idea1
-				BRA_coronavirus_pandemic_idea2
-				BRA_coronavirus_pandemic_idea3
-				BRA_coronavirus_pandemic_idea4
+			custom_effect_tooltip = BRA_covid_vaccine_mission_tt
+			hidden_effect = {
+				remove_ideas = {
+					BRA_coronavirus_pandemic_idea
+					BRA_coronavirus_pandemic_idea1
+					BRA_coronavirus_pandemic_idea2
+					BRA_coronavirus_pandemic_idea3
+					BRA_coronavirus_pandemic_idea4
+				}
 			}
 		}
 	}

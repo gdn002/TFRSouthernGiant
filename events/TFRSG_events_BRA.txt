@@ -1270,6 +1270,7 @@ country_event = {
 	option = {
 		name = Brazil.42.b
 		add_political_power = -100
+		custom_effect_tooltip = BRA_dilma_vp_pick_tooltip
 		hidden_effect = {
 			set_country_flag = BRA_dilma_vp_pick_flag
 		}
@@ -3797,6 +3798,7 @@ country_event = {
 	option = {
 		name = Brazil.civilwar.7.a
 		promote_character = BRA_arthur_lira_char
+		end_coalition = yes
 		set_politics = {
     		ruling_party = market_liberal
 			last_election = "2022.10.27"
