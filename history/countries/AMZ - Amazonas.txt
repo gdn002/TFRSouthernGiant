@@ -34,8 +34,10 @@
 		general_exemptions
 
 		# Development
-		high_farming
-		medium_poverty
+		medium_academic
+		medium_farming
+		low_poverty
+		medium_industry
 		low_military
 		low_society
 

@@ -52,8 +52,10 @@
 		high_police
 
 		# Development
+		medium_academic
 		high_farming
-		medium_poverty
+		low_poverty
+		medium_industry
 		low_military
 		low_society
 

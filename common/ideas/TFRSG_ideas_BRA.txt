@@ -100,6 +100,7 @@ country = {
 			production_speed_buildings_factor = -0.1
 			production_speed_infrastructure_factor = -0.25
 			army_speed_factor = -0.25
+			business_value_factor = -0.3
 			supply_factor = -0.1
 		}
 	}
@@ -406,9 +407,10 @@ country = {
 		modifier = {
 			consumer_goods_factor = 0.05
 			income_growth_factor = -0.05
-			personal_value_factor = -0.25
+			personal_value_factor = -0.4
 			tax_personal_rate_factor = -0.15
 			poverty_development_monthly = -0.005
+			business_value_factor = -0.3
 		}
 	}
 	BRA_semi_informalized_economy_idea = {
@@ -420,8 +422,9 @@ country = {
 		
 		modifier = {
 			consumer_goods_factor = 0.05
-			personal_value_factor = -0.25
+			personal_value_factor = -0.2
 			poverty_development_monthly = -0.005
+			business_value_factor = -0.15
 		}
 	}
 	BRA_regularized_economy_idea = {
@@ -450,6 +453,7 @@ country = {
 			personal_value_factor = 0.1
 			tax_personal_rate_factor = -0.2
 			poverty_development_monthly = 0.005
+			business_value_factor = -0.05
 		}
 	}
 	BRA_gig_work_paradise_idea = {
@@ -462,7 +466,7 @@ country = {
 		modifier = {
 			consumer_goods_factor = -0.15
 			income_growth_factor = 0.25
-			business_value_factor = 0.25
+			business_value_factor = 0.2
 			personal_value_factor = -0.4
 			tax_personal_rate_factor = 0.15
 			poverty_development_monthly = -0.01

@@ -15,7 +15,6 @@ state={
 		add_core_of = BRA
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			synthetic_refinery = 1
 		}
 
