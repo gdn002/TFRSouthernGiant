@@ -1,4 +1,4 @@
-	capital = 1435
+	capital = 1445
 
 	oob = "BRA_2020"
 
@@ -90,6 +90,7 @@
 		# Laws
 		civilian_mobilization
 		high_taxes
+		low_welfare
 		lower_conscription
 		medium_female_service
 		higher_racial_integration

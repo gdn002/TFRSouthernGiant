@@ -2397,7 +2397,7 @@ country_event = {
 		add_stability = -0.3
 		damage_building = {
 			type = air_base
-			state = 1435
+			state = 1445
 			damage = 5
 		}
 		add_power_balance_value = {
@@ -2507,7 +2507,7 @@ country_event = {
     		value = -0.075
    	 		tooltip_side = BRA_radicalization_side
 		}
-		1435 = { set_demilitarized_zone = yes }
+		1445 = { set_demilitarized_zone = yes }
 	}
 }
 
@@ -2646,17 +2646,17 @@ country_event = {
 		}
 		damage_building = {
 			type = office_park
-			state = 1450
+			state = 1460
 			damage = 1
 		}
 		damage_building = {
 			type = office_park
-			state = 1453
+			state = 1463
 			damage = 1
 		}
 		damage_building = {
 			type = industrial_complex
-			state = 1452
+			state = 1462
 			damage = 1
 		}
 	}
@@ -2786,7 +2786,7 @@ country_event = {
     		value = -0.05
    	 		tooltip_side = BRA_radicalization_side
 		}
-		1435 = { set_demilitarized_zone = yes }
+		1445 = { set_demilitarized_zone = yes }
 	}
 }
 
@@ -3678,10 +3678,10 @@ country_event = {
 				}
 			}		
 			# SPAWN MILITARY JUNTA IN DF
-			1435 = { set_demilitarized_zone = no }
+			1445 = { set_demilitarized_zone = no }
 			BR2 = {
-				transfer_state = 1435
-				add_state_core = 1435
+				transfer_state = 1445
+				add_state_core = 1445
 				BRA_civil_war_tag_setup = yes
 			}
 		}
@@ -3691,7 +3691,7 @@ country_event = {
 		name = Brazil.civilwar.4.a
 		effect_tooltip = {
 			BR2 = {
-				transfer_state = 1435
+				transfer_state = 1445
 			}			
 		}
 	}
@@ -3714,8 +3714,8 @@ country_event = {
 		# SPAWN FED GOVT IN RIO
 		hidden_effect = {
 			BR1 = {
-				transfer_state = 1450
-				add_state_core = 1450
+				transfer_state = 1460
+				add_state_core = 1460
 				BRA_civil_war_tag_setup = yes
 			}
 			country_event = {
@@ -3729,7 +3729,7 @@ country_event = {
 		name = Brazil.civilwar.5.a
 		effect_tooltip = {
 			BR1 = {
-				transfer_state = 1450
+				transfer_state = 1460
 			}
 		}
 	}
@@ -3752,8 +3752,8 @@ country_event = {
 		# SPAWN FED GOVT IN RIO
 		hidden_effect = {
 			BR1 = {
-				transfer_state = 1450
-				add_state_core = 1450
+				transfer_state = 1460
+				add_state_core = 1460
 				BRA_civil_war_tag_setup = yes
 			}
 			country_event = {
@@ -3767,7 +3767,7 @@ country_event = {
 		name = Brazil.civilwar.6.a
 		effect_tooltip = {
 			BR1 = {
-				transfer_state = 1450
+				transfer_state = 1460
 			}
 		}
 	}
@@ -3955,8 +3955,8 @@ country_event = {
 		# SPAWN POPULAR FRONT IN SALVADOR
 		hidden_effect = {
 			BR3 = {
-				transfer_state = 1452
-				add_state_core = 1452
+				transfer_state = 1462
+				add_state_core = 1462
 				BRA_civil_war_tag_setup = yes
 			}
 			country_event = {
@@ -3970,7 +3970,7 @@ country_event = {
 		name = Brazil.civilwar.10.a
 		effect_tooltip = {
 			BR3 = {
-				transfer_state = 1452
+				transfer_state = 1462
 			}
 		}
 	}
@@ -4021,7 +4021,7 @@ country_event = {
 		hidden_effect = {
 			SPA = {
 				transfer_state = 501
-				transfer_state = 1453
+				transfer_state = 1463
 			}
 			country_event = {
 				id = Brazil.civilwar.13
@@ -4035,7 +4035,7 @@ country_event = {
 		effect_tooltip = {
 			SPA = {
 				transfer_state = 501
-				transfer_state = 1453
+				transfer_state = 1463
 			}
 		}
 	}
@@ -4065,19 +4065,19 @@ country_event = {
 				transfer_state = 495
 				transfer_state = 905
 				transfer_state = 906
-				transfer_state = 1437
-				transfer_state = 1438
-				transfer_state = 1439
-				transfer_state = 1440
+				transfer_state = 1447
+				transfer_state = 1448
 				transfer_state = 1449
+				transfer_state = 1450
+				transfer_state = 1459
 				add_state_core = 495
 				add_state_core = 905
 				add_state_core = 906
-				add_state_core = 1437
-				add_state_core = 1438
-				add_state_core = 1439
-				add_state_core = 1440
+				add_state_core = 1447
+				add_state_core = 1448
 				add_state_core = 1449
+				add_state_core = 1450
+				add_state_core = 1459
 			}
 		}
 	}
@@ -4089,11 +4089,11 @@ country_event = {
 				transfer_state = 495
 				transfer_state = 905
 				transfer_state = 906
-				transfer_state = 1437
-				transfer_state = 1438
-				transfer_state = 1439
-				transfer_state = 1440
+				transfer_state = 1447
+				transfer_state = 1448
 				transfer_state = 1449
+				transfer_state = 1450
+				transfer_state = 1459
 			}
 		}
 	}
@@ -4122,7 +4122,7 @@ country_event = {
 			SUL = {
 				transfer_state = 502
 				transfer_state = 503
-				transfer_state = 1448	
+				transfer_state = 1458	
 
 				country_event = {
 					id = Sul.1
@@ -4138,7 +4138,7 @@ country_event = {
 			SUL = {
 				transfer_state = 502
 				transfer_state = 503
-				transfer_state = 1448
+				transfer_state = 1458
 			}
 		}
 	}

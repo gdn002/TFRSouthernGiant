@@ -15,10 +15,10 @@ spriteTypes = {
 		name = "GFX_terrain_bogota"
 		textureFile = "gfx/interface/terrains/bogota.png"
 	}
-	spriteType = {
-		name = "GFX_terrain_brasilia"
-		textureFile = "gfx/interface/terrains/brasilia.png"
-	}
+	#spriteType = {
+	#	name = "GFX_terrain_brasilia"
+	#	textureFile = "gfx/interface/terrains/brasilia.png"
+	#}
 	spriteType = {
 		name = "GFX_terrain_buenos_aires"
 		textureFile = "gfx/interface/terrains/buenos_aires.png"

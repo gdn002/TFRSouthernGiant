@@ -210,7 +210,7 @@ country_event = {
 				prioritize_location = 10933
 			}
 		}
-		1446 = {
+		1456 = {
 			create_unit = {
 				division = "name = \"10a Bda Inf Mtz\" division_template = \"Brigada de Infantaria Motorizada\"  start_experience_factor = 0.0"
 				allow_spawning_on_enemy_provs = yes

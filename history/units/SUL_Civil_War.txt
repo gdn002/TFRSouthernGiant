@@ -12,7 +12,7 @@
 units = {
 	division = {
 		name = "1a Milícia Sulista"
-		location = 1448
+		location = 1458
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}
@@ -54,7 +54,7 @@ units = {
 	}
 	division = {
 		name = "8a Milícia Sulista"
-		location = 14988
+		location = 15000
 		division_template = "Brazilian Militia"
 		start_experience_factor = 0.2		
 	}

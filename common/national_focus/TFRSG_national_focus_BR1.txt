@@ -135,10 +135,10 @@ focus_tree = {
 			hidden_effect = {
 				transfer_state = 496
 				transfer_state = 500
-				transfer_state = 1447
+				transfer_state = 1457
 				add_state_core = 496
 				add_state_core = 500
-				add_state_core = 1447 
+				add_state_core = 1457 
 			}
 			country_event = {
 				id = Brazil.libs.4

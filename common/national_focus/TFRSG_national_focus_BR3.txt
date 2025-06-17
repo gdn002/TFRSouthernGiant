@@ -119,21 +119,21 @@ focus_tree = {
 				transfer_state = 497
 				transfer_state = 498
 				transfer_state = 499
-				transfer_state = 1441
-				transfer_state = 1442
-				transfer_state = 1443
-				transfer_state = 1444
-				transfer_state = 1445
-				transfer_state = 1446
+				transfer_state = 1451
+				transfer_state = 1452
+				transfer_state = 1453
+				transfer_state = 1454
+				transfer_state = 1455
+				transfer_state = 1456
 				add_state_core = 497
 				add_state_core = 498
 				add_state_core = 499
-				add_state_core = 1441
-				add_state_core = 1442
-				add_state_core = 1443
-				add_state_core = 1444
-				add_state_core = 1445
-				add_state_core = 1446
+				add_state_core = 1451
+				add_state_core = 1452
+				add_state_core = 1453
+				add_state_core = 1454
+				add_state_core = 1455
+				add_state_core = 1456
 			}
 		}
 	}

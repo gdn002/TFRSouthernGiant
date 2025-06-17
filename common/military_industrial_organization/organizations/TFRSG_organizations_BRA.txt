@@ -9,7 +9,7 @@ BRA_engesa = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		1453 = {
+		1463 = {
 			is_core_of = FROM
 			is_controlled_by = FROM
 		}
@@ -28,7 +28,7 @@ BRA_arsenal_de_marinha = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		1450 = {
+		1460 = {
 			is_core_of = FROM
 			is_controlled_by = FROM
 		}
@@ -115,7 +115,7 @@ BRA_imbel = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		1435 = {
+		1445 = {
 			is_core_of = FROM
 			is_controlled_by = FROM
 		}
@@ -130,7 +130,7 @@ BRA_companhia_brasileira_cartuchos = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		1453 = {
+		1463 = {
 			is_core_of = FROM
 			is_controlled_by = FROM
 		}

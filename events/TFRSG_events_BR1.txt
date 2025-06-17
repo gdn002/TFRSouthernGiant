@@ -253,7 +253,7 @@ country_event = {
         }
 		effect_tooltip = {
 			# Create Euro units
-			1450 = {
+			1460 = {
 				create_unit = {
 					division = "name = \"European Volunteers\" division_template = \"Brigada de Cavalaria Mecanizada\"  start_experience_factor = 0.0"
 					allow_spawning_on_enemy_provs = yes
@@ -378,7 +378,7 @@ country_event = {
 
 	option = {
 		name = Brazil.libs.8.a
-		1450 = {
+		1460 = {
 			create_unit = {
 				division = "name = \"European Volunteers\" division_template = \"Brigada de Cavalaria Mecanizada\"  start_experience_factor = 0.0"
 				allow_spawning_on_enemy_provs = yes
@@ -421,7 +421,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			UNB = {
-				transfer_state = 1437
+				transfer_state = 1447
 			}
 		}
 	}

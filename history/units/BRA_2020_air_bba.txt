@@ -9,7 +9,7 @@ air_wings = {
 			version_name = "C-390 Millennium"
 		}
 	}
-	1450 = {
+	1460 = {
 		#Fighter
 		small_plane_airframe_1 = {
 			owner = "BRA" 
