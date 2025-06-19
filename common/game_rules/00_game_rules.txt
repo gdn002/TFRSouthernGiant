@@ -1,11 +1,20 @@
+# OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
+# Current version: 1.0.7
+# Changes:
+# - TFRSG game rules
+
 ##  ###     ###  ### #  #  ##  #   # ###  ##  ###  
 #  #  #      #  # #   #  # #  # #   #  #  #  # #  # 
 ####  #      ###  ##  #### ####  # #   #  #  # ###  
 #  #  #      #  # #   #  # #  #  # #   #  #  # #  # 
 #  # ###     ###  ### #  # #  #   #   ###  ##  #  # 
-#In memory of our eternal coder and writer, the great §1. We will never forget your contributions.
-#谨以此纪念我们永久的组员同志蘑菇。您的功绩我们永世难忘，祝您余生安好。
-#--Sergey Taboritsky, 2025.3.16
+#美丽的梭罗河，我为你歌唱！你的光荣历史，我永远记在心上。
+#旱季来临，你轻轻流淌，雨季时波涛滚滚，你流向远方。
+#你的源泉来自梭罗，万重山送你一路前往，滚滚的波涛流向远方，一直流入海洋。
+#你的历史就是一只船，商人们乘船远航在美丽的河面上。
+#你的源泉来自梭罗，万重山送你一路前往，滚滚的波涛流向远方，一直流入海洋。
+#美丽的梭罗河，我为你歌唱！你的光荣历史，我永远记在心上。
+
 #East Asia 东亚
 THE_MON_election = {#Mongolia 2021 Election 蒙古2021年大选
 	name = "THE_MON_election"
@@ -218,59 +227,59 @@ The_PRC_GAW_Japan = {#Japan's Fate 日本的命运
 	}
 }
 
-The_PRC_nationalist_path = {#Nationalist Path 民族派路线
-	name = "The_PRC_nationalist_path"
-	required_dlc = "Waking the Tiger"
-	group = "RULE_GROUP_EAST_ASIAN"
-	default = {
+#The_PRC_nationalist_path = {#Nationalist Path 民族派路线
+#	name = "The_PRC_nationalist_path"
+#	required_dlc = "Waking the Tiger"
+#	group = "RULE_GROUP_EAST_ASIAN"
+#	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
 		desc = "RULE_OPTION_DEFAULT_AI_DESC"
 		allow_achievements = yes
 	}
-	option = {
+#	option = {
 		name = The_PRC_nationalist_path_1
 		text = "The_PRC_nationalist_path_1_TXT"
 		desc = "The_PRC_nationalist_path_1_TXT_DESC"
 		allow_achievements = yes
 	}
-	option = {
+#	option = {
 		name = The_PRC_nationalist_path_2
 		text = "The_PRC_nationalist_path_2_TXT"
 		desc = "The_PRC_nationalist_path_2_TXT_DESC"
 		allow_achievements = yes
 	}
-	option = {
+#	option = {
 		name = The_PRC_nationalist_path_3
 		text = "The_PRC_nationalist_path_3_TXT"
 		desc = "The_PRC_nationalist_path_3_TXT_DESC"
 		allow_achievements = yes
 	}
-}
+#}
 
-The_PRC_nationalist_diplomacy = {#Nationalist Diplomacy 民族派外交
-	name = "The_PRC_nationalist_diplomacy"
-	required_dlc = "Waking the Tiger"
-	group = "RULE_GROUP_EAST_ASIAN"
-	default = {
+#The_PRC_nationalist_diplomacy = {#Nationalist Diplomacy 民族派外交
+#	name = "The_PRC_nationalist_diplomacy"
+#	required_dlc = "Waking the Tiger"
+#	group = "RULE_GROUP_EAST_ASIAN"
+#	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
 		desc = "RULE_OPTION_DEFAULT_AI_DESC"
 		allow_achievements = yes
-	}
+#	}
 	option = {
 		name = The_PRC_masters_of_asia
 		text = "The_PRC_masters_of_asia_TXT"
 		desc = "The_PRC_masters_of_asia_TXT_DESC"
 		allow_achievements = yes
 	}
-	option = {
+#	option = {
 		name = The_PRC_south_asian_brothers
 		text = "The_PRC_south_asian_brothers_TXT"
 		desc = "The_PRC_south_asian_brothers_TXT_DESC"
 		allow_achievements = yes
 	}
-}
+#}
 
 The_PRC_Liberal_Progress_of_Reforms = {#Liberal Progress of Reforms 自由派改革进程
 	name = "The_PRC_Liberal_Progress_of_Reforms"
@@ -704,6 +713,30 @@ The_JAP_LDP_Postwar_leadership_election = {#Liberal Democratic Party Post-war Le
 	}
 }
 
+The_JAP_CC_Postwar_leadership_election = {#Post Taiwan War §8Civil Coalition§! Leadership Elections 人民联合台海战后总裁选举
+	name = "The_JAP_CC_Postwar_leadership_election"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_EAST_ASIAN"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "The_JAP_CC_Postwar_leadership_election_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_JAP_CC_Postwar_leadership_election_CDP
+		text = "The_JAP_CC_Postwar_leadership_election_CDP_TXT"
+		desc = "The_JAP_CC_Postwar_leadership_election_CDP_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_JAP_CC_Postwar_leadership_election_INO
+		text = "The_JAP_CC_Postwar_leadership_election_INO_TXT"
+		desc = "The_JAP_CC_Postwar_leadership_election_INO_TXT_DESC"
+		allow_achievements = yes
+	}
+}
+
 CHI_election = {#Republic of China 2020 Election 中华民国2020年大选
 	name = "CHI_election"
 	required_dlc = "Waking the Tiger"
@@ -728,32 +761,74 @@ CHI_election = {#Republic of China 2020 Election 中华民国2020年大选
 	}
 }
 
-CHI_election_24 = {#Republic of China 2024 Election 中华民国2024年大选
-	name = "CHI_election_24"
+CHI_election_24_KMT = {#Republic of China 2024 Election 中华民国2024年大选 国民党逆袭
+	name = "CHI_election_24_KMT"
 	required_dlc = "Waking the Tiger"
 	group = "RULE_GROUP_EAST_ASIAN"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+		desc = "CHI_election_24_KMT_TXT_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = CHI_election_green_24
-		text = "CHI_election_green_24_TXT"
-		desc = "CHI_election_green_24_TXT_DESC"
+		name = CHI_election_24_KMT_Zhao
+		text = "CHI_election_24_KMT_Zhao_TXT"
+		desc = "CHI_election_24_KMT_Zhao_TXT_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = CHI_election_blue_24
-		text = "CHI_election_blue_24_TXT"
-		desc = "CHI_election_blue_24_TXT_DESC"
+		name = CHI_election_24_KMT_Han
+		text = "CHI_election_24_KMT_Han_TXT"
+		desc = "CHI_election_24_KMT_Han_TXT_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = CHI_election_TPP_24
-		text = "CHI_election_TPP_24_TXT"
-		desc = "CHI_election_TPP_24_TXT_DESC"
+		name = CHI_election_24_KMT_COUP
+		text = "CHI_election_24_KMT_COUP_TXT"
+		desc = "CHI_election_24_KMT_COUP_TXT_DESC"
+		allow_achievements = yes
+	}
+}
+
+CHI_election_24_DPP = {#Republic of China 2024 Election 中华民国2024年大选 民进党坐庄
+	name = "CHI_election_24_DPP"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_EAST_ASIAN"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "CHI_election_24_DPP_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHI_election_24_DPP_Chen
+		text = "CHI_election_24_DPP_Chen_TXT"
+		desc = "CHI_election_24_DPP_Chen_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHI_election_24_DPP_Zheng
+		text = "CHI_election_24_DPP_Zheng_TXT"
+		desc = "CHI_election_24_DPP_Zheng_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHI_election_24_DPP_Lai
+		text = "CHI_election_24_DPP_Lai_TXT"
+		desc = "CHI_election_24_DPP_Lai_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHI_election_24_DPP_TPP
+		text = "CHI_election_24_DPP_TPP_TXT"
+		desc = "CHI_election_24_DPP_TPP_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHI_election_24_DPP_COUP
+		text = "CHI_election_24_DPP_COUP_TXT"
+		desc = "CHI_election_24_DPP_COUP_TXT_DESC"
 		allow_achievements = yes
 	}
 }
@@ -1402,6 +1477,30 @@ THI_First_Republican_Elections = {#The First Thai Presidential Election 泰共�
 		name = THI_First_Republican_Elections_4
 		text = "THI_First_Republican_Elections_4_TXT"
 		desc = "THI_First_Republican_Elections_4_TXT_DESC"
+		allow_achievements = yes
+	}
+}
+
+The_Vietnam_2024_Election = {#2024 Vietnam General Secretary Election 越南2024年总书记选举
+	name = "The_Vietnam_2024_Election"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_Southeast_Asia"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "The_Vietnam_2024_Election_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_Vietnam_2024_Election_To_Lam
+		text = "The_Vietnam_2024_Election_To_Lam_TXT"
+		desc = "The_Vietnam_2024_Election_To_Lam_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_Vietnam_2024_Election_Pham_Minh_Chinh
+		text = "The_Vietnam_2024_Election_Pham_Minh_Chinh_TXT"
+		desc = "The_Vietnam_2024_Election_Pham_Minh_Chinh_TXT_DESC"
 		allow_achievements = yes
 	}
 }
@@ -2419,6 +2518,78 @@ The_GER_What_We_Truly_Think = {#What We Truly Think 我们的真正所想
 	}
 }
 
+The_GER_Genuine_Conspiracy_Theories = {#Genuine Conspiracy Theories 真实阴谋论
+	name = "The_GER_Genuine_Conspiracy_Theories"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_EUROPE"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "The_GER_Genuine_Conspiracy_Theories_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_GER_Genuine_Conspiracy_Theories_Just_a_conspiracy_theory
+		text = "The_GER_Genuine_Conspiracy_Theories_Just_a_conspiracy_theory_TXT"
+		desc = "The_GER_Genuine_Conspiracy_Theories_Just_a_conspiracy_theory_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_GER_Genuine_Conspiracy_Theories_Gunther_Fehlinger
+		text = "The_GER_Genuine_Conspiracy_Theories_Gunther_Fehlinger_TXT"
+		desc = "The_GER_Genuine_Conspiracy_Theories_Gunther_Fehlinger_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_GER_Genuine_Conspiracy_Theories_Klaus_Schwab
+		text = "The_GER_Genuine_Conspiracy_Theories_Klaus_Schwab_TXT"
+		desc = "The_GER_Genuine_Conspiracy_Theories_Klaus_Schwab_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_GER_Genuine_Conspiracy_Theories_Corporatocracy
+		text = "The_GER_Genuine_Conspiracy_Theories_Corporatocracy_TXT"
+		desc = "The_GER_Genuine_Conspiracy_Theories_Corporatocracy_TXT_DESC"
+		allow_achievements = yes
+	}
+}
+
+The_GER_Gunther_Fehlinger_World = {#Democracy's Long Whip 民主长鞭
+	name = "The_GER_Gunther_Fehlinger_World"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_EUROPE"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "The_GER_Gunther_Fehlinger_World_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_GER_Gunther_Fehlinger_World_Africa
+		text = "The_GER_Gunther_Fehlinger_World_Africa_TXT"
+		desc = "The_GER_Gunther_Fehlinger_World_Africa_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_GER_Gunther_Fehlinger_World_FUCK_China
+		text = "The_GER_Gunther_Fehlinger_World_FUCK_China_TXT"
+		desc = "The_GER_Gunther_Fehlinger_World_FUCK_China_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_GER_Gunther_Fehlinger_World_Suck_Japan
+		text = "The_GER_Gunther_Fehlinger_World_Suck_Japan_TXT"
+		desc = "The_GER_Gunther_Fehlinger_World_Suck_Japan_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_GER_Gunther_Fehlinger_World_Peace
+		text = "The_GER_Gunther_Fehlinger_World_Peace_TXT"
+		desc = "The_GER_Gunther_Fehlinger_World_Peace_TXT_DESC"
+		allow_achievements = yes
+	}
+}
+
 The_GER_Socialist_Revolution = {# Future of Socialist Revolution 社会主义革命未来
 	name = "The_GER_Socialist_Revolution"
 	required_dlc = "Waking the Tiger"
@@ -2456,7 +2627,7 @@ The_GER_Socialist_Diplomacy = {# Diplomacy of Socialist Revolution 社会主义�
 	option = {
 		name = The_GER_Socialist_Diplomacy_Eurointern_Expansion
 		text = "The_GER_Socialist_Diplomacy_Eurointern_Expansion_TXT"
-		desc = "The_GER_Socialist_Diplomacy_Eurointern_Expansion_DESC"
+		desc = "The_GER_Socialist_Diplomacy_Eurointern_Expansion_TXT_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -2480,7 +2651,7 @@ The_GER_Socialist_Election = {# Election of Socialist Revolution 社会主义选
 	option = {
 		name = The_GER_Socialist_Election_PDS
 		text = "The_GER_Socialist_Election_PDS_TXT"
-		desc = "The_GER_Socialist_Election_PDS_DESC"
+		desc = "The_GER_Socialist_Election_PDS_TXT_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -3244,6 +3415,34 @@ The_Dugin_Left_or_Right = {#Dugin Left or Right 左右杜金
 	}
 }
 
+The_Navalny_against_Navalny = {#Navalny against Navalny 纳瓦利内反对纳瓦利内
+	name = "The_Navalny_against_Navalny"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_EUROPE_SOV"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "The_Navalny_against_Navalny_TXT_DESC"
+	}
+	option = {
+		name = The_Navalny_against_Navalny_1991
+		text = "The_Navalny_against_Navalny_1991_TXT"
+		desc = "The_Navalny_against_Navalny_1991_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_Navalny_against_Navalny_1993
+		text = "The_Navalny_against_Navalny_1993_TXT"
+		desc = "The_Navalny_against_Navalny_1993_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_Navalny_against_Navalny_We_People
+		text = "The_Navalny_against_Navalny_We_People_TXT"
+		desc = "The_Navalny_against_Navalny_We_People_TXT_DESC"
+		allow_achievements = yes
+	}
+}
 
 #North America 北美洲
  USA_ai_behavior = {
@@ -3435,6 +3634,99 @@ The_Dugin_Left_or_Right = {#Dugin Left or Right 左右杜金
 		name = The_Three_Faced_MAGA_3
 		text = "The_Three_Faced_MAGA_3_TXT"
 		desc = "The_Three_Faced_MAGA_3_TXT_DESC"
+		allow_achievements = yes
+	}
+}
+
+ The_NSM_Path = {#National Socialist Movement Path 民社运动路线
+	name = "The_NSM_Path"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_North_America"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "The_NSM_Path_TXT_DESC"
+	}
+	option = {
+		name = The_NSM_Path_Reform
+		text = "The_NSM_Path_Reform_TXT"
+		desc = "The_NSM_Path_Reform_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_NSM_Path_Hard
+		text = "The_NSM_Path_Hard_TXT"
+		desc = "The_NSM_Path_Hard_TXT_DESC"
+		allow_achievements = yes
+	}
+}
+
+ The_Biden_Resign = {#Biden Resign? 拜登辞职？
+	name = "The_Biden_Resign"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_North_America"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "The_Biden_Resign_TXT_DESC"
+	}
+	option = {
+		name = The_Biden_Resign_NO
+		text = "The_Biden_Resign_NO_TXT"
+		desc = "The_Biden_Resign_NO_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_Biden_Resign_YES
+		text = "The_Biden_Resign_YES_TXT"
+		desc = "The_Biden_Resign_YES_TXT_DESC"
+		allow_achievements = yes
+	}
+}
+
+ The_PTF_Path = {#Patriot Front Path 爱国者阵线路线
+	name = "The_PTF_Path"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_North_America"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "The_PTF_Path_TXT_DESC"
+	}
+	option = {
+		name = The_PTF_Path_GOP
+		text = "The_PTF_Path_GOP_TXT"
+		desc = "The_PTF_Path_GOP_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_PTF_Path_Jacksonians
+		text = "The_PTF_Path_Jacksonians_TXT"
+		desc = "The_PTF_Path_Jacksonians_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_PTF_Path_Hamiltonians
+		text = "The_PTF_Path_Hamiltonians_TXT"
+		desc = "The_PTF_Path_Hamiltonians_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_PTF_Path_Blueshirts
+		text = "The_PTF_Path_Blueshirts_TXT"
+		desc = "The_PTF_Path_Blueshirts_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_PTF_Path_Spartanists
+		text = "The_PTF_Path_Spartanists_TXT"
+		desc = "The_PTF_Path_Spartanists_TXT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = The_PTF_Path_NSC
+		text = "The_PTF_Path_NSC_TXT"
+		desc = "The_PTF_Path_NSC_TXT_DESC"
 		allow_achievements = yes
 	}
 }
@@ -4709,7 +5001,7 @@ prigozhin_content = {
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_DESC"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -4726,7 +5018,7 @@ april_fools_content = {
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_DESC"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
 		allow_achievements = yes
 	}
 	option = {

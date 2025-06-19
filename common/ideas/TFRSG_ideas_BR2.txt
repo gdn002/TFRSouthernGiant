@@ -13,7 +13,7 @@ ideas = {
 				custom_modifier_tooltip = BR2_rural_economy_idea_removal_tt
 			}
 			cancel = {
-    			num_of_factories > 10
+    			num_of_factories > 5
 			}
 		}
 

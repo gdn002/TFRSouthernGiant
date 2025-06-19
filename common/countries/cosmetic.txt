@@ -1,3 +1,8 @@
+# OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
+# Current version: 1.0.7
+# Changes:
+# - Adds TFRSG cosmetic tags
+
 PDF_burma = {
 	color = rgb { 214 50 59 }
 	color_ui = rgb { 214 50 59 }
@@ -22,8 +27,66 @@ SIG_plan = {
 	color = rgb { 162 0 80 }
 	color_ui = rgb { 162 0 80 }
 }
+SRL_eadi_south_fleet = {
+	color = rgb { 162 0 80 }
+	color_ui = rgb { 162 0 80 }
+}
 
 PRC_military_administration = {
+	color = rgb { 162 0 80 }
+	color_ui = rgb { 162 0 80 }
+}
+PRC_nationalist_military_administration_PAK = {
+	color = rgb { 40 35 15 }
+	color_ui = rgb { 40 35 15 }
+}
+PRC_nationalist_military_administration_SIA = {
+	color = rgb { 40 35 15 }
+	color_ui = rgb { 40 35 15 }
+}
+PRC_nationalist_military_administration_PHI = {
+	color = rgb { 40 35 15 }
+	color_ui = rgb { 40 35 15 }
+}
+PRC_nationalist_military_administration_INS = {
+	color = rgb { 40 35 15 }
+	color_ui = rgb { 40 35 15 }
+}
+PRC_nationalist_military_administration_AST = {
+	color = rgb { 40 35 15 }
+	color_ui = rgb { 40 35 15 }
+}
+PRC_nationalist_military_administration_JAP = {
+	color = rgb { 40 35 15 }
+	color_ui = rgb { 40 35 15 }
+}
+
+PRC_revolutionary_puppets = {
+	color = rgb { 170 20 20 }
+	color_ui = rgb { 170 20 20 }
+}
+
+PRK_chinese_military_district_cosmetic = {
+	color = rgb { 162 0 80 }
+	color_ui = rgb { 162 0 80 }
+}
+SIA_chinese_military_district_cosmetic = {
+	color = rgb { 162 0 80 }
+	color_ui = rgb { 162 0 80 }
+}
+PHI_chinese_military_district_cosmetic = {
+	color = rgb { 162 0 80 }
+	color_ui = rgb { 162 0 80 }
+}
+INS_chinese_military_district_cosmetic = {
+	color = rgb { 162 0 80 }
+	color_ui = rgb { 162 0 80 }
+}
+AST_chinese_military_district_cosmetic = {
+	color = rgb { 162 0 80 }
+	color_ui = rgb { 162 0 80 }
+}
+JAP_chinese_military_district_cosmetic = {
 	color = rgb { 162 0 80 }
 	color_ui = rgb { 162 0 80 }
 }
@@ -103,6 +166,10 @@ FRA_Duchy_of_Warsaw = {
 FRA_Frankish_State = {
 	color = rgb { 42 18 69 }
 	color_ui = rgb { 42 18 69 }
+}
+CZE_slavic_empire = {
+	color = rgb { 18 69 54 }
+	color_ui = rgb { 18 69 54 }
 }
 GER_German_Social_Republic = {
 	color = rgb { 45 70 82 }
@@ -318,6 +385,11 @@ PER_nato = {
 	color_ui = rgb { 31 75 122 }
 }
 
+GER_nato_administration_cosmetic = {
+	color = rgb { 31 75 122 }
+	color_ui = rgb { 31 75 122 }
+}
+
 ZET_nato = {
 	color = rgb { 31 75 122 }
 	color_ui = rgb { 31 75 122 }
@@ -406,6 +478,16 @@ SOV_RussianEmpire_subject = {
 GER_EUU = {
 	color = rgb { 61 35 166 }
 	color_ui = rgb { 61 35 166 }
+}
+
+GER_WEF = {
+	color = rgb { 42 24 118 }
+	color_ui = rgb { 42 24 118 }
+}
+
+GER_WEF_world = {
+	color = rgb { 42 24 118 }
+	color_ui = rgb { 42 24 118 }
 }
 
 EUU = {
@@ -1838,37 +1920,13 @@ RCG_coup = {
 	color_ui = rgb { 163 17 31 }
 }
 
-PRC_empire = {
-	color = rgb { 219 175 31 }
-	color_ui = rgb { 219 175 31 }
-}
-SIK_empire = {
-	color = rgb { 219 175 31 }
-	color_ui = rgb { 219 175 31 }
-}
-TIB_empire = {
-	color = rgb { 219 175 31 }
-	color_ui = rgb { 219 175 31 }
-}
-MST_empire = {
-	color = rgb { 219 175 31 }
-	color_ui = rgb { 219 175 31 }
-}
-INM_empire = {
-	color = rgb { 219 175 31 }
-	color_ui = rgb { 219 175 31 }
-}
-XIE_empire = {
-	color = rgb { 219 175 31 }
-	color_ui = rgb { 219 175 31 }
-}
-CHI_empire = {
-	color = rgb { 219 175 31 }
-	color_ui = rgb { 219 175 31 }
-}
 CHI_PRC_puppet = {
 	color = rgb { 193 60 27 }
 	color_ui = rgb { 193 60 27 }
+}
+CHI_taiwan_republic = {
+	color = rgb { 105 211 42 }
+	color_ui = rgb { 105 211 0 }
 }
 HKN_revolution = {
 	color = rgb { 0 0 0 }
@@ -2202,6 +2260,38 @@ PRC_imperium_cosmetic = {
 	color = rgb { 140 66 66 }
 	color_ui = rgb { 140 66 66 }
 }
+PRC_pillar_of_crimson_sovereignty_cosmetic = {
+	color = rgb { 142 16 16 }
+	color_ui = rgb { 142 16 16 }
+}
+PRC_technocratic_mss = {
+	color = rgb { 164 36 21 }
+	color_ui = rgb { 164 36 21 }
+}
+PRC_technocratic_utilitarists = {
+	color = rgb { 9 71 80 }
+	color_ui = rgb { 9 71 80 }
+}
+PRC_technocratic_fascist = {
+	color = rgb { 156 67 9 }
+	color_ui = rgb { 156 67 9 }
+}
+PRC_empire = {
+	color = rgb { 219 175 31 }
+	color_ui = rgb { 219 175 31 }
+}
+PRC_heavenly_republic = {
+	color = rgb { 156 156 81 }
+	color_ui = rgb { 156 156 81 }
+}
+PRC_confucian_prc = {
+	color = rgb { 156 156 81 }
+	color_ui = rgb { 156 156 81 }
+}
+PRC_national_communist = {
+	color = rgb { 121 12 12 }
+	color_ui = rgb { 121 12 12 }
+}
 KOR_samsung_republic_cosmetic = {
 	color = rgb { 26  41  89 }
 	color_ui = rgb { 26  41  89 }
@@ -2237,6 +2327,102 @@ ENG_Navalny = {
 SAX_alsace = {
 	color = rgb { 255 61 61 }
 	color_ui = rgb { 255 61 61 }
+}
+GUN_kolandia = {
+	color = rgb { 242 194 0 }
+	color_ui = rgb { 242 194 0 }
+}
+GUN_karelia = {
+	color = rgb { 79 51 136 }
+	color_ui = rgb { 79 51 136 }
+}
+GUN_ingria = {
+	color = rgb { 8 143 74 }
+	color_ui = rgb { 8 143 74 }
+}
+GUN_pomorie_bjarma = {
+	color = rgb { 234 2 18 }
+	color_ui = rgb { 234 2 18 }
+}
+GUN_novgorod = {
+	color = rgb { 245 134 1 }
+	color_ui = rgb { 245 134 1 }
+}
+GUN_tver = {
+	color = rgb { 95 174 46 }
+	color_ui = rgb { 95 174 46 }
+}
+GUN_pskov = {
+	color = rgb { 231 3 16 }
+	color_ui = rgb { 231 3 16 }
+}
+GUN_smolensk = {
+	color = rgb { 25 69 144 }
+	color_ui = rgb { 25 69 144 }
+}
+GUN_chernozemye_yugorussiya = {
+	color = rgb { 182 16 128 }
+	color_ui = rgb { 182 16 128 }
+}
+GUN_cossack = {
+	color = rgb { 94 175 44 }
+	color_ui = rgb { 94 175 44 }
+}
+GUN_nogai = {
+	color = rgb { 77 50 143 }
+	color_ui = rgb { 77 50 143 }
+}
+GUN_karachay_balkaria = {
+	color = rgb { 47 44 123 }
+	color_ui = rgb { 47 44 123 }
+}
+GUN_zalesye = {
+	color = rgb { 53 168 223 }
+	color_ui = rgb { 255 61 61 }
+}
+GUN_volga = {
+	color = rgb { 0 149 67 }
+	color_ui = rgb { 0 149 67 }
+}
+GUN_bashkortostan = {
+	color = rgb { 227 5 18 }
+	color_ui = rgb { 227 5 18 }
+}
+GUN_komi = {
+	color = rgb { 26 64 147 }
+	color_ui = rgb { 26 64 147 }
+}
+GUN_ural = {
+	color = rgb { 237 135 0 }
+	color_ui = rgb { 237 135 0 }
+}
+GUN_ugra_tyumen = {
+	color = rgb { 156 53 142 }
+	color_ui = rgb { 156 53 142 }
+}
+GUN_USS = {
+	color = rgb { 55 168 52 }
+	color_ui = rgb { 55 168 52 }
+}
+GUN_altai = {
+	color = rgb { 26 64 147 }
+	color_ui = rgb { 26 64 147 }
+}
+GUN_pacific_federation = {
+	color = rgb { 0 95 171 }
+	color_ui = rgb { 0 95 171 }
+}
+GUN_kamchatka_chukotka = {
+	color = rgb { 95 174 47 }
+	color_ui = rgb { 95 174 47 }
+}
+GUN_sakha = {
+	color = rgb { 230 0 126 }
+	color_ui = rgb { 230 0 126 }
+}
+GER_uprising_cosmetic = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 
 # TFRSG

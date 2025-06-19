@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.2025.0b
+# Current version: 1.0.7
 # Changes:
 # - Adds Brazil bookmark entry
 
@@ -89,9 +89,9 @@ bookmarks = {
 				GER_merkelreich_idea
 			}
 			focuses = {
-				GER_bulwark_of_democracy
-				GER_europe_united
-				GER_empower_the_chancellor
+				GER_a_green_future
+				GER_align_to_the_right
+				GER_europe_united_strong
 			}
 		}
 		

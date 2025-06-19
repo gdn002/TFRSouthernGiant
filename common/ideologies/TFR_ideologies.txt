@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.2025.0b
+# Current version: 1.0.7
 # Changes:
 # - Adds Integralism as a fascist sub-ideology
 
@@ -15,6 +15,12 @@ ideologies = {
 				}
 			}
 			totalism = {
+			}
+			digital_leninism = {
+				can_be_randomly_selected = no
+			}
+			technocracy_totsoc = {
+				can_be_randomly_selected = no
 			}
 			maoism = {
 			}
@@ -38,7 +44,7 @@ ideologies = {
 			}
 			social_fascism = {
 				can_be_randomly_selected = no
-			}		
+			}
 			neo_stalinism = {
 			}
 			transhumanism = {
@@ -48,7 +54,7 @@ ideologies = {
 					6
 					45
 				}
-			}			
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_COMMUNIST_1"
@@ -96,6 +102,22 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			left_nationalism = {
+				can_be_randomly_selected = no
+				color = {
+					140
+					35
+					35
+				}
+			}
+			xi_jinping_thought = {
+				can_be_randomly_selected = no
+				color = {
+					140
+					35
+					35
+				}
+			}
+			li_zuocheng_thought = {
 				can_be_randomly_selected = no
 				color = {
 					140
@@ -224,6 +246,14 @@ ideologies = {
 			}
 			social_democracy = {
 			}
+			reformist_socialism_socdem = {
+				can_be_randomly_selected = no
+				color = {
+					255
+					56
+					90
+				}
+			}
 			left_populism = {
 				can_be_randomly_selected = no
 				color = {
@@ -320,6 +350,9 @@ ideologies = {
 			}
 			neoliberalism = {
 			}
+			taiwanese_liberal_populism = {
+
+			}
 			christian_democracy = {
 				can_be_randomly_selected = no
 			}
@@ -355,6 +388,14 @@ ideologies = {
 			}
 			ultra_liberalism = {
 				can_be_randomly_selected = no #schizo_NAFO_EU
+			}
+			centrist_pluralism = {
+				can_be_randomly_selected = no
+				color = {
+					255
+					180
+					60
+				}
 			}
 		}
 		dynamic_faction_names = {
@@ -402,6 +443,14 @@ ideologies = {
 			}
 			trumpism_market = {
 				can_be_randomly_selected = no
+			}
+			putinism_liberal = {
+				can_be_randomly_selected = no
+				color = {
+					255
+					215
+					0
+				}
 			}
 		}
 		dynamic_faction_names = {
@@ -557,6 +606,14 @@ ideologies = {
 					168
 				}
 			}
+			fehlinger_doctrine = {
+				can_be_randomly_selected = no
+				color = {
+					29
+					155
+					240
+				}
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_CONSERVATIVE_1"
@@ -602,6 +659,22 @@ ideologies = {
 					128
 					162
 				}
+			}	
+			leonid_slutsky_thought = {
+				can_be_randomly_selected = no
+				color = {
+					112
+					115
+					132
+				}
+			}
+			reformed_tridemism = {
+				can_be_randomly_selected = no
+				color = {
+					123
+					128
+					162
+				}
 			}
 			islamic_authoritarian = {
 				can_be_randomly_selected = no
@@ -611,15 +684,9 @@ ideologies = {
 					102
 				}
 			}
-			confucian_hyperconservativism = {
-				can_be_randomly_selected = no
-				color = {
-					130
-					129
-					102
-				}
-			}
 			hybrid_regime = {
+			}	
+			auth_populism = {
 			}
 			military_democracy = {
 				can_be_randomly_selected = no
@@ -631,6 +698,14 @@ ideologies = {
 			}
 			corporatocracy = {
 				#Corpo
+			}
+			ultraglobalism = {
+				can_be_randomly_selected = no
+				color = {
+					77
+					77
+					77
+				}
 			}
 			assadist_baathism = {
 				can_be_randomly_selected = no
@@ -677,6 +752,14 @@ ideologies = {
 			}		
 			russian_monarchist_conservative = {
 				can_be_randomly_selected = no
+			}		
+			pragmatic_socialism = {
+				can_be_randomly_selected = no
+				color = {
+					167
+					109
+					109
+				}
 			}
 			trumpism_authdem = {
 				can_be_randomly_selected = no
@@ -796,6 +879,30 @@ ideologies = {
 					84
 				}
 			}
+			davos_system = {
+				can_be_randomly_selected = no
+				color = {
+					24
+					24
+					100
+				}
+			}
+			empty = {
+				can_be_randomly_selected = no
+				color = {
+					0
+					0
+					0
+				}
+			}
+			technocratic_utilitarism = {
+				can_be_randomly_selected = no
+				color = {
+					25
+					43
+					69
+				}
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_NATIONALIST_1"
@@ -880,11 +987,13 @@ ideologies = {
 					62
 				}
 			}
-			chinese_exceptionalism = {
-				can_be_randomly_selected = no
-			}
 			russian_syncretism = {
 				can_be_randomly_selected = no
+				color = {
+					123
+					59
+					46
+				}
 			}	
 			ultranationalism = {
 				can_be_randomly_selected = no
@@ -893,6 +1002,17 @@ ideologies = {
 					68
 					40
 				}
+			}
+			confucian_hyperconservativism = {
+				can_be_randomly_selected = no
+				color = {
+					130
+					129
+					102
+				}
+			}
+			chinese_exceptionalism = {
+				can_be_randomly_selected = no
 			}
 			integralism = {
 				can_be_randomly_selected = no

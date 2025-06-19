@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.2025.0b
+# Current version: 1.0.7
 # Changes:
 # - Makes Brazil and other LATAM tags relevant
 
@@ -499,7 +499,7 @@ has_disabled_ideas = {
 }
 
 has_achievements_enabled = {
-	is_ironman = yes
+	#is_ironman = yes
 	has_any_custom_difficulty_setting = no
 	game_rules_allow_achievements = yes
 	has_start_date < 2020.01.02

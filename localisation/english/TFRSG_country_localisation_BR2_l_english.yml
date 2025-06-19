@@ -95,7 +95,7 @@
  BR2_cw_army_reporting_tt: "We will raise §Ypatriotic militias§! and §Ymilitary brigades§! to fight the imminent civil war!"
  BR2_cw_armored_cavalry_tt: "Several §Yarmored cavalry§! units will join our side!"
  BR2_cw_unlock_arms_market_tt: "We will gain access to the §YInternational Arms Market§!!"
- BR2_rural_economy_idea_removal_tt: "§YThis spirit will be removed once we have more than 10 factories.§!"
+ BR2_rural_economy_idea_removal_tt: "§YThis spirit will be removed once we have more than 5 factories.§!"
  BR2_cw_operation_mission_tt: "§YOnce the operation is ready, we will get the following effects:§!"
  BR2_integralist_uprising_mission_tt: "§RA integralist uprising will begin!§!"
  BR2_monarchist_uprising_mission_tt: "§RA monarchist uprising will begin!§!"

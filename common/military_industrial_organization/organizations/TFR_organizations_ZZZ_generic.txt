@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.2025.0b
+# Current version: 1.0.7
 # Changes:
 # - Disables generic MIOs for Brazil
 
@@ -18,7 +18,7 @@ generic_tank_organization = {
 		    tag = PRC
 		    tag = FRA
 		    tag = GER
-			is_brazilian_unifier = yes
+			is_brazilian_civilwar_faction = yes
 		}
 	}
 
@@ -257,7 +257,7 @@ generic_task_force_ship_organization = {
 		    tag = PRC
 		    tag = FRA
 		    tag = GER
-			is_brazilian_unifier = yes
+			is_brazilian_civilwar_faction = yes
 		}
 	}
 
@@ -525,7 +525,7 @@ generic_escort_ship_organization = {
 		    tag = PRC
 		    tag = FRA
 		    tag = GER
-			is_brazilian_unifier = yes
+			is_brazilian_civilwar_faction = yes
 		}
 	}
 
@@ -743,7 +743,7 @@ generic_general_aircraft_organization = {
 		    tag = PRC
 		    tag = FRA
 		    tag = GER
-			is_brazilian_unifier = yes
+			is_brazilian_civilwar_faction = yes
 		}
 	}
 
@@ -1031,7 +1031,7 @@ generic_artillery_organization = {
 		    tag = PRC
 		    tag = FRA
 		    tag = GER
-			is_brazilian_unifier = yes
+			is_brazilian_civilwar_faction = yes
 		}
 	}
 
@@ -1352,7 +1352,7 @@ generic_infantry_equipment_organization = {
 		    tag = PRC
 		    tag = FRA
 		    tag = GER
-			is_brazilian_unifier = yes
+			is_brazilian_civilwar_faction = yes
 		}
 	}
 
@@ -1649,7 +1649,7 @@ generic_support_equipment_organization = {
 		    tag = PRC
 		    tag = FRA
 		    tag = GER
-			is_brazilian_unifier = yes
+			is_brazilian_civilwar_faction = yes
 		}
 	}
 
@@ -1927,7 +1927,7 @@ generic_motorized_mechanized_organization = {
 		    tag = PRC
 		    tag = FRA
 		    tag = GER
-			is_brazilian_unifier = yes
+			is_brazilian_civilwar_faction = yes
 		}
 	}
 

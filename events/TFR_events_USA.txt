@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.2025.0b
+# Current version: 1.0.7
 # Changes:
 # - Trump/Biden certification events fire their respective responses in Brazil
 # - Congress Refuses Diplomacy event fires a response in Brazil
@@ -147,6 +147,11 @@ country_event = {
 				last_election = "2020.11.5"
 				election_frequency = 48
 			}
+			end_ruling_party_wings = yes
+			set_temp_variable = {
+				ruling_party_wing_var_temp = token:social_democrat
+			}
+			add_ruling_party_wing = yes
 			add_stability = -0.1
 			add_dynamic_modifier = {
 				modifier = USA_legitimacy_dynamic
@@ -2338,14 +2343,34 @@ country_event = {
 			#Other Countries effected by American Civil War
 			PRC = {
 				country_event = china.312
+				country_event = { id = taiwan.25 days = 5 }
 				country_event = {
 					id = china.313
 					days = 20
+				}
+				country_event = {
+					id = china.201
+					days = 40
 				}
 			}
 			CHI = {
 				country_event = {
 					id = taiwan.2
+				}
+				if = {
+					limit = {
+						has_country_flag = CHI_KMT_in_power_flag
+					}
+					country_event = {
+						id = taiwan_detente.7
+						days = 5
+					}
+					PRC = {
+						country_event = {
+							id = taiwan_detente.7
+							days = 5
+						}
+					}
 				}
 			}
 			NATO_unity = yes
@@ -2418,6 +2443,7 @@ country_event = {
 		hidden_effect = {
 			log = "[GetDateText]: [Root.GetName]: event usa.104 immediate"
 			USA_civil_war_begins = yes
+			end_ruling_party_wings = yes
 			SOV = {
 				country_event = {
 					id = russia.485
@@ -2440,6 +2466,14 @@ country_event = {
 				country_event = {
 					id = Brazil.56
 					days = 4
+				}
+			}
+			if = {
+				limit = {
+					CHI = { has_country_flag = CHI_KMT_in_power_flag }
+				}
+				PRC = {
+					country_event = { id = taiwan_detente.5 days = 5 }
 				}
 			}
 			news_event = {
@@ -3235,7 +3269,7 @@ country_event = {
 	id = usa.130
 	title = usa.130.t
 	desc = usa.130.d
-	picture = GFX_California_Wildfire
+	picture = GFX_major_city_riots
 	is_triggered_only = yes
 	trigger = {
 		tag = USA
@@ -3355,7 +3389,7 @@ country_event = {
 	id = usa.135
 	title = usa.135.t
 	desc = usa.135.d
-	picture = GFX_White_House_Siege
+	picture = GFX_White_House_Siege1
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
@@ -3410,7 +3444,7 @@ country_event = {
 	id = usa.136
 	title = usa.136.t
 	desc = usa.136.d
-	picture = GFX_White_House_Siege
+	picture = GFX_White_House_Siege_Cancelled
 	fire_only_once = yes
 	trigger = {
 		tag = USA
@@ -3863,7 +3897,7 @@ country_event = {
 	id = usa.147
 	title = usa.147.t
 	desc = usa.147.d
-	picture = GFX_White_House_Siege
+	picture = GFX_White_House_Siege_Violent
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
@@ -4091,7 +4125,7 @@ country_event = {
 	id = usa.155
 	title = usa.155.t
 	desc = usa.155.d
-	picture = GFX_White_House_Siege
+	picture = GFX_White_House_Siege_Standoff
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
@@ -4205,7 +4239,7 @@ country_event = {
 		tag = USA
 	}
 	option = {
-		name = 157.a
+		name = usa.157.a
 	}
 }
 
@@ -4981,9 +5015,25 @@ country_event = {
 	}
 	option = {
 		name = usa.183.a
+		trigger = {
+			USA_sided_with_resistance_trigger = yes
+		}
+		add_stability = -0.03
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.02
+		}
 	}
 	option = {
 		name = usa.183.b
+		trigger = {
+			USA_sided_with_trump_trigger = yes
+		}
+		add_stability = -0.03
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.02
+		}
 	}
 }
 

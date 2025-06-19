@@ -1,3 +1,8 @@
+# OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
+# Current version: 1.0.7
+# Changes:
+# - Injects TFRSG content
+
 COL_civil_war = {
 
     COL_reunification = {

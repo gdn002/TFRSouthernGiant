@@ -1,5 +1,5 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.2025.0b
+# Current version: 1.0.7
 # Changes:
 # - Adds scripted loc entries for TFRSG Super Events
 
@@ -425,6 +425,24 @@
 		}
 		text = { 
 			trigger = {
+				has_country_flag = GER_schwab_victory_super
+			}
+			localization_key = "GER_schwab_victory_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = GER_gunther_war_super
+			}
+			localization_key = "GER_gunther_war_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = GER_gunther_victory_super
+			}
+			localization_key = "GER_gunther_victory_super"
+		}
+		text = { 
+			trigger = {
 				has_country_flag = GER_second_nato_war_communist_flag
 			}
 			localization_key = "GER_second_nato_war_communist_super"
@@ -482,6 +500,42 @@
 				has_country_flag = PRC_nick_land_victory_super_event_flag
 			}
 			localization_key = "PRC_nick_land_victory_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_centrist_victory_super_event_flag
+			}
+			localization_key = "PRC_eadi_victory_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_new_left_victory_super_event_flag
+			}
+			localization_key = "PRC_eadi_victory_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_reformist_victory_super_event_flag
+			}
+			localization_key = "PRC_eadi_victory_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_revanchist_victory_super_event_flag
+			}
+			localization_key = "PRC_eadi_victory_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_loji_victory_super_event_flag
+			}
+			localization_key = "PRC_eadi_victory_super"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_chinese_empire_super_event_flag
+			}
+			localization_key = "PRC_chinese_empire_super"
 		}
 		text = { 
 			trigger = {
@@ -963,6 +1017,24 @@
 		}
 		text = {
 			trigger = {
+				has_country_flag = GER_schwab_victory_super
+			}
+			localization_key = "GER_schwab_victory_super_text"
+		}
+		text = {
+			trigger = {
+				has_country_flag = GER_gunther_war_super
+			}
+			localization_key = "GER_gunther_war_super_text"
+		}
+		text = {
+			trigger = {
+				has_country_flag = GER_gunther_victory_super
+			}
+			localization_key = "GER_gunther_victory_super_text"
+		}
+		text = {
+			trigger = {
 				has_country_flag = GER_second_nato_war_communist_flag
 			}
 			localization_key = "GER_second_nato_war_communist_super_text"
@@ -1020,6 +1092,42 @@
 				has_country_flag = PRC_nick_land_victory_super_event_flag
 			}
 			localization_key = "PRC_nick_land_victory_super_text"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_centrist_victory_super_event_flag
+			}
+			localization_key = "PRC_centrist_victory_super_text"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_new_left_victory_super_event_flag
+			}
+			localization_key = "PRC_new_left_victory_super_text"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_reformist_victory_super_event_flag
+			}
+			localization_key = "PRC_reformist_victory_super_text"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_revanchist_victory_super_event_flag
+			}
+			localization_key = "PRC_revanchist_victory_super_text"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_loji_victory_super_event_flag
+			}
+			localization_key = "PRC_loji_victory_super_text"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_chinese_empire_super_event_flag
+			}
+			localization_key = "PRC_chinese_empire_super_text"
 		}
 		text = { 
 			trigger = {
@@ -1501,6 +1609,24 @@
 		}
 		text = { 
 			trigger = {
+				has_country_flag = GER_schwab_victory_super
+			}
+			localization_key = "GER_schwab_victory_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = GER_gunther_war_super
+			}
+			localization_key = "GER_gunther_war_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = GER_gunther_victory_super
+			}
+			localization_key = "GER_gunther_victory_super_button"
+		}
+		text = { 
+			trigger = {
 				has_country_flag = GER_second_nato_war_communist_flag
 			}
 			localization_key = "GER_second_nato_war_communist_super_button"
@@ -1558,6 +1684,42 @@
 				has_country_flag = PRC_nick_land_victory_super_event_flag
 			}
 			localization_key = "PRC_nick_land_victory_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_centrist_victory_super_event_flag
+			}
+			localization_key = "PRC_centrist_victory_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_new_left_victory_super_event_flag
+			}
+			localization_key = "PRC_new_left_victory_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_reformist_victory_super_event_flag
+			}
+			localization_key = "PRC_reformist_victory_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_revanchist_victory_super_event_flag
+			}
+			localization_key = "PRC_revanchist_victory_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_loji_victory_super_event_flag
+			}
+			localization_key = "PRC_loji_victory_super_button"
+		}
+		text = { 
+			trigger = {
+				has_country_flag = PRC_chinese_empire_super_event_flag
+			}
+			localization_key = "PRC_chinese_empire_super_button"
 		}
 		text = { 
 			trigger = {

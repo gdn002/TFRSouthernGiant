@@ -1,8 +1,10 @@
 # OVERRIDES FROM VANILLA TFR - KEEP UPDATED!!!
-# Current version: 1.2025.0b
+# Current version: 1.0.7
 # Changes:
 # - Adds TFRSG tags
 # - Why do we have to override this whole file every time man
+
+#reload countrycolors
 
 GER = {
 	color = rgb { 82 117 127 }
@@ -1452,8 +1454,8 @@ XIN = {
 	color_ui = rgb { 160 34 60 }
 }
 ETL = {
-	color = rgb { 0 200 50 }
-	color_ui = rgb { 0 200 50 }
+	color = rgb { 30 30 30 }
+	color_ui = rgb { 30 30 30 }
 }
 HUT = {
 	color = rgb { 30 30 30 }
