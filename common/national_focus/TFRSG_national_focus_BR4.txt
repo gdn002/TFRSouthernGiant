@@ -98,6 +98,7 @@ focus_tree = {
 		completion_reward = {
 			# Claims and starting cores
 			BRA_civil_war_add_claims = yes
+			custom_effect_tooltip = BRA_civil_war_coring_unlocked_tt
 		}
 	} 
 
@@ -123,6 +124,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			# War support and unlocks attacks on other factions
+			unlock_decision_tooltip = BR4_cw_attack_government
+			unlock_decision_tooltip = BR4_cw_attack_front
 			add_war_support = 0.25
 		}
 	}
@@ -201,7 +204,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		relative_position_id = BR4_cw_family
-		x = -1.5
+		x = -2
 		y = 1
 		cost = 2
 		available = {
@@ -264,7 +267,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		relative_position_id = BR4_cw_family
-		x = 1.5
+		x = 2
 		y = 1
 		cost = 2
 		available = {
@@ -357,7 +360,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		relative_position_id = BR4_cw_fan_brazilian_irredentism
-		x = -1.5
+		x = -2
 		y = 1
 		cost = 2
 		prerequisite = {
@@ -414,7 +417,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		relative_position_id = BR4_cw_fan_brazilian_irredentism
-		x = 1.5
+		x = 2
 		y = 1
 		cost = 2
 		prerequisite = {

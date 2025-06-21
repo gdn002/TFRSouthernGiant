@@ -6,7 +6,6 @@ BR1_federal_gov_balance_of_power_category = {
 		days_remove = 10
 		cost = 25
 		available = {
-			has_completed_focus = BR1_cw_reassemble_house_of_deputies
 			NOT = { has_country_flag = BR1_is_taking_action_bop }
 		}
 		ai_will_do = {
@@ -34,7 +33,6 @@ BR1_federal_gov_balance_of_power_category = {
 		days_remove = 15
 		cost = 50
 		available = {
-			has_completed_focus = BR1_cw_reassemble_house_of_deputies
 			NOT = { has_country_flag = BR1_is_taking_action_bop }
 		}
 		ai_will_do = {
@@ -63,7 +61,6 @@ BR1_federal_gov_balance_of_power_category = {
 		days_remove = 10
 		cost = 25
 		available = {
-			has_completed_focus = BR1_cw_reassemble_house_of_deputies
 			NOT = { has_country_flag = BR1_is_taking_action_bop }
 		}
 		ai_will_do = {
@@ -91,7 +88,6 @@ BR1_federal_gov_balance_of_power_category = {
 		days_remove = 15
 		cost = 50
 		available = {
-			has_completed_focus = BR1_cw_reassemble_house_of_deputies
 			NOT = { has_country_flag = BR1_is_taking_action_bop }
 		}
 		ai_will_do = {
@@ -215,13 +211,10 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_appeal_to_the_un
 			country_exists = BR3
 			NOT = { has_war_with = BR3 }
 		}
-        available = {
-            has_completed_focus = BR1_cw_appeal_to_the_un
-        }	
 		ai_will_do = {
 			base = 0
 			modifier = {
@@ -248,13 +241,10 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_appeal_to_the_un
 			country_exists = AMZ
 			NOT = { has_war_with = AMZ }
 		}
-        available = {
-            has_completed_focus = BR1_cw_appeal_to_the_un
-        }
 		ai_will_do = {
 			base = 0
 			modifier = {
@@ -285,16 +275,13 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_appeal_to_the_un
 			country_exists = BR4
 			NOT = { 
                 has_war_with = BR4 
                 BR4 = { has_cosmetic_tag = BR4_mnpd }
             }
 		}
-        available = {
-            has_completed_focus = BR1_cw_appeal_to_the_un
-        }
 		ai_will_do = {
 			base = 0
 			modifier = {
@@ -357,10 +344,9 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_shield_the_people
 		}
 		available = {
-			has_completed_focus = BR1_cw_shield_the_people
 			has_campaign_slot = yes
 		}
 		ai_will_do = {
@@ -395,10 +381,9 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_the_employment_law_project
 		}
 		available = {
-			has_completed_focus = BR1_cw_the_employment_law_project
 			has_campaign_slot = yes
 		}
 		ai_will_do = {
@@ -438,10 +423,9 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_the_republic_above_all
 		}
 		available = {
-			has_completed_focus = BR1_cw_the_republic_above_all
 			has_campaign_slot = yes
 		}
 		ai_will_do = {
@@ -475,10 +459,9 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_anti_coup_constitutional_ammend
 		}
 		available = {
-			has_completed_focus = BR1_cw_anti_coup_constitutional_ammend
 			has_campaign_slot = yes
 		}
 		ai_will_do = {
@@ -518,10 +501,9 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_placate_the_economy
 		}
 		available = {
-			has_completed_focus = BR1_cw_placate_the_economy
 			has_campaign_slot = yes
 		}
 		ai_will_do = {
@@ -557,10 +539,9 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_the_budget_law_project
 		}
 		available = {
-			has_completed_focus = BR1_cw_the_budget_law_project
 			has_campaign_slot = yes
 		}
 		ai_will_do = {
@@ -600,10 +581,9 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_repeal_the_amnesty_law
 		}
 		available = {
-			has_completed_focus = BR1_cw_repeal_the_amnesty_law
 			has_campaign_slot = yes
 		}
 		ai_will_do = {
@@ -640,10 +620,9 @@ BRA_civil_war_category = {
 			tag = BR1
 		}
 		visible = {
-			has_completed_focus = BR1_cw_declare_state_of_emergency
+			has_completed_focus = BR1_cw_reintroduce_common_sense_regulations
 		}
 		available = {
-			has_completed_focus = BR1_cw_reintroduce_common_sense_regulations
 			has_campaign_slot = yes
 		}
 		ai_will_do = {

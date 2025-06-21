@@ -192,13 +192,14 @@ BRA_political_radicalization_category = {
 		days_remove = 15
 		cost = 50
 		visible = {
-			has_country_flag = BRA_2022_elections_over_flag
+			OR = {
+				has_completed_focus = BRA_2022_bolsonarisms_last_stand
+				has_completed_focus = BRA_2022_republic_on_trial
+				has_completed_focus = BRA_2022_the_lefts_true_colors
+			}
 		}
 		available = {
 			has_idea = BRA_2022_election_protests_idea
-			OR = {
-				has_completed_focus = BRA_2022_bolsonarisms_last_stand
-			}
 			NOT = {
 				has_country_flag = BRA_is_taking_action_radicalization_bop
 			}
@@ -233,13 +234,14 @@ BRA_political_radicalization_category = {
         }
         custom_cost_text = 10cp_cost
 		visible = {
-			has_country_flag = BRA_2022_elections_over_flag
+			OR = {
+				has_completed_focus = BRA_2022_bolsonarisms_last_stand
+				has_completed_focus = BRA_2022_republic_on_trial
+				has_completed_focus = BRA_2022_the_lefts_true_colors
+			}
 		}
 		available = {
 			has_idea = BRA_2022_election_protests_idea
-			OR = {
-				has_completed_focus = BRA_2022_bolsonarisms_last_stand
-			}
 			NOT = {
 				has_country_flag = BRA_is_taking_action_radicalization_bop
 			}
@@ -273,13 +275,14 @@ BRA_political_radicalization_category = {
 		days_remove = 15
 		cost = 25
 		visible = {
-			has_country_flag = BRA_2022_elections_over_flag
+			OR = {
+				has_completed_focus = BRA_2022_bolsonarisms_last_stand
+				has_completed_focus = BRA_2022_republic_on_trial
+				has_completed_focus = BRA_2022_the_lefts_true_colors
+			}
 		}
 		available = {
 			has_idea = BRA_2022_election_protests_idea
-			OR = {
-				has_completed_focus = BRA_2022_bolsonarisms_last_stand
-			}
 			NOT = {
 				has_country_flag = BRA_is_taking_action_radicalization_bop
 			}
@@ -432,17 +435,16 @@ BRA_2022_elections_category = {
 
 	BRA_2022_elections_socdem_campaign = {
 		cancel_if_not_visible = yes
-		days_re_enable = 30
+		days_re_enable = 20
 		days_remove = 15
 		cost = 50
 		visible = {
-			has_completed_focus = BRA_2022_together_for_brazil
+			has_completed_focus = BRA_2022_reinvigorate_social_democracy
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
 		}
 		available = {
-			has_completed_focus = BRA_2022_reinvigorate_social_democracy
 			NOT = {
 				has_country_flag = BRA_is_campaigning_flag
 			}
@@ -472,17 +474,16 @@ BRA_2022_elections_category = {
 
 	BRA_2022_elections_popular_front_campaign = {
 		cancel_if_not_visible = yes
-		days_re_enable = 30
+		days_re_enable = 20
 		days_remove = 15
 		cost = 50
 		visible = {
-			has_completed_focus = BRA_2022_together_for_brazil
+			has_completed_focus = BRA_2022_mingle_with_popular_front
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
 		}
 		available = {
-			has_completed_focus = BRA_2022_mingle_with_popular_front
 			NOT = {
 				has_country_flag = BRA_is_campaigning_flag
 			}
@@ -513,17 +514,16 @@ BRA_2022_elections_category = {
 
 	BRA_2022_elections_grassroots_campaign = {
 		cancel_if_not_visible = yes
-		days_re_enable = 30
+		days_re_enable = 20
 		days_remove = 15
 		cost = 75
 		visible = {
-			has_completed_focus = BRA_2022_together_for_brazil
+			has_completed_focus = BRA_2022_grassroots_campaigns
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
 		}
 		available = {
-			has_completed_focus = BRA_2022_grassroots_campaigns
 			NOT = {
 				has_country_flag = BRA_is_campaigning_flag
 			}
@@ -548,17 +548,16 @@ BRA_2022_elections_category = {
 
 	BRA_2022_elections_normalcy_campaign = {
 		cancel_if_not_visible = yes
-		days_re_enable = 30
+		days_re_enable = 20
 		days_remove = 15
 		cost = 50
 		visible = {
-			has_completed_focus = BRA_2022_uniting_brazil
+			has_completed_focus = BRA_2022_stand_for_normalcy
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
 		}
 		available = {
-			has_completed_focus = BRA_2022_stand_for_normalcy
 			NOT = {
 				has_country_flag = BRA_is_campaigning_flag
 			}
@@ -588,17 +587,16 @@ BRA_2022_elections_category = {
 
 	BRA_2022_elections_centrao_campaign = {
 		cancel_if_not_visible = yes
-		days_re_enable = 30
+		days_re_enable = 20
 		days_remove = 15
 		cost = 50
 		visible = {
-			has_completed_focus = BRA_2022_uniting_brazil
+			has_completed_focus = BRA_2022_gather_centrao_support
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
 		}
 		available = {
-			has_completed_focus = BRA_2022_gather_centrao_support
 			NOT = {
 				has_country_flag = BRA_is_campaigning_flag
 			}
@@ -626,17 +624,16 @@ BRA_2022_elections_category = {
 
 	BRA_2022_elections_media_campaign = {
 		cancel_if_not_visible = yes
-		days_re_enable = 30
+		days_re_enable = 20
 		days_remove = 15
 		cost = 75
 		visible = {
-			has_completed_focus = BRA_2022_uniting_brazil
+			has_completed_focus = BRA_2022_propaganda_overdrive
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
 		}
 		available = {
-			has_completed_focus = BRA_2022_propaganda_overdrive
 			NOT = {
 				has_country_flag = BRA_is_campaigning_flag
 			}
@@ -666,17 +663,16 @@ BRA_2022_elections_category = {
 
 	BRA_2022_elections_patriotic_campaign = {
 		cancel_if_not_visible = yes
-		days_re_enable = 30
+		days_re_enable = 20
 		days_remove = 15
 		cost = 50
 		visible = {
-			has_completed_focus = BRA_2022_god_country_family
+			has_completed_focus = BRA_2022_cruzade_for_brazil
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
 		}
 		available = {
-			has_completed_focus = BRA_2022_cruzade_for_brazil
 			NOT = {
 				has_country_flag = BRA_is_campaigning_flag
 			}
@@ -702,17 +698,16 @@ BRA_2022_elections_category = {
 
 	BRA_2022_elections_attack_institutions_campaign = {
 		cancel_if_not_visible = yes
-		days_re_enable = 30
+		days_re_enable = 20
 		days_remove = 15
 		cost = 50
 		visible = {
-			has_completed_focus = BRA_2022_god_country_family
+			has_completed_focus = BRA_2022_no_holding_back
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
 		}
 		available = {
-			has_completed_focus = BRA_2022_no_holding_back
 			NOT = {
 				has_country_flag = BRA_is_campaigning_flag
 			}
@@ -743,17 +738,16 @@ BRA_2022_elections_category = {
 
 	BRA_2022_elections_social_media_campaign = {
 		cancel_if_not_visible = yes
-		days_re_enable = 30
+		days_re_enable = 20
 		days_remove = 15
 		cost = 75
 		visible = {
-			has_completed_focus = BRA_2022_god_country_family
+			has_completed_focus = BRA_2022_social_media_campaign
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
 		}
 		available = {
-			has_completed_focus = BRA_2022_social_media_campaign
 			NOT = {
 				has_country_flag = BRA_is_campaigning_flag
 			}
@@ -787,16 +781,11 @@ BRA_2022_elections_category = {
 		days_remove = 25
 		cost = 150
 		visible = {
-			OR = {
-				has_completed_focus = BRA_2022_together_for_brazil
-				has_completed_focus = BRA_2022_uniting_brazil
-			}
+			has_completed_focus = BRA_2022_the_last_stretch
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
+				has_completed_focus = BRA_2022_god_country_family
 			}
-		}
-		available = {
-			has_completed_focus = BRA_2022_the_last_stretch
 		}
 		complete_effect = {
 			add_stability = -0.05
@@ -822,16 +811,11 @@ BRA_2022_elections_category = {
 		days_remove = 25
 		cost = 150
 		visible = {
-			OR = {
-				has_completed_focus = BRA_2022_together_for_brazil
-				has_completed_focus = BRA_2022_god_country_family
-			}
-			NOT = {
-				has_country_flag = BRA_2022_elections_over_flag
-			}
-		}
-		available = {
 			has_completed_focus = BRA_2022_the_last_stretch
+			NOT = {			
+				has_country_flag = BRA_2022_elections_over_flag
+				has_completed_focus = BRA_2022_uniting_brazil
+			}
 		}
 		complete_effect = {
 			add_stability = -0.05
@@ -857,16 +841,11 @@ BRA_2022_elections_category = {
 		days_remove = 25
 		cost = 150
 		visible = {
-			OR = {
-				has_completed_focus = BRA_2022_uniting_brazil
-				has_completed_focus = BRA_2022_god_country_family
-			}
+			has_completed_focus = BRA_2022_the_last_stretch
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
+				has_completed_focus = BRA_2022_together_for_brazil
 			}
-		}
-		available = {
-			has_completed_focus = BRA_2022_the_last_stretch
 		}
 		complete_effect = {
 			add_stability = -0.05
@@ -895,13 +874,11 @@ BRA_2022_elections_category = {
         }
         custom_cost_text = 10cp_cost
 		visible = {
+			has_completed_focus = BRA_2022_the_last_stretch
 			has_completed_focus = BRA_2022_god_country_family
 			NOT = {
 				has_country_flag = BRA_2022_elections_over_flag
 			}
-		}
-		available = {
-			has_completed_focus = BRA_2022_the_last_stretch
 		}
 		complete_effect = {
 			hidden_effect = { 
@@ -1149,8 +1126,6 @@ BRA_coronavirus_category = {
 		cost = 25
 		visible = {
 			has_active_mission = BRA_handle_covid_mission
-		}
-		available = {
 			has_completed_focus = BRA_heed_mandettas_concerns
 		}
 		ai_will_do = {
@@ -1161,19 +1136,19 @@ BRA_coronavirus_category = {
 		}
 		remove_effect = {
 			add_stability = -0.05
-			set_temp_variable = { BRA_covid_mission_days_temp = 20 }
-			BRA_add_days_corona_pandemic = yes
+			add_days_mission_timeout = {
+   				mission = BRA_handle_covid_mission
+    			days = 20
+			}
 		}
 	}
 	BRA_mask_mandates_decision = {
 		cancel_if_not_visible = yes
 		days_remove = 20
 		fire_only_once = yes
-		cost = 75
+		cost = 50
 		visible = {
 			has_active_mission = BRA_handle_covid_mission
-		}
-		available = {
 			has_completed_focus = BRA_heed_mandettas_concerns
 		}
 		ai_will_do = {
@@ -1195,8 +1170,6 @@ BRA_coronavirus_category = {
 		cost = 50
 		visible = {
 			has_active_mission = BRA_handle_covid_mission
-		}
-		available = {
 			has_completed_focus = BRA_grant_state_municipal_autonomy
 		}
 		ai_will_do = {
@@ -1215,9 +1188,9 @@ BRA_coronavirus_category = {
 		cost = 15
 		visible = {
 			has_active_mission = BRA_handle_covid_mission
-		}
-		available = {
 			has_completed_focus = BRA_push_precocious_treatments
+		}
+		available = {			
 			has_country_leader = {
 				character = BRA_jair_bolsonaro_char
 				ruling_only = yes

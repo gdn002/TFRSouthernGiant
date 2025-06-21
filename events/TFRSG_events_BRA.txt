@@ -437,7 +437,7 @@ country_event = {
 	option = {
 		name = Brazil.17.a
 		effect_tooltip = {
-			add_ideas = BRA_coronavirus_pandemic_idea
+			add_ideas = BRA_coronavirus_pandemic_idea4
 			activate_mission = BRA_handle_covid_mission
 		}
 		focus_unlock = yes
@@ -1769,7 +1769,7 @@ country_event = {
 			}
 			set_portraits = {
 				character = BRA_jair_bolsonaro_char
-				civilian = { large = "BRA_Jair_Bolsonaro_reelection" }
+				civilian = { large = "GFX_BRA_Jair_Bolsonaro_reelection" }
 			}
 			# Cabinet
 		}

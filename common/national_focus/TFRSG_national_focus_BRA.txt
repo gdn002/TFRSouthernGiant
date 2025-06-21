@@ -511,7 +511,9 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_political_power = -100
+			unlock_decision_tooltip = BRA_minor_lockdowns_decision
+			unlock_decision_tooltip = BRA_mask_mandates_decision
+			add_political_power = -50
 			add_stability = 0.05
 		}
 	}
@@ -569,6 +571,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_higiene_guidelines_decision
 			add_political_power = 25
 			add_stability = 0.1
 			set_temp_variable = { BRA_covid_mission_days_temp = 20 }
@@ -636,7 +639,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_political_power = -200
+			add_political_power = -100
 			add_stability = 0.05
 			custom_effect_tooltip = BRA_contain_president_tt
 			hidden_effect = {
@@ -675,6 +678,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_experimental_treatments_decision
 			add_political_power = 100
 			add_stability = -0.1
 			set_temp_variable = { BRA_covid_mission_days_temp = -20 }
@@ -1889,6 +1893,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_2022_elections_socdem_campaign
 			add_political_power = 50
 			add_popularity = {
 				ideology = social_democrat
@@ -1920,6 +1925,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_2022_elections_popular_front_campaign
 			set_temp_variable = { BRA_election_approval_rating_pt_var_temp = 0.025 }
 			BRA_add_election_approval_rating_pt = yes;
 			add_power_balance_value = {
@@ -1995,6 +2001,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_2022_elections_grassroots_campaign
 			add_political_power = 100
 			add_popularity = {
 				ideology = social_democrat
@@ -2024,6 +2031,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_2022_elections_normalcy_campaign
 			add_stability = 0.05
 			add_power_balance_value = {
     			id = BRA_political_radicalization_balance
@@ -2057,6 +2065,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_2022_elections_centrao_campaign
 			set_temp_variable = { BRA_election_approval_rating_psdb_var_temp = 0.025 }
 			BRA_add_election_approval_rating_psdb = yes;
 			set_temp_variable = { BRA_centrao_influence_var_temp = 0.1 }
@@ -2088,6 +2097,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_2022_elections_media_campaign
 			add_political_power = 150
 			set_temp_variable = { BRA_election_approval_rating_psdb_var_temp = 0.025 }
 			BRA_add_election_approval_rating_psdb = yes;
@@ -2119,6 +2129,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_2022_elections_patriotic_campaign
 			add_war_support = 0.05
 			add_popularity = {
 				ideology = conservative
@@ -2186,6 +2197,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_2022_elections_attack_institutions_campaign
 			set_temp_variable = { BRA_election_approval_rating_pl_var_temp = 0.025 }
 			BRA_add_election_approval_rating_pl = yes;
 			add_power_balance_value = {
@@ -2225,6 +2237,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_2022_elections_social_media_campaign
 			add_political_power = 50
 			add_war_support = 0.05
 			add_popularity = {
@@ -2334,6 +2347,9 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_curtail_agitation
+			unlock_decision_tooltip = BRA_disperse_protests
+			unlock_decision_tooltip = BRA_fan_up_radicalism
 			add_political_power = 50
 			custom_effect_tooltip = BRA_2022_aftermath_protests_tt
 		}
@@ -2482,6 +2498,9 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_curtail_agitation
+			unlock_decision_tooltip = BRA_disperse_protests
+			unlock_decision_tooltip = BRA_fan_up_radicalism
 			add_political_power = 50
 			custom_effect_tooltip = BRA_2022_aftermath_protests_tt
 		}
@@ -2688,6 +2707,9 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BRA_curtail_agitation
+			unlock_decision_tooltip = BRA_disperse_protests
+			unlock_decision_tooltip = BRA_fan_up_radicalism
 			add_political_power = 50
 			custom_effect_tooltip = BRA_2022_aftermath_protests_tt
 		}

@@ -241,6 +241,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BR3_cw_boost_revolutionary_morale
 			add_war_support = 0.05
 			swap_ideas = {
 				remove_idea = BR3_disorganized_warfare_idea
@@ -267,6 +268,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			custom_effect_tooltip = BR3_raid_military_bases_tt
 			add_war_support = 0.1
 			add_equipment_to_stockpile = {
     			type = infantry_equipment_2
@@ -371,6 +373,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Provide humanitarian aid to Brazilians displaced by the civil war
+			unlock_decision_tooltip = BR3_cw_distribute_humanitarian_aid
 			add_stability = 0.15
 			add_political_power = 50
 			set_temp_variable = { poverty_development_var_temp = 0.25 }
@@ -426,6 +429,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Use alternative/independent media to spread the revolution
+			unlock_decision_tooltip = BR3_cw_socialist_education_campaigns
 			add_political_power = 100
 			custom_effect_tooltip = TFRSG_add_campaign_slot_tt
 			add_campaign_slot = yes
@@ -451,6 +455,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Consolidate the Popular Front as a legitimate vanguard party
+			unlock_decision_tooltip = BR3_cw_call_amazonian_commune
 			remove_ideas = {
 				BRA_systemic_corruption_idea
 			}
@@ -528,6 +533,7 @@ focus_tree = {
 			base = 1
 		}
 		completion_reward = {
+			unlock_decision_tooltip = BR3_cw_rally_revolutionary_labor
 			add_political_power = -50
 			swap_ideas = {
 				remove_idea = BR3_uncontrolled_industrial_output_idea
@@ -710,6 +716,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Awards the powerful PLA idea and unlocks training of professional divisions
+			unlock_decision_tooltip = BR3_cw_dare_to_die
 			add_command_power = 50
 			country_lock_all_division_template = no
 			custom_effect_tooltip = TFRSG_inherited_templates_hint_tt
@@ -746,7 +753,11 @@ focus_tree = {
 		ai_will_do = {
 			base = 1
 		}
-		completion_reward = {			
+		completion_reward = {
+			custom_effect_tooltip = BRA_civil_war_coring_unlocked_tt
+			unlock_decision_tooltip = BR3_cw_attack_government
+			unlock_decision_tooltip = BR3_cw_attack_junta
+			unlock_decision_tooltip = BR3_cw_attack_fascists	
 			add_war_support = 0.05
 			# Enables reintegration of Brazilian states
 			set_country_flag = BRA_civil_war_reintegration_allowed_flag

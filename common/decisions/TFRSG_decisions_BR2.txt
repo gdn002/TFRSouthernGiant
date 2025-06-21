@@ -6,7 +6,6 @@ BR2_junta_power_struggle_category = {
 		days_remove = 15
 		cost = 30
 		available = {
-			has_completed_focus = BR2_cw_setup_military_administration
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
 		}
 		ai_will_do = {
@@ -45,7 +44,6 @@ BR2_junta_power_struggle_category = {
 		days_remove = 15
 		cost = 30
 		available = {
-			has_completed_focus = BR2_cw_setup_military_administration
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
 		}
 		ai_will_do = {
@@ -84,8 +82,10 @@ BR2_junta_power_struggle_category = {
 		days_re_enable = 30
 		days_remove = 15
 		cost = 50	
-		available = {
+		visible = {
 			has_completed_focus = BR2_cw_the_presidential_mandate
+		}
+		available = {
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
 		}
 		ai_will_do = {
@@ -137,8 +137,10 @@ BR2_junta_power_struggle_category = {
 		days_re_enable = 30
 		days_remove = 15
 		cost = 50	
-		available = {
+		visible = {
 			has_completed_focus = BR2_cw_the_army_plan
+		}
+		available = {
 			NOT = { has_country_flag = BR2_is_taking_action_power_struggle_bop }
 		}
 		ai_will_do = {

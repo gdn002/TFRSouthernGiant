@@ -196,6 +196,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			# We are in a state of emergency!
+			custom_effect_tooltip = BRA_civil_war_coring_unlocked_tt
+			unlock_decision_tooltip = BR1_cw_attack_junta
 			add_ideas = BR1_state_of_emergency_idea
 			BRA_civil_war_add_claims = yes
 			set_country_flag = BRA_civil_war_reintegration_allowed_flag
@@ -318,6 +320,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Repeal the 79 amnesty law and crush pro-military coup sentiment
+			unlock_decision_tooltip = BR1_cw_campaign_new_brazilian_army
 			add_political_power = -100
 			BR1_improve_command_insecurity = yes
 			set_temp_variable = { military_development_var_temp = 0.5 }
@@ -381,6 +384,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Focus on social democratic measures to win the Brazilian people over
+			unlock_decision_tooltip = BR1_cw_campaign_brazil_for_all
 			add_stability = 0.15
 			set_temp_variable = { poverty_development_var_temp = 0.25 }
 			add_poverty_development = yes
@@ -415,6 +419,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Focus on reinforcing the Brazilian institutional powers
+			unlock_decision_tooltip = BR1_cw_campaign_fight_for_democracy
 			add_war_support = 0.15
 			set_temp_variable = { society_development_var_temp = 0.25 }
 			add_society_development = yes
@@ -447,6 +452,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Focus on economic protections and subsidies to keep the elites on the side of the government
+			unlock_decision_tooltip = BR1_cw_campaign_defenders_of_the_economy
 			if = {
 				limit = { has_idea = BR1_economic_crisis_idea }
 				swap_ideas = {
@@ -487,6 +493,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# PL do Emprego - focus on right-to-work projects to get Brazilians off informal employment and mobilize the economy
+			unlock_decision_tooltip = BR1_cw_campaign_your_right_to_work
 			remove_ideas = BRA_informalized_economy_idea
 			set_temp_variable = { poverty_development_var_temp = 0.25 }
 			add_poverty_development = yes
@@ -519,6 +526,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# PEC Antigolpe - codify punishment against the military junta masterminds 
+			unlock_decision_tooltip = BR1_cw_campaign_to_overcome_our_past
 			add_political_power = 100
 			set_temp_variable = { society_development_var_temp = 0.25 }
 			add_society_development = yes
@@ -545,6 +553,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# PL do Orçamento - ensure the Brazilian budget can sustain itself during the crisis
+			unlock_decision_tooltip = BR1_cw_campaign_fiscal_responsibility
 			set_temp_variable = { income_var_temp = 2500 }
 			add_income = yes
 			add_power_balance_value = {
@@ -697,6 +706,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# Use the extraordinary conditions to implement economic regulations lost under Bolsonaro
+			unlock_decision_tooltip = BR1_cw_campaign_all_inclusive_economy
 			set_temp_variable = { academic_development_var_temp = 0.25 }
 			add_academic_development = yes
 			set_temp_variable = { farming_development_var_temp = 0.25 }
@@ -734,6 +744,9 @@ focus_tree = {
 		completion_reward = {
 			# COME DRINK YOUR CORN SYRUP
 			# Spawn an allied UN mission in Amapá and enables declaring war on other unifiers
+			unlock_decision_tooltip = BR1_cw_attack_front
+			unlock_decision_tooltip = BR1_cw_attack_amazon
+			unlock_decision_tooltip = BR1_cw_attack_fascists
 			add_war_support = 0.15
 			country_event = {
 				id = Brazil.libs.10
